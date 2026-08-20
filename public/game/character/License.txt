@@ -1,0 +1,21 @@
+ual.glb — "Universal Animation Library" mannequin + animation set
+================================================================
+
+Author:  Quaternius
+Source:  https://quaternius.itch.io/universal-animation-library
+License: CC0 1.0 Universal (public domain dedication) — Quaternius releases the
+         Universal Animation Library free for personal and commercial use with no
+         attribution required. Attribution kept here anyway, as a courtesy.
+
+Obtained from the example assets of three-player-controller
+(https://github.com/hh-hang/three-player-controller, MIT, (c) 屈航), file
+example/public/glb/ual.glb, where it is credited to the link above.
+
+Rig / clips used by src/game/PlayerTPS.tsx
+-----------------------------------------
+Root bone chain: pelvis -> thigh_[lr] -> calf_[lr] -> foot_[lr] -> ball_[lr]
+Head bone:       Head  (first-person camera mount)
+Clips:           Idle_Loop, Walk_Loop, Sprint_Loop, Jump_Start, Jump_Loop, Jump_Land
+                 (52 clips total, incl. Pistol_*, Sword_*, Swim_*, fly*, Dance_Loop)
+Model height:    ~180 model units; the controller normalises this and applies
+                 playerModelConfig.scale (0.01 here -> 1.8 world units tall).
