@@ -1,0 +1,875 @@
+{
+  "slug": "yugiohmagic",
+  "name": "Yu-Gi-Oh! (Arma e Voa + Magic Tazos)",
+  "year": 2003,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/yugiohmagic",
+  "scrapedAt": "2026-08-05T03:23:05.934Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "embalagens-e-tarjas",
+      "title": "EMBALAGENS E TARJAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagens-e-tarjas-001",
+          "number": 1,
+          "label": "2004 - YU-GI-OH MAGIC ARMA.jpg",
+          "front": "items/embalagens-e-tarjas-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "magic-tazo",
+      "title": "MAGIC TAZO",
+      "kind": "paired",
+      "points": null,
+      "expected": 40,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "magic-tazo-001",
+          "number": 1,
+          "label": "01 - YAMI YUGI",
+          "front": "items/magic-tazo-001-front.jpg",
+          "back": "items/magic-tazo-001-back.jpg"
+        },
+        {
+          "id": "magic-tazo-002",
+          "number": 2,
+          "label": "02 - TEA GARNER",
+          "front": "items/magic-tazo-002-front.jpg",
+          "back": "items/magic-tazo-002-back.jpg"
+        },
+        {
+          "id": "magic-tazo-003",
+          "number": 3,
+          "label": "03 - SETO KAIBA",
+          "front": "items/magic-tazo-003-front.jpg",
+          "back": "items/magic-tazo-003-back.jpg"
+        },
+        {
+          "id": "magic-tazo-004",
+          "number": 4,
+          "label": "04 - JOEY",
+          "front": "items/magic-tazo-004-front.jpg",
+          "back": "items/magic-tazo-004-back.jpg"
+        },
+        {
+          "id": "magic-tazo-005",
+          "number": 5,
+          "label": "05 - MAI VALENTINE",
+          "front": "items/magic-tazo-005-front.jpg",
+          "back": "items/magic-tazo-005-back.jpg"
+        },
+        {
+          "id": "magic-tazo-006",
+          "number": 6,
+          "label": "06 - MAXIMILION PEGASUS",
+          "front": "items/magic-tazo-006-front.jpg",
+          "back": "items/magic-tazo-006-back.jpg"
+        },
+        {
+          "id": "magic-tazo-007",
+          "number": 7,
+          "label": "07 - TAMI BAKURA",
+          "front": "items/magic-tazo-007-front.jpg",
+          "back": "items/magic-tazo-007-back.jpg"
+        },
+        {
+          "id": "magic-tazo-008",
+          "number": 8,
+          "label": "08 - VOVÔ",
+          "front": "items/magic-tazo-008-front.jpg",
+          "back": "items/magic-tazo-008-back.jpg"
+        },
+        {
+          "id": "magic-tazo-009",
+          "number": 9,
+          "label": "09 - YAMI YUGI",
+          "front": "items/magic-tazo-009-front.jpg",
+          "back": "items/magic-tazo-009-back.jpg"
+        },
+        {
+          "id": "magic-tazo-010",
+          "number": 10,
+          "label": "10 - YUGI",
+          "front": "items/magic-tazo-010-front.jpg",
+          "back": "items/magic-tazo-010-back.jpg"
+        },
+        {
+          "id": "magic-tazo-011",
+          "number": 11,
+          "label": "11 - MOKUBA KAIBA",
+          "front": "items/magic-tazo-011-front.jpg",
+          "back": "items/magic-tazo-011-back.jpg"
+        },
+        {
+          "id": "magic-tazo-012",
+          "number": 12,
+          "label": "12 - SHADI",
+          "front": "items/magic-tazo-012-front.jpg",
+          "back": "items/magic-tazo-012-back.jpg"
+        },
+        {
+          "id": "magic-tazo-013",
+          "number": 13,
+          "label": "13 - ISHIZU",
+          "front": "items/magic-tazo-013-front.jpg",
+          "back": "items/magic-tazo-013-back.jpg"
+        },
+        {
+          "id": "magic-tazo-014",
+          "number": 14,
+          "label": "14 - MARIK.01.14",
+          "front": "items/magic-tazo-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "magic-tazo-015",
+          "number": 14,
+          "label": "14 - MARIK",
+          "front": "items/magic-tazo-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "magic-tazo-016",
+          "number": 15,
+          "label": "15 - DEMÔNIO SELVAGEM",
+          "front": "items/magic-tazo-016-front.jpg",
+          "back": "items/magic-tazo-016-back.jpg"
+        },
+        {
+          "id": "magic-tazo-017",
+          "number": 16,
+          "label": "16 - FEITICEIRA NEGRA",
+          "front": "items/magic-tazo-017-front.jpg",
+          "back": "items/magic-tazo-017-back.jpg"
+        },
+        {
+          "id": "magic-tazo-018",
+          "number": 17,
+          "label": "17 - EXODIA",
+          "front": "items/magic-tazo-018-front.jpg",
+          "back": "items/magic-tazo-018-back.jpg"
+        },
+        {
+          "id": "magic-tazo-019",
+          "number": 18,
+          "label": "18 - GAIA, O MATADOR DE DRAGÕES",
+          "front": "items/magic-tazo-019-front.jpg",
+          "back": "items/magic-tazo-019-back.jpg"
+        },
+        {
+          "id": "magic-tazo-020",
+          "number": 19,
+          "label": "19 - TARTARUGA CATAPULTA",
+          "front": "items/magic-tazo-020-front.jpg",
+          "back": "items/magic-tazo-020-back.jpg"
+        },
+        {
+          "id": "magic-tazo-021",
+          "number": 20,
+          "label": "20 - IRMÃS HARPIA",
+          "front": "items/magic-tazo-021-front.jpg",
+          "back": "items/magic-tazo-021-back.jpg"
+        },
+        {
+          "id": "magic-tazo-022",
+          "number": 21,
+          "label": "21 - FLAUTISTA DO DRAGÃO",
+          "front": "items/magic-tazo-022-front.jpg",
+          "back": "items/magic-tazo-022-back.jpg"
+        },
+        {
+          "id": "magic-tazo-023",
+          "number": 22,
+          "label": "22 - A ABDICAÇÃO",
+          "front": "items/magic-tazo-023-front.jpg",
+          "back": "items/magic-tazo-023-back.jpg"
+        },
+        {
+          "id": "magic-tazo-024",
+          "number": 23,
+          "label": "23 - DRAGÃO MASCOTE DA HARPIA",
+          "front": "items/magic-tazo-024-front.jpg",
+          "back": "items/magic-tazo-024-back.jpg"
+        },
+        {
+          "id": "magic-tazo-025",
+          "number": 24,
+          "label": "24 - DRAGÃO BRANCO DO OLHOS AZUIS",
+          "front": "items/magic-tazo-025-front.jpg",
+          "back": "items/magic-tazo-025-back.jpg"
+        },
+        {
+          "id": "magic-tazo-026",
+          "number": 25,
+          "label": "25 - MAGO DO TEMPO",
+          "front": "items/magic-tazo-026-front.jpg",
+          "back": "items/magic-tazo-026-back.jpg"
+        },
+        {
+          "id": "magic-tazo-027",
+          "number": 26,
+          "label": "26 - GEARFRIED, O CAVALEIRO DAS TREVAS",
+          "front": "items/magic-tazo-027-front.jpg",
+          "back": "items/magic-tazo-027-back.jpg"
+        },
+        {
+          "id": "magic-tazo-028",
+          "number": 27,
+          "label": "27 - GUERREIRO GUARDIÃO CELTA",
+          "front": "items/magic-tazo-028-front.jpg",
+          "back": "items/magic-tazo-028-back.jpg"
+        },
+        {
+          "id": "magic-tazo-029",
+          "number": 28,
+          "label": "28 - DRAGÃO NEGRO DE OLHOS VERMELHOS",
+          "front": "items/magic-tazo-029-front.jpg",
+          "back": "items/magic-tazo-029-back.jpg"
+        },
+        {
+          "id": "magic-tazo-030",
+          "number": 29,
+          "label": "29 - DRAGÃO BEBÊ",
+          "front": "items/magic-tazo-030-front.jpg",
+          "back": "items/magic-tazo-030-back.jpg"
+        },
+        {
+          "id": "magic-tazo-031",
+          "number": 30,
+          "label": "30 - PANTERA GUERREIRA",
+          "front": "items/magic-tazo-031-front.jpg",
+          "back": "items/magic-tazo-031-back.jpg"
+        },
+        {
+          "id": "magic-tazo-032",
+          "number": 31,
+          "label": "31 - GUERREIRO DA ESPADA DE CHAMA DOURADA",
+          "front": "items/magic-tazo-032-front.jpg",
+          "back": "items/magic-tazo-032-back.jpg"
+        },
+        {
+          "id": "magic-tazo-033",
+          "number": 32,
+          "label": "32 - DRAGÃO PAPAGAIO",
+          "front": "items/magic-tazo-033-front.jpg",
+          "back": "items/magic-tazo-033-back.jpg"
+        },
+        {
+          "id": "magic-tazo-034",
+          "number": 33,
+          "label": "33 - DUENDE MÍSTICO",
+          "front": "items/magic-tazo-034-front.jpg",
+          "back": "items/magic-tazo-034-back.jpg"
+        },
+        {
+          "id": "magic-tazo-035",
+          "number": 34,
+          "label": "34 - TOURO GUERREIRO",
+          "front": "items/magic-tazo-035-front.jpg",
+          "back": "items/magic-tazo-035-back.jpg"
+        },
+        {
+          "id": "magic-tazo-036",
+          "number": 35,
+          "label": "35 - TIGRE DE MACHADO",
+          "front": "items/magic-tazo-036-front.jpg",
+          "back": "items/magic-tazo-036-back.jpg"
+        },
+        {
+          "id": "magic-tazo-037",
+          "number": 36,
+          "label": "36 - LOBO PRATEADO",
+          "front": "items/magic-tazo-037-front.jpg",
+          "back": "items/magic-tazo-037-back.jpg"
+        },
+        {
+          "id": "magic-tazo-038",
+          "number": 37,
+          "label": "37 - IMPERADOR CRUEL",
+          "front": "items/magic-tazo-038-front.jpg",
+          "back": "items/magic-tazo-038-back.jpg"
+        },
+        {
+          "id": "magic-tazo-039",
+          "number": 38,
+          "label": "38 - CAVALEIRO FURIOSO",
+          "front": "items/magic-tazo-039-front.jpg",
+          "back": "items/magic-tazo-039-back.jpg"
+        },
+        {
+          "id": "magic-tazo-040",
+          "number": 39,
+          "label": "39 - MAKULA",
+          "front": "items/magic-tazo-040-front.jpg",
+          "back": "items/magic-tazo-040-back.jpg"
+        },
+        {
+          "id": "magic-tazo-041",
+          "number": 40,
+          "label": "40 - YAMI YUGI",
+          "front": "items/magic-tazo-041-front.jpg",
+          "back": "items/magic-tazo-041-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "tazo-arma-e-voa",
+      "title": "TAZO ARMA E VOA",
+      "kind": "paired",
+      "points": null,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tazo-arma-e-voa-001",
+          "number": 1,
+          "label": "01 - VOVÔ",
+          "front": "items/tazo-arma-e-voa-001-front.jpg",
+          "back": "items/tazo-arma-e-voa-001-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-002",
+          "number": 2,
+          "label": "02 - JOEY WHEELER",
+          "front": "items/tazo-arma-e-voa-002-front.jpg",
+          "back": "items/tazo-arma-e-voa-002-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-003",
+          "number": 3,
+          "label": "03 - MAI VALENTINE",
+          "front": "items/tazo-arma-e-voa-003-front.jpg",
+          "back": "items/tazo-arma-e-voa-003-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-004",
+          "number": 4,
+          "label": "04 - MAXIMILION PEGASUS",
+          "front": "items/tazo-arma-e-voa-004-front.jpg",
+          "back": "items/tazo-arma-e-voa-004-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-005",
+          "number": 5,
+          "label": "05 - SETO KAIBA",
+          "front": "items/tazo-arma-e-voa-005-front.jpg",
+          "back": "items/tazo-arma-e-voa-005-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-006",
+          "number": 6,
+          "label": "06 - TEA GARNER",
+          "front": "items/tazo-arma-e-voa-006-front.jpg",
+          "back": "items/tazo-arma-e-voa-006-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-007",
+          "number": 7,
+          "label": "07 - YAMI YUGI",
+          "front": "items/tazo-arma-e-voa-007-front.jpg",
+          "back": "items/tazo-arma-e-voa-007-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-008",
+          "number": 8,
+          "label": "08 - YAMI YUGI",
+          "front": "items/tazo-arma-e-voa-008-front.jpg",
+          "back": "items/tazo-arma-e-voa-008-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-009",
+          "number": 9,
+          "label": "09 - MARIK",
+          "front": "items/tazo-arma-e-voa-009-front.jpg",
+          "back": "items/tazo-arma-e-voa-009-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-010",
+          "number": 10,
+          "label": "10 - DEMÔNIO DE SETE BRAÇOS",
+          "front": "items/tazo-arma-e-voa-010-front.jpg",
+          "back": "items/tazo-arma-e-voa-010-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-011",
+          "number": 11,
+          "label": "11 - GUERREIRA AMAZONA",
+          "front": "items/tazo-arma-e-voa-011-front.jpg",
+          "back": "items/tazo-arma-e-voa-011-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-012",
+          "number": 12,
+          "label": "12 - DRAGÃO DE OLHOS AZUIS",
+          "front": "items/tazo-arma-e-voa-012-front.jpg",
+          "back": "items/tazo-arma-e-voa-012-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-013",
+          "number": 13,
+          "label": "13 - REI CAVEIRA",
+          "front": "items/tazo-arma-e-voa-013-front.jpg",
+          "back": "items/tazo-arma-e-voa-013-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-014",
+          "number": 14,
+          "label": "14 - RYU",
+          "front": "items/tazo-arma-e-voa-014-front.jpg",
+          "back": "items/tazo-arma-e-voa-014-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-015",
+          "number": 15,
+          "label": "15 - CAROOZIS",
+          "front": "items/tazo-arma-e-voa-015-front.jpg",
+          "back": "items/tazo-arma-e-voa-015-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-016",
+          "number": 16,
+          "label": "16 - CROCODILO DE ESPADA",
+          "front": "items/tazo-arma-e-voa-016-front.jpg",
+          "back": "items/tazo-arma-e-voa-016-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-017",
+          "number": 17,
+          "label": "17 - SEREIA DO MUNDO DA FANTASIA",
+          "front": "items/tazo-arma-e-voa-017-front.jpg",
+          "back": "items/tazo-arma-e-voa-017-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-018",
+          "number": 18,
+          "label": "18 - SOLDADO DO LUSTRO NEGRO",
+          "front": "items/tazo-arma-e-voa-018-front.jpg",
+          "back": "items/tazo-arma-e-voa-018-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-019",
+          "number": 19,
+          "label": "19 - SAGGI, O PALHAÇO DAS TREVAS",
+          "front": "items/tazo-arma-e-voa-019-front.jpg",
+          "back": "items/tazo-arma-e-voa-019-back.jpg"
+        },
+        {
+          "id": "tazo-arma-e-voa-020",
+          "number": 20,
+          "label": "20 - O COMBATENTE",
+          "front": "items/tazo-arma-e-voa-020-front.jpg",
+          "back": "items/tazo-arma-e-voa-020-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "1-2",
+      "title": "1 + 2",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "1-2-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/1-2-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-2-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/1-2-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-2-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/1-2-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-2-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/1-2-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-2-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/1-2-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-2-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/1-2-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-2-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/1-2-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-2-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/1-2-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-2-009",
+          "number": 9,
+          "label": "LANÇADOR",
+          "front": "items/1-2-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-2-010",
+          "number": 10,
+          "label": "LANÇADOR",
+          "front": "items/1-2-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "1-1",
+      "title": "1 + 1",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "1-1-001",
+          "number": 1,
+          "label": "ÁLBUM",
+          "front": "items/1-1-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-1-002",
+          "number": 2,
+          "label": "ÁLBUM",
+          "front": "items/1-1-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-1-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/1-1-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-1-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/1-1-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-tazo-arma-e-voa",
+      "title": "TARJA: TAZO ARMA E VOA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-tazo-arma-e-voa-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-tazo-arma-e-voa-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazo-arma-e-voa-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-tazo-arma-e-voa-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazo-arma-e-voa-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-tazo-arma-e-voa-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazo-arma-e-voa-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-tazo-arma-e-voa-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazo-arma-e-voa-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-tazo-arma-e-voa-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazo-arma-e-voa-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-tazo-arma-e-voa-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazo-arma-e-voa-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-tazo-arma-e-voa-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazo-arma-e-voa-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-tazo-arma-e-voa-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazo-arma-e-voa-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/tarja-tazo-arma-e-voa-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-magic-tazo",
+      "title": "TARJA: MAGIC TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-magic-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-magic-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-magic-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-magic-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-magic-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-magic-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-magic-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-magic-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-magic-tazo-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-magic-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-magic-tazo-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-magic-tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-magic-tazo-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-magic-tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-magic-tazo-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-magic-tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-magic-tazo-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/tarja-magic-tazo-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

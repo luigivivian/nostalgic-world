@@ -1,0 +1,759 @@
+{
+  "slug": "uefa",
+  "name": "Tazos Lay's - UEFA Champions League",
+  "year": 2020,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/uefa",
+  "scrapedAt": "2026-08-05T14:18:43.682Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2021 - UEFA TAZO.jpg",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "I3",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "WhatsApp Image 2020-11-14 at 13.13.581",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "WhatsApp Image 2020-11-14 at 13.13.583",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "I3.1",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "IMG-20200317-WA0065",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "Screenshot_20200702-002535",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-008",
+          "number": 8,
+          "label": "Screenshot_20210128-222558",
+          "front": "items/poster-propaganda-site-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-009",
+          "number": 9,
+          "label": "Screenshot_20200702-002529",
+          "front": "items/poster-propaganda-site-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-010",
+          "number": 10,
+          "label": "Screenshot_20200702-002838",
+          "front": "items/poster-propaganda-site-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-011",
+          "number": 11,
+          "label": "Screenshot_20210128-222544",
+          "front": "items/poster-propaganda-site-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-012",
+          "number": 12,
+          "label": "Screenshot_20210128-222526",
+          "front": "items/poster-propaganda-site-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-013",
+          "number": 13,
+          "label": "Screenshot_20210128-222534",
+          "front": "items/poster-propaganda-site-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-014",
+          "number": 14,
+          "label": "Screenshot_20210128-222513",
+          "front": "items/poster-propaganda-site-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-015",
+          "number": 15,
+          "label": "Screenshot_20210128-222459",
+          "front": "items/poster-propaganda-site-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-016",
+          "number": 16,
+          "label": "Screenshot_20210128-222445",
+          "front": "items/poster-propaganda-site-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-017",
+          "number": 17,
+          "label": "Screenshot_20210128-222421",
+          "front": "items/poster-propaganda-site-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-018",
+          "number": 18,
+          "label": "Screenshot_20210128-222411",
+          "front": "items/poster-propaganda-site-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-019",
+          "number": 19,
+          "label": "Screenshot_20210128-222407",
+          "front": "items/poster-propaganda-site-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-020",
+          "number": 20,
+          "label": "Screenshot_20210128-222405",
+          "front": "items/poster-propaganda-site-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-021",
+          "number": 21,
+          "label": "Screenshot_20210128-222402",
+          "front": "items/poster-propaganda-site-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-022",
+          "number": 22,
+          "label": "Screenshot_20210128-222359",
+          "front": "items/poster-propaganda-site-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-023",
+          "number": 23,
+          "label": "Screenshot_20210128-222346",
+          "front": "items/poster-propaganda-site-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-024",
+          "number": 24,
+          "label": "Screenshot_20210128-222353",
+          "front": "items/poster-propaganda-site-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-025",
+          "number": 25,
+          "label": "Screenshot_20210128-222350",
+          "front": "items/poster-propaganda-site-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-026",
+          "number": 26,
+          "label": "Screenshot_20210128-222344",
+          "front": "items/poster-propaganda-site-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-027",
+          "number": 27,
+          "label": "Screenshot_20210128-222338",
+          "front": "items/poster-propaganda-site-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-028",
+          "number": 28,
+          "label": "Screenshot_20210128-222334",
+          "front": "items/poster-propaganda-site-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-029",
+          "number": 29,
+          "label": "Screenshot_20210128-222326",
+          "front": "items/poster-propaganda-site-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-030",
+          "number": 30,
+          "label": "Screenshot_20210128-222323",
+          "front": "items/poster-propaganda-site-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-031",
+          "number": 31,
+          "label": "Screenshot_20210128-222330",
+          "front": "items/poster-propaganda-site-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-032",
+          "number": 32,
+          "label": "Screenshot_20210128-222318",
+          "front": "items/poster-propaganda-site-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-033",
+          "number": 33,
+          "label": "Screenshot_20210128-222311",
+          "front": "items/poster-propaganda-site-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-034",
+          "number": 34,
+          "label": "Screenshot_20210128-222306",
+          "front": "items/poster-propaganda-site-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-035",
+          "number": 35,
+          "label": "Screenshot_20210128-222308",
+          "front": "items/poster-propaganda-site-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-036",
+          "number": 36,
+          "label": "Screenshot_20210128-222252",
+          "front": "items/poster-propaganda-site-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-037",
+          "number": 37,
+          "label": "Screenshot_20210128-222242",
+          "front": "items/poster-propaganda-site-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-038",
+          "number": 38,
+          "label": "Screenshot_20210128-222225",
+          "front": "items/poster-propaganda-site-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-039",
+          "number": 39,
+          "label": "Screenshot_20210128-222155",
+          "front": "items/poster-propaganda-site-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-040",
+          "number": 40,
+          "label": "Screenshot_20210128-222119",
+          "front": "items/poster-propaganda-site-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-041",
+          "number": 41,
+          "label": "Screenshot_20210128-222011",
+          "front": "items/poster-propaganda-site-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-042",
+          "number": 42,
+          "label": "Screenshot_20210128-222038",
+          "front": "items/poster-propaganda-site-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-043",
+          "number": 43,
+          "label": "Screenshot_20210128-222042",
+          "front": "items/poster-propaganda-site-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-044",
+          "number": 44,
+          "label": "Screenshot_20210128-222045",
+          "front": "items/poster-propaganda-site-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-045",
+          "number": 45,
+          "label": "Screenshot_20210128-222048",
+          "front": "items/poster-propaganda-site-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-046",
+          "number": 46,
+          "label": "Screenshot_20210128-222051",
+          "front": "items/poster-propaganda-site-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-047",
+          "number": 47,
+          "label": "Screenshot_20200702-003422",
+          "front": "items/poster-propaganda-site-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-048",
+          "number": 48,
+          "label": "Screenshot_20210128-221958",
+          "front": "items/poster-propaganda-site-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-049",
+          "number": 49,
+          "label": "Screenshot_20200702-003605",
+          "front": "items/poster-propaganda-site-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-050",
+          "number": 50,
+          "label": "Screenshot_20200702-002930",
+          "front": "items/poster-propaganda-site-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-051",
+          "number": 51,
+          "label": "Screenshot_20200702-002542",
+          "front": "items/poster-propaganda-site-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-052",
+          "number": 52,
+          "label": "Screenshot_20200702-002601",
+          "front": "items/poster-propaganda-site-052-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tazo",
+      "title": "TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tazo-001",
+          "number": 1,
+          "label": "EDIÇÃO '00 / '01 (CAMPEÃO: BAYERN DE MUNIQUE F.C.)",
+          "front": "items/tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-002",
+          "number": 2,
+          "label": "EDIÇÃO '01 / '02 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-003",
+          "number": 3,
+          "label": "EDIÇÃO '02 / '03 (CAMPEÃO: A.C. MILAN F.C.)",
+          "front": "items/tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-004",
+          "number": 4,
+          "label": "EDIÇÃO '03 / '04 (CAMPEÃO: PORTO F.C.)",
+          "front": "items/tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-005",
+          "number": 5,
+          "label": "EDIÇÃO '04 / '05 (CAMPEÃO: LIVERPOOL F.C.)",
+          "front": "items/tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-006",
+          "number": 6,
+          "label": "EDIÇÃO '00 / '01 (CAMPEÃO: BAYERN DE MUNIQUE F.C.)",
+          "front": "items/tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-007",
+          "number": 7,
+          "label": "EDIÇÃO '01 / '02 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-008",
+          "number": 8,
+          "label": "EDIÇÃO '02 / '03 (CAMPEÃO: A.C. MILAN F.C.)",
+          "front": "items/tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-009",
+          "number": 9,
+          "label": "EDIÇÃO '03 / '04 (CAMPEÃO: PORTO F.C.)",
+          "front": "items/tazo-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-010",
+          "number": 10,
+          "label": "EDIÇÃO '04 / '05 (CAMPEÃO: LIVERPOOL F.C.)",
+          "front": "items/tazo-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-011",
+          "number": 11,
+          "label": "EDIÇÃO '05 / '06 (CAMPEÃO: BARCELONA F.C.)",
+          "front": "items/tazo-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-012",
+          "number": 12,
+          "label": "EDIÇÃO '06 / '07 (CAMPEÃO: A.C. MILAN F.C.)",
+          "front": "items/tazo-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-013",
+          "number": 13,
+          "label": "EDIÇÃO '07 / '08 (CAMPEÃO: MANCHESTER UNITED F.C.)",
+          "front": "items/tazo-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-014",
+          "number": 14,
+          "label": "EDIÇÃO '08 / '09 (CAMPEÃO: BARCELONA F.C.)",
+          "front": "items/tazo-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-015",
+          "number": 15,
+          "label": "EDIÇÃO '09 / '10 (CAMPEÃO: INTER DE MILÃO F.C.)",
+          "front": "items/tazo-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-016",
+          "number": 16,
+          "label": "EDIÇÃO '05 / '06 (CAMPEÃO: BARCELONA F.C.)",
+          "front": "items/tazo-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-017",
+          "number": 17,
+          "label": "EDIÇÃO '06 / '07 (CAMPEÃO: A.C. MILAN F.C.)",
+          "front": "items/tazo-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-018",
+          "number": 18,
+          "label": "EDIÇÃO '07 / '08 (CAMPEÃO: MANCHESTER UNITED F.C.)",
+          "front": "items/tazo-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-019",
+          "number": 19,
+          "label": "EDIÇÃO '08 / '09 (CAMPEÃO: BARCELONA F.C.)",
+          "front": "items/tazo-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-020",
+          "number": 20,
+          "label": "EDIÇÃO '09 / '10 (CAMPEÃO: INTER DE MILÃO F.C.)",
+          "front": "items/tazo-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-021",
+          "number": 21,
+          "label": "EDIÇÃO '10 / '11 (CAMPEÃO: BARCELONA F.C.)",
+          "front": "items/tazo-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-022",
+          "number": 22,
+          "label": "EDIÇÃO '11 / '12 (CAMPEÃO: CHELSEA F.C.)",
+          "front": "items/tazo-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-023",
+          "number": 23,
+          "label": "EDIÇÃO '12 / '13 (CAMPEÃO: BAYERN F.C.)",
+          "front": "items/tazo-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-024",
+          "number": 24,
+          "label": "EDIÇÃO '13 / '14 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-025",
+          "number": 25,
+          "label": "EDIÇÃO '14 / '15 (CAMPEÃO: BARCELONA F.C.)",
+          "front": "items/tazo-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-026",
+          "number": 26,
+          "label": "EDIÇÃO '10 / '11 (CAMPEÃO: BARCELONA F.C.)",
+          "front": "items/tazo-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-027",
+          "number": 27,
+          "label": "EDIÇÃO '11 / '12 (CAMPEÃO: CHELSEA F.C.)",
+          "front": "items/tazo-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-028",
+          "number": 28,
+          "label": "EDIÇÃO '12 / '13 (CAMPEÃO: BAYERN F.C.)",
+          "front": "items/tazo-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-029",
+          "number": 29,
+          "label": "EDIÇÃO '13 / '14 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-030",
+          "number": 30,
+          "label": "EDIÇÃO '14 / '15 (CAMPEÃO: BARCELONA F.C.)",
+          "front": "items/tazo-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-031",
+          "number": 31,
+          "label": "EDIÇÃO '15 / '16 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-032",
+          "number": 32,
+          "label": "EDIÇÃO '16 / '17 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-033",
+          "number": 33,
+          "label": "EDIÇÃO '17 / '18 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-034",
+          "number": 34,
+          "label": "EDIÇÃO '18 / '19 (CAMPEÃO: LIVERPOOL F.C.)",
+          "front": "items/tazo-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-035",
+          "number": 35,
+          "label": "EDIÇÃO '19 / '20 (UEFA CHAMPIONS LEAGUE)",
+          "front": "items/tazo-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-036",
+          "number": 36,
+          "label": "EDIÇÃO '15 / '16 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-037",
+          "number": 37,
+          "label": "EDIÇÃO '16 / '17 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-038",
+          "number": 38,
+          "label": "EDIÇÃO '17 / '18 (CAMPEÃO: REAL MADRID F.C.)",
+          "front": "items/tazo-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-039",
+          "number": 39,
+          "label": "EDIÇÃO '18 / '19 (CAMPEÃO: LIVERPOOL F.C.)",
+          "front": "items/tazo-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-040",
+          "number": 40,
+          "label": "EDIÇÃO '19 / '20 (UEFA CHAMPIONS LEAGUE)",
+          "front": "items/tazo-040-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "1737914309950-460ef486-b7ff-4eb4-a34a-34f485351ddd_1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "índice",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "IMG-20200408-WA0005",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "IMG-20200408-WA0004",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-tazos-voce-pediu-eles-voltaram",
+      "title": "TARJA: TAZOS - VOCÊ PEDIU, ELES VOLTARAM!",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-tazos-voce-pediu-eles-voltaram-001",
+          "number": 1,
+          "label": "AP 6",
+          "front": "items/tarja-tazos-voce-pediu-eles-voltaram-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazos-voce-pediu-eles-voltaram-002",
+          "number": 2,
+          "label": "AP 7",
+          "front": "items/tarja-tazos-voce-pediu-eles-voltaram-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazos-voce-pediu-eles-voltaram-003",
+          "number": 3,
+          "label": "AP 8",
+          "front": "items/tarja-tazos-voce-pediu-eles-voltaram-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazos-voce-pediu-eles-voltaram-004",
+          "number": 4,
+          "label": "AP 9",
+          "front": "items/tarja-tazos-voce-pediu-eles-voltaram-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-tazos-voce-pediu-eles-voltaram-005",
+          "number": 5,
+          "label": "AQ 1",
+          "front": "items/tarja-tazos-voce-pediu-eles-voltaram-005-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

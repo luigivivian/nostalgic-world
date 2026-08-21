@@ -1,0 +1,2356 @@
+{
+  "slug": "tinytoon",
+  "name": "Tazo Mania - Magic Tazo (Tiny Toon)",
+  "year": 1997,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/tinytoon",
+  "scrapedAt": "2026-08-05T03:19:01.684Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "magic-tazo-verso-laranja-6-pontos",
+      "title": "MAGIC TAZO (VERSO LARANJA - 6 PONTOS)",
+      "kind": "paired",
+      "points": 6,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-001",
+          "number": 141,
+          "label": "141 (SUFOCÃO)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-001-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-001-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-002",
+          "number": 142,
+          "label": "142 (O BANANA)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-002-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-002-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-003",
+          "number": 143,
+          "label": "143 (OBRA PRIMA)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-003-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-003-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-004",
+          "number": 144,
+          "label": "144 (ESPELHO MEU)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-004-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-004-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-005",
+          "number": 145,
+          "label": "145 (QUE DELICADO)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-005-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-005-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-006",
+          "number": 146,
+          "label": "146 (PATO ENCANTADO)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-006-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-006-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-007",
+          "number": 147,
+          "label": "147 (AMORE MIO)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-007-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-007-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-008",
+          "number": 148,
+          "label": "148 (BEM FEITO)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-008-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-008-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-009",
+          "number": 149,
+          "label": "149 (APRESSADINHO)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-009-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-009-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-010",
+          "number": 150,
+          "label": "150 (HISTÓRIA SEM FIM)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-010-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-010-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-011",
+          "number": 151,
+          "label": "151 (PEGA PEGA)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-011-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-011-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-012",
+          "number": 152,
+          "label": "152 (PAPO FURADO)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-012-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-012-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-013",
+          "number": 153,
+          "label": "153 (PARA DETONAR)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-013-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-013-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-014",
+          "number": 154,
+          "label": "154 (SOM NA CAIXA)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-014-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-014-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-015",
+          "number": 155,
+          "label": "155 (MEU CORAÇÃO É SEU)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-016",
+          "number": 155,
+          "label": "155 (EU CORAÇÃO É SEU)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-017",
+          "number": 156,
+          "label": "156 (FAIXAS PRETAS)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-017-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-017-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-018",
+          "number": 157,
+          "label": "157 (O REI DA COELHADA)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-018-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-018-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-019",
+          "number": 158,
+          "label": "158 (SEMPRE JUNTOS)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-019-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-019-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-020",
+          "number": 159,
+          "label": "159 (BOMBEI)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-020-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-020-back.jpg"
+        },
+        {
+          "id": "magic-tazo-verso-laranja-6-pontos-021",
+          "number": 160,
+          "label": "160 (SOLTEIRÃO)",
+          "front": "items/magic-tazo-verso-laranja-6-pontos-021-front.jpg",
+          "back": "items/magic-tazo-verso-laranja-6-pontos-021-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "super-magic-tazo-verso-roxo-6-pontos",
+      "title": "SUPER MAGIC TAZO (VERSO ROXO - 6 PONTOS)",
+      "kind": "paired",
+      "points": 6,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-001",
+          "number": 161,
+          "label": "161 (CADÊ VOCE?)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-001-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-001-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-002",
+          "number": 162,
+          "label": "162 (CAIA NA FOLIA)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-002-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-002-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-003",
+          "number": 163,
+          "label": "163 (BAILA COMIGO)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-003-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-003-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-004",
+          "number": 164,
+          "label": "164 (AMOR A 1ª VISTA)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-004-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-004-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-005",
+          "number": 165,
+          "label": "165 (ATRAPALHADO)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-005-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-005-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-006",
+          "number": 166,
+          "label": "166 (LARGA DO MEU PÉ)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-006-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-006-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-007",
+          "number": 167,
+          "label": "167 (LIGADÃO)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-007-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-007-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-008",
+          "number": 168,
+          "label": "168 (ESQUENTADINHO)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-008-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-008-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-009",
+          "number": 169,
+          "label": "169 (TOCA AQUI)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-009-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-009-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-010",
+          "number": 170,
+          "label": "170 (TROCANDO AS BOLAS)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-010-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-010-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-011",
+          "number": 171,
+          "label": "171 (CARTÃO VERMELHO)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-011-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-011-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-012",
+          "number": 172,
+          "label": "172 (FELIZ DA VIDA)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-012-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-012-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-013",
+          "number": 173,
+          "label": "173 (PASSANDO A PERNA)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-013-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-013-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-014",
+          "number": 174,
+          "label": "174 (SITUAÇÃO EMBARAÇOSA)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-014-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-014-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-015",
+          "number": 175,
+          "label": "175 (FALHOU DE NOVO)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-015-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-015-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-016",
+          "number": 176,
+          "label": "176 (BOLA DE CRISTAL)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-016-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-016-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-017",
+          "number": 177,
+          "label": "177 (PINTANDO O SETE)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-017-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-017-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-018",
+          "number": 178,
+          "label": "178 (PÉ NA ESTRADA)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-018-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-018-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-019",
+          "number": 179,
+          "label": "179 (NOCAUTE)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-019-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-019-back.jpg"
+        },
+        {
+          "id": "super-magic-tazo-verso-roxo-6-pontos-020",
+          "number": 180,
+          "label": "180 (A DAMA DA NOITE)",
+          "front": "items/super-magic-tazo-verso-roxo-6-pontos-020-front.jpg",
+          "back": "items/super-magic-tazo-verso-roxo-6-pontos-020-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "mega-magic-tazo-verso-vermelho-7-pontos",
+      "title": "MEGA MAGIC TAZO (VERSO VERMELHO - 7 PONTOS)",
+      "kind": "paired",
+      "points": 7,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-001",
+          "number": 181,
+          "label": "181 (FORA DO SÉRIO)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-001-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-001-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-002",
+          "number": 182,
+          "label": "182 (BOTA FORA)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-002-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-002-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-003",
+          "number": 183,
+          "label": "183 (MANOBRA RADICAL)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-003-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-003-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-004",
+          "number": 184,
+          "label": "184 (QUE PESADO)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-004-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-004-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-005",
+          "number": 185,
+          "label": "185 (MÁQUINA ZERO)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-005-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-005-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-006",
+          "number": 186,
+          "label": "186 (NÃO AGUENTO MAIS)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-006-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-006-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-007",
+          "number": 187,
+          "label": "187 (CATAPULTA)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-007-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-007-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-008",
+          "number": 188,
+          "label": "188 (QUE ROLO)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-008-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-008-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-009",
+          "number": 189,
+          "label": "189 (SORVETÃO)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-009-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-009-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-010",
+          "number": 190,
+          "label": "190 (DE BANDEJA)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-010-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-010-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-011",
+          "number": 191,
+          "label": "191 (SMACK)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-011-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-011-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-012",
+          "number": 192,
+          "label": "192 (SALTO MORTAL)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-012-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-012-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-013",
+          "number": 193,
+          "label": "193 (DE BARRIGA CHEIA)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-013-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-013-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-014",
+          "number": 194,
+          "label": "194 (FESTA A FANTASIA)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-014-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-014-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-015",
+          "number": 195,
+          "label": "195 (SALVE)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-015-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-015-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-016",
+          "number": 196,
+          "label": "196 (D.J.)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-016-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-016-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-017",
+          "number": 197,
+          "label": "197 (PEQUENO GRANDE ÍNDIO)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-017-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-017-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-018",
+          "number": 198,
+          "label": "198 (PAZ E AMOR)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-018-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-018-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-019",
+          "number": 199,
+          "label": "199 (ESTOURA A BOCA O BALÃO)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-019-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-019-back.jpg"
+        },
+        {
+          "id": "mega-magic-tazo-verso-vermelho-7-pontos-020",
+          "number": 200,
+          "label": "200 (NUMA FRIA)",
+          "front": "items/mega-magic-tazo-verso-vermelho-7-pontos-020-front.jpg",
+          "back": "items/mega-magic-tazo-verso-vermelho-7-pontos-020-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "hiper-magic-tazo-verso-verde-8-pontos",
+      "title": "HIPER MAGIC TAZO (VERSO VERDE - 8 PONTOS)",
+      "kind": "paired",
+      "points": 8,
+      "expected": 40,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-001",
+          "number": 201,
+          "label": "201 (QUEDA LIVRE)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-001-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-001-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-002",
+          "number": 202,
+          "label": "202 (RISCO TOTAL)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-002-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-002-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-003",
+          "number": 203,
+          "label": "203 (PATO PASTOR)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-003-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-003-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-004",
+          "number": 204,
+          "label": "204 (CABEÇA DURA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-004-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-004-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-005",
+          "number": 205,
+          "label": "205 (NINGUÉM ME PEGA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-005-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-005-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-006",
+          "number": 206,
+          "label": "206 (NEW LOOK)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-006-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-006-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-007",
+          "number": 207,
+          "label": "207 (LÁ VOU EU)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-007-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-007-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-008",
+          "number": 208,
+          "label": "208 (SEMPRE ALERTA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-008-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-008-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-009",
+          "number": 209,
+          "label": "209 (QUE MEDO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-009-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-009-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-010",
+          "number": 210,
+          "label": "210 (SORRIA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-010-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-010-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-011",
+          "number": 211,
+          "label": "211 (A SOBREMESA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-011-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-011-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-012",
+          "number": 212,
+          "label": "212 (DESAFINADO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-012-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-012-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-013",
+          "number": 213,
+          "label": "213 (DO FUNDO DO BAÚ)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-013-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-013-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-014",
+          "number": 214,
+          "label": "214 (SAI QUE É MINHA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-014-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-014-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-015",
+          "number": 215,
+          "label": "215 (BRAVINHO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-015-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-015-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-016",
+          "number": 216,
+          "label": "216 (ME DÁ O SEU TELEFONE?)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-016-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-016-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-017",
+          "number": 217,
+          "label": "217 (SAI DE BAIXO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-017-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-017-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-018",
+          "number": 218,
+          "label": "218 (PRIMEIROS SOCORROS)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-018-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-018-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-019",
+          "number": 219,
+          "label": "219 (O FAZ TUDO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-019-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-019-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-020",
+          "number": 220,
+          "label": "220 (NÃO, NÃO E NÃO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-020-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-020-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-021",
+          "number": 221,
+          "label": "221 (LIGADONA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-021-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-021-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-022",
+          "number": 222,
+          "label": "222 (BATE COTAÇÃO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-022-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-022-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-023",
+          "number": 223,
+          "label": "223 (SAI FORA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-023-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-023-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-024",
+          "number": 224,
+          "label": "224 (PIPOQUEIRO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-024-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-024-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-025",
+          "number": 225,
+          "label": "225 (PULA PULA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-025-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-025-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-026",
+          "number": 226,
+          "label": "226 (EXAGERADO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-026-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-026-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-027",
+          "number": 227,
+          "label": "227 (HORA DO RANGO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-027-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-027-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-028",
+          "number": 228,
+          "label": "228 (TIRO PELA CULATRA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-028-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-028-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-029",
+          "number": 229,
+          "label": "229 (MATA TRAÇA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-029-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-029-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-030",
+          "number": 230,
+          "label": "230 (HORA DO BANHO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-030-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-030-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-031",
+          "number": 231,
+          "label": "231 (VASSOURA MÁGICA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-031-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-031-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-032",
+          "number": 232,
+          "label": "232 (CAIU DE MADURO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-032-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-032-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-033",
+          "number": 233,
+          "label": "233 (É FOGO!)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-033-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-033-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-034",
+          "number": 234,
+          "label": "234 (TOURO MECANICO)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-034-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-034-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-035",
+          "number": 235,
+          "label": "235 (ATCHIM!)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-035-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-035-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-036",
+          "number": 236,
+          "label": "236 (TOP MODEL)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-036-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-036-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-037",
+          "number": 237,
+          "label": "237 (ONDA RADICAL)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-037-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-037-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-038",
+          "number": 238,
+          "label": "238 (PÁRA-RAIOS)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-038-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-038-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-039",
+          "number": 239,
+          "label": "239 (PROGRAMA LEGAL)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-039-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-039-back.jpg"
+        },
+        {
+          "id": "hiper-magic-tazo-verso-verde-8-pontos-040",
+          "number": 240,
+          "label": "240 (SURPRESA)",
+          "front": "items/hiper-magic-tazo-verso-verde-8-pontos-040-front.jpg",
+          "back": "items/hiper-magic-tazo-verso-verde-8-pontos-040-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "master-magic-tazo-batedor-com-relevo-metalizado",
+      "title": "MASTER MAGIC-TAZO (BATEDOR) (COM RELEVO METALIZADO)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 80,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "master-magic-tazo-batedor-com-relevo-metalizado-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/master-magic-tazo-batedor-com-relevo-metalizado-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "master-magic-tazo-batedor-com-relevo-metalizado-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/master-magic-tazo-batedor-com-relevo-metalizado-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "master-magic-tazo-batedor-com-relevo-metalizado-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/master-magic-tazo-batedor-com-relevo-metalizado-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "master-magic-tazo-batedor-com-relevo-metalizado-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/master-magic-tazo-batedor-com-relevo-metalizado-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "master-magic-tazo-batedor-com-relevo-metalizado-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/master-magic-tazo-batedor-com-relevo-metalizado-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "roy-corroi",
+      "title": "ROY-CORRÓI",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "roy-corroi-001",
+          "number": 1,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-002",
+          "number": 2,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-003",
+          "number": 3,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-004",
+          "number": 4,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-005",
+          "number": 5,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-006",
+          "number": 6,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-007",
+          "number": 7,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO PRATA",
+          "front": "items/roy-corroi-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-008",
+          "number": 8,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO PRATA",
+          "front": "items/roy-corroi-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-009",
+          "number": 9,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO PRATA",
+          "front": "items/roy-corroi-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-010",
+          "number": 10,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO PRATA",
+          "front": "items/roy-corroi-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-011",
+          "number": 11,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO PRATA",
+          "front": "items/roy-corroi-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-012",
+          "number": 12,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO PRATA",
+          "front": "items/roy-corroi-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-013",
+          "number": 13,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO AZUL",
+          "front": "items/roy-corroi-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-014",
+          "number": 14,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO AZUL",
+          "front": "items/roy-corroi-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-015",
+          "number": 15,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO AZUL",
+          "front": "items/roy-corroi-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-016",
+          "number": 16,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO AZUL",
+          "front": "items/roy-corroi-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-017",
+          "number": 17,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO AZUL",
+          "front": "items/roy-corroi-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-018",
+          "number": 18,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO AZUL",
+          "front": "items/roy-corroi-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-019",
+          "number": 19,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO VERDE",
+          "front": "items/roy-corroi-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-020",
+          "number": 20,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO VERDE",
+          "front": "items/roy-corroi-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-021",
+          "number": 21,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO VERDE",
+          "front": "items/roy-corroi-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-022",
+          "number": 22,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO VERDE",
+          "front": "items/roy-corroi-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-023",
+          "number": 23,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO VERDE",
+          "front": "items/roy-corroi-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-024",
+          "number": 24,
+          "label": "MASTER-TAZO - VERDE COM CONTORNO VERDE",
+          "front": "items/roy-corroi-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-025",
+          "number": 25,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-026",
+          "number": 26,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-027",
+          "number": 27,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-028",
+          "number": 28,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-029",
+          "number": 29,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-030",
+          "number": 30,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-031",
+          "number": 31,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-032",
+          "number": 32,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-033",
+          "number": 33,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-034",
+          "number": 34,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-035",
+          "number": 35,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-036",
+          "number": 36,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-037",
+          "number": 37,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-038",
+          "number": 38,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-039",
+          "number": 39,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-040",
+          "number": 40,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-041",
+          "number": 41,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-042",
+          "number": 42,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-043",
+          "number": 43,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-044",
+          "number": 44,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-045",
+          "number": 45,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-046",
+          "number": 46,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-047",
+          "number": 47,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-048",
+          "number": 48,
+          "label": "MASTER-TAZO - AMARELO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-049",
+          "number": 49,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-050",
+          "number": 50,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-051",
+          "number": 51,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-052",
+          "number": 52,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-053",
+          "number": 53,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-054",
+          "number": 54,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-054-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-055",
+          "number": 55,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-055-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-056",
+          "number": 56,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-056-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-057",
+          "number": 57,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-057-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-058",
+          "number": 58,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-058-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-059",
+          "number": 59,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-059-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-060",
+          "number": 60,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO PRATA",
+          "front": "items/roy-corroi-060-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-061",
+          "number": 61,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-061-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-062",
+          "number": 62,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-062-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-063",
+          "number": 63,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-063-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-064",
+          "number": 64,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-064-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-065",
+          "number": 65,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-065-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-066",
+          "number": 66,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO AZUL",
+          "front": "items/roy-corroi-066-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-067",
+          "number": 67,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-067-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-068",
+          "number": 68,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-068-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-069",
+          "number": 69,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-069-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-070",
+          "number": 70,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-070-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-071",
+          "number": 71,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-071-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-072",
+          "number": 72,
+          "label": "MASTER-TAZO - PRETO COM CONTORNO VERDE",
+          "front": "items/roy-corroi-072-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-073",
+          "number": 73,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-073-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-074",
+          "number": 74,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-074-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-075",
+          "number": 75,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-075-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-076",
+          "number": 76,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-076-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-077",
+          "number": 77,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-077-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-078",
+          "number": 78,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO DOURADO",
+          "front": "items/roy-corroi-078-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-079",
+          "number": 79,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO PRATA",
+          "front": "items/roy-corroi-079-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-080",
+          "number": 80,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO PRATA",
+          "front": "items/roy-corroi-080-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-081",
+          "number": 81,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO PRATA",
+          "front": "items/roy-corroi-081-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-082",
+          "number": 82,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO PRATA",
+          "front": "items/roy-corroi-082-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-083",
+          "number": 83,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO PRATA",
+          "front": "items/roy-corroi-083-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-084",
+          "number": 84,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO PRATA",
+          "front": "items/roy-corroi-084-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-085",
+          "number": 85,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO AZUL",
+          "front": "items/roy-corroi-085-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-086",
+          "number": 86,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO AZUL",
+          "front": "items/roy-corroi-086-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-087",
+          "number": 87,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO AZUL",
+          "front": "items/roy-corroi-087-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-088",
+          "number": 88,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO AZUL",
+          "front": "items/roy-corroi-088-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-089",
+          "number": 89,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO AZUL",
+          "front": "items/roy-corroi-089-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-090",
+          "number": 90,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO AZUL",
+          "front": "items/roy-corroi-090-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-091",
+          "number": 91,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO VERDE",
+          "front": "items/roy-corroi-091-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-092",
+          "number": 92,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO VERDE",
+          "front": "items/roy-corroi-092-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-093",
+          "number": 93,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO VERDE",
+          "front": "items/roy-corroi-093-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-094",
+          "number": 94,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO VERDE",
+          "front": "items/roy-corroi-094-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-095",
+          "number": 95,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO VERDE",
+          "front": "items/roy-corroi-095-front.jpg",
+          "back": null
+        },
+        {
+          "id": "roy-corroi-096",
+          "number": 96,
+          "label": "MASTER-TAZO - AZUL COM CONTORNO VERDE",
+          "front": "items/roy-corroi-096-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "porta-tazo",
+      "title": "PORTA-TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 30,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "porta-tazo-001",
+          "number": 1,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-002",
+          "number": 2,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-003",
+          "number": 3,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-004",
+          "number": 4,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-005",
+          "number": 5,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-006",
+          "number": 6,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-007",
+          "number": 7,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-008",
+          "number": 8,
+          "label": "PORTA-TAZO - AMARELO",
+          "front": "items/porta-tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-009",
+          "number": 9,
+          "label": "PORTA-TAZO - AMARELO",
+          "front": "items/porta-tazo-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-010",
+          "number": 10,
+          "label": "PORTA-TAZO - AMARELO",
+          "front": "items/porta-tazo-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-011",
+          "number": 11,
+          "label": "PORTA-TAZO - AMARELO",
+          "front": "items/porta-tazo-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-012",
+          "number": 12,
+          "label": "PORTA-TAZO - AMARELO",
+          "front": "items/porta-tazo-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-013",
+          "number": 13,
+          "label": "PORTA-TAZO - AMARELO",
+          "front": "items/porta-tazo-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-014",
+          "number": 14,
+          "label": "PORTA-TAZO - AMARELO",
+          "front": "items/porta-tazo-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-015",
+          "number": 15,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-016",
+          "number": 16,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-017",
+          "number": 17,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-018",
+          "number": 18,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-019",
+          "number": 19,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-020",
+          "number": 20,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-021",
+          "number": 21,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-022",
+          "number": 22,
+          "label": "PORTA-TAZO - BRANCO",
+          "front": "items/porta-tazo-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-023",
+          "number": 23,
+          "label": "PORTA-TAZO - BRANCO",
+          "front": "items/porta-tazo-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-024",
+          "number": 24,
+          "label": "PORTA-TAZO - BRANCO",
+          "front": "items/porta-tazo-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-025",
+          "number": 25,
+          "label": "PORTA-TAZO - BRANCO",
+          "front": "items/porta-tazo-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-026",
+          "number": 26,
+          "label": "PORTA-TAZO - BRANCO",
+          "front": "items/porta-tazo-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-027",
+          "number": 27,
+          "label": "PORTA-TAZO - BRANCO",
+          "front": "items/porta-tazo-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-028",
+          "number": 28,
+          "label": "PORTA-TAZO - BRANCO",
+          "front": "items/porta-tazo-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-029",
+          "number": 29,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-030",
+          "number": 30,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-031",
+          "number": 31,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-032",
+          "number": 32,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-033",
+          "number": 33,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-034",
+          "number": 34,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-035",
+          "number": 35,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-036",
+          "number": 36,
+          "label": "PORTA-TAZO - PRETO",
+          "front": "items/porta-tazo-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-037",
+          "number": 37,
+          "label": "PORTA-TAZO - PRETO",
+          "front": "items/porta-tazo-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-038",
+          "number": 38,
+          "label": "PORTA-TAZO - PRETO",
+          "front": "items/porta-tazo-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-039",
+          "number": 39,
+          "label": "PORTA-TAZO - PRETO",
+          "front": "items/porta-tazo-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-040",
+          "number": 40,
+          "label": "PORTA-TAZO - PRETO",
+          "front": "items/porta-tazo-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-041",
+          "number": 41,
+          "label": "PORTA-TAZO - PRETO",
+          "front": "items/porta-tazo-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-042",
+          "number": 42,
+          "label": "PORTA-TAZO - PRETO",
+          "front": "items/porta-tazo-042-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "5-2",
+      "title": "5 + 2",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "5-2-001",
+          "number": 1,
+          "label": "TAPE-TAZO - AMARELO",
+          "front": "items/5-2-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-002",
+          "number": 2,
+          "label": "TAPE-TAZO - AMARELO",
+          "front": "items/5-2-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-003",
+          "number": 3,
+          "label": "TAPE-TAZO - AZUL",
+          "front": "items/5-2-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-004",
+          "number": 4,
+          "label": "TAPE-TAZO - AZUL",
+          "front": "items/5-2-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-005",
+          "number": 5,
+          "label": "TAPE-TAZO - LARANJA",
+          "front": "items/5-2-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-006",
+          "number": 6,
+          "label": "TAPE-TAZO - LARANJA",
+          "front": "items/5-2-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-007",
+          "number": 7,
+          "label": "TAPE-TAZO - VERDE",
+          "front": "items/5-2-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-008",
+          "number": 8,
+          "label": "TAPE-TAZO - VERDE",
+          "front": "items/5-2-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-009",
+          "number": 9,
+          "label": "TAPE-TAZO - VERMELHO",
+          "front": "items/5-2-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-010",
+          "number": 10,
+          "label": "TAPE-TAZO - VERMELHO",
+          "front": "items/5-2-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-011",
+          "number": 11,
+          "label": "TAPE-TAZO - ROXO",
+          "front": "items/5-2-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-012",
+          "number": 12,
+          "label": "TAPE-TAZO - ROXO",
+          "front": "items/5-2-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "5-2-013",
+          "number": 13,
+          "label": "TAPE-TAZO - ROSA",
+          "front": "items/5-2-013-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "kit-tazo",
+      "title": "KIT-TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "kit-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/kit-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/kit-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/kit-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/kit-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/kit-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/kit-tazo-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/lotes-outras-fotos-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/lotes-outras-fotos-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/lotes-outras-fotos-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/lotes-outras-fotos-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-013",
+          "number": 13,
+          "label": "Foto 13",
+          "front": "items/lotes-outras-fotos-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-014",
+          "number": 14,
+          "label": "Foto 14",
+          "front": "items/lotes-outras-fotos-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-015",
+          "number": 15,
+          "label": "Foto 15",
+          "front": "items/lotes-outras-fotos-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-016",
+          "number": 16,
+          "label": "Foto 16",
+          "front": "items/lotes-outras-fotos-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-017",
+          "number": 17,
+          "label": "Foto 17",
+          "front": "items/lotes-outras-fotos-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-018",
+          "number": 18,
+          "label": "Foto 18",
+          "front": "items/lotes-outras-fotos-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-019",
+          "number": 19,
+          "label": "Foto 19",
+          "front": "items/lotes-outras-fotos-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-020",
+          "number": 20,
+          "label": "Foto 20",
+          "front": "items/lotes-outras-fotos-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-021",
+          "number": 21,
+          "label": "Foto 21",
+          "front": "items/lotes-outras-fotos-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-022",
+          "number": 22,
+          "label": "Foto 22",
+          "front": "items/lotes-outras-fotos-022-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-magic-tazo",
+      "title": "TARJA: CONTÉM 1 MAGIC TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-magic-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-contem-1-magic-tazo-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-magic-tazo-lay-s",
+      "title": "TARJA: CONTÉM 1 MAGIC TAZO (LAY'S)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-magic-tazo-lay-s-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-contem-1-magic-tazo-lay-s-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-vale-brinde-colecao-tiny-toon",
+      "title": "TARJA: VALE-BRINDE COLEÇÃO TINY TOON",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-vale-brinde-colecao-tiny-toon-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-vale-brinde-colecao-tiny-toon-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-vale-brinde-colecao-tiny-toon-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-vale-brinde-colecao-tiny-toon-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-vale-brinde-colecao-tiny-toon-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-vale-brinde-colecao-tiny-toon-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-vale-brinde-colecao-tiny-toon-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-vale-brinde-colecao-tiny-toon-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/embalagem-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/embalagem-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/embalagem-012-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-fandangos-segurando-tazo",
+      "title": "EMBALAGEM: FANDANGOS SEGURANDO TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-fandangos-segurando-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-fandangos-segurando-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-fandangos-segurando-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-fandangos-segurando-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-fandangos-segurando-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-fandangos-segurando-tazo-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propagandas",
+      "title": "PÔSTER / PROPAGANDAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propagandas-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propagandas-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propagandas-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-003",
+          "number": 3,
+          "label": "1",
+          "front": "items/poster-propagandas-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-004",
+          "number": 4,
+          "label": "PÔSTER 2",
+          "front": "items/poster-propagandas-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propagandas-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propagandas-006-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

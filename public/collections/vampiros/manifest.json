@@ -1,0 +1,606 @@
+{
+  "slug": "vampiros",
+  "name": "Vampiros",
+  "year": 2009,
+  "category": "cards",
+  "shape": "card",
+  "source": "https://www.elmachipscolecoes.com.br/vampiros",
+  "scrapedAt": "2026-08-05T14:19:57.656Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2009 - VAMPIROS.jpg",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "historico embalagens e promocoes pepsico_Página_66",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "historico embalagens e promocoes pepsico_Página_25",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "ARTES (1)",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "ARTES (2)",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "ARTES (3)",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "ARTES (4)",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-008",
+          "number": 8,
+          "label": "ARTES (5)",
+          "front": "items/poster-propaganda-site-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-009",
+          "number": 9,
+          "label": "ARTES (6)",
+          "front": "items/poster-propaganda-site-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz",
+      "title": "CARD (3 FORMATOS): 12x (CAIXÃO) / 6x (LÁPIDE) / 6x (CRUZ)",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 24,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-001",
+          "number": 1,
+          "label": "1 - BARÃO CRIMSON",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-002",
+          "number": 2,
+          "label": "2 - BRAZILEUS",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-003",
+          "number": 3,
+          "label": "3 - LEAFAULT",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-004",
+          "number": 4,
+          "label": "4 - IRENA",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-005",
+          "number": 5,
+          "label": "5 - IVANA",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-006",
+          "number": 6,
+          "label": "6 - DEVORA",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-007",
+          "number": 7,
+          "label": "7 - TRISTAN",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-008",
+          "number": 8,
+          "label": "8 - MORGAN",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-009",
+          "number": 9,
+          "label": "9 - FALLEN",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-010",
+          "number": 10,
+          "label": "10 - AGATHA",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-011",
+          "number": 11,
+          "label": "11 - CLARISSE",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-012",
+          "number": 12,
+          "label": "12 - ALMA",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-013",
+          "number": 13,
+          "label": "13 - GÁRGUÇA",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-014",
+          "number": 14,
+          "label": "14 - LOBISOMEN",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-015",
+          "number": 15,
+          "label": "15 - ZUMBI",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-016",
+          "number": 16,
+          "label": "16 - LICH",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-017",
+          "number": 17,
+          "label": "17 - VIÚVA-NEGRA",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-018",
+          "number": 18,
+          "label": "18 - SENHOR DAS TREVAS",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-019",
+          "number": 19,
+          "label": "19 - ARIHANA",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-020",
+          "number": 20,
+          "label": "20 - JADE",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-021",
+          "number": 21,
+          "label": "21 - OLIVIA",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-022",
+          "number": 22,
+          "label": "22 - HUNTER",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-023",
+          "number": 23,
+          "label": "23 - SACRE",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-3-formatos-12x-caixao-6x-lapide-6x-cruz-024",
+          "number": 24,
+          "label": "24 - DHUMAS",
+          "front": "items/card-3-formatos-12x-caixao-6x-lapide-6x-cruz-024-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "card-com-lente-secreta",
+      "title": "CARD (COM LENTE SECRETA)",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 6,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "card-com-lente-secreta-001",
+          "number": 25,
+          "label": "25 - POÇÃO",
+          "front": "items/card-com-lente-secreta-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-lente-secreta-002",
+          "number": 26,
+          "label": "26 - ESTACA",
+          "front": "items/card-com-lente-secreta-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-lente-secreta-003",
+          "number": 27,
+          "label": "27 - ALHO",
+          "front": "items/card-com-lente-secreta-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-lente-secreta-004",
+          "number": 28,
+          "label": "28 - CÁLICE",
+          "front": "items/card-com-lente-secreta-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-lente-secreta-005",
+          "number": 29,
+          "label": "29 - LIVRO",
+          "front": "items/card-com-lente-secreta-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-lente-secreta-006",
+          "number": 30,
+          "label": "30 - CRUZ",
+          "front": "items/card-com-lente-secreta-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "COLEÇÃO 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "COLEÇÃO 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "COLEÇÃO 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Z N6",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "COLEÇÃO LACRADA",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Z N4",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Z N5",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-card",
+      "title": "TARJA: CONTÉM 1 CARD",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-card-001",
+          "number": 1,
+          "label": "A (2)",
+          "front": "items/tarja-contem-1-card-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-card-002",
+          "number": 2,
+          "label": "A (3)",
+          "front": "items/tarja-contem-1-card-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-card-003",
+          "number": 3,
+          "label": "A (1)",
+          "front": "items/tarja-contem-1-card-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-card-004",
+          "number": 4,
+          "label": "A (5)",
+          "front": "items/tarja-contem-1-card-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-card-005",
+          "number": 5,
+          "label": "A (4)",
+          "front": "items/tarja-contem-1-card-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-contem-1-card",
+      "title": "EMBALAGEM: CONTÉM 1 CARD",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-contem-1-card-001",
+          "number": 1,
+          "label": "B1.1",
+          "front": "items/embalagem-contem-1-card-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-002",
+          "number": 2,
+          "label": "B1.2",
+          "front": "items/embalagem-contem-1-card-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-003",
+          "number": 3,
+          "label": "B3.1",
+          "front": "items/embalagem-contem-1-card-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-004",
+          "number": 4,
+          "label": "B3.2",
+          "front": "items/embalagem-contem-1-card-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-005",
+          "number": 5,
+          "label": "B2.1",
+          "front": "items/embalagem-contem-1-card-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-006",
+          "number": 6,
+          "label": "B2.2",
+          "front": "items/embalagem-contem-1-card-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-007",
+          "number": 7,
+          "label": "B4.1",
+          "front": "items/embalagem-contem-1-card-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-008",
+          "number": 8,
+          "label": "B4.2",
+          "front": "items/embalagem-contem-1-card-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-009",
+          "number": 9,
+          "label": "B5.1",
+          "front": "items/embalagem-contem-1-card-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-010",
+          "number": 10,
+          "label": "B5.2",
+          "front": "items/embalagem-contem-1-card-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-card-com-lente-secreta",
+      "title": "TARJA: CONTÉM 1 CARD COM LENTE SECRETA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-card-com-lente-secreta-001",
+          "number": 1,
+          "label": "C (1)",
+          "front": "items/tarja-contem-1-card-com-lente-secreta-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-card-com-lente-secreta-002",
+          "number": 2,
+          "label": "C (5)",
+          "front": "items/tarja-contem-1-card-com-lente-secreta-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-card-com-lente-secreta-003",
+          "number": 3,
+          "label": "C (2)",
+          "front": "items/tarja-contem-1-card-com-lente-secreta-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-card-com-lente-secreta-004",
+          "number": 4,
+          "label": "C (3)",
+          "front": "items/tarja-contem-1-card-com-lente-secreta-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-card-com-lente-secreta-005",
+          "number": 5,
+          "label": "C (4)",
+          "front": "items/tarja-contem-1-card-com-lente-secreta-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-direita",
+      "title": "EMBALAGEM: CONTÉM 1 CARD COM LENTE SECRETA (CARD SUPERIOR APONTANDO PARA A DIREITA)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-direita-001",
+          "number": 1,
+          "label": "D (1)",
+          "front": "items/embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-direita-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-direita-002",
+          "number": 2,
+          "label": "D (2)",
+          "front": "items/embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-direita-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-direita-003",
+          "number": 3,
+          "label": "D (3) VALIDADE",
+          "front": "items/embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-direita-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-esquerda",
+      "title": "EMBALAGEM: CONTÉM 1 CARD COM LENTE SECRETA (CARD SUPERIOR APONTANDO PARA A ESQUERDA)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-esquerda-001",
+          "number": 1,
+          "label": "E (2)",
+          "front": "items/embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-esquerda-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-esquerda-002",
+          "number": 2,
+          "label": "E (3)",
+          "front": "items/embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-esquerda-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-esquerda-003",
+          "number": 3,
+          "label": "E (1)",
+          "front": "items/embalagem-contem-1-card-com-lente-secreta-card-superior-apontando-para-a-esquerda-003-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}
