@@ -1,0 +1,1009 @@
+{
+  "slug": "liga",
+  "name": "Liga da Justica Super Spiners",
+  "year": 2004,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/liga",
+  "scrapedAt": "2026-08-05T03:23:53.386Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2004 - LIGA DA JUSTIÇA.jpg",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "spiner",
+      "title": "SPINER",
+      "kind": "gallery",
+      "points": null,
+      "expected": 40,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "spiner-001",
+          "number": 1,
+          "label": "1 - SUPER HOMEM",
+          "front": "items/spiner-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-002",
+          "number": 2,
+          "label": "2 - SUPER HOMEM",
+          "front": "items/spiner-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-003",
+          "number": 3,
+          "label": "3 - SUPER HOMEM",
+          "front": "items/spiner-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-004",
+          "number": 4,
+          "label": "4 - BATMAN",
+          "front": "items/spiner-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-005",
+          "number": 5,
+          "label": "5 - BATMAN",
+          "front": "items/spiner-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-006",
+          "number": 6,
+          "label": "6 - BATMAN",
+          "front": "items/spiner-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-007",
+          "number": 7,
+          "label": "7 - MULHER-MARAVILHA",
+          "front": "items/spiner-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-008",
+          "number": 8,
+          "label": "8 - MULHER-MARAVILHA",
+          "front": "items/spiner-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-009",
+          "number": 9,
+          "label": "9 - MULHER-MARAVILHA",
+          "front": "items/spiner-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-010",
+          "number": 10,
+          "label": "10 - FLASH",
+          "front": "items/spiner-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-011",
+          "number": 1,
+          "label": "1 - SUPER HOMEM",
+          "front": "items/spiner-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-012",
+          "number": 2,
+          "label": "2 - SUPER HOMEM",
+          "front": "items/spiner-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-013",
+          "number": 3,
+          "label": "3 - SUPER HOMEM",
+          "front": "items/spiner-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-014",
+          "number": 4,
+          "label": "4 - BATMAN",
+          "front": "items/spiner-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-015",
+          "number": 5,
+          "label": "5 - BATMAN",
+          "front": "items/spiner-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-016",
+          "number": 6,
+          "label": "6 - BATMAN",
+          "front": "items/spiner-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-017",
+          "number": 7,
+          "label": "7 - MULHER-MARAVILHA",
+          "front": "items/spiner-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-018",
+          "number": 8,
+          "label": "8 - MULHER-MARAVILHA",
+          "front": "items/spiner-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-019",
+          "number": 9,
+          "label": "9 - MULHER-MARAVILHA",
+          "front": "items/spiner-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-020",
+          "number": 10,
+          "label": "10 - FLASH",
+          "front": "items/spiner-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-021",
+          "number": 11,
+          "label": "11 - FLASH",
+          "front": "items/spiner-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-022",
+          "number": 12,
+          "label": "12 - MULHER-GAVIÃO",
+          "front": "items/spiner-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-023",
+          "number": 13,
+          "label": "13 - MULHER-GAVIÃO",
+          "front": "items/spiner-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-024",
+          "number": 14,
+          "label": "14 - LANTERNA VERDE",
+          "front": "items/spiner-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-025",
+          "number": 15,
+          "label": "15 - LANTERNA VERDE",
+          "front": "items/spiner-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-026",
+          "number": 16,
+          "label": "16 - AJAX",
+          "front": "items/spiner-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-027",
+          "number": 17,
+          "label": "17 - AJAX",
+          "front": "items/spiner-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-028",
+          "number": 18,
+          "label": "18 - AQUAMAN",
+          "front": "items/spiner-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-029",
+          "number": 19,
+          "label": "19 - AQUAMAN",
+          "front": "items/spiner-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-030",
+          "number": 20,
+          "label": "20 - EMBLEMA SUPER HOMEM",
+          "front": "items/spiner-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-031",
+          "number": 11,
+          "label": "11 - FLASH",
+          "front": "items/spiner-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-032",
+          "number": 12,
+          "label": "12 - MULHER-GAVIÃO",
+          "front": "items/spiner-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-033",
+          "number": 13,
+          "label": "13 - MULHER-GAVIÃO",
+          "front": "items/spiner-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-034",
+          "number": 14,
+          "label": "14 - LANTERNA VERDE",
+          "front": "items/spiner-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-035",
+          "number": 15,
+          "label": "15 - LANTERNA VERDE",
+          "front": "items/spiner-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-036",
+          "number": 16,
+          "label": "16 - AJAX",
+          "front": "items/spiner-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-037",
+          "number": 17,
+          "label": "17 - AJAX",
+          "front": "items/spiner-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-038",
+          "number": 18,
+          "label": "18 - AQUAMAN",
+          "front": "items/spiner-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-039",
+          "number": 19,
+          "label": "19 - AQUAMAN",
+          "front": "items/spiner-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-040",
+          "number": 20,
+          "label": "20 - EMBLEMA SUPER HOMEM",
+          "front": "items/spiner-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-041",
+          "number": 21,
+          "label": "21 - EMBLEMA BATMAN",
+          "front": "items/spiner-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-042",
+          "number": 22,
+          "label": "22 - EMBLEMA MULHER-MARAVILHA",
+          "front": "items/spiner-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-043",
+          "number": 23,
+          "label": "23 - EMBLEMA FLASH",
+          "front": "items/spiner-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-044",
+          "number": 24,
+          "label": "24 - EMBLEMA MULHER-GAVIÃO",
+          "front": "items/spiner-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-045",
+          "number": 25,
+          "label": "25 - EMBLEMA LANTERNA VERDE",
+          "front": "items/spiner-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-046",
+          "number": 26,
+          "label": "26 - EMBLEMA AJAX",
+          "front": "items/spiner-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-047",
+          "number": 27,
+          "label": "27 - SOLOMON GRUNDY",
+          "front": "items/spiner-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-048",
+          "number": 28,
+          "label": "28 - SHADE",
+          "front": "items/spiner-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-049",
+          "number": 29,
+          "label": "29 - LEX LUTHOR",
+          "front": "items/spiner-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-050",
+          "number": 30,
+          "label": "30 - CORINGA",
+          "front": "items/spiner-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-051",
+          "number": 21,
+          "label": "21 - EMBLEMA BATMAN",
+          "front": "items/spiner-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-052",
+          "number": 22,
+          "label": "22 - EMBLEMA MULHER-MARAVILHA",
+          "front": "items/spiner-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-053",
+          "number": 23,
+          "label": "23 - EMBLEMA FLASH",
+          "front": "items/spiner-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-054",
+          "number": 24,
+          "label": "24 - EMBLEMA MULHER-GAVIÃO",
+          "front": "items/spiner-054-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-055",
+          "number": 25,
+          "label": "25 - EMBLEMA LANTERNA VERDE",
+          "front": "items/spiner-055-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-056",
+          "number": 26,
+          "label": "26 - EMBLEMA AJAX",
+          "front": "items/spiner-056-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-057",
+          "number": 27,
+          "label": "27 - SOLOMON GRUNDY",
+          "front": "items/spiner-057-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-058",
+          "number": 28,
+          "label": "28 - SHADE",
+          "front": "items/spiner-058-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-059",
+          "number": 29,
+          "label": "29 - LEX LUTHOR",
+          "front": "items/spiner-059-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-060",
+          "number": 30,
+          "label": "30 - CORINGA",
+          "front": "items/spiner-060-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-061",
+          "number": 31,
+          "label": "31 - ULTRA-HUMANITA",
+          "front": "items/spiner-061-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-062",
+          "number": 32,
+          "label": "32 - SAFIRA ESTRELA",
+          "front": "items/spiner-062-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-063",
+          "number": 33,
+          "label": "33 - KANJAR RO",
+          "front": "items/spiner-063-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-064",
+          "number": 34,
+          "label": "34 - CORINGA.34-A",
+          "front": "items/spiner-064-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-065",
+          "number": 35,
+          "label": "35 - LIGA DA JUSTIÇA",
+          "front": "items/spiner-065-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-066",
+          "number": 36,
+          "label": "36 - LIGA DA JUSTIÇA",
+          "front": "items/spiner-066-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-067",
+          "number": 37,
+          "label": "37 - LIGA DA JUSTIÇA",
+          "front": "items/spiner-067-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-068",
+          "number": 38,
+          "label": "38 - LIGA DA JUSTIÇA",
+          "front": "items/spiner-068-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-069",
+          "number": 39,
+          "label": "39 - LIGA DO MAL",
+          "front": "items/spiner-069-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-070",
+          "number": 40,
+          "label": "40 - LIGA DO MAL",
+          "front": "items/spiner-070-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-071",
+          "number": 31,
+          "label": "31 - ULTRA-HUMANITA",
+          "front": "items/spiner-071-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-072",
+          "number": 32,
+          "label": "32 - SAFIRA ESTRELA",
+          "front": "items/spiner-072-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-073",
+          "number": 33,
+          "label": "33 - KANJAR RO",
+          "front": "items/spiner-073-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-074",
+          "number": 34,
+          "label": "34 - CORINGA",
+          "front": "items/spiner-074-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-075",
+          "number": 35,
+          "label": "35 - LIGA DA JUSTIÇA",
+          "front": "items/spiner-075-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-076",
+          "number": 36,
+          "label": "36 - LIGA DA JUSTIÇA",
+          "front": "items/spiner-076-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-077",
+          "number": 37,
+          "label": "37 - LIGA DA JUSTIÇA",
+          "front": "items/spiner-077-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-078",
+          "number": 38,
+          "label": "38 - LIGA DA JUSTIÇA",
+          "front": "items/spiner-078-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-079",
+          "number": 39,
+          "label": "39 - LIGA DO MAL",
+          "front": "items/spiner-079-front.jpg",
+          "back": null
+        },
+        {
+          "id": "spiner-080",
+          "number": 40,
+          "label": "40 - LIGA DO MAL",
+          "front": "items/spiner-080-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "stamp-adesivos",
+      "title": "STAMP (ADESIVOS)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "stamp-adesivos-001",
+          "number": 1,
+          "label": "1 - SUPER HOMEM",
+          "front": "items/stamp-adesivos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-002",
+          "number": 2,
+          "label": "2 - SUPER HOMEM",
+          "front": "items/stamp-adesivos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-003",
+          "number": 3,
+          "label": "3 - BATMAN",
+          "front": "items/stamp-adesivos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-004",
+          "number": 4,
+          "label": "4 - BATMAN",
+          "front": "items/stamp-adesivos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-005",
+          "number": 5,
+          "label": "5 - MULHER-MARAVILHA",
+          "front": "items/stamp-adesivos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-006",
+          "number": 6,
+          "label": "6 - FLASH",
+          "front": "items/stamp-adesivos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-007",
+          "number": 7,
+          "label": "7 - MULHER-GAVIÃO",
+          "front": "items/stamp-adesivos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-008",
+          "number": 8,
+          "label": "8 - AJAX",
+          "front": "items/stamp-adesivos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-009",
+          "number": 9,
+          "label": "9 - AJAX",
+          "front": "items/stamp-adesivos-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-010",
+          "number": 10,
+          "label": "10 - AQUAMAN",
+          "front": "items/stamp-adesivos-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-011",
+          "number": 11,
+          "label": "11 - RAINHA MERA",
+          "front": "items/stamp-adesivos-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-012",
+          "number": 12,
+          "label": "12 - LANTERNA VERDE",
+          "front": "items/stamp-adesivos-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-013",
+          "number": 13,
+          "label": "13 - LANTERNA VERDE",
+          "front": "items/stamp-adesivos-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-014",
+          "number": 14,
+          "label": "14 - SUPER HOMEM E BATMAN",
+          "front": "items/stamp-adesivos-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-015",
+          "number": 15,
+          "label": "15 - MULHER-LEOPARDO",
+          "front": "items/stamp-adesivos-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-016",
+          "number": 16,
+          "label": "16 - CAÇADORES",
+          "front": "items/stamp-adesivos-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-017",
+          "number": 17,
+          "label": "17 - GORILA GRODD",
+          "front": "items/stamp-adesivos-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-018",
+          "number": 18,
+          "label": "18 - SAFIRA ESTRELA",
+          "front": "items/stamp-adesivos-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-019",
+          "number": 19,
+          "label": "19 - CORINGA",
+          "front": "items/stamp-adesivos-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-020",
+          "number": 20,
+          "label": "20 - SOLOMON GRUNDY",
+          "front": "items/stamp-adesivos-020-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "arena-de-batalha",
+      "title": "ARENA DE BATALHA",
+      "kind": "gallery",
+      "points": null,
+      "expected": 4,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "arena-de-batalha-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/arena-de-batalha-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/arena-de-batalha-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/arena-de-batalha-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/arena-de-batalha-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/arena-de-batalha-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/arena-de-batalha-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-adesivos-stamps",
+      "title": "TARJA: ADESIVOS STAMPS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-adesivos-stamps-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-adesivos-stamps-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-adesivos-stamps-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-adesivos-stamps-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-adesivos-stamps-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-adesivos-stamps-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-super-spiner",
+      "title": "TARJA: SUPER SPINER",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-super-spiner-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-super-spiner-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-super-spiner-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-super-spiner-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-super-spiner-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-super-spiner-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-super-spiner-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-super-spiner-004-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

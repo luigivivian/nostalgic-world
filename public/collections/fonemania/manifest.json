@@ -1,0 +1,1310 @@
+{
+  "slug": "fonemania",
+  "name": "Fonemania",
+  "year": 2006,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/fonemania",
+  "scrapedAt": "2026-08-05T03:25:09.199Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2006 - FONEMANIA.jpg",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "metal-sticker",
+      "title": "METAL STICKER",
+      "kind": "gallery",
+      "points": null,
+      "expected": 68,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "metal-sticker-001",
+          "number": 1,
+          "label": "01",
+          "front": "items/metal-sticker-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-002",
+          "number": 2,
+          "label": "02",
+          "front": "items/metal-sticker-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-003",
+          "number": 3,
+          "label": "03",
+          "front": "items/metal-sticker-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-004",
+          "number": 4,
+          "label": "04",
+          "front": "items/metal-sticker-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-005",
+          "number": 5,
+          "label": "05",
+          "front": "items/metal-sticker-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-006",
+          "number": 6,
+          "label": "06",
+          "front": "items/metal-sticker-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-007",
+          "number": 7,
+          "label": "07",
+          "front": "items/metal-sticker-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-008",
+          "number": 8,
+          "label": "08",
+          "front": "items/metal-sticker-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-009",
+          "number": 9,
+          "label": "09",
+          "front": "items/metal-sticker-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-010",
+          "number": 10,
+          "label": "10",
+          "front": "items/metal-sticker-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-011",
+          "number": 11,
+          "label": "11",
+          "front": "items/metal-sticker-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-012",
+          "number": 12,
+          "label": "12",
+          "front": "items/metal-sticker-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-013",
+          "number": 13,
+          "label": "13",
+          "front": "items/metal-sticker-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-014",
+          "number": 14,
+          "label": "14",
+          "front": "items/metal-sticker-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-015",
+          "number": 15,
+          "label": "15",
+          "front": "items/metal-sticker-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-016",
+          "number": 16,
+          "label": "16",
+          "front": "items/metal-sticker-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-017",
+          "number": 17,
+          "label": "17",
+          "front": "items/metal-sticker-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-018",
+          "number": 18,
+          "label": "18",
+          "front": "items/metal-sticker-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-019",
+          "number": 19,
+          "label": "19",
+          "front": "items/metal-sticker-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-020",
+          "number": 20,
+          "label": "20",
+          "front": "items/metal-sticker-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-021",
+          "number": 21,
+          "label": "21",
+          "front": "items/metal-sticker-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-022",
+          "number": 22,
+          "label": "22",
+          "front": "items/metal-sticker-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-023",
+          "number": 23,
+          "label": "23",
+          "front": "items/metal-sticker-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-024",
+          "number": 24,
+          "label": "24",
+          "front": "items/metal-sticker-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-025",
+          "number": 25,
+          "label": "25",
+          "front": "items/metal-sticker-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-026",
+          "number": 26,
+          "label": "26",
+          "front": "items/metal-sticker-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-027",
+          "number": 27,
+          "label": "27",
+          "front": "items/metal-sticker-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-028",
+          "number": 28,
+          "label": "28",
+          "front": "items/metal-sticker-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-029",
+          "number": 29,
+          "label": "29",
+          "front": "items/metal-sticker-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-030",
+          "number": 30,
+          "label": "30",
+          "front": "items/metal-sticker-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-031",
+          "number": 31,
+          "label": "31",
+          "front": "items/metal-sticker-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-032",
+          "number": 32,
+          "label": "32",
+          "front": "items/metal-sticker-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-033",
+          "number": 33,
+          "label": "33",
+          "front": "items/metal-sticker-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-034",
+          "number": 34,
+          "label": "34",
+          "front": "items/metal-sticker-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-035",
+          "number": 35,
+          "label": "35",
+          "front": "items/metal-sticker-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-036",
+          "number": 36,
+          "label": "36",
+          "front": "items/metal-sticker-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-037",
+          "number": 37,
+          "label": "37",
+          "front": "items/metal-sticker-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-038",
+          "number": 38,
+          "label": "38",
+          "front": "items/metal-sticker-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-039",
+          "number": 39,
+          "label": "39",
+          "front": "items/metal-sticker-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-040",
+          "number": 40,
+          "label": "40",
+          "front": "items/metal-sticker-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-041",
+          "number": 41,
+          "label": "41",
+          "front": "items/metal-sticker-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-042",
+          "number": 42,
+          "label": "42",
+          "front": "items/metal-sticker-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-043",
+          "number": 43,
+          "label": "43",
+          "front": "items/metal-sticker-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-044",
+          "number": 44,
+          "label": "44",
+          "front": "items/metal-sticker-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-045",
+          "number": 45,
+          "label": "45",
+          "front": "items/metal-sticker-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-046",
+          "number": 46,
+          "label": "46",
+          "front": "items/metal-sticker-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-047",
+          "number": 47,
+          "label": "47",
+          "front": "items/metal-sticker-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-048",
+          "number": 48,
+          "label": "48",
+          "front": "items/metal-sticker-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-049",
+          "number": 49,
+          "label": "49",
+          "front": "items/metal-sticker-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-050",
+          "number": 50,
+          "label": "50",
+          "front": "items/metal-sticker-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-051",
+          "number": 51,
+          "label": "51",
+          "front": "items/metal-sticker-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-052",
+          "number": 52,
+          "label": "52",
+          "front": "items/metal-sticker-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-053",
+          "number": 53,
+          "label": "53",
+          "front": "items/metal-sticker-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-054",
+          "number": 54,
+          "label": "54",
+          "front": "items/metal-sticker-054-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-055",
+          "number": 55,
+          "label": "55",
+          "front": "items/metal-sticker-055-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-056",
+          "number": 56,
+          "label": "56",
+          "front": "items/metal-sticker-056-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-057",
+          "number": 57,
+          "label": "57",
+          "front": "items/metal-sticker-057-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-058",
+          "number": 58,
+          "label": "58",
+          "front": "items/metal-sticker-058-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-059",
+          "number": 59,
+          "label": "59",
+          "front": "items/metal-sticker-059-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-060",
+          "number": 60,
+          "label": "60",
+          "front": "items/metal-sticker-060-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-061",
+          "number": 61,
+          "label": "61",
+          "front": "items/metal-sticker-061-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-062",
+          "number": 62,
+          "label": "62",
+          "front": "items/metal-sticker-062-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-063",
+          "number": 63,
+          "label": "63",
+          "front": "items/metal-sticker-063-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-064",
+          "number": 64,
+          "label": "64",
+          "front": "items/metal-sticker-064-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-065",
+          "number": 65,
+          "label": "65",
+          "front": "items/metal-sticker-065-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-066",
+          "number": 66,
+          "label": "66",
+          "front": "items/metal-sticker-066-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-067",
+          "number": 67,
+          "label": "67",
+          "front": "items/metal-sticker-067-front.jpg",
+          "back": null
+        },
+        {
+          "id": "metal-sticker-068",
+          "number": 68,
+          "label": "68",
+          "front": "items/metal-sticker-068-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "drop-sticker",
+      "title": "DROP STICKER",
+      "kind": "gallery",
+      "points": null,
+      "expected": 32,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "drop-sticker-001",
+          "number": 2006,
+          "label": "2006.06.02.XX-1",
+          "front": "items/drop-sticker-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-002",
+          "number": 2006,
+          "label": "2006.06.02.XX-2",
+          "front": "items/drop-sticker-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-003",
+          "number": 2006,
+          "label": "2006.06.02.XX-3",
+          "front": "items/drop-sticker-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-004",
+          "number": 2006,
+          "label": "2006.06.02.XX-4",
+          "front": "items/drop-sticker-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-005",
+          "number": 1,
+          "label": "01",
+          "front": "items/drop-sticker-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-006",
+          "number": 2,
+          "label": "02",
+          "front": "items/drop-sticker-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-007",
+          "number": 3,
+          "label": "03",
+          "front": "items/drop-sticker-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-008",
+          "number": 4,
+          "label": "04",
+          "front": "items/drop-sticker-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-009",
+          "number": 5,
+          "label": "05",
+          "front": "items/drop-sticker-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-010",
+          "number": 6,
+          "label": "06",
+          "front": "items/drop-sticker-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-011",
+          "number": 7,
+          "label": "07",
+          "front": "items/drop-sticker-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-012",
+          "number": 8,
+          "label": "08",
+          "front": "items/drop-sticker-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-013",
+          "number": 9,
+          "label": "09",
+          "front": "items/drop-sticker-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-014",
+          "number": 10,
+          "label": "10",
+          "front": "items/drop-sticker-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-015",
+          "number": 11,
+          "label": "11",
+          "front": "items/drop-sticker-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-016",
+          "number": 12,
+          "label": "12",
+          "front": "items/drop-sticker-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-017",
+          "number": 13,
+          "label": "13",
+          "front": "items/drop-sticker-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-018",
+          "number": 14,
+          "label": "14",
+          "front": "items/drop-sticker-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-019",
+          "number": 15,
+          "label": "15",
+          "front": "items/drop-sticker-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-020",
+          "number": 16,
+          "label": "16",
+          "front": "items/drop-sticker-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-021",
+          "number": 17,
+          "label": "17",
+          "front": "items/drop-sticker-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-022",
+          "number": 18,
+          "label": "18",
+          "front": "items/drop-sticker-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-023",
+          "number": 19,
+          "label": "19",
+          "front": "items/drop-sticker-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-024",
+          "number": 20,
+          "label": "20",
+          "front": "items/drop-sticker-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-025",
+          "number": 21,
+          "label": "21",
+          "front": "items/drop-sticker-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-026",
+          "number": 22,
+          "label": "22",
+          "front": "items/drop-sticker-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-027",
+          "number": 23,
+          "label": "23",
+          "front": "items/drop-sticker-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-028",
+          "number": 24,
+          "label": "24",
+          "front": "items/drop-sticker-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-029",
+          "number": 25,
+          "label": "25",
+          "front": "items/drop-sticker-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-030",
+          "number": 26,
+          "label": "26",
+          "front": "items/drop-sticker-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-031",
+          "number": 27,
+          "label": "27",
+          "front": "items/drop-sticker-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-032",
+          "number": 28,
+          "label": "28",
+          "front": "items/drop-sticker-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-033",
+          "number": 29,
+          "label": "29",
+          "front": "items/drop-sticker-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-034",
+          "number": 30,
+          "label": "30",
+          "front": "items/drop-sticker-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-035",
+          "number": 31,
+          "label": "31",
+          "front": "items/drop-sticker-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "drop-sticker-036",
+          "number": 32,
+          "label": "32",
+          "front": "items/drop-sticker-036-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "pingente-de-celular",
+      "title": "PINGENTE DE CELULAR",
+      "kind": "gallery",
+      "points": null,
+      "expected": 40,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "pingente-de-celular-001",
+          "number": 2006,
+          "label": "2006.06.03.XX-1",
+          "front": "items/pingente-de-celular-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-002",
+          "number": 2006,
+          "label": "2006.06.03.XX-2",
+          "front": "items/pingente-de-celular-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-003",
+          "number": 2006,
+          "label": "2006.06.03.XX-3",
+          "front": "items/pingente-de-celular-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-004",
+          "number": 1,
+          "label": "01",
+          "front": "items/pingente-de-celular-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-005",
+          "number": 2,
+          "label": "02",
+          "front": "items/pingente-de-celular-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-006",
+          "number": 3,
+          "label": "03",
+          "front": "items/pingente-de-celular-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-007",
+          "number": 4,
+          "label": "04",
+          "front": "items/pingente-de-celular-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-008",
+          "number": 5,
+          "label": "05",
+          "front": "items/pingente-de-celular-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-009",
+          "number": 6,
+          "label": "06",
+          "front": "items/pingente-de-celular-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-010",
+          "number": 7,
+          "label": "07",
+          "front": "items/pingente-de-celular-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-011",
+          "number": 8,
+          "label": "08",
+          "front": "items/pingente-de-celular-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-012",
+          "number": 9,
+          "label": "09",
+          "front": "items/pingente-de-celular-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-013",
+          "number": 10,
+          "label": "10",
+          "front": "items/pingente-de-celular-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-014",
+          "number": 11,
+          "label": "11",
+          "front": "items/pingente-de-celular-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-015",
+          "number": 12,
+          "label": "12",
+          "front": "items/pingente-de-celular-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-016",
+          "number": 13,
+          "label": "13",
+          "front": "items/pingente-de-celular-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-017",
+          "number": 14,
+          "label": "14",
+          "front": "items/pingente-de-celular-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-018",
+          "number": 1515,
+          "label": "1515",
+          "front": "items/pingente-de-celular-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-019",
+          "number": 16,
+          "label": "16",
+          "front": "items/pingente-de-celular-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-020",
+          "number": 17,
+          "label": "17",
+          "front": "items/pingente-de-celular-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-021",
+          "number": 18,
+          "label": "18",
+          "front": "items/pingente-de-celular-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-022",
+          "number": 19,
+          "label": "19",
+          "front": "items/pingente-de-celular-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-023",
+          "number": 20,
+          "label": "20",
+          "front": "items/pingente-de-celular-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-024",
+          "number": 21,
+          "label": "21",
+          "front": "items/pingente-de-celular-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-025",
+          "number": 22,
+          "label": "22",
+          "front": "items/pingente-de-celular-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-026",
+          "number": 23,
+          "label": "23",
+          "front": "items/pingente-de-celular-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-027",
+          "number": 24,
+          "label": "24",
+          "front": "items/pingente-de-celular-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-028",
+          "number": 25,
+          "label": "25",
+          "front": "items/pingente-de-celular-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-029",
+          "number": 26,
+          "label": "26",
+          "front": "items/pingente-de-celular-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-030",
+          "number": 27,
+          "label": "27",
+          "front": "items/pingente-de-celular-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-031",
+          "number": 28,
+          "label": "28",
+          "front": "items/pingente-de-celular-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-032",
+          "number": 29,
+          "label": "29",
+          "front": "items/pingente-de-celular-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-033",
+          "number": 30,
+          "label": "30",
+          "front": "items/pingente-de-celular-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-034",
+          "number": 31,
+          "label": "31",
+          "front": "items/pingente-de-celular-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-035",
+          "number": 32,
+          "label": "32",
+          "front": "items/pingente-de-celular-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-036",
+          "number": 33,
+          "label": "33",
+          "front": "items/pingente-de-celular-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-037",
+          "number": 34,
+          "label": "34",
+          "front": "items/pingente-de-celular-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-038",
+          "number": 35,
+          "label": "35",
+          "front": "items/pingente-de-celular-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-039",
+          "number": 36,
+          "label": "36",
+          "front": "items/pingente-de-celular-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-040",
+          "number": 37,
+          "label": "37",
+          "front": "items/pingente-de-celular-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-041",
+          "number": 38,
+          "label": "38",
+          "front": "items/pingente-de-celular-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-042",
+          "number": 39,
+          "label": "39",
+          "front": "items/pingente-de-celular-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-043",
+          "number": 40,
+          "label": "40",
+          "front": "items/pingente-de-celular-043-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-1",
+      "title": "TARJA 1",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-1-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-1-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-1-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-1-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-1-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-1-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-1-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-1-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-1-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-1-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-2",
+      "title": "TARJA 2",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-2-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-2-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-009-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

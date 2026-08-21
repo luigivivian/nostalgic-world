@@ -1,0 +1,1281 @@
+{
+  "slug": "filhotes",
+  "name": "Promocao Filhotes (The Dog)",
+  "year": 2006,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/filhotes",
+  "scrapedAt": "2026-08-05T03:24:41.346Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "comercial-videos",
+      "title": "COMERCIAL / VÍDEOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "comercial-videos-001",
+          "number": 1,
+          "label": "2006 - FILHOTES.jpg",
+          "front": "items/comercial-videos-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "45-15",
+      "title": "45 + 15",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "45-15-001",
+          "number": 1,
+          "label": "LACRADA",
+          "front": "items/45-15-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-002",
+          "number": 2,
+          "label": "LACRADA",
+          "front": "items/45-15-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-003",
+          "number": 3,
+          "label": "FIGURINHA",
+          "front": "items/45-15-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-004",
+          "number": 4,
+          "label": "FIGURINHA",
+          "front": "items/45-15-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-005",
+          "number": 5,
+          "label": "VALE-BRINDE",
+          "front": "items/45-15-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-006",
+          "number": 6,
+          "label": "VALE-BRINDE",
+          "front": "items/45-15-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-007",
+          "number": 7,
+          "label": "BEAGLE",
+          "front": "items/45-15-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-008",
+          "number": 8,
+          "label": "BEAGLE",
+          "front": "items/45-15-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-009",
+          "number": 9,
+          "label": "BEAGLE",
+          "front": "items/45-15-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-010",
+          "number": 10,
+          "label": "BEAGLE",
+          "front": "items/45-15-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-011",
+          "number": 11,
+          "label": "BULLDOG FRANCÊS",
+          "front": "items/45-15-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-012",
+          "number": 12,
+          "label": "BULLDOG FRANCÊS",
+          "front": "items/45-15-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-013",
+          "number": 13,
+          "label": "BULLDOG FRANCÊS",
+          "front": "items/45-15-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-014",
+          "number": 14,
+          "label": "BULLDOG FRANCÊS",
+          "front": "items/45-15-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-015",
+          "number": 15,
+          "label": "CAVALIER KING CHARLES SPANIEL",
+          "front": "items/45-15-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-016",
+          "number": 16,
+          "label": "CAVALIER KING CHARLES SPANIEL",
+          "front": "items/45-15-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-017",
+          "number": 17,
+          "label": "CAVALIER KING CHARLES SPANIEL",
+          "front": "items/45-15-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-018",
+          "number": 18,
+          "label": "CAVALIER KING CHARLES SPANIEL",
+          "front": "items/45-15-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-019",
+          "number": 19,
+          "label": "CHIHUAHUA",
+          "front": "items/45-15-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-020",
+          "number": 20,
+          "label": "CHIHUAHUA",
+          "front": "items/45-15-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-021",
+          "number": 21,
+          "label": "CHIHUAHUA",
+          "front": "items/45-15-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-022",
+          "number": 22,
+          "label": "CHIHUAHUA",
+          "front": "items/45-15-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-023",
+          "number": 23,
+          "label": "COCKER SPANIEL",
+          "front": "items/45-15-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-024",
+          "number": 24,
+          "label": "COCKER SPANIEL",
+          "front": "items/45-15-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-025",
+          "number": 25,
+          "label": "COCKER SPANIEL",
+          "front": "items/45-15-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-026",
+          "number": 26,
+          "label": "COCKER SPANIEL",
+          "front": "items/45-15-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-027",
+          "number": 27,
+          "label": "DACHSHUND",
+          "front": "items/45-15-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-028",
+          "number": 28,
+          "label": "DACHSHUND",
+          "front": "items/45-15-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-029",
+          "number": 29,
+          "label": "DACHSHUND",
+          "front": "items/45-15-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-030",
+          "number": 30,
+          "label": "DACHSHUND",
+          "front": "items/45-15-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-031",
+          "number": 31,
+          "label": "DÁLMATA",
+          "front": "items/45-15-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-032",
+          "number": 32,
+          "label": "DÁLMATA",
+          "front": "items/45-15-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-033",
+          "number": 33,
+          "label": "DÁLMATA",
+          "front": "items/45-15-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-034",
+          "number": 34,
+          "label": "DÁLMATA",
+          "front": "items/45-15-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-035",
+          "number": 35,
+          "label": "GOLDEN RETRIEVER",
+          "front": "items/45-15-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-036",
+          "number": 36,
+          "label": "GOLDEN RETRIEVER",
+          "front": "items/45-15-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-037",
+          "number": 37,
+          "label": "GOLDEN RETRIEVER",
+          "front": "items/45-15-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-038",
+          "number": 38,
+          "label": "GOLDEN RETRIEVER",
+          "front": "items/45-15-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-039",
+          "number": 39,
+          "label": "HUSKY SIBERIANO",
+          "front": "items/45-15-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-040",
+          "number": 40,
+          "label": "HUSKY SIBERIANO",
+          "front": "items/45-15-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-041",
+          "number": 41,
+          "label": "HUSKY SIBERIANO",
+          "front": "items/45-15-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-042",
+          "number": 42,
+          "label": "HUSKY SIBERIANO",
+          "front": "items/45-15-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-043",
+          "number": 43,
+          "label": "LABRADOR RETRIEVER",
+          "front": "items/45-15-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-044",
+          "number": 44,
+          "label": "LABRADOR RETRIEVER",
+          "front": "items/45-15-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-045",
+          "number": 45,
+          "label": "LABRADOR RETRIEVER",
+          "front": "items/45-15-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-046",
+          "number": 46,
+          "label": "LABRADOR RETRIEVER",
+          "front": "items/45-15-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-047",
+          "number": 47,
+          "label": "MALTÊS",
+          "front": "items/45-15-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-048",
+          "number": 48,
+          "label": "MALTÊS",
+          "front": "items/45-15-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-049",
+          "number": 49,
+          "label": "MALTÊS",
+          "front": "items/45-15-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-050",
+          "number": 50,
+          "label": "MALTÊS",
+          "front": "items/45-15-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-051",
+          "number": 51,
+          "label": "PAPILLON",
+          "front": "items/45-15-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-052",
+          "number": 52,
+          "label": "PAPILLON",
+          "front": "items/45-15-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-053",
+          "number": 53,
+          "label": "PAPILLON",
+          "front": "items/45-15-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-054",
+          "number": 54,
+          "label": "PAPILLON",
+          "front": "items/45-15-054-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-055",
+          "number": 55,
+          "label": "PASTOR ALEMÃO",
+          "front": "items/45-15-055-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-056",
+          "number": 56,
+          "label": "PASTOR ALEMÃO",
+          "front": "items/45-15-056-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-057",
+          "number": 57,
+          "label": "PASTOR ALEMÃO",
+          "front": "items/45-15-057-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-058",
+          "number": 58,
+          "label": "PASTOR ALEMÃO",
+          "front": "items/45-15-058-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-059",
+          "number": 59,
+          "label": "SHIBA",
+          "front": "items/45-15-059-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-060",
+          "number": 60,
+          "label": "SHIBA",
+          "front": "items/45-15-060-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-061",
+          "number": 61,
+          "label": "SHIBA",
+          "front": "items/45-15-061-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-062",
+          "number": 62,
+          "label": "SHIBA",
+          "front": "items/45-15-062-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-063",
+          "number": 63,
+          "label": "WELSH CORGI PEMBROKE",
+          "front": "items/45-15-063-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-064",
+          "number": 64,
+          "label": "WELSH CORGI PEMBROKE",
+          "front": "items/45-15-064-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-065",
+          "number": 65,
+          "label": "WELSH CORGI PEMBROKE",
+          "front": "items/45-15-065-front.jpg",
+          "back": null
+        },
+        {
+          "id": "45-15-066",
+          "number": 66,
+          "label": "WELSH CORGI PEMBROKE",
+          "front": "items/45-15-066-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "figurinha-cinza",
+      "title": "FIGURINHA (CINZA)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 36,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "figurinha-cinza-001",
+          "number": 1,
+          "label": "FIGURINHA CINZA",
+          "front": "items/figurinha-cinza-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-002",
+          "number": 2,
+          "label": "BEAGLE",
+          "front": "items/figurinha-cinza-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-003",
+          "number": 3,
+          "label": "BEAGLE",
+          "front": "items/figurinha-cinza-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-004",
+          "number": 4,
+          "label": "BEAGLE",
+          "front": "items/figurinha-cinza-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-005",
+          "number": 5,
+          "label": "DÁLMATA",
+          "front": "items/figurinha-cinza-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-006",
+          "number": 6,
+          "label": "DÁLMATA",
+          "front": "items/figurinha-cinza-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-007",
+          "number": 7,
+          "label": "DÁLMATA",
+          "front": "items/figurinha-cinza-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-008",
+          "number": 8,
+          "label": "GOLDEN RETRIEVER",
+          "front": "items/figurinha-cinza-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-009",
+          "number": 9,
+          "label": "GOLDEN RETRIEVER",
+          "front": "items/figurinha-cinza-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-010",
+          "number": 10,
+          "label": "GOLDEN RETRIEVER",
+          "front": "items/figurinha-cinza-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-011",
+          "number": 11,
+          "label": "HUSKY SIBERIANO",
+          "front": "items/figurinha-cinza-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-012",
+          "number": 12,
+          "label": "HUSKY SIBERIANO",
+          "front": "items/figurinha-cinza-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-013",
+          "number": 13,
+          "label": "HUSKY SIBERIANO",
+          "front": "items/figurinha-cinza-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-014",
+          "number": 14,
+          "label": "LABRADOR RETRIEVER",
+          "front": "items/figurinha-cinza-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-015",
+          "number": 15,
+          "label": "LABRADOR RETRIEVER",
+          "front": "items/figurinha-cinza-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-016",
+          "number": 16,
+          "label": "LABRADOR RETRIEVER",
+          "front": "items/figurinha-cinza-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-017",
+          "number": 17,
+          "label": "MALTÊS",
+          "front": "items/figurinha-cinza-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-018",
+          "number": 18,
+          "label": "MALTÊS",
+          "front": "items/figurinha-cinza-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-019",
+          "number": 19,
+          "label": "MALTÊS",
+          "front": "items/figurinha-cinza-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-020",
+          "number": 20,
+          "label": "BULLDOG FRANCÊS",
+          "front": "items/figurinha-cinza-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-021",
+          "number": 21,
+          "label": "BULLDOG FRANCÊS",
+          "front": "items/figurinha-cinza-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-022",
+          "number": 22,
+          "label": "CAVALIER KING CHARLES SPANIEL",
+          "front": "items/figurinha-cinza-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-023",
+          "number": 23,
+          "label": "CAVALIER KING CHARLES SPANIEL",
+          "front": "items/figurinha-cinza-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-024",
+          "number": 24,
+          "label": "CHIHUAHUA",
+          "front": "items/figurinha-cinza-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-025",
+          "number": 25,
+          "label": "CHIHUAHUA",
+          "front": "items/figurinha-cinza-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-026",
+          "number": 26,
+          "label": "COCKER SPANIEL",
+          "front": "items/figurinha-cinza-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-027",
+          "number": 27,
+          "label": "COCKER SPANIEL",
+          "front": "items/figurinha-cinza-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-028",
+          "number": 28,
+          "label": "DACHSHUND",
+          "front": "items/figurinha-cinza-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-029",
+          "number": 29,
+          "label": "DACHSHUND",
+          "front": "items/figurinha-cinza-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-030",
+          "number": 30,
+          "label": "PAPILLON",
+          "front": "items/figurinha-cinza-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-031",
+          "number": 31,
+          "label": "PAPILLON",
+          "front": "items/figurinha-cinza-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-032",
+          "number": 32,
+          "label": "PASTOR ALEMÃO",
+          "front": "items/figurinha-cinza-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-033",
+          "number": 33,
+          "label": "PASTOR ALEMÃO",
+          "front": "items/figurinha-cinza-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-034",
+          "number": 34,
+          "label": "SHIBA",
+          "front": "items/figurinha-cinza-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-035",
+          "number": 35,
+          "label": "SHIBA",
+          "front": "items/figurinha-cinza-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-036",
+          "number": 36,
+          "label": "WELSH CORGI PEMBROKE",
+          "front": "items/figurinha-cinza-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-cinza-037",
+          "number": 37,
+          "label": "WELSH CORGI PEMBROKE",
+          "front": "items/figurinha-cinza-037-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "album-virtual",
+      "title": "ÁLBUM VIRTUAL",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "album-virtual-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/album-virtual-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "pingente-de-celular",
+      "title": "PINGENTE DE CELULAR",
+      "kind": "gallery",
+      "points": null,
+      "expected": 10,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "pingente-de-celular-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/pingente-de-celular-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-002",
+          "number": 2,
+          "label": "PINGENTES",
+          "front": "items/pingente-de-celular-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-003",
+          "number": 3,
+          "label": "PINGENTES",
+          "front": "items/pingente-de-celular-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-004",
+          "number": 4,
+          "label": "PINGENTES",
+          "front": "items/pingente-de-celular-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-005",
+          "number": 5,
+          "label": "Z H2 - Copia",
+          "front": "items/pingente-de-celular-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/pingente-de-celular-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "chaveiro",
+      "title": "CHAVEIRO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 6,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "chaveiro-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/chaveiro-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-002",
+          "number": 2,
+          "label": "CHAVEIRO",
+          "front": "items/chaveiro-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-003",
+          "number": 3,
+          "label": "CHAVEIRO",
+          "front": "items/chaveiro-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-004",
+          "number": 4,
+          "label": "CHAVEIRO",
+          "front": "items/chaveiro-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-005",
+          "number": 5,
+          "label": "CHAVEIRO",
+          "front": "items/chaveiro-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/chaveiro-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/chaveiro-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/chaveiro-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/chaveiro-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/chaveiro-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "figurinhas-cinzas-quadradas-toddynho",
+      "title": "FIGURINHAS (CINZAS / QUADRADAS) - TODDYNHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 45,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "figurinhas-cinzas-quadradas-toddynho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/figurinhas-cinzas-quadradas-toddynho-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinhas-cinzas-quadradas-toddynho-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/figurinhas-cinzas-quadradas-toddynho-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinhas-cinzas-quadradas-toddynho-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/figurinhas-cinzas-quadradas-toddynho-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinhas-cinzas-quadradas-toddynho-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/figurinhas-cinzas-quadradas-toddynho-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinhas-cinzas-quadradas-toddynho-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/figurinhas-cinzas-quadradas-toddynho-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinhas-cinzas-quadradas-toddynho-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/figurinhas-cinzas-quadradas-toddynho-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/lotes-outras-fotos-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-009",
+          "number": 9,
+          "label": "A (8)",
+          "front": "items/embalagem-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/embalagem-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/embalagem-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/embalagem-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-013",
+          "number": 13,
+          "label": "Foto 13",
+          "front": "items/embalagem-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-014",
+          "number": 14,
+          "label": "Foto 14",
+          "front": "items/embalagem-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-015",
+          "number": 15,
+          "label": "Foto 15",
+          "front": "items/embalagem-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-016",
+          "number": 16,
+          "label": "Foto 16",
+          "front": "items/embalagem-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-017",
+          "number": 17,
+          "label": "Foto 17",
+          "front": "items/embalagem-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-018",
+          "number": 18,
+          "label": "Foto 18",
+          "front": "items/embalagem-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-019",
+          "number": 19,
+          "label": "Foto 19",
+          "front": "items/embalagem-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-020",
+          "number": 20,
+          "label": "Foto 20",
+          "front": "items/embalagem-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-021",
+          "number": 21,
+          "label": "Foto 21",
+          "front": "items/embalagem-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-022",
+          "number": 22,
+          "label": "Foto 22",
+          "front": "items/embalagem-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-023",
+          "number": 23,
+          "label": "Foto 23",
+          "front": "items/embalagem-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-024",
+          "number": 24,
+          "label": "Foto 24",
+          "front": "items/embalagem-024-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

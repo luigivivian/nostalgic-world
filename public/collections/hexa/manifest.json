@@ -1,0 +1,278 @@
+{
+  "slug": "hexa",
+  "name": "Ta Pintando o Hexa",
+  "year": 2006,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/hexa",
+  "scrapedAt": "2026-08-05T03:24:17.995Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "embalagens-e-tarjas",
+      "title": "EMBALAGENS E TARJAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagens-e-tarjas-001",
+          "number": 1,
+          "label": "2006 - TÁ PINTANDO O HEXA.jpg",
+          "front": "items/embalagens-e-tarjas-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "descanso-de-copo-bolachao",
+      "title": "DESCANSO DE COPO (BOLACHÃO)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 7,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "descanso-de-copo-bolachao-001",
+          "number": 1,
+          "label": "1 - ALEMANHA",
+          "front": "items/descanso-de-copo-bolachao-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "descanso-de-copo-bolachao-002",
+          "number": 2,
+          "label": "02 - ARGENTINA",
+          "front": "items/descanso-de-copo-bolachao-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "descanso-de-copo-bolachao-003",
+          "number": 3,
+          "label": "03 - BRASIL",
+          "front": "items/descanso-de-copo-bolachao-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "descanso-de-copo-bolachao-004",
+          "number": 4,
+          "label": "04 - FRANÇA",
+          "front": "items/descanso-de-copo-bolachao-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "descanso-de-copo-bolachao-005",
+          "number": 5,
+          "label": "05 - INGLATERRA",
+          "front": "items/descanso-de-copo-bolachao-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "descanso-de-copo-bolachao-006",
+          "number": 6,
+          "label": "06 - ITÁLIA",
+          "front": "items/descanso-de-copo-bolachao-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "descanso-de-copo-bolachao-007",
+          "number": 7,
+          "label": "07 - URUGUAI",
+          "front": "items/descanso-de-copo-bolachao-007-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "ima-de-geladeira",
+      "title": "IMÃ DE GELADEIRA",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 7,
+      "sharedBack": "items/ima-de-geladeira-shared-back.jpg",
+      "items": [
+        {
+          "id": "ima-de-geladeira-001",
+          "number": 1,
+          "label": "01 - ALEMANHA",
+          "front": "items/ima-de-geladeira-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ima-de-geladeira-002",
+          "number": 2,
+          "label": "02 - ARGENTINA",
+          "front": "items/ima-de-geladeira-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ima-de-geladeira-003",
+          "number": 3,
+          "label": "03 - BRASIL",
+          "front": "items/ima-de-geladeira-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ima-de-geladeira-004",
+          "number": 4,
+          "label": "04 - FRANÇA",
+          "front": "items/ima-de-geladeira-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ima-de-geladeira-005",
+          "number": 5,
+          "label": "05 - INGLATERRA",
+          "front": "items/ima-de-geladeira-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ima-de-geladeira-006",
+          "number": 6,
+          "label": "06 - ITÁLIA",
+          "front": "items/ima-de-geladeira-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ima-de-geladeira-007",
+          "number": 7,
+          "label": "07 - URUGUAI",
+          "front": "items/ima-de-geladeira-007-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "chaveiro",
+      "title": "CHAVEIRO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 7,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "chaveiro-001",
+          "number": 1,
+          "label": "03 - BRASIL",
+          "front": "items/chaveiro-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "chaveiro-002",
+          "number": 2,
+          "label": "03 - BRASIL",
+          "front": "items/chaveiro-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "placa",
+      "title": "PLACA",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "placa-001",
+          "number": 1,
+          "label": "PLACA",
+          "front": "items/placa-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "placa-002",
+          "number": 2,
+          "label": "PLACA",
+          "front": "items/placa-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "placa-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/placa-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "placa-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/placa-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}
