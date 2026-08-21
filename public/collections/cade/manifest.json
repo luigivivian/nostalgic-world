@@ -1,0 +1,757 @@
+{
+  "slug": "cade",
+  "name": "Cade Chester Cheetos?",
+  "year": 2002,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/cadê",
+  "scrapedAt": "2026-08-06T01:57:06.165Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propagandas",
+      "title": "PÔSTER / PROPAGANDAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propagandas-001",
+          "number": 1,
+          "label": "2002 - CADÊ CHESTER CHEETOS.png",
+          "front": "items/poster-propagandas-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propagandas-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-003",
+          "number": 3,
+          "label": "SITE",
+          "front": "items/poster-propagandas-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propagandas-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propagandas-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tazos",
+      "title": "TAZOS",
+      "kind": "paired",
+      "points": null,
+      "expected": 30,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tazos-001",
+          "number": 1,
+          "label": "01 - BRASIL",
+          "front": "items/tazos-001-front.jpg",
+          "back": "items/tazos-001-back.jpg"
+        },
+        {
+          "id": "tazos-002",
+          "number": 2,
+          "label": "02 - BRASIL",
+          "front": "items/tazos-002-front.jpg",
+          "back": "items/tazos-002-back.jpg"
+        },
+        {
+          "id": "tazos-003",
+          "number": 3,
+          "label": "03 - BRASIL",
+          "front": "items/tazos-003-front.jpg",
+          "back": "items/tazos-003-back.jpg"
+        },
+        {
+          "id": "tazos-004",
+          "number": 4,
+          "label": "04 - BRASIL",
+          "front": "items/tazos-004-front.jpg",
+          "back": "items/tazos-004-back.jpg"
+        },
+        {
+          "id": "tazos-005",
+          "number": 5,
+          "label": "05 - FRANÇA",
+          "front": "items/tazos-005-front.jpg",
+          "back": "items/tazos-005-back.jpg"
+        },
+        {
+          "id": "tazos-006",
+          "number": 6,
+          "label": "06 - EGITO",
+          "front": "items/tazos-006-front.jpg",
+          "back": "items/tazos-006-back.jpg"
+        },
+        {
+          "id": "tazos-007",
+          "number": 7,
+          "label": "07 - ESTADOS UNIDOS",
+          "front": "items/tazos-007-front.jpg",
+          "back": "items/tazos-007-back.jpg"
+        },
+        {
+          "id": "tazos-008",
+          "number": 8,
+          "label": "08 - MÉXICO",
+          "front": "items/tazos-008-front.jpg",
+          "back": "items/tazos-008-back.jpg"
+        },
+        {
+          "id": "tazos-009",
+          "number": 9,
+          "label": "09 - INGLATERRA",
+          "front": "items/tazos-009-front.jpg",
+          "back": "items/tazos-009-back.jpg"
+        },
+        {
+          "id": "tazos-010",
+          "number": 10,
+          "label": "10 - CHINA",
+          "front": "items/tazos-010-front.jpg",
+          "back": "items/tazos-010-back.jpg"
+        },
+        {
+          "id": "tazos-011",
+          "number": 11,
+          "label": "11 - AUSTRÁLIA",
+          "front": "items/tazos-011-front.jpg",
+          "back": "items/tazos-011-back.jpg"
+        },
+        {
+          "id": "tazos-012",
+          "number": 12,
+          "label": "12 - JAPÃO",
+          "front": "items/tazos-012-front.jpg",
+          "back": "items/tazos-012-back.jpg"
+        },
+        {
+          "id": "tazos-013",
+          "number": 13,
+          "label": "13 - ALEMANHA",
+          "front": "items/tazos-013-front.jpg",
+          "back": "items/tazos-013-back.jpg"
+        },
+        {
+          "id": "tazos-014",
+          "number": 14,
+          "label": "14 - ITÁLIA",
+          "front": "items/tazos-014-front.jpg",
+          "back": "items/tazos-014-back.jpg"
+        },
+        {
+          "id": "tazos-015",
+          "number": 15,
+          "label": "15 - RÚSSIA",
+          "front": "items/tazos-015-front.jpg",
+          "back": "items/tazos-015-back.jpg"
+        },
+        {
+          "id": "tazos-016",
+          "number": 16,
+          "label": "16 - ESPANHA",
+          "front": "items/tazos-016-front.jpg",
+          "back": "items/tazos-016-back.jpg"
+        },
+        {
+          "id": "tazos-017",
+          "number": 17,
+          "label": "17 - GRÉCIA",
+          "front": "items/tazos-017-front.jpg",
+          "back": "items/tazos-017-back.jpg"
+        },
+        {
+          "id": "tazos-018",
+          "number": 18,
+          "label": "18 - ÁFRICA DO SUL",
+          "front": "items/tazos-018-front.jpg",
+          "back": "items/tazos-018-back.jpg"
+        },
+        {
+          "id": "tazos-019",
+          "number": 19,
+          "label": "19 - PORTUGAL",
+          "front": "items/tazos-019-front.jpg",
+          "back": "items/tazos-019-back.jpg"
+        },
+        {
+          "id": "tazos-020",
+          "number": 20,
+          "label": "20 - SUIÇA",
+          "front": "items/tazos-020-front.jpg",
+          "back": "items/tazos-020-back.jpg"
+        },
+        {
+          "id": "tazos-021",
+          "number": 21,
+          "label": "21 - NOVA ZELÂNDIA",
+          "front": "items/tazos-021-front.jpg",
+          "back": "items/tazos-021-back.jpg"
+        },
+        {
+          "id": "tazos-022",
+          "number": 22,
+          "label": "22 - ÍNDIA",
+          "front": "items/tazos-022-front.jpg",
+          "back": "items/tazos-022-back.jpg"
+        },
+        {
+          "id": "tazos-023",
+          "number": 23,
+          "label": "23 - HOLANDA",
+          "front": "items/tazos-023-front.jpg",
+          "back": "items/tazos-023-back.jpg"
+        },
+        {
+          "id": "tazos-024",
+          "number": 24,
+          "label": "24 - MARROCOS",
+          "front": "items/tazos-024-front.jpg",
+          "back": "items/tazos-024-back.jpg"
+        },
+        {
+          "id": "tazos-025",
+          "number": 25,
+          "label": "25 - PERU",
+          "front": "items/tazos-025-front.jpg",
+          "back": "items/tazos-025-back.jpg"
+        },
+        {
+          "id": "tazos-026",
+          "number": 26,
+          "label": "26 - PÓLO NORTE",
+          "front": "items/tazos-026-front.jpg",
+          "back": "items/tazos-026-back.jpg"
+        },
+        {
+          "id": "tazos-027",
+          "number": 27,
+          "label": "27 - NORUEGA",
+          "front": "items/tazos-027-front.jpg",
+          "back": "items/tazos-027-back.jpg"
+        },
+        {
+          "id": "tazos-028",
+          "number": 28,
+          "label": "28 - TIBET",
+          "front": "items/tazos-028-front.jpg",
+          "back": "items/tazos-028-back.jpg"
+        },
+        {
+          "id": "tazos-029",
+          "number": 29,
+          "label": "29 - CORÉIA DO SUL01-29-A",
+          "front": "items/tazos-029-front.jpg",
+          "back": "items/tazos-029-back.jpg"
+        },
+        {
+          "id": "tazos-030",
+          "number": 30,
+          "label": "30 - ARGENTINA",
+          "front": "items/tazos-030-front.jpg",
+          "back": "items/tazos-030-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "30-x-4",
+      "title": "30 x 4",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "30-x-4-001",
+          "number": 1,
+          "label": "01 - BRASIL",
+          "front": "items/30-x-4-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-002",
+          "number": 2,
+          "label": "02 - BRASIL",
+          "front": "items/30-x-4-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-003",
+          "number": 3,
+          "label": "03 - BRASIL",
+          "front": "items/30-x-4-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-004",
+          "number": 4,
+          "label": "04 - BRASIL",
+          "front": "items/30-x-4-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-005",
+          "number": 5,
+          "label": "05 - FRANÇA",
+          "front": "items/30-x-4-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-006",
+          "number": 6,
+          "label": "06 - EGITO",
+          "front": "items/30-x-4-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-007",
+          "number": 7,
+          "label": "07 - ESTADOS UNIDOS",
+          "front": "items/30-x-4-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-008",
+          "number": 8,
+          "label": "08 - MÉXICO",
+          "front": "items/30-x-4-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-009",
+          "number": 9,
+          "label": "09 - INGLATERRA",
+          "front": "items/30-x-4-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-010",
+          "number": 10,
+          "label": "10 - CHINA",
+          "front": "items/30-x-4-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-011",
+          "number": 11,
+          "label": "11 - AUSTRÁLIA",
+          "front": "items/30-x-4-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-012",
+          "number": 12,
+          "label": "12 - JAPÃO",
+          "front": "items/30-x-4-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-013",
+          "number": 13,
+          "label": "13 - ALEMANHA",
+          "front": "items/30-x-4-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-014",
+          "number": 14,
+          "label": "14 - ITÁLIA",
+          "front": "items/30-x-4-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-015",
+          "number": 15,
+          "label": "15 - RÚSSIA",
+          "front": "items/30-x-4-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-016",
+          "number": 16,
+          "label": "16 - ESPANHA",
+          "front": "items/30-x-4-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-017",
+          "number": 17,
+          "label": "17 - GRÉCIA",
+          "front": "items/30-x-4-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-018",
+          "number": 18,
+          "label": "18 - ÁFRICA DO SUL",
+          "front": "items/30-x-4-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-019",
+          "number": 19,
+          "label": "19 - PORTUGAL",
+          "front": "items/30-x-4-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-020",
+          "number": 20,
+          "label": "20 - SUIÇA",
+          "front": "items/30-x-4-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-021",
+          "number": 2002,
+          "label": "2002.02.01-21-S",
+          "front": "items/30-x-4-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-022",
+          "number": 22,
+          "label": "22 - ÍNDIA",
+          "front": "items/30-x-4-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-023",
+          "number": 23,
+          "label": "23 - HOLANDA",
+          "front": "items/30-x-4-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-024",
+          "number": 24,
+          "label": "24 - MARROCOS",
+          "front": "items/30-x-4-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-025",
+          "number": 25,
+          "label": "25 - PERU",
+          "front": "items/30-x-4-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-026",
+          "number": 26,
+          "label": "26 - PÓLO NORTE",
+          "front": "items/30-x-4-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-027",
+          "number": 27,
+          "label": "27 - NORUEGA",
+          "front": "items/30-x-4-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-028",
+          "number": 28,
+          "label": "28 - TIBET",
+          "front": "items/30-x-4-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-029",
+          "number": 29,
+          "label": "29 - CORÉIA DO SUL",
+          "front": "items/30-x-4-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-4-030",
+          "number": 30,
+          "label": "30 - ARGENTINA",
+          "front": "items/30-x-4-030-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "album-porta-album",
+      "title": "ÁLBUM + PORTA ÁLBUM",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "album-porta-album-001",
+          "number": 1,
+          "label": "ÁLBUM",
+          "front": "items/album-porta-album-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-002",
+          "number": 2,
+          "label": "ÁLBUM",
+          "front": "items/album-porta-album-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-003",
+          "number": 3,
+          "label": "ÁLBUM",
+          "front": "items/album-porta-album-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/album-porta-album-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/album-porta-album-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/album-porta-album-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/album-porta-album-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/album-porta-album-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "vale-brindes",
+      "title": "VALE-BRINDES",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "vale-brindes-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/vale-brindes-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja",
+      "title": "TARJA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/embalagem-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/embalagem-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/embalagem-012-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

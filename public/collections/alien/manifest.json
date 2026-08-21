@@ -1,0 +1,1350 @@
+{
+  "slug": "alien",
+  "name": "Conexao Alien",
+  "year": 2007,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/alien",
+  "scrapedAt": "2026-08-05T03:25:41.975Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "embalagens-e-tarjas",
+      "title": "EMBALAGENS E TARJAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagens-e-tarjas-001",
+          "number": 1,
+          "label": "2007 - CONEXÃO ALIEN.jpg",
+          "front": "items/embalagens-e-tarjas-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "30-x-3",
+      "title": "30 x 3",
+      "kind": "shared-back",
+      "points": null,
+      "expected": null,
+      "sharedBack": "items/30-x-3-shared-back.jpg",
+      "items": [
+        {
+          "id": "30-x-3-001",
+          "number": 1,
+          "label": "01",
+          "front": "items/30-x-3-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-002",
+          "number": 2,
+          "label": "02",
+          "front": "items/30-x-3-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-003",
+          "number": 3,
+          "label": "03",
+          "front": "items/30-x-3-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-004",
+          "number": 4,
+          "label": "04",
+          "front": "items/30-x-3-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-005",
+          "number": 5,
+          "label": "05",
+          "front": "items/30-x-3-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-006",
+          "number": 6,
+          "label": "06",
+          "front": "items/30-x-3-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-007",
+          "number": 7,
+          "label": "07",
+          "front": "items/30-x-3-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-008",
+          "number": 8,
+          "label": "08",
+          "front": "items/30-x-3-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-009",
+          "number": 9,
+          "label": "09",
+          "front": "items/30-x-3-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-010",
+          "number": 10,
+          "label": "10",
+          "front": "items/30-x-3-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-011",
+          "number": 11,
+          "label": "11",
+          "front": "items/30-x-3-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-012",
+          "number": 12,
+          "label": "12",
+          "front": "items/30-x-3-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-013",
+          "number": 13,
+          "label": "13",
+          "front": "items/30-x-3-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-014",
+          "number": 14,
+          "label": "14",
+          "front": "items/30-x-3-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-015",
+          "number": 15,
+          "label": "15",
+          "front": "items/30-x-3-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-016",
+          "number": 16,
+          "label": "16",
+          "front": "items/30-x-3-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-017",
+          "number": 17,
+          "label": "17",
+          "front": "items/30-x-3-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-018",
+          "number": 18,
+          "label": "18",
+          "front": "items/30-x-3-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-019",
+          "number": 19,
+          "label": "19",
+          "front": "items/30-x-3-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-020",
+          "number": 20,
+          "label": "20",
+          "front": "items/30-x-3-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-021",
+          "number": 21,
+          "label": "21",
+          "front": "items/30-x-3-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-022",
+          "number": 22,
+          "label": "22",
+          "front": "items/30-x-3-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-023",
+          "number": 23,
+          "label": "23",
+          "front": "items/30-x-3-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-024",
+          "number": 24,
+          "label": "24",
+          "front": "items/30-x-3-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-025",
+          "number": 25,
+          "label": "25",
+          "front": "items/30-x-3-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-026",
+          "number": 26,
+          "label": "26",
+          "front": "items/30-x-3-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-027",
+          "number": 27,
+          "label": "27",
+          "front": "items/30-x-3-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-028",
+          "number": 28,
+          "label": "28",
+          "front": "items/30-x-3-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-029",
+          "number": 29,
+          "label": "29",
+          "front": "items/30-x-3-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-030",
+          "number": 30,
+          "label": "30",
+          "front": "items/30-x-3-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-031",
+          "number": 31,
+          "label": "31",
+          "front": "items/30-x-3-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-032",
+          "number": 32,
+          "label": "32",
+          "front": "items/30-x-3-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-033",
+          "number": 33,
+          "label": "33",
+          "front": "items/30-x-3-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-034",
+          "number": 34,
+          "label": "34",
+          "front": "items/30-x-3-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-035",
+          "number": 35,
+          "label": "35",
+          "front": "items/30-x-3-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-036",
+          "number": 36,
+          "label": "36",
+          "front": "items/30-x-3-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-037",
+          "number": 37,
+          "label": "37",
+          "front": "items/30-x-3-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-038",
+          "number": 38,
+          "label": "38",
+          "front": "items/30-x-3-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-039",
+          "number": 39,
+          "label": "39",
+          "front": "items/30-x-3-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-040",
+          "number": 40,
+          "label": "40",
+          "front": "items/30-x-3-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-041",
+          "number": 41,
+          "label": "41",
+          "front": "items/30-x-3-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-042",
+          "number": 42,
+          "label": "42",
+          "front": "items/30-x-3-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-043",
+          "number": 43,
+          "label": "43",
+          "front": "items/30-x-3-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-044",
+          "number": 44,
+          "label": "44",
+          "front": "items/30-x-3-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-045",
+          "number": 45,
+          "label": "45",
+          "front": "items/30-x-3-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-046",
+          "number": 46,
+          "label": "46",
+          "front": "items/30-x-3-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-047",
+          "number": 47,
+          "label": "47",
+          "front": "items/30-x-3-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-048",
+          "number": 48,
+          "label": "48",
+          "front": "items/30-x-3-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-049",
+          "number": 49,
+          "label": "49",
+          "front": "items/30-x-3-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-050",
+          "number": 50,
+          "label": "50",
+          "front": "items/30-x-3-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-051",
+          "number": 51,
+          "label": "51",
+          "front": "items/30-x-3-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-052",
+          "number": 52,
+          "label": "52",
+          "front": "items/30-x-3-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-053",
+          "number": 53,
+          "label": "53",
+          "front": "items/30-x-3-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-054",
+          "number": 54,
+          "label": "54",
+          "front": "items/30-x-3-054-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-055",
+          "number": 55,
+          "label": "55",
+          "front": "items/30-x-3-055-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-056",
+          "number": 56,
+          "label": "56",
+          "front": "items/30-x-3-056-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-057",
+          "number": 57,
+          "label": "57",
+          "front": "items/30-x-3-057-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-058",
+          "number": 58,
+          "label": "58",
+          "front": "items/30-x-3-058-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-059",
+          "number": 59,
+          "label": "59",
+          "front": "items/30-x-3-059-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-060",
+          "number": 60,
+          "label": "60",
+          "front": "items/30-x-3-060-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-061",
+          "number": 61,
+          "label": "61",
+          "front": "items/30-x-3-061-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-062",
+          "number": 62,
+          "label": "62",
+          "front": "items/30-x-3-062-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-063",
+          "number": 63,
+          "label": "63",
+          "front": "items/30-x-3-063-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-064",
+          "number": 64,
+          "label": "64",
+          "front": "items/30-x-3-064-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-065",
+          "number": 65,
+          "label": "65",
+          "front": "items/30-x-3-065-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-066",
+          "number": 66,
+          "label": "66",
+          "front": "items/30-x-3-066-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-067",
+          "number": 67,
+          "label": "67",
+          "front": "items/30-x-3-067-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-068",
+          "number": 68,
+          "label": "68",
+          "front": "items/30-x-3-068-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-069",
+          "number": 69,
+          "label": "69",
+          "front": "items/30-x-3-069-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-070",
+          "number": 70,
+          "label": "70",
+          "front": "items/30-x-3-070-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-071",
+          "number": 71,
+          "label": "71",
+          "front": "items/30-x-3-071-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-072",
+          "number": 72,
+          "label": "72",
+          "front": "items/30-x-3-072-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-073",
+          "number": 73,
+          "label": "73",
+          "front": "items/30-x-3-073-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-074",
+          "number": 74,
+          "label": "74",
+          "front": "items/30-x-3-074-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-075",
+          "number": 75,
+          "label": "75",
+          "front": "items/30-x-3-075-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-076",
+          "number": 76,
+          "label": "76",
+          "front": "items/30-x-3-076-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-077",
+          "number": 77,
+          "label": "77",
+          "front": "items/30-x-3-077-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-078",
+          "number": 78,
+          "label": "78",
+          "front": "items/30-x-3-078-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-079",
+          "number": 79,
+          "label": "79",
+          "front": "items/30-x-3-079-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-080",
+          "number": 80,
+          "label": "80",
+          "front": "items/30-x-3-080-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-081",
+          "number": 81,
+          "label": "81",
+          "front": "items/30-x-3-081-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-082",
+          "number": 72,
+          "label": "72",
+          "front": "items/30-x-3-082-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-083",
+          "number": 83,
+          "label": "83",
+          "front": "items/30-x-3-083-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-084",
+          "number": 84,
+          "label": "84",
+          "front": "items/30-x-3-084-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-085",
+          "number": 85,
+          "label": "85",
+          "front": "items/30-x-3-085-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-086",
+          "number": 86,
+          "label": "86",
+          "front": "items/30-x-3-086-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-087",
+          "number": 87,
+          "label": "87",
+          "front": "items/30-x-3-087-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-088",
+          "number": 88,
+          "label": "88",
+          "front": "items/30-x-3-088-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-089",
+          "number": 89,
+          "label": "89",
+          "front": "items/30-x-3-089-front.jpg",
+          "back": null
+        },
+        {
+          "id": "30-x-3-090",
+          "number": 90,
+          "label": "90",
+          "front": "items/30-x-3-090-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "figurinha-stamps",
+      "title": "FIGURINHA (STAMPS)",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 30,
+      "sharedBack": "items/figurinha-stamps-shared-back.jpg",
+      "items": [
+        {
+          "id": "figurinha-stamps-001",
+          "number": 1,
+          "label": "01",
+          "front": "items/figurinha-stamps-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-002",
+          "number": 2,
+          "label": "02",
+          "front": "items/figurinha-stamps-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-003",
+          "number": 3,
+          "label": "03",
+          "front": "items/figurinha-stamps-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-004",
+          "number": 4,
+          "label": "04",
+          "front": "items/figurinha-stamps-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-005",
+          "number": 5,
+          "label": "05",
+          "front": "items/figurinha-stamps-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-006",
+          "number": 6,
+          "label": "06",
+          "front": "items/figurinha-stamps-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-007",
+          "number": 7,
+          "label": "07",
+          "front": "items/figurinha-stamps-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-008",
+          "number": 8,
+          "label": "08",
+          "front": "items/figurinha-stamps-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-009",
+          "number": 9,
+          "label": "09",
+          "front": "items/figurinha-stamps-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-010",
+          "number": 10,
+          "label": "10",
+          "front": "items/figurinha-stamps-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-011",
+          "number": 11,
+          "label": "11",
+          "front": "items/figurinha-stamps-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-012",
+          "number": 12,
+          "label": "12",
+          "front": "items/figurinha-stamps-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-013",
+          "number": 13,
+          "label": "13",
+          "front": "items/figurinha-stamps-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-014",
+          "number": 14,
+          "label": "14",
+          "front": "items/figurinha-stamps-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-015",
+          "number": 15,
+          "label": "15",
+          "front": "items/figurinha-stamps-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-016",
+          "number": 16,
+          "label": "16",
+          "front": "items/figurinha-stamps-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-017",
+          "number": 17,
+          "label": "17",
+          "front": "items/figurinha-stamps-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-018",
+          "number": 18,
+          "label": "18",
+          "front": "items/figurinha-stamps-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-019",
+          "number": 19,
+          "label": "19",
+          "front": "items/figurinha-stamps-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-020",
+          "number": 20,
+          "label": "20",
+          "front": "items/figurinha-stamps-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-021",
+          "number": 21,
+          "label": "21",
+          "front": "items/figurinha-stamps-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-022",
+          "number": 22,
+          "label": "22",
+          "front": "items/figurinha-stamps-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-023",
+          "number": 23,
+          "label": "23",
+          "front": "items/figurinha-stamps-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-024",
+          "number": 24,
+          "label": "24",
+          "front": "items/figurinha-stamps-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-025",
+          "number": 25,
+          "label": "25",
+          "front": "items/figurinha-stamps-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-026",
+          "number": 26,
+          "label": "26",
+          "front": "items/figurinha-stamps-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-027",
+          "number": 27,
+          "label": "27",
+          "front": "items/figurinha-stamps-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-028",
+          "number": 28,
+          "label": "28",
+          "front": "items/figurinha-stamps-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-029",
+          "number": 29,
+          "label": "29",
+          "front": "items/figurinha-stamps-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "figurinha-stamps-030",
+          "number": 30,
+          "label": "30",
+          "front": "items/figurinha-stamps-030-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "cordao",
+      "title": "CORDÃO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 8,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "cordao-001",
+          "number": 1,
+          "label": "01 - ROSA",
+          "front": "items/cordao-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cordao-002",
+          "number": 2,
+          "label": "02 - LARANJA",
+          "front": "items/cordao-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cordao-003",
+          "number": 3,
+          "label": "03 - AMARELO",
+          "front": "items/cordao-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cordao-004",
+          "number": 4,
+          "label": "04 - AZUL",
+          "front": "items/cordao-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cordao-005",
+          "number": 5,
+          "label": "05 - VERDE",
+          "front": "items/cordao-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cordao-006",
+          "number": 6,
+          "label": "06 - VERMELHO",
+          "front": "items/cordao-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cordao-007",
+          "number": 7,
+          "label": "07 - TRANSPARENTE",
+          "front": "items/cordao-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cordao-008",
+          "number": 8,
+          "label": "08 - ROXO",
+          "front": "items/cordao-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "pingente-de-celular",
+      "title": "PINGENTE DE CELULAR",
+      "kind": "gallery",
+      "points": null,
+      "expected": 8,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "pingente-de-celular-001",
+          "number": 1,
+          "label": "01 - VERMELHO",
+          "front": "items/pingente-de-celular-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-002",
+          "number": 2,
+          "label": "02 - AZUL",
+          "front": "items/pingente-de-celular-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-003",
+          "number": 3,
+          "label": "03 - VERDE",
+          "front": "items/pingente-de-celular-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-004",
+          "number": 4,
+          "label": "04 - ROXO",
+          "front": "items/pingente-de-celular-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-005",
+          "number": 5,
+          "label": "05 - AMARELO",
+          "front": "items/pingente-de-celular-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-006",
+          "number": 6,
+          "label": "06 - LARANJA",
+          "front": "items/pingente-de-celular-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-007",
+          "number": 7,
+          "label": "07 - ROSA",
+          "front": "items/pingente-de-celular-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "pingente-de-celular-008",
+          "number": 8,
+          "label": "08 - BRANCO",
+          "front": "items/pingente-de-celular-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja",
+      "title": "TARJA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/embalagem-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-cheetos-video-game-fogo",
+      "title": "EMBALAGEM: CHEETOS VÍDEO GAME (FOGO)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-cheetos-video-game-fogo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-cheetos-video-game-fogo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-cheetos-video-game-fogo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-cheetos-video-game-fogo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-cheetos-video-game-fogo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-cheetos-video-game-fogo-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-cheetos-video-game-gelo",
+      "title": "EMBALAGEM: CHEETOS VÍDEO GAME (GELO)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-cheetos-video-game-gelo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-cheetos-video-game-gelo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-cheetos-video-game-gelo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-cheetos-video-game-gelo-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-batatinha-kids",
+      "title": "EMBALAGEM: BATATINHA KIDS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-batatinha-kids-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-batatinha-kids-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-batatinha-kids-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-batatinha-kids-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/poster-propaganda-site-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/poster-propaganda-site-009-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}
