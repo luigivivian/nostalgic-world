@@ -1,0 +1,1115 @@
+{
+  "slug": "dbz",
+  "name": "Spiners Evolution (Dragon Ball Z)",
+  "year": 2005,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/dbz",
+  "scrapedAt": "2026-08-06T01:58:12.030Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "jogo-brincadeira",
+      "title": "JOGO / BRINCADEIRA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "jogo-brincadeira-001",
+          "number": 1,
+          "label": "2005 - DBZ.png",
+          "front": "items/jogo-brincadeira-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "60-x-2",
+      "title": "60 x 2",
+      "kind": "paired",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "60-x-2-001",
+          "number": 1,
+          "label": "1 - GOKU",
+          "front": "items/60-x-2-001-front.jpg",
+          "back": "items/60-x-2-001-back.jpg"
+        },
+        {
+          "id": "60-x-2-002",
+          "number": 1,
+          "label": "1 - GOKU",
+          "front": "items/60-x-2-002-front.jpg",
+          "back": "items/60-x-2-002-back.jpg"
+        },
+        {
+          "id": "60-x-2-003",
+          "number": 2,
+          "label": "2 - VEGETA",
+          "front": "items/60-x-2-003-front.jpg",
+          "back": "items/60-x-2-003-back.jpg"
+        },
+        {
+          "id": "60-x-2-004",
+          "number": 2,
+          "label": "2 - VEGETA",
+          "front": "items/60-x-2-004-front.jpg",
+          "back": "items/60-x-2-004-back.jpg"
+        },
+        {
+          "id": "60-x-2-005",
+          "number": 3,
+          "label": "3 - TRUNKS",
+          "front": "items/60-x-2-005-front.jpg",
+          "back": "items/60-x-2-005-back.jpg"
+        },
+        {
+          "id": "60-x-2-006",
+          "number": 3,
+          "label": "3 - TRUNKS",
+          "front": "items/60-x-2-006-front.jpg",
+          "back": "items/60-x-2-006-back.jpg"
+        },
+        {
+          "id": "60-x-2-007",
+          "number": 4,
+          "label": "4 - GOKU",
+          "front": "items/60-x-2-007-front.jpg",
+          "back": "items/60-x-2-007-back.jpg"
+        },
+        {
+          "id": "60-x-2-008",
+          "number": 4,
+          "label": "4 - GOKU",
+          "front": "items/60-x-2-008-front.jpg",
+          "back": "items/60-x-2-008-back.jpg"
+        },
+        {
+          "id": "60-x-2-009",
+          "number": 5,
+          "label": "5 - GOTEN",
+          "front": "items/60-x-2-009-front.jpg",
+          "back": "items/60-x-2-009-back.jpg"
+        },
+        {
+          "id": "60-x-2-010",
+          "number": 5,
+          "label": "5 - GOTEN",
+          "front": "items/60-x-2-010-front.jpg",
+          "back": "items/60-x-2-010-back.jpg"
+        },
+        {
+          "id": "60-x-2-011",
+          "number": 6,
+          "label": "6 - GOTENKS",
+          "front": "items/60-x-2-011-front.jpg",
+          "back": "items/60-x-2-011-back.jpg"
+        },
+        {
+          "id": "60-x-2-012",
+          "number": 6,
+          "label": "6 - GOTENKS",
+          "front": "items/60-x-2-012-front.jpg",
+          "back": "items/60-x-2-012-back.jpg"
+        },
+        {
+          "id": "60-x-2-013",
+          "number": 7,
+          "label": "7 - PICOLLO",
+          "front": "items/60-x-2-013-front.jpg",
+          "back": "items/60-x-2-013-back.jpg"
+        },
+        {
+          "id": "60-x-2-014",
+          "number": 7,
+          "label": "7 - PICOLLO",
+          "front": "items/60-x-2-014-front.jpg",
+          "back": "items/60-x-2-014-back.jpg"
+        },
+        {
+          "id": "60-x-2-015",
+          "number": 8,
+          "label": "8 - KURIRIN",
+          "front": "items/60-x-2-015-front.jpg",
+          "back": "items/60-x-2-015-back.jpg"
+        },
+        {
+          "id": "60-x-2-016",
+          "number": 8,
+          "label": "8 - KURIRIN",
+          "front": "items/60-x-2-016-front.jpg",
+          "back": "items/60-x-2-016-back.jpg"
+        },
+        {
+          "id": "60-x-2-017",
+          "number": 9,
+          "label": "9 - SR KAIO DO NORTE",
+          "front": "items/60-x-2-017-front.jpg",
+          "back": "items/60-x-2-017-back.jpg"
+        },
+        {
+          "id": "60-x-2-018",
+          "number": 9,
+          "label": "9 - SR KAIO DO NORTE",
+          "front": "items/60-x-2-018-front.jpg",
+          "back": "items/60-x-2-018-back.jpg"
+        },
+        {
+          "id": "60-x-2-019",
+          "number": 10,
+          "label": "10 - MAJIN BOO",
+          "front": "items/60-x-2-019-front.jpg",
+          "back": "items/60-x-2-019-back.jpg"
+        },
+        {
+          "id": "60-x-2-020",
+          "number": 10,
+          "label": "10 - MAJIN BOO",
+          "front": "items/60-x-2-020-front.jpg",
+          "back": "items/60-x-2-020-back.jpg"
+        },
+        {
+          "id": "60-x-2-021",
+          "number": 11,
+          "label": "11 - BABIDI",
+          "front": "items/60-x-2-021-front.jpg",
+          "back": "items/60-x-2-021-back.jpg"
+        },
+        {
+          "id": "60-x-2-022",
+          "number": 11,
+          "label": "11 - BABIDI",
+          "front": "items/60-x-2-022-front.jpg",
+          "back": "items/60-x-2-022-back.jpg"
+        },
+        {
+          "id": "60-x-2-023",
+          "number": 12,
+          "label": "12 - BULMA",
+          "front": "items/60-x-2-023-front.jpg",
+          "back": "items/60-x-2-023-back.jpg"
+        },
+        {
+          "id": "60-x-2-024",
+          "number": 12,
+          "label": "12 - BULMA",
+          "front": "items/60-x-2-024-front.jpg",
+          "back": "items/60-x-2-024-back.jpg"
+        },
+        {
+          "id": "60-x-2-025",
+          "number": 13,
+          "label": "13 - BOO GORDO",
+          "front": "items/60-x-2-025-front.jpg",
+          "back": "items/60-x-2-025-back.jpg"
+        },
+        {
+          "id": "60-x-2-026",
+          "number": 13,
+          "label": "13 - BOO GORDO",
+          "front": "items/60-x-2-026-front.jpg",
+          "back": "items/60-x-2-026-back.jpg"
+        },
+        {
+          "id": "60-x-2-027",
+          "number": 14,
+          "label": "14 - MAJIN BOO",
+          "front": "items/60-x-2-027-front.jpg",
+          "back": "items/60-x-2-027-back.jpg"
+        },
+        {
+          "id": "60-x-2-028",
+          "number": 14,
+          "label": "14 - MAJIN BOO",
+          "front": "items/60-x-2-028-front.jpg",
+          "back": "items/60-x-2-028-back.jpg"
+        },
+        {
+          "id": "60-x-2-029",
+          "number": 15,
+          "label": "15 - DABURA",
+          "front": "items/60-x-2-029-front.jpg",
+          "back": "items/60-x-2-029-back.jpg"
+        },
+        {
+          "id": "60-x-2-030",
+          "number": 15,
+          "label": "15 - DABURA",
+          "front": "items/60-x-2-030-front.jpg",
+          "back": "items/60-x-2-030-back.jpg"
+        },
+        {
+          "id": "60-x-2-031",
+          "number": 16,
+          "label": "16 - GOKU SUPER SAIYAJIN 2",
+          "front": "items/60-x-2-031-front.jpg",
+          "back": "items/60-x-2-031-back.jpg"
+        },
+        {
+          "id": "60-x-2-032",
+          "number": 16,
+          "label": "16 - GOKU SUPER SAIYAJIN 2",
+          "front": "items/60-x-2-032-front.jpg",
+          "back": "items/60-x-2-032-back.jpg"
+        },
+        {
+          "id": "60-x-2-033",
+          "number": 17,
+          "label": "17 - MAJIN VEGETA",
+          "front": "items/60-x-2-033-front.jpg",
+          "back": "items/60-x-2-033-back.jpg"
+        },
+        {
+          "id": "60-x-2-034",
+          "number": 17,
+          "label": "17 - MAJIN VEGETA-A",
+          "front": "items/60-x-2-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "60-x-2-035",
+          "number": 17,
+          "label": "17 - MAJIN VEGETA",
+          "front": "items/60-x-2-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "60-x-2-036",
+          "number": 18,
+          "label": "18 - GOHAN SUPER SAIYAJIN",
+          "front": "items/60-x-2-036-front.jpg",
+          "back": "items/60-x-2-036-back.jpg"
+        },
+        {
+          "id": "60-x-2-037",
+          "number": 18,
+          "label": "18 - GOHAN SUPER SAIYAJIN",
+          "front": "items/60-x-2-037-front.jpg",
+          "back": "items/60-x-2-037-back.jpg"
+        },
+        {
+          "id": "60-x-2-038",
+          "number": 19,
+          "label": "19 - GOKU SUPER SAIYAJIN",
+          "front": "items/60-x-2-038-front.jpg",
+          "back": "items/60-x-2-038-back.jpg"
+        },
+        {
+          "id": "60-x-2-039",
+          "number": 19,
+          "label": "19 - GOKU SUPER SAIYAJIN",
+          "front": "items/60-x-2-039-front.jpg",
+          "back": "items/60-x-2-039-back.jpg"
+        },
+        {
+          "id": "60-x-2-040",
+          "number": 20,
+          "label": "20 - VEGETA SUPER SAIYAJIN 2",
+          "front": "items/60-x-2-040-front.jpg",
+          "back": "items/60-x-2-040-back.jpg"
+        },
+        {
+          "id": "60-x-2-041",
+          "number": 20,
+          "label": "20 - VEGETA SUPER SAIYAJIN 2",
+          "front": "items/60-x-2-041-front.jpg",
+          "back": "items/60-x-2-041-back.jpg"
+        },
+        {
+          "id": "60-x-2-042",
+          "number": 21,
+          "label": "21 - VEGETTO SUPER SAIYAJIN",
+          "front": "items/60-x-2-042-front.jpg",
+          "back": "items/60-x-2-042-back.jpg"
+        },
+        {
+          "id": "60-x-2-043",
+          "number": 21,
+          "label": "21 - VEGETTO SUPER SAIYAJIN",
+          "front": "items/60-x-2-043-front.jpg",
+          "back": "items/60-x-2-043-back.jpg"
+        },
+        {
+          "id": "60-x-2-044",
+          "number": 22,
+          "label": "22 - GOHAN SUPER SAIYAJIN",
+          "front": "items/60-x-2-044-front.jpg",
+          "back": "items/60-x-2-044-back.jpg"
+        },
+        {
+          "id": "60-x-2-045",
+          "number": 22,
+          "label": "22 - GOHAN SUPER SAIYAJIN",
+          "front": "items/60-x-2-045-front.jpg",
+          "back": "items/60-x-2-045-back.jpg"
+        },
+        {
+          "id": "60-x-2-046",
+          "number": 23,
+          "label": "23 - GOTEN SUPER SAIYAJIN",
+          "front": "items/60-x-2-046-front.jpg",
+          "back": "items/60-x-2-046-back.jpg"
+        },
+        {
+          "id": "60-x-2-047",
+          "number": 23,
+          "label": "23 - GOTEN SUPER SAIYAJIN",
+          "front": "items/60-x-2-047-front.jpg",
+          "back": "items/60-x-2-047-back.jpg"
+        },
+        {
+          "id": "60-x-2-048",
+          "number": 24,
+          "label": "24 - GOTEN SUPER SAIYAJIN",
+          "front": "items/60-x-2-048-front.jpg",
+          "back": "items/60-x-2-048-back.jpg"
+        },
+        {
+          "id": "60-x-2-049",
+          "number": 24,
+          "label": "24 - GOTEN SUPER SAIYAJIN",
+          "front": "items/60-x-2-049-front.jpg",
+          "back": "items/60-x-2-049-back.jpg"
+        },
+        {
+          "id": "60-x-2-050",
+          "number": 25,
+          "label": "25 - TRUNKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-050-front.jpg",
+          "back": "items/60-x-2-050-back.jpg"
+        },
+        {
+          "id": "60-x-2-051",
+          "number": 25,
+          "label": "25 - TRUNKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-051-front.jpg",
+          "back": "items/60-x-2-051-back.jpg"
+        },
+        {
+          "id": "60-x-2-052",
+          "number": 26,
+          "label": "26 - GOTEN E TRUNKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-052-front.jpg",
+          "back": "items/60-x-2-052-back.jpg"
+        },
+        {
+          "id": "60-x-2-053",
+          "number": 26,
+          "label": "26 - GOTEN E TRUNKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-053-front.jpg",
+          "back": "items/60-x-2-053-back.jpg"
+        },
+        {
+          "id": "60-x-2-054",
+          "number": 27,
+          "label": "27 - GOTENKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-054-front.jpg",
+          "back": "items/60-x-2-054-back.jpg"
+        },
+        {
+          "id": "60-x-2-055",
+          "number": 27,
+          "label": "27 - GOTENKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-055-front.jpg",
+          "back": "items/60-x-2-055-back.jpg"
+        },
+        {
+          "id": "60-x-2-056",
+          "number": 28,
+          "label": "28 - GOTEN SUPER SAIYAJIN",
+          "front": "items/60-x-2-056-front.jpg",
+          "back": "items/60-x-2-056-back.jpg"
+        },
+        {
+          "id": "60-x-2-057",
+          "number": 28,
+          "label": "28 - GOTEN SUPER SAIYAJIN",
+          "front": "items/60-x-2-057-front.jpg",
+          "back": "items/60-x-2-057-back.jpg"
+        },
+        {
+          "id": "60-x-2-058",
+          "number": 29,
+          "label": "29 - TRUNKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-058-front.jpg",
+          "back": "items/60-x-2-058-back.jpg"
+        },
+        {
+          "id": "60-x-2-059",
+          "number": 29,
+          "label": "29 - TRUNKS SUPER SAIYAJINA",
+          "front": "items/60-x-2-059-front.jpg",
+          "back": null
+        },
+        {
+          "id": "60-x-2-060",
+          "number": 29,
+          "label": "29 - TRUNKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-060-front.jpg",
+          "back": null
+        },
+        {
+          "id": "60-x-2-061",
+          "number": 30,
+          "label": "30 - TRUNKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-061-front.jpg",
+          "back": "items/60-x-2-061-back.jpg"
+        },
+        {
+          "id": "60-x-2-062",
+          "number": 30,
+          "label": "30 - TRUNKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-062-front.jpg",
+          "back": "items/60-x-2-062-back.jpg"
+        },
+        {
+          "id": "60-x-2-063",
+          "number": 31,
+          "label": "31 - TRUNKS E GOTEN",
+          "front": "items/60-x-2-063-front.jpg",
+          "back": "items/60-x-2-063-back.jpg"
+        },
+        {
+          "id": "60-x-2-064",
+          "number": 31,
+          "label": "31 - TRUNKS E GOTEN",
+          "front": "items/60-x-2-064-front.jpg",
+          "back": "items/60-x-2-064-back.jpg"
+        },
+        {
+          "id": "60-x-2-065",
+          "number": 32,
+          "label": "32 - VEGETA, GOHAN E PICOLLO",
+          "front": "items/60-x-2-065-front.jpg",
+          "back": "items/60-x-2-065-back.jpg"
+        },
+        {
+          "id": "60-x-2-066",
+          "number": 32,
+          "label": "32 - VEGETA, GOHAN E PICOLLO",
+          "front": "items/60-x-2-066-front.jpg",
+          "back": "items/60-x-2-066-back.jpg"
+        },
+        {
+          "id": "60-x-2-067",
+          "number": 33,
+          "label": "33 - GOKU",
+          "front": "items/60-x-2-067-front.jpg",
+          "back": "items/60-x-2-067-back.jpg"
+        },
+        {
+          "id": "60-x-2-068",
+          "number": 33,
+          "label": "33 - GOKU",
+          "front": "items/60-x-2-068-front.jpg",
+          "back": "items/60-x-2-068-back.jpg"
+        },
+        {
+          "id": "60-x-2-069",
+          "number": 34,
+          "label": "34 - GOHAN E GOTEN",
+          "front": "items/60-x-2-069-front.jpg",
+          "back": "items/60-x-2-069-back.jpg"
+        },
+        {
+          "id": "60-x-2-070",
+          "number": 34,
+          "label": "34 - GOHAN E GOTEN",
+          "front": "items/60-x-2-070-front.jpg",
+          "back": "items/60-x-2-070-back.jpg"
+        },
+        {
+          "id": "60-x-2-071",
+          "number": 35,
+          "label": "35 - VEGETA",
+          "front": "items/60-x-2-071-front.jpg",
+          "back": "items/60-x-2-071-back.jpg"
+        },
+        {
+          "id": "60-x-2-072",
+          "number": 35,
+          "label": "35 - VEGETA",
+          "front": "items/60-x-2-072-front.jpg",
+          "back": "items/60-x-2-072-back.jpg"
+        },
+        {
+          "id": "60-x-2-073",
+          "number": 36,
+          "label": "36 - CELL",
+          "front": "items/60-x-2-073-front.jpg",
+          "back": "items/60-x-2-073-back.jpg"
+        },
+        {
+          "id": "60-x-2-074",
+          "number": 36,
+          "label": "36 - CELL",
+          "front": "items/60-x-2-074-front.jpg",
+          "back": "items/60-x-2-074-back.jpg"
+        },
+        {
+          "id": "60-x-2-075",
+          "number": 37,
+          "label": "37 - SUPER TRUNKS",
+          "front": "items/60-x-2-075-front.jpg",
+          "back": "items/60-x-2-075-back.jpg"
+        },
+        {
+          "id": "60-x-2-076",
+          "number": 37,
+          "label": "37 - SUPER TRUNKS",
+          "front": "items/60-x-2-076-front.jpg",
+          "back": "items/60-x-2-076-back.jpg"
+        },
+        {
+          "id": "60-x-2-077",
+          "number": 38,
+          "label": "38 - GOTENKS SUPER SAIYAJIN 3",
+          "front": "items/60-x-2-077-front.jpg",
+          "back": "items/60-x-2-077-back.jpg"
+        },
+        {
+          "id": "60-x-2-078",
+          "number": 38,
+          "label": "38 - GOTENKS SUPER SAIYAJIN 3",
+          "front": "items/60-x-2-078-front.jpg",
+          "back": "items/60-x-2-078-back.jpg"
+        },
+        {
+          "id": "60-x-2-079",
+          "number": 39,
+          "label": "39 - VEGETO SUPER SAIYAJIN",
+          "front": "items/60-x-2-079-front.jpg",
+          "back": "items/60-x-2-079-back.jpg"
+        },
+        {
+          "id": "60-x-2-080",
+          "number": 39,
+          "label": "39 - VEGETO SUPER SAIYAJIN",
+          "front": "items/60-x-2-080-front.jpg",
+          "back": "items/60-x-2-080-back.jpg"
+        },
+        {
+          "id": "60-x-2-081",
+          "number": 40,
+          "label": "40 - GOKU SUPER SAIYAJIN 3",
+          "front": "items/60-x-2-081-front.jpg",
+          "back": "items/60-x-2-081-back.jpg"
+        },
+        {
+          "id": "60-x-2-082",
+          "number": 40,
+          "label": "40 - GOKU SUPER SAIYAJIN 3",
+          "front": "items/60-x-2-082-front.jpg",
+          "back": "items/60-x-2-082-back.jpg"
+        },
+        {
+          "id": "60-x-2-083",
+          "number": 41,
+          "label": "41 - GOKU E GOTEN",
+          "front": "items/60-x-2-083-front.jpg",
+          "back": "items/60-x-2-083-back.jpg"
+        },
+        {
+          "id": "60-x-2-084",
+          "number": 41,
+          "label": "41 - GOKU E GOTEN",
+          "front": "items/60-x-2-084-front.jpg",
+          "back": "items/60-x-2-084-back.jpg"
+        },
+        {
+          "id": "60-x-2-085",
+          "number": 42,
+          "label": "42 - GRANDE SAIYAMAN",
+          "front": "items/60-x-2-085-front.jpg",
+          "back": "items/60-x-2-085-back.jpg"
+        },
+        {
+          "id": "60-x-2-086",
+          "number": 42,
+          "label": "42 - GRANDE SAIYAMAN",
+          "front": "items/60-x-2-086-front.jpg",
+          "back": "items/60-x-2-086-back.jpg"
+        },
+        {
+          "id": "60-x-2-087",
+          "number": 43,
+          "label": "43 - VIDEL",
+          "front": "items/60-x-2-087-front.jpg",
+          "back": null
+        },
+        {
+          "id": "60-x-2-088",
+          "number": 2005,
+          "label": "2005.03.01.43-B",
+          "front": "items/60-x-2-088-front.jpg",
+          "back": null
+        },
+        {
+          "id": "60-x-2-089",
+          "number": 43,
+          "label": "43 - VIDEL",
+          "front": "items/60-x-2-089-front.jpg",
+          "back": "items/60-x-2-089-back.jpg"
+        },
+        {
+          "id": "60-x-2-090",
+          "number": 44,
+          "label": "44 - GOHAN SUPER SAIYAJIN",
+          "front": "items/60-x-2-090-front.jpg",
+          "back": "items/60-x-2-090-back.jpg"
+        },
+        {
+          "id": "60-x-2-091",
+          "number": 44,
+          "label": "44 - GOHAN SUPER SAIYAJIN",
+          "front": "items/60-x-2-091-front.jpg",
+          "back": "items/60-x-2-091-back.jpg"
+        },
+        {
+          "id": "60-x-2-092",
+          "number": 45,
+          "label": "45 - GOKU",
+          "front": "items/60-x-2-092-front.jpg",
+          "back": "items/60-x-2-092-back.jpg"
+        },
+        {
+          "id": "60-x-2-093",
+          "number": 45,
+          "label": "45 - GOKU",
+          "front": "items/60-x-2-093-front.jpg",
+          "back": "items/60-x-2-093-back.jpg"
+        },
+        {
+          "id": "60-x-2-094",
+          "number": 46,
+          "label": "46 - GOTENKS",
+          "front": "items/60-x-2-094-front.jpg",
+          "back": "items/60-x-2-094-back.jpg"
+        },
+        {
+          "id": "60-x-2-095",
+          "number": 46,
+          "label": "46 - GOTENKS",
+          "front": "items/60-x-2-095-front.jpg",
+          "back": "items/60-x-2-095-back.jpg"
+        },
+        {
+          "id": "60-x-2-096",
+          "number": 47,
+          "label": "47 - FAT BOO E THIN BOO",
+          "front": "items/60-x-2-096-front.jpg",
+          "back": "items/60-x-2-096-back.jpg"
+        },
+        {
+          "id": "60-x-2-097",
+          "number": 47,
+          "label": "47 - FAT BOO E THIN BOO",
+          "front": "items/60-x-2-097-front.jpg",
+          "back": "items/60-x-2-097-back.jpg"
+        },
+        {
+          "id": "60-x-2-098",
+          "number": 48,
+          "label": "48 - GOTENKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-098-front.jpg",
+          "back": "items/60-x-2-098-back.jpg"
+        },
+        {
+          "id": "60-x-2-099",
+          "number": 48,
+          "label": "48 - GOTENKS SUPER SAIYAJIN",
+          "front": "items/60-x-2-099-front.jpg",
+          "back": "items/60-x-2-099-back.jpg"
+        },
+        {
+          "id": "60-x-2-100",
+          "number": 49,
+          "label": "49 - MR SATAN",
+          "front": "items/60-x-2-100-front.jpg",
+          "back": "items/60-x-2-100-back.jpg"
+        },
+        {
+          "id": "60-x-2-101",
+          "number": 49,
+          "label": "49 - MR SATAN",
+          "front": "items/60-x-2-101-front.jpg",
+          "back": "items/60-x-2-101-back.jpg"
+        },
+        {
+          "id": "60-x-2-102",
+          "number": 50,
+          "label": "50 - DENDE",
+          "front": "items/60-x-2-102-front.jpg",
+          "back": "items/60-x-2-102-back.jpg"
+        },
+        {
+          "id": "60-x-2-103",
+          "number": 50,
+          "label": "50 - DENDE",
+          "front": "items/60-x-2-103-front.jpg",
+          "back": "items/60-x-2-103-back.jpg"
+        },
+        {
+          "id": "60-x-2-104",
+          "number": 51,
+          "label": "51 - CHI-CHI",
+          "front": "items/60-x-2-104-front.jpg",
+          "back": "items/60-x-2-104-back.jpg"
+        },
+        {
+          "id": "60-x-2-105",
+          "number": 51,
+          "label": "51 - CHI-CHI",
+          "front": "items/60-x-2-105-front.jpg",
+          "back": "items/60-x-2-105-back.jpg"
+        },
+        {
+          "id": "60-x-2-106",
+          "number": 52,
+          "label": "52 - GOHAN SUPER SAIYAJIN",
+          "front": "items/60-x-2-106-front.jpg",
+          "back": "items/60-x-2-106-back.jpg"
+        },
+        {
+          "id": "60-x-2-107",
+          "number": 52,
+          "label": "52 - GOHAN SUPER SAIYAJIN",
+          "front": "items/60-x-2-107-front.jpg",
+          "back": "items/60-x-2-107-back.jpg"
+        },
+        {
+          "id": "60-x-2-108",
+          "number": 53,
+          "label": "53 - CELL JR",
+          "front": "items/60-x-2-108-front.jpg",
+          "back": "items/60-x-2-108-back.jpg"
+        },
+        {
+          "id": "60-x-2-109",
+          "number": 53,
+          "label": "53 - CELL JR",
+          "front": "items/60-x-2-109-front.jpg",
+          "back": "items/60-x-2-109-back.jpg"
+        },
+        {
+          "id": "60-x-2-110",
+          "number": 54,
+          "label": "54 - PICOLLO",
+          "front": "items/60-x-2-110-front.jpg",
+          "back": "items/60-x-2-110-back.jpg"
+        },
+        {
+          "id": "60-x-2-111",
+          "number": 54,
+          "label": "54 - PICOLLO",
+          "front": "items/60-x-2-111-front.jpg",
+          "back": "items/60-x-2-111-back.jpg"
+        },
+        {
+          "id": "60-x-2-112",
+          "number": 55,
+          "label": "55 - DINOSSAURO E GOTEN",
+          "front": "items/60-x-2-112-front.jpg",
+          "back": "items/60-x-2-112-back.jpg"
+        },
+        {
+          "id": "60-x-2-113",
+          "number": 55,
+          "label": "55 - DINOSSAURO E GOTEN",
+          "front": "items/60-x-2-113-front.jpg",
+          "back": "items/60-x-2-113-back.jpg"
+        },
+        {
+          "id": "60-x-2-114",
+          "number": 56,
+          "label": "56 - REI CUTELO",
+          "front": "items/60-x-2-114-front.jpg",
+          "back": "items/60-x-2-114-back.jpg"
+        },
+        {
+          "id": "60-x-2-115",
+          "number": 56,
+          "label": "56 - REI CUTELO.56.1-B",
+          "front": "items/60-x-2-115-front.jpg",
+          "back": null
+        },
+        {
+          "id": "60-x-2-116",
+          "number": 57,
+          "label": "57 - PERFECT CELL",
+          "front": "items/60-x-2-116-front.jpg",
+          "back": "items/60-x-2-116-back.jpg"
+        },
+        {
+          "id": "60-x-2-117",
+          "number": 57,
+          "label": "57 - PERFECT CELL",
+          "front": "items/60-x-2-117-front.jpg",
+          "back": "items/60-x-2-117-back.jpg"
+        },
+        {
+          "id": "60-x-2-118",
+          "number": 58,
+          "label": "58 - REI COLD3.01.58-A",
+          "front": "items/60-x-2-118-front.jpg",
+          "back": null
+        },
+        {
+          "id": "60-x-2-119",
+          "number": 58,
+          "label": "58 - REI COLD",
+          "front": "items/60-x-2-119-front.jpg",
+          "back": "items/60-x-2-119-back.jpg"
+        },
+        {
+          "id": "60-x-2-120",
+          "number": 59,
+          "label": "59 - BOO GORDO E KID BOO",
+          "front": "items/60-x-2-120-front.jpg",
+          "back": "items/60-x-2-120-back.jpg"
+        },
+        {
+          "id": "60-x-2-121",
+          "number": 59,
+          "label": "59 - BOO GORDO E KID BOO",
+          "front": "items/60-x-2-121-front.jpg",
+          "back": "items/60-x-2-121-back.jpg"
+        },
+        {
+          "id": "60-x-2-122",
+          "number": 60,
+          "label": "60 - MR SATAN",
+          "front": "items/60-x-2-122-front.jpg",
+          "back": "items/60-x-2-122-back.jpg"
+        },
+        {
+          "id": "60-x-2-123",
+          "number": 60,
+          "label": "60 - MR SATAN",
+          "front": "items/60-x-2-123-front.jpg",
+          "back": "items/60-x-2-123-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "arena-de-batalha",
+      "title": "ARENA DE BATALHA",
+      "kind": "gallery",
+      "points": null,
+      "expected": 4,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "arena-de-batalha-001",
+          "number": 1,
+          "label": "MODELO 1/4",
+          "front": "items/arena-de-batalha-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-002",
+          "number": 2,
+          "label": "MODELO 2/4",
+          "front": "items/arena-de-batalha-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-003",
+          "number": 3,
+          "label": "MODELO 3/4",
+          "front": "items/arena-de-batalha-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-004",
+          "number": 4,
+          "label": "MODELO 4/4",
+          "front": "items/arena-de-batalha-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-005",
+          "number": 5,
+          "label": "VERSO",
+          "front": "items/arena-de-batalha-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "arena-de-batalha-006",
+          "number": 6,
+          "label": "ETIQUETA",
+          "front": "items/arena-de-batalha-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja",
+      "title": "TARJA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/tarja-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-010",
+          "number": 10,
+          "label": "10",
+          "front": "items/tarja-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

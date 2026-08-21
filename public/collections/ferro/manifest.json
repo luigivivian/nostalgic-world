@@ -1,0 +1,1008 @@
+{
+  "slug": "ferro",
+  "name": "Homem de Ferro 3",
+  "year": 2013,
+  "category": "cards",
+  "shape": "card",
+  "source": "https://www.elmachipscolecoes.com.br/ferro",
+  "scrapedAt": "2026-08-05T14:20:19.802Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "embalagens-e-tarjas",
+      "title": "EMBALAGENS E TARJAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagens-e-tarjas-001",
+          "number": 1,
+          "label": "2013 - HOMEM DE FERRO.jpg",
+          "front": "items/embalagens-e-tarjas-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "super-card-salgadinho",
+      "title": "SUPER CARD (SALGADINHO)",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 32,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "super-card-salgadinho-001",
+          "number": 1,
+          "label": "01I (INCRÍVEL)",
+          "front": "items/super-card-salgadinho-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-002",
+          "number": 2,
+          "label": "02T (TOP)",
+          "front": "items/super-card-salgadinho-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-003",
+          "number": 3,
+          "label": "03T (TOP)",
+          "front": "items/super-card-salgadinho-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-004",
+          "number": 4,
+          "label": "04T (TOP)",
+          "front": "items/super-card-salgadinho-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-005",
+          "number": 5,
+          "label": "05P",
+          "front": "items/super-card-salgadinho-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-006",
+          "number": 6,
+          "label": "06P",
+          "front": "items/super-card-salgadinho-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-007",
+          "number": 7,
+          "label": "07P",
+          "front": "items/super-card-salgadinho-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-008",
+          "number": 8,
+          "label": "08P",
+          "front": "items/super-card-salgadinho-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-009",
+          "number": 9,
+          "label": "09P",
+          "front": "items/super-card-salgadinho-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-010",
+          "number": 10,
+          "label": "10P",
+          "front": "items/super-card-salgadinho-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-011",
+          "number": 11,
+          "label": "11P",
+          "front": "items/super-card-salgadinho-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-012",
+          "number": 12,
+          "label": "12P",
+          "front": "items/super-card-salgadinho-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-013",
+          "number": 13,
+          "label": "13P",
+          "front": "items/super-card-salgadinho-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-014",
+          "number": 14,
+          "label": "14C",
+          "front": "items/super-card-salgadinho-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-015",
+          "number": 15,
+          "label": "15C",
+          "front": "items/super-card-salgadinho-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-016",
+          "number": 16,
+          "label": "16C",
+          "front": "items/super-card-salgadinho-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-017",
+          "number": 17,
+          "label": "17C",
+          "front": "items/super-card-salgadinho-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-018",
+          "number": 18,
+          "label": "18C",
+          "front": "items/super-card-salgadinho-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-019",
+          "number": 19,
+          "label": "19C",
+          "front": "items/super-card-salgadinho-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-020",
+          "number": 20,
+          "label": "20C",
+          "front": "items/super-card-salgadinho-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-021",
+          "number": 21,
+          "label": "21C",
+          "front": "items/super-card-salgadinho-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-022",
+          "number": 22,
+          "label": "22C",
+          "front": "items/super-card-salgadinho-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-023",
+          "number": 23,
+          "label": "23C",
+          "front": "items/super-card-salgadinho-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-024",
+          "number": 24,
+          "label": "24C",
+          "front": "items/super-card-salgadinho-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-025",
+          "number": 25,
+          "label": "25C",
+          "front": "items/super-card-salgadinho-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-026",
+          "number": 26,
+          "label": "26C",
+          "front": "items/super-card-salgadinho-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-027",
+          "number": 27,
+          "label": "27C",
+          "front": "items/super-card-salgadinho-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-028",
+          "number": 28,
+          "label": "28C",
+          "front": "items/super-card-salgadinho-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-029",
+          "number": 29,
+          "label": "29C",
+          "front": "items/super-card-salgadinho-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-030",
+          "number": 30,
+          "label": "30C",
+          "front": "items/super-card-salgadinho-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-031",
+          "number": 31,
+          "label": "31C",
+          "front": "items/super-card-salgadinho-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-032",
+          "number": 32,
+          "label": "32C",
+          "front": "items/super-card-salgadinho-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-033",
+          "number": 3,
+          "label": "3C",
+          "front": "items/super-card-salgadinho-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-034",
+          "number": 34,
+          "label": "34C",
+          "front": "items/super-card-salgadinho-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "super-card-salgadinho-035",
+          "number": 35,
+          "label": "35C",
+          "front": "items/super-card-salgadinho-035-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "caixa-card-fosco-marketing",
+      "title": "CAIXA + CARD FOSCO (MARKETING)",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 32,
+      "sharedBack": "items/caixa-card-fosco-marketing-shared-back.jpg",
+      "items": [
+        {
+          "id": "caixa-card-fosco-marketing-001",
+          "number": 1,
+          "label": "01I",
+          "front": "items/caixa-card-fosco-marketing-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-002",
+          "number": 2,
+          "label": "02T",
+          "front": "items/caixa-card-fosco-marketing-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-003",
+          "number": 3,
+          "label": "03T",
+          "front": "items/caixa-card-fosco-marketing-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-004",
+          "number": 4,
+          "label": "04T",
+          "front": "items/caixa-card-fosco-marketing-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-005",
+          "number": 5,
+          "label": "05P",
+          "front": "items/caixa-card-fosco-marketing-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-006",
+          "number": 6,
+          "label": "06P",
+          "front": "items/caixa-card-fosco-marketing-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-007",
+          "number": 7,
+          "label": "07P",
+          "front": "items/caixa-card-fosco-marketing-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-008",
+          "number": 8,
+          "label": "08P",
+          "front": "items/caixa-card-fosco-marketing-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-009",
+          "number": 9,
+          "label": "09P",
+          "front": "items/caixa-card-fosco-marketing-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-010",
+          "number": 10,
+          "label": "10P",
+          "front": "items/caixa-card-fosco-marketing-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-011",
+          "number": 11,
+          "label": "11P",
+          "front": "items/caixa-card-fosco-marketing-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-012",
+          "number": 12,
+          "label": "12P",
+          "front": "items/caixa-card-fosco-marketing-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-013",
+          "number": 13,
+          "label": "13P",
+          "front": "items/caixa-card-fosco-marketing-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-014",
+          "number": 14,
+          "label": "14C",
+          "front": "items/caixa-card-fosco-marketing-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-015",
+          "number": 15,
+          "label": "15C",
+          "front": "items/caixa-card-fosco-marketing-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-016",
+          "number": 16,
+          "label": "16C",
+          "front": "items/caixa-card-fosco-marketing-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-017",
+          "number": 17,
+          "label": "17C",
+          "front": "items/caixa-card-fosco-marketing-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-018",
+          "number": 18,
+          "label": "18C",
+          "front": "items/caixa-card-fosco-marketing-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-019",
+          "number": 19,
+          "label": "19C",
+          "front": "items/caixa-card-fosco-marketing-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-020",
+          "number": 20,
+          "label": "20C",
+          "front": "items/caixa-card-fosco-marketing-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-021",
+          "number": 21,
+          "label": "21C",
+          "front": "items/caixa-card-fosco-marketing-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-022",
+          "number": 22,
+          "label": "22C",
+          "front": "items/caixa-card-fosco-marketing-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-023",
+          "number": 23,
+          "label": "23C",
+          "front": "items/caixa-card-fosco-marketing-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-024",
+          "number": 24,
+          "label": "24C",
+          "front": "items/caixa-card-fosco-marketing-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-025",
+          "number": 25,
+          "label": "25C",
+          "front": "items/caixa-card-fosco-marketing-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-026",
+          "number": 26,
+          "label": "26C",
+          "front": "items/caixa-card-fosco-marketing-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-027",
+          "number": 27,
+          "label": "27C",
+          "front": "items/caixa-card-fosco-marketing-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-028",
+          "number": 28,
+          "label": "28C",
+          "front": "items/caixa-card-fosco-marketing-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-029",
+          "number": 29,
+          "label": "29C",
+          "front": "items/caixa-card-fosco-marketing-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-030",
+          "number": 30,
+          "label": "30C",
+          "front": "items/caixa-card-fosco-marketing-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-031",
+          "number": 31,
+          "label": "31C",
+          "front": "items/caixa-card-fosco-marketing-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-032",
+          "number": 32,
+          "label": "32C",
+          "front": "items/caixa-card-fosco-marketing-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-033",
+          "number": 33,
+          "label": "33C",
+          "front": "items/caixa-card-fosco-marketing-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-034",
+          "number": 34,
+          "label": "34C",
+          "front": "items/caixa-card-fosco-marketing-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-card-fosco-marketing-035",
+          "number": 35,
+          "label": "35C",
+          "front": "items/caixa-card-fosco-marketing-035-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "card-02-03-04-replicas",
+      "title": "CARD (02, 03, 04) - RÉPLICAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": 3,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "card-02-03-04-replicas-001",
+          "number": 2,
+          "label": "02T",
+          "front": "items/card-02-03-04-replicas-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-02-03-04-replicas-002",
+          "number": 3,
+          "label": "03T",
+          "front": "items/card-02-03-04-replicas-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-02-03-04-replicas-003",
+          "number": 4,
+          "label": "04T",
+          "front": "items/card-02-03-04-replicas-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "kit-premios",
+      "title": "KIT + PRÊMIOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "kit-premios-001",
+          "number": 1,
+          "label": "KIT",
+          "front": "items/kit-premios-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-premios-002",
+          "number": 2,
+          "label": "KIT",
+          "front": "items/kit-premios-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-premios-003",
+          "number": 3,
+          "label": "KIT",
+          "front": "items/kit-premios-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-premios-004",
+          "number": 4,
+          "label": "KIT",
+          "front": "items/kit-premios-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-premios-005",
+          "number": 5,
+          "label": "KIT",
+          "front": "items/kit-premios-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-premios-006",
+          "number": 6,
+          "label": "KIT",
+          "front": "items/kit-premios-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-premios-007",
+          "number": 7,
+          "label": "KIT",
+          "front": "items/kit-premios-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-premios-008",
+          "number": 8,
+          "label": "KIT",
+          "front": "items/kit-premios-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-premios-009",
+          "number": 9,
+          "label": "SITE (2)",
+          "front": "items/kit-premios-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "COLEÇÃO COM BRILHANTE 4",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "COLEÇÃO COM BRILHANTE 5",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "COLEÇÃO COM BRILHANTE 6",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "COLEÇÃO COM BRILHANTE 7",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Z P6",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Z P4",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Z P2",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Z P1",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-vermelha",
+      "title": "TARJA: VERMELHA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-vermelha-001",
+          "number": 1,
+          "label": "A (1)",
+          "front": "items/tarja-vermelha-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-vermelha-002",
+          "number": 2,
+          "label": "A (3)",
+          "front": "items/tarja-vermelha-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-vermelha-003",
+          "number": 3,
+          "label": "A (2)",
+          "front": "items/tarja-vermelha-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-cinza",
+      "title": "TARJA: CINZA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-cinza-001",
+          "number": 1,
+          "label": "B (1)",
+          "front": "items/tarja-cinza-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-cinza-002",
+          "number": 2,
+          "label": "B (2)",
+          "front": "items/tarja-cinza-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-cinza-003",
+          "number": 3,
+          "label": "B (3)",
+          "front": "items/tarja-cinza-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-cinza-004",
+          "number": 4,
+          "label": "B (4)",
+          "front": "items/tarja-cinza-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-cinza-005",
+          "number": 5,
+          "label": "B (5)",
+          "front": "items/tarja-cinza-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-cinza-006",
+          "number": 6,
+          "label": "B (6)",
+          "front": "items/tarja-cinza-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 2,
+          "label": "2",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 3,
+          "label": "3",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 4,
+          "label": "4",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 5,
+          "label": "5",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-005",
+          "number": 6,
+          "label": "6",
+          "front": "items/embalagem-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-006",
+          "number": 7,
+          "label": "7",
+          "front": "items/embalagem-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-007",
+          "number": 8,
+          "label": "8",
+          "front": "items/embalagem-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-008",
+          "number": 1,
+          "label": "1",
+          "front": "items/embalagem-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "PÔSTER C4 (1)",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "PÔSTER C4 (2)",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "PÔSTER C5",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Imagem do WhatsApp de 2025-03-08 à(s) 23.43.41_857e41d3",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "PACOTES",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "DISPLAY",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "DISPLAY CAIXA (8)",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-008",
+          "number": 8,
+          "label": "DISPLAY CAIXA (7)",
+          "front": "items/poster-propaganda-site-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-009",
+          "number": 9,
+          "label": "DISPLAY CAIXA (6)",
+          "front": "items/poster-propaganda-site-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-010",
+          "number": 10,
+          "label": "DISPLAY CAIXA (4)",
+          "front": "items/poster-propaganda-site-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-011",
+          "number": 11,
+          "label": "DISPLAY CAIXA (3)",
+          "front": "items/poster-propaganda-site-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-012",
+          "number": 12,
+          "label": "DISPLAY CAIXA (2)",
+          "front": "items/poster-propaganda-site-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-013",
+          "number": 13,
+          "label": "DISPLAY CAIXA (1)",
+          "front": "items/poster-propaganda-site-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-014",
+          "number": 14,
+          "label": "SITE (1)",
+          "front": "items/poster-propaganda-site-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-015",
+          "number": 15,
+          "label": "SITE (1)",
+          "front": "items/poster-propaganda-site-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-016",
+          "number": 16,
+          "label": "SITE (2)",
+          "front": "items/poster-propaganda-site-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-017",
+          "number": 17,
+          "label": "SITE (2)",
+          "front": "items/poster-propaganda-site-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-018",
+          "number": 18,
+          "label": "SITE (3)",
+          "front": "items/poster-propaganda-site-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-019",
+          "number": 19,
+          "label": "SITE (4)",
+          "front": "items/poster-propaganda-site-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-020",
+          "number": 20,
+          "label": "SITE (5)",
+          "front": "items/poster-propaganda-site-020-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

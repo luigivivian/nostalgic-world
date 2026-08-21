@@ -1,0 +1,577 @@
+{
+  "slug": "eco",
+  "name": "Fandangos Eco (Animal Planet)",
+  "year": 2009,
+  "category": "cards",
+  "shape": "card",
+  "source": "https://www.elmachipscolecoes.com.br/eco",
+  "scrapedAt": "2026-08-05T14:19:41.492Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2009 - FANDANGOS ECO.jpg",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "card",
+      "title": "CARD",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 55,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "card-001",
+          "number": 1,
+          "label": "01 - CHIMPANZÉ",
+          "front": "items/card-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-002",
+          "number": 2,
+          "label": "02 - TUCANO",
+          "front": "items/card-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-003",
+          "number": 3,
+          "label": "03 - AVESTRUZ",
+          "front": "items/card-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-004",
+          "number": 4,
+          "label": "04 - FOCA",
+          "front": "items/card-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-005",
+          "number": 5,
+          "label": "05 - URSO-POLAR",
+          "front": "items/card-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-006",
+          "number": 6,
+          "label": "06 - LEÃO",
+          "front": "items/card-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-007",
+          "number": 7,
+          "label": "07 - GARÇA BRANCA",
+          "front": "items/card-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-008",
+          "number": 8,
+          "label": "08 - CROCODILO",
+          "front": "items/card-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-009",
+          "number": 9,
+          "label": "09 - COALA",
+          "front": "items/card-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-010",
+          "number": 10,
+          "label": "10 - ARARA-AZUL",
+          "front": "items/card-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-011",
+          "number": 11,
+          "label": "11 - MORSA",
+          "front": "items/card-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-012",
+          "number": 12,
+          "label": "12 - PAVÃO",
+          "front": "items/card-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-013",
+          "number": 13,
+          "label": "13 - CORUJA",
+          "front": "items/card-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-014",
+          "number": 14,
+          "label": "14 - GOLFINHO",
+          "front": "items/card-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-015",
+          "number": 15,
+          "label": "15 - CAMALEÃO",
+          "front": "items/card-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-016",
+          "number": 16,
+          "label": "16 - ORCA",
+          "front": "items/card-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-017",
+          "number": 17,
+          "label": "17 - LONTRA",
+          "front": "items/card-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-018",
+          "number": 18,
+          "label": "18 - COBRA",
+          "front": "items/card-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-019",
+          "number": 19,
+          "label": "19 - LÊMURE",
+          "front": "items/card-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-020",
+          "number": 20,
+          "label": "20 - PANDA-GIGANTE",
+          "front": "items/card-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-021",
+          "number": 21,
+          "label": "21 - BABUÍNO",
+          "front": "items/card-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-022",
+          "number": 22,
+          "label": "22 - ORANGOTANGO",
+          "front": "items/card-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-023",
+          "number": 23,
+          "label": "23 - TARTARUGA MARINHA",
+          "front": "items/card-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-024",
+          "number": 24,
+          "label": "24 - HIPOPÓTAMO",
+          "front": "items/card-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-025",
+          "number": 25,
+          "label": "25 - PEIXE PALHAÇO",
+          "front": "items/card-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-026",
+          "number": 26,
+          "label": "26 - GUEPARDO",
+          "front": "items/card-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-027",
+          "number": 27,
+          "label": "27 - VEADO",
+          "front": "items/card-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-028",
+          "number": 28,
+          "label": "28 - URSO-PARDO",
+          "front": "items/card-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-029",
+          "number": 29,
+          "label": "29 - ZEBRA",
+          "front": "items/card-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-030",
+          "number": 30,
+          "label": "30 - SURICATE",
+          "front": "items/card-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-031",
+          "number": 31,
+          "label": "31 - ELEFANTE",
+          "front": "items/card-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-032",
+          "number": 32,
+          "label": "32 - RINOCERONTE",
+          "front": "items/card-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-033",
+          "number": 33,
+          "label": "33 - JABUTI",
+          "front": "items/card-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-034",
+          "number": 34,
+          "label": "34 - PINGUIM",
+          "front": "items/card-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-035",
+          "number": 35,
+          "label": "35 - TIGRE",
+          "front": "items/card-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-036",
+          "number": 36,
+          "label": "36 - CÃO",
+          "front": "items/card-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-037",
+          "number": 37,
+          "label": "37 - GIRADA",
+          "front": "items/card-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-038",
+          "number": 38,
+          "label": "38 - TUBARÃO",
+          "front": "items/card-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-039",
+          "number": 39,
+          "label": "39 - CANGURU",
+          "front": "items/card-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-040",
+          "number": 40,
+          "label": "40 - ÁGUIA-AMERICANA",
+          "front": "items/card-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-041",
+          "number": 41,
+          "label": "41 - CERVO",
+          "front": "items/card-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-042",
+          "number": 42,
+          "label": "42 - LOBO",
+          "front": "items/card-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-043",
+          "number": 43,
+          "label": "43 - BISÃO",
+          "front": "items/card-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-044",
+          "number": 44,
+          "label": "44 - PICA-PAU",
+          "front": "items/card-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-045",
+          "number": 45,
+          "label": "45 - COELHO",
+          "front": "items/card-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-046",
+          "number": 46,
+          "label": "46 - HIENA",
+          "front": "items/card-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-047",
+          "number": 47,
+          "label": "47 - CARANGUEJO",
+          "front": "items/card-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-048",
+          "number": 48,
+          "label": "48 - SAPO",
+          "front": "items/card-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-049",
+          "number": 49,
+          "label": "49 - CARNEIRO",
+          "front": "items/card-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-050",
+          "number": 50,
+          "label": "50 - GUAXINIM",
+          "front": "items/card-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-051",
+          "number": 51,
+          "label": "51 - RAPOSA DO ÁRTICO",
+          "front": "items/card-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-052",
+          "number": 52,
+          "label": "52 - ARANHA",
+          "front": "items/card-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-053",
+          "number": 53,
+          "label": "53 - BORBOLETA",
+          "front": "items/card-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-054",
+          "number": 54,
+          "label": "54 - ESQUILO",
+          "front": "items/card-054-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-055",
+          "number": 55,
+          "label": "55 - LHAMA",
+          "front": "items/card-055-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/lotes-outras-fotos-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/lotes-outras-fotos-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

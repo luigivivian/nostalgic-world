@@ -1,0 +1,562 @@
+{
+  "slug": "dracomania",
+  "name": "Dracomania",
+  "year": 2008,
+  "category": "cards",
+  "shape": "card",
+  "source": "https://www.elmachipscolecoes.com.br/dracomania",
+  "scrapedAt": "2026-08-05T03:12:58.235Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2008 - DRACOMANIA.jpg",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "card-normal",
+      "title": "CARD (NORMAL)",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 32,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "card-normal-001",
+          "number": 1,
+          "label": "1 - DRAGÃO MESTRE",
+          "front": "items/card-normal-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-002",
+          "number": 2,
+          "label": "2 - DRAGÃO DOURADO",
+          "front": "items/card-normal-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-003",
+          "number": 3,
+          "label": "3 - DRAGÃO PRATEADO",
+          "front": "items/card-normal-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-004",
+          "number": 4,
+          "label": "4 - DRAGÃO BRONZE",
+          "front": "items/card-normal-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-005",
+          "number": 5,
+          "label": "5 - DRAGÃO COBRE",
+          "front": "items/card-normal-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-006",
+          "number": 6,
+          "label": "6 - DRAGÃO BRANCO",
+          "front": "items/card-normal-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-007",
+          "number": 7,
+          "label": "7 - DRAGÃO NEGRO",
+          "front": "items/card-normal-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-008",
+          "number": 8,
+          "label": "8 - DRAGÃO VERMELHO",
+          "front": "items/card-normal-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-009",
+          "number": 9,
+          "label": "9 - DRAGÃO AZUL",
+          "front": "items/card-normal-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-010",
+          "number": 10,
+          "label": "10 - DRAGÃO VERDE",
+          "front": "items/card-normal-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-011",
+          "number": 11,
+          "label": "11 - CAVALEIRO",
+          "front": "items/card-normal-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-012",
+          "number": 12,
+          "label": "12 - COLOSSO",
+          "front": "items/card-normal-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-013",
+          "number": 13,
+          "label": "13 - FEITICEIRA",
+          "front": "items/card-normal-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-014",
+          "number": 14,
+          "label": "14 - GUERREIRA",
+          "front": "items/card-normal-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-015",
+          "number": 15,
+          "label": "15 - GUERREIRO",
+          "front": "items/card-normal-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-016",
+          "number": 16,
+          "label": "16 - HERÓI",
+          "front": "items/card-normal-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-017",
+          "number": 17,
+          "label": "17 - LOBISOMEM",
+          "front": "items/card-normal-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-018",
+          "number": 18,
+          "label": "18 - MAGO",
+          "front": "items/card-normal-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-019",
+          "number": 19,
+          "label": "19 - MERLIN",
+          "front": "items/card-normal-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-020",
+          "number": 20,
+          "label": "20 - MÚMIA",
+          "front": "items/card-normal-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-021",
+          "number": 21,
+          "label": "21 - PEGASUS",
+          "front": "items/card-normal-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-022",
+          "number": 22,
+          "label": "22 - SACERDOTE",
+          "front": "items/card-normal-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-023",
+          "number": 23,
+          "label": "23 - SOMBRA",
+          "front": "items/card-normal-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-024",
+          "number": 24,
+          "label": "24 - BÁRBARO",
+          "front": "items/card-normal-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-025",
+          "number": 25,
+          "label": "25 - VIKING",
+          "front": "items/card-normal-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-026",
+          "number": 26,
+          "label": "26 - BRUXA",
+          "front": "items/card-normal-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-027",
+          "number": 27,
+          "label": "27 - ELFO",
+          "front": "items/card-normal-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-028",
+          "number": 28,
+          "label": "28 - ANJO",
+          "front": "items/card-normal-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-029",
+          "number": 29,
+          "label": "29 - GIGANTE DE LAVA",
+          "front": "items/card-normal-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-030",
+          "number": 30,
+          "label": "30 - ESQUELETO",
+          "front": "items/card-normal-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-031",
+          "number": 31,
+          "label": "31 - OGRO",
+          "front": "items/card-normal-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-normal-032",
+          "number": 32,
+          "label": "32 - UNICÓRNIO",
+          "front": "items/card-normal-032-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "card-com-efeito",
+      "title": "CARD (COM EFEITO)",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 10,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "card-com-efeito-001",
+          "number": 1,
+          "label": "1 - DRAGÃO MESTRE",
+          "front": "items/card-com-efeito-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-efeito-002",
+          "number": 2,
+          "label": "2 - DRAGÃO DOURADO",
+          "front": "items/card-com-efeito-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-efeito-003",
+          "number": 3,
+          "label": "3 - DRAGÃO PRATEADO",
+          "front": "items/card-com-efeito-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-efeito-004",
+          "number": 4,
+          "label": "4 - DRAGÃO BRONZE",
+          "front": "items/card-com-efeito-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-efeito-005",
+          "number": 5,
+          "label": "5 - DRAGÃO COBRE",
+          "front": "items/card-com-efeito-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-efeito-006",
+          "number": 6,
+          "label": "6 - DRAGÃO NEGRO",
+          "front": "items/card-com-efeito-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-efeito-007",
+          "number": 7,
+          "label": "7 - DRAGÃO BRANCO",
+          "front": "items/card-com-efeito-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-efeito-008",
+          "number": 8,
+          "label": "8 - DRAGÃO VERMELHO",
+          "front": "items/card-com-efeito-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-efeito-009",
+          "number": 9,
+          "label": "9 - DRAGÃO AZUL",
+          "front": "items/card-com-efeito-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "card-com-efeito-010",
+          "number": 10,
+          "label": "10 - DRAGÃO VERDE",
+          "front": "items/card-com-efeito-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja",
+      "title": "TARJA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/tarja-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/tarja-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/tarja-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/tarja-012-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-cards-com-efeito",
+      "title": "EMBALAGEM: CARDS COM EFEITO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-cards-com-efeito-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-cards-com-efeito-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-cards-com-efeito-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-cards-com-efeito-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-cards-com-efeito-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-cards-com-efeito-003-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

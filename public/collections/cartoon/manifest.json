@@ -1,0 +1,1438 @@
+{
+  "slug": "cartoon",
+  "name": "Toon Tazo na Copa (Cartoon Network)",
+  "year": 2002,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/cartoon",
+  "scrapedAt": "2026-08-05T03:22:35.379Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propagandas",
+      "title": "PÔSTER / PROPAGANDAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propagandas-001",
+          "number": 1,
+          "label": "2002 - COPA TOON.png",
+          "front": "items/poster-propagandas-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propagandas-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propagandas-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tazo",
+      "title": "TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 48,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tazo-001",
+          "number": 1,
+          "label": "1-JOGANDO NO BANHEIRO",
+          "front": "items/tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-002",
+          "number": 2,
+          "label": "2-LEVANTANDO A CAMISA",
+          "front": "items/tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-003",
+          "number": 3,
+          "label": "3-NA RETAGUARDA",
+          "front": "items/tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-004",
+          "number": 4,
+          "label": "4-MATANDO NO PEITO",
+          "front": "items/tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-005",
+          "number": 5,
+          "label": "5-BRAVO NO BANCO",
+          "front": "items/tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-006",
+          "number": 6,
+          "label": "6-MARCAÇÃO CERRADA",
+          "front": "items/tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-007",
+          "number": 7,
+          "label": "7-FECHANDO O GOL",
+          "front": "items/tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-008",
+          "number": 8,
+          "label": "8-FIM DA PRORROGAÇÃO",
+          "front": "items/tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-009",
+          "number": 1,
+          "label": "1-JOGANDO NO BANHEIRO",
+          "front": "items/tazo-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-010",
+          "number": 2,
+          "label": "2-LEVANTANDO A CAMISA",
+          "front": "items/tazo-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-011",
+          "number": 3,
+          "label": "3-NA RETAGUARDA",
+          "front": "items/tazo-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-012",
+          "number": 4,
+          "label": "4-MATANDO NO PEITO",
+          "front": "items/tazo-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-013",
+          "number": 5,
+          "label": "5-BRAVO NO BANCO",
+          "front": "items/tazo-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-014",
+          "number": 6,
+          "label": "6-MARCAÇÃO CERRADA",
+          "front": "items/tazo-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-015",
+          "number": 7,
+          "label": "7-FECHANDO O GOL",
+          "front": "items/tazo-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-016",
+          "number": 8,
+          "label": "8-FIM DA PRORROGAÇÃO",
+          "front": "items/tazo-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-017",
+          "number": 9,
+          "label": "9-CHUTE SUPERPODEROSA",
+          "front": "items/tazo-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-018",
+          "number": 10,
+          "label": "10-LADRÃO DE BOLA",
+          "front": "items/tazo-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-019",
+          "number": 11,
+          "label": "11-É CAMPEÃO",
+          "front": "items/tazo-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-020",
+          "number": 12,
+          "label": "12-JOGADA ENSAIADA",
+          "front": "items/tazo-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-021",
+          "number": 13,
+          "label": "13-GOL DE CABEÇA",
+          "front": "items/tazo-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-022",
+          "number": 14,
+          "label": "14-ESCALANDO O TIME",
+          "front": "items/tazo-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-023",
+          "number": 15,
+          "label": "15-ENTROU COM BOLA E TUDO",
+          "front": "items/tazo-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-024",
+          "number": 16,
+          "label": "16-FALTA PARA CARTÃO",
+          "front": "items/tazo-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-025",
+          "number": 9,
+          "label": "9-CHUTE SUPERPODEROSA",
+          "front": "items/tazo-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-026",
+          "number": 10,
+          "label": "10-LADRÃO DE BOLA",
+          "front": "items/tazo-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-027",
+          "number": 11,
+          "label": "11-É CAMPEÃO",
+          "front": "items/tazo-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-028",
+          "number": 12,
+          "label": "12-JOGADA ENSAIADA",
+          "front": "items/tazo-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-029",
+          "number": 13,
+          "label": "13-GOL DE CABEÇA",
+          "front": "items/tazo-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-030",
+          "number": 14,
+          "label": "14-ESCALANDO O TIME",
+          "front": "items/tazo-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-031",
+          "number": 15,
+          "label": "15-ENTROU COM BOLA E TUDO",
+          "front": "items/tazo-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-032",
+          "number": 16,
+          "label": "16-FALTA PARA CARTÃO",
+          "front": "items/tazo-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-033",
+          "number": 17,
+          "label": "17-CORRENDO PRO ABRAÇO",
+          "front": "items/tazo-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-034",
+          "number": 18,
+          "label": "18-LEVANDO UM FRANGO",
+          "front": "items/tazo-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-035",
+          "number": 19,
+          "label": "19-PERDEU DE LAVADA",
+          "front": "items/tazo-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-036",
+          "number": 20,
+          "label": "20-COMENDO A GRAMA",
+          "front": "items/tazo-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-037",
+          "number": 21,
+          "label": "21-A ARMA DO TIME",
+          "front": "items/tazo-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-038",
+          "number": 22,
+          "label": "22-CARTÃO VERMELHO",
+          "front": "items/tazo-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-039",
+          "number": 23,
+          "label": "23-BOLA FORA",
+          "front": "items/tazo-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-040",
+          "number": 24,
+          "label": "24-O DRIBLE DA VACA",
+          "front": "items/tazo-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-041",
+          "number": 17,
+          "label": "17-CORRENDO PRO ABRAÇO",
+          "front": "items/tazo-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-042",
+          "number": 18,
+          "label": "18-LEVANDO UM FRANGO",
+          "front": "items/tazo-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-043",
+          "number": 19,
+          "label": "19-PERDEU DE LAVADA",
+          "front": "items/tazo-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-044",
+          "number": 20,
+          "label": "20-COMENDO A GRAMA",
+          "front": "items/tazo-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-045",
+          "number": 21,
+          "label": "21-A ARMA DO TIME",
+          "front": "items/tazo-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-046",
+          "number": 22,
+          "label": "22-CARTÃO VERMELHO",
+          "front": "items/tazo-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-047",
+          "number": 23,
+          "label": "23-BOLA FORA",
+          "front": "items/tazo-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-048",
+          "number": 24,
+          "label": "24-O DRIBLE DA VACA",
+          "front": "items/tazo-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-049",
+          "number": 25,
+          "label": "25-DOMINANDO A BOLA",
+          "front": "items/tazo-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-050",
+          "number": 26,
+          "label": "26-ENTRANDO DE CARRINHO",
+          "front": "items/tazo-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-051",
+          "number": 27,
+          "label": "27-PERNA DE PAU",
+          "front": "items/tazo-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-052",
+          "number": 28,
+          "label": "28-NA LANTERNA",
+          "front": "items/tazo-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-053",
+          "number": 29,
+          "label": "29-EMBOLANDO O MEIO",
+          "front": "items/tazo-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-054",
+          "number": 30,
+          "label": "30-FAZENDO FIRULA",
+          "front": "items/tazo-054-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-055",
+          "number": 31,
+          "label": "31-JOGADA DE GÊNIO",
+          "front": "items/tazo-055-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-056",
+          "number": 32,
+          "label": "32-ALONGAMENTO",
+          "front": "items/tazo-056-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-057",
+          "number": 25,
+          "label": "25-DOMINANDO A BOLA",
+          "front": "items/tazo-057-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-058",
+          "number": 26,
+          "label": "26-ENTRANDO DE CARRINHO",
+          "front": "items/tazo-058-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-059",
+          "number": 27,
+          "label": "27-PERNA DE PAU",
+          "front": "items/tazo-059-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-060",
+          "number": 28,
+          "label": "28-NA LANTERNA",
+          "front": "items/tazo-060-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-061",
+          "number": 29,
+          "label": "29-EMBOLANDO O MEIO",
+          "front": "items/tazo-061-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-062",
+          "number": 30,
+          "label": "30-FAZENDO FIRULA",
+          "front": "items/tazo-062-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-063",
+          "number": 31,
+          "label": "31-JOGADA DE GÊNIO",
+          "front": "items/tazo-063-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-064",
+          "number": 32,
+          "label": "32-ALONGAMENTO",
+          "front": "items/tazo-064-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-065",
+          "number": 33,
+          "label": "33-COMENDO BOLA",
+          "front": "items/tazo-065-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-066",
+          "number": 34,
+          "label": "34-COBRADOR OFICIAL",
+          "front": "items/tazo-066-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-067",
+          "number": 35,
+          "label": "35-MELANDO O JOGO",
+          "front": "items/tazo-067-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-068",
+          "number": 36,
+          "label": "36-FAZENDO UM LANÇAMENTO",
+          "front": "items/tazo-068-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-069",
+          "number": 37,
+          "label": "37-JOGO AMISTOSO",
+          "front": "items/tazo-069-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-070",
+          "number": 38,
+          "label": "38-PRO CHUVEIRO",
+          "front": "items/tazo-070-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-071",
+          "number": 39,
+          "label": "39-GOL DE BICICLETA",
+          "front": "items/tazo-071-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-072",
+          "number": 40,
+          "label": "40-TORCIDA UNIFORMIZADA",
+          "front": "items/tazo-072-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-073",
+          "number": 33,
+          "label": "33-COMENDO BOLA",
+          "front": "items/tazo-073-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-074",
+          "number": 34,
+          "label": "34-COBRADOR OFICIAL",
+          "front": "items/tazo-074-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-075",
+          "number": 35,
+          "label": "35-MELANDO O JOGO",
+          "front": "items/tazo-075-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-076",
+          "number": 36,
+          "label": "36-FAZENDO UM LANÇAMENTO",
+          "front": "items/tazo-076-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-077",
+          "number": 37,
+          "label": "37-JOGO AMISTOSO",
+          "front": "items/tazo-077-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-078",
+          "number": 38,
+          "label": "38-PRO CHUVEIRO",
+          "front": "items/tazo-078-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-079",
+          "number": 39,
+          "label": "39-GOL DE BICICLETA",
+          "front": "items/tazo-079-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-080",
+          "number": 40,
+          "label": "40-TORCIDA UNIFORMIZADA",
+          "front": "items/tazo-080-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-081",
+          "number": 41,
+          "label": "41-OLÉ",
+          "front": "items/tazo-081-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-082",
+          "number": 42,
+          "label": "42-CABEÇADA NA TRAVE",
+          "front": "items/tazo-082-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-083",
+          "number": 43,
+          "label": "43-EMBAIXADA",
+          "front": "items/tazo-083-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-084",
+          "number": 44,
+          "label": "44-DANDO UM CHAPÉU",
+          "front": "items/tazo-084-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-085",
+          "number": 45,
+          "label": "45-JOGADOR FOMINHA",
+          "front": "items/tazo-085-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-086",
+          "number": 46,
+          "label": "46-OS CARTOLAS DO TIME",
+          "front": "items/tazo-086-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-087",
+          "number": 47,
+          "label": "47-SHOW DE BOLA",
+          "front": "items/tazo-087-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-088",
+          "number": 48,
+          "label": "48-DANDO UM TOTOZINHO",
+          "front": "items/tazo-088-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-089",
+          "number": 41,
+          "label": "41-OLÉ",
+          "front": "items/tazo-089-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-090",
+          "number": 42,
+          "label": "42-CABEÇADA NA TRAVE",
+          "front": "items/tazo-090-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-091",
+          "number": 43,
+          "label": "43-EMBAIXADA",
+          "front": "items/tazo-091-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-092",
+          "number": 44,
+          "label": "44-DANDO UM CHAPÉU",
+          "front": "items/tazo-092-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-093",
+          "number": 45,
+          "label": "45-JOGADOR FOMINHA",
+          "front": "items/tazo-093-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-094",
+          "number": 46,
+          "label": "46-OS CARTOLAS DO TIME",
+          "front": "items/tazo-094-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-095",
+          "number": 47,
+          "label": "47-SHOW DE BOLA",
+          "front": "items/tazo-095-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-096",
+          "number": 48,
+          "label": "48-DANDO UM TOTOZINHO",
+          "front": "items/tazo-096-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tazo-prata",
+      "title": "TAZO (PRATA)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 14,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tazo-prata-001",
+          "number": 1,
+          "label": "01-GOLEIRO (FRANGO)",
+          "front": "items/tazo-prata-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-002",
+          "number": 2,
+          "label": "02-LATERAL-DIREITO (LINDINHA)",
+          "front": "items/tazo-prata-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-003",
+          "number": 3,
+          "label": "03-ZAGUEIRO-CENTRAL (JOHNNY BRAVO)",
+          "front": "items/tazo-prata-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-004",
+          "number": 4,
+          "label": "04-QUARTO-ZAGUEIRO (VACA)",
+          "front": "items/tazo-prata-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-005",
+          "number": 5,
+          "label": "05-VOLANTE (DEXTER)",
+          "front": "items/tazo-prata-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-006",
+          "number": 6,
+          "label": "06-LATERAL-ESQUERDO (DOCINHO)",
+          "front": "items/tazo-prata-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-007",
+          "number": 7,
+          "label": "07-PONTA-DIREITA (DEE DEE)",
+          "front": "items/tazo-prata-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-008",
+          "number": 8,
+          "label": "08-MEIA-ESQUERDA (EDU)",
+          "front": "items/tazo-prata-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-009",
+          "number": 1,
+          "label": "01-GOLEIRO (FRANGO)",
+          "front": "items/tazo-prata-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-010",
+          "number": 2,
+          "label": "02-LATERAL-DIREITO (LINDINHA)",
+          "front": "items/tazo-prata-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-011",
+          "number": 3,
+          "label": "03-ZAGUEIRO-CENTRAL (JOHNNY BRAVO)",
+          "front": "items/tazo-prata-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-012",
+          "number": 4,
+          "label": "04-QUARTO-ZAGUEIRO (VACA)",
+          "front": "items/tazo-prata-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-013",
+          "number": 5,
+          "label": "05-VOLANTE (DEXTER)",
+          "front": "items/tazo-prata-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-014",
+          "number": 6,
+          "label": "06-LATERAL-ESQUERDO (DOCINHO)",
+          "front": "items/tazo-prata-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-015",
+          "number": 7,
+          "label": "07-PONTA-DIREITA (DEE DEE)",
+          "front": "items/tazo-prata-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-016",
+          "number": 8,
+          "label": "08-MEIA-ESQUERDA (EDU)",
+          "front": "items/tazo-prata-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-017",
+          "number": 9,
+          "label": "09-CENTRO-AVANTE (DU)",
+          "front": "items/tazo-prata-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-018",
+          "number": 10,
+          "label": "10-MEIA-DIREITA (DUDU)",
+          "front": "items/tazo-prata-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-019",
+          "number": 11,
+          "label": "11-PONTA-ESQUERDA (FLORZINHA)",
+          "front": "items/tazo-prata-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-020",
+          "number": 12,
+          "label": "12-TÉCNICO (SCOOBY-DOO)",
+          "front": "items/tazo-prata-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-021",
+          "number": 13,
+          "label": "13-PREPARADOR FÍSICO (TOM)",
+          "front": "items/tazo-prata-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-022",
+          "number": 14,
+          "label": "14-MASCOTE (JERRY)",
+          "front": "items/tazo-prata-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-023",
+          "number": 9,
+          "label": "09-CENTRO-AVANTE (DU)",
+          "front": "items/tazo-prata-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-024",
+          "number": 10,
+          "label": "10-MEIA-DIREITA (DUDU)",
+          "front": "items/tazo-prata-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-025",
+          "number": 11,
+          "label": "11-PONTA-ESQUERDA (FLORZINHA)",
+          "front": "items/tazo-prata-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-026",
+          "number": 12,
+          "label": "12-TÉCNICO (SCOOBY-DOO)",
+          "front": "items/tazo-prata-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-027",
+          "number": 13,
+          "label": "13-PREPARADOR FÍSICO (TOM)",
+          "front": "items/tazo-prata-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazo-prata-028",
+          "number": 14,
+          "label": "14-MASCOTE (JERRY)",
+          "front": "items/tazo-prata-028-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "gigan-tazo-ouro",
+      "title": "GIGAN-TAZO (OURO)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 8,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "gigan-tazo-ouro-001",
+          "number": 1,
+          "label": "01-SELEÇÃO DO BRAVO",
+          "front": "items/gigan-tazo-ouro-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-002",
+          "number": 2,
+          "label": "02-SELEÇÃO PODEROSA",
+          "front": "items/gigan-tazo-ouro-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-003",
+          "number": 3,
+          "label": "03-SELEÇÃO É O BICHO",
+          "front": "items/gigan-tazo-ouro-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-004",
+          "number": 4,
+          "label": "04-SELEÇÃO GENIAL",
+          "front": "items/gigan-tazo-ouro-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-005",
+          "number": 1,
+          "label": "01-SELEÇÃO DO BRAVO",
+          "front": "items/gigan-tazo-ouro-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-006",
+          "number": 2,
+          "label": "02-SELEÇÃO PODEROSA",
+          "front": "items/gigan-tazo-ouro-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-007",
+          "number": 3,
+          "label": "03-SELEÇÃO É O BICHO",
+          "front": "items/gigan-tazo-ouro-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-008",
+          "number": 4,
+          "label": "04-SELEÇÃO GENIAL",
+          "front": "items/gigan-tazo-ouro-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-009",
+          "number": 5,
+          "label": "05-SELEÇÃO DOS MANOS",
+          "front": "items/gigan-tazo-ouro-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-010",
+          "number": 6,
+          "label": "06-SELEÇÃO TOON",
+          "front": "items/gigan-tazo-ouro-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-011",
+          "number": 7,
+          "label": "07-BOLA (SEM NÚMERO)",
+          "front": "items/gigan-tazo-ouro-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-012",
+          "number": 8,
+          "label": "08-TAÇA COPA TOON (SEM NÚMERO)",
+          "front": "items/gigan-tazo-ouro-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-013",
+          "number": 5,
+          "label": "05-SELEÇÃO DOS MANOS",
+          "front": "items/gigan-tazo-ouro-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-014",
+          "number": 6,
+          "label": "06-SELEÇÃO TOON",
+          "front": "items/gigan-tazo-ouro-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-015",
+          "number": 7,
+          "label": "07-BOLA (SEM NÚMERO)",
+          "front": "items/gigan-tazo-ouro-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-ouro-016",
+          "number": 8,
+          "label": "08-TAÇA COPA TOON (SEM NÚMERO)",
+          "front": "items/gigan-tazo-ouro-016-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/lotes-outras-fotos-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/lotes-outras-fotos-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/lotes-outras-fotos-011-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-tazo",
+      "title": "TARJA: CONTÉM 1 TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-contem-1-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-contem-1-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-contem-1-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-contem-1-tazo-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-contem-1-tazo",
+      "title": "EMBALAGEM: CONTÉM 1 TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-contem-1-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-contem-1-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-contem-1-tazo-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-tazo-ou-1-tazo-prata",
+      "title": "TARJA: CONTÉM 1 TAZO OU 1 TAZO PRATA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-tazo-ou-1-tazo-prata-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-contem-1-tazo-ou-1-tazo-prata-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-ou-1-tazo-prata-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-contem-1-tazo-ou-1-tazo-prata-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-ou-1-tazo-prata-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-contem-1-tazo-ou-1-tazo-prata-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-ou-1-tazo-prata-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-contem-1-tazo-ou-1-tazo-prata-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-ou-1-tazo-prata-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-contem-1-tazo-ou-1-tazo-prata-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-ou-1-tazo-prata-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-contem-1-tazo-ou-1-tazo-prata-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-contem-1-tazo-ou-1-tazo-prata",
+      "title": "EMBALAGEM: CONTÉM 1 TAZO OU 1 TAZO PRATA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-013",
+          "number": 13,
+          "label": "Foto 13",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-014",
+          "number": 14,
+          "label": "Foto 14",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-015",
+          "number": 15,
+          "label": "Foto 15",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-tazo-ou-1-tazo-prata-016",
+          "number": 16,
+          "label": "Foto 16",
+          "front": "items/embalagem-contem-1-tazo-ou-1-tazo-prata-016-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-contem-1-gigan-tazo-ouro",
+      "title": "EMBALAGEM: CONTÉM 1 GIGAN-TAZO OURO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-contem-1-gigan-tazo-ouro-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-contem-1-gigan-tazo-ouro-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-ouro-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-contem-1-gigan-tazo-ouro-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-ouro-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-contem-1-gigan-tazo-ouro-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-ouro-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-contem-1-gigan-tazo-ouro-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-ouro-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-contem-1-gigan-tazo-ouro-005-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "slug": "digimon",
+  "name": "Lig-Mon Digimon",
+  "year": 2001,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/digimon",
+  "scrapedAt": "2026-08-05T03:21:50.682Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "jogo-brincadeira",
+      "title": "JOGO / BRINCADEIRA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "jogo-brincadeira-001",
+          "number": 1,
+          "label": "2001 - LIG-MON DIGIMON.png",
+          "front": "items/jogo-brincadeira-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "digicartas",
+      "title": "DIGICARTAS",
+      "kind": "paired",
+      "points": null,
+      "expected": 50,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "digicartas-001",
+          "number": 1,
+          "label": "01-TAI",
+          "front": "items/digicartas-001-front.jpg",
+          "back": "items/digicartas-007-front.jpg"
+        },
+        {
+          "id": "digicartas-002",
+          "number": 2,
+          "label": "02-KOROMON",
+          "front": "items/digicartas-002-front.jpg",
+          "back": "items/digicartas-008-front.jpg"
+        },
+        {
+          "id": "digicartas-003",
+          "number": 3,
+          "label": "03-AGUMON",
+          "front": "items/digicartas-003-front.jpg",
+          "back": "items/digicartas-009-front.jpg"
+        },
+        {
+          "id": "digicartas-004",
+          "number": 4,
+          "label": "04-GREYMON",
+          "front": "items/digicartas-004-front.jpg",
+          "back": "items/digicartas-010-front.jpg"
+        },
+        {
+          "id": "digicartas-005",
+          "number": 5,
+          "label": "05-METALGREYMON",
+          "front": "items/digicartas-005-front.jpg",
+          "back": "items/digicartas-011-front.jpg"
+        },
+        {
+          "id": "digicartas-006",
+          "number": 6,
+          "label": "06-WARGREYMON",
+          "front": "items/digicartas-006-front.jpg",
+          "back": "items/digicartas-012-front.jpg"
+        },
+        {
+          "id": "digicartas-013",
+          "number": 7,
+          "label": "07-MATT",
+          "front": "items/digicartas-013-front.jpg",
+          "back": "items/digicartas-019-front.jpg"
+        },
+        {
+          "id": "digicartas-014",
+          "number": 8,
+          "label": "08-TSUNOMON",
+          "front": "items/digicartas-014-front.jpg",
+          "back": "items/digicartas-020-front.jpg"
+        },
+        {
+          "id": "digicartas-015",
+          "number": 9,
+          "label": "09-GABUMON",
+          "front": "items/digicartas-015-front.jpg",
+          "back": "items/digicartas-021-front.jpg"
+        },
+        {
+          "id": "digicartas-016",
+          "number": 10,
+          "label": "10-GARUMON",
+          "front": "items/digicartas-016-front.jpg",
+          "back": "items/digicartas-022-front.jpg"
+        },
+        {
+          "id": "digicartas-017",
+          "number": 11,
+          "label": "11-WEREGARURUMON",
+          "front": "items/digicartas-017-front.jpg",
+          "back": "items/digicartas-023-front.jpg"
+        },
+        {
+          "id": "digicartas-018",
+          "number": 12,
+          "label": "12-METALGARURUMON",
+          "front": "items/digicartas-018-front.jpg",
+          "back": "items/digicartas-024-front.jpg"
+        },
+        {
+          "id": "digicartas-025",
+          "number": 13,
+          "label": "13-SORA",
+          "front": "items/digicartas-025-front.jpg",
+          "back": "items/digicartas-030-front.jpg"
+        },
+        {
+          "id": "digicartas-026",
+          "number": 14,
+          "label": "14-YOKOMON",
+          "front": "items/digicartas-026-front.jpg",
+          "back": "items/digicartas-031-front.jpg"
+        },
+        {
+          "id": "digicartas-027",
+          "number": 15,
+          "label": "15-BIYOMON",
+          "front": "items/digicartas-027-front.jpg",
+          "back": "items/digicartas-032-front.jpg"
+        },
+        {
+          "id": "digicartas-028",
+          "number": 16,
+          "label": "16-BIRDRAMON",
+          "front": "items/digicartas-028-front.jpg",
+          "back": "items/digicartas-033-front.jpg"
+        },
+        {
+          "id": "digicartas-029",
+          "number": 17,
+          "label": "17-GARUDAMON",
+          "front": "items/digicartas-029-front.jpg",
+          "back": "items/digicartas-034-front.jpg"
+        },
+        {
+          "id": "digicartas-035",
+          "number": 18,
+          "label": "18-IZZY",
+          "front": "items/digicartas-035-front.jpg",
+          "back": "items/digicartas-040-front.jpg"
+        },
+        {
+          "id": "digicartas-036",
+          "number": 19,
+          "label": "19-MOTIMON",
+          "front": "items/digicartas-036-front.jpg",
+          "back": "items/digicartas-041-front.jpg"
+        },
+        {
+          "id": "digicartas-037",
+          "number": 20,
+          "label": "20-TENTOMON",
+          "front": "items/digicartas-037-front.jpg",
+          "back": "items/digicartas-042-front.jpg"
+        },
+        {
+          "id": "digicartas-038",
+          "number": 21,
+          "label": "21-KABUTERMON",
+          "front": "items/digicartas-038-front.jpg",
+          "back": "items/digicartas-043-front.jpg"
+        },
+        {
+          "id": "digicartas-039",
+          "number": 22,
+          "label": "22-MEGAKABUTERMON",
+          "front": "items/digicartas-039-front.jpg",
+          "back": "items/digicartas-044-front.jpg"
+        },
+        {
+          "id": "digicartas-045",
+          "number": 23,
+          "label": "23-MIMI",
+          "front": "items/digicartas-045-front.jpg",
+          "back": "items/digicartas-050-front.jpg"
+        },
+        {
+          "id": "digicartas-046",
+          "number": 24,
+          "label": "24-TANEMON",
+          "front": "items/digicartas-046-front.jpg",
+          "back": "items/digicartas-051-front.jpg"
+        },
+        {
+          "id": "digicartas-047",
+          "number": 25,
+          "label": "25-PALMON",
+          "front": "items/digicartas-047-front.jpg",
+          "back": "items/digicartas-052-front.jpg"
+        },
+        {
+          "id": "digicartas-048",
+          "number": 26,
+          "label": "26-TOGEMON",
+          "front": "items/digicartas-048-front.jpg",
+          "back": "items/digicartas-053-front.jpg"
+        },
+        {
+          "id": "digicartas-049",
+          "number": 27,
+          "label": "27-LILLYMON",
+          "front": "items/digicartas-049-front.jpg",
+          "back": "items/digicartas-054-front.jpg"
+        },
+        {
+          "id": "digicartas-055",
+          "number": 28,
+          "label": "28-JOE",
+          "front": "items/digicartas-055-front.jpg",
+          "back": "items/digicartas-060-front.jpg"
+        },
+        {
+          "id": "digicartas-056",
+          "number": 29,
+          "label": "29-BUKAMON",
+          "front": "items/digicartas-056-front.jpg",
+          "back": "items/digicartas-061-front.jpg"
+        },
+        {
+          "id": "digicartas-057",
+          "number": 30,
+          "label": "30-GOMAMON",
+          "front": "items/digicartas-057-front.jpg",
+          "back": "items/digicartas-062-front.jpg"
+        },
+        {
+          "id": "digicartas-058",
+          "number": 31,
+          "label": "31-IKKAKUMON",
+          "front": "items/digicartas-058-front.jpg",
+          "back": "items/digicartas-063-front.jpg"
+        },
+        {
+          "id": "digicartas-059",
+          "number": 32,
+          "label": "32-ZUDOMON",
+          "front": "items/digicartas-059-front.jpg",
+          "back": "items/digicartas-064-front.jpg"
+        },
+        {
+          "id": "digicartas-065",
+          "number": 33,
+          "label": "33-T.K.",
+          "front": "items/digicartas-065-front.jpg",
+          "back": "items/digicartas-070-front.jpg"
+        },
+        {
+          "id": "digicartas-066",
+          "number": 34,
+          "label": "34-TOKOMON",
+          "front": "items/digicartas-066-front.jpg",
+          "back": "items/digicartas-071-front.jpg"
+        },
+        {
+          "id": "digicartas-067",
+          "number": 35,
+          "label": "35-PATAMON",
+          "front": "items/digicartas-067-front.jpg",
+          "back": "items/digicartas-072-front.jpg"
+        },
+        {
+          "id": "digicartas-068",
+          "number": 36,
+          "label": "36-ANGEMON",
+          "front": "items/digicartas-068-front.jpg",
+          "back": "items/digicartas-073-front.jpg"
+        },
+        {
+          "id": "digicartas-069",
+          "number": 37,
+          "label": "37-MAGNAANGEMON",
+          "front": "items/digicartas-069-front.jpg",
+          "back": "items/digicartas-074-front.jpg"
+        },
+        {
+          "id": "digicartas-075",
+          "number": 38,
+          "label": "38-KARI",
+          "front": "items/digicartas-075-front.jpg",
+          "back": "items/digicartas-080-front.jpg"
+        },
+        {
+          "id": "digicartas-076",
+          "number": 39,
+          "label": "39-NYAROMON",
+          "front": "items/digicartas-076-front.jpg",
+          "back": "items/digicartas-081-front.jpg"
+        },
+        {
+          "id": "digicartas-077",
+          "number": 40,
+          "label": "40-SALAMON",
+          "front": "items/digicartas-077-front.jpg",
+          "back": "items/digicartas-082-front.jpg"
+        },
+        {
+          "id": "digicartas-078",
+          "number": 41,
+          "label": "41-GATOMON",
+          "front": "items/digicartas-078-front.jpg",
+          "back": "items/digicartas-083-front.jpg"
+        },
+        {
+          "id": "digicartas-079",
+          "number": 42,
+          "label": "42-ANGEWOMON",
+          "front": "items/digicartas-079-front.jpg",
+          "back": "items/digicartas-084-front.jpg"
+        },
+        {
+          "id": "digicartas-085",
+          "number": 43,
+          "label": "43-CENA DO DESENHO 1",
+          "front": "items/digicartas-085-front.jpg",
+          "back": "items/digicartas-087-front.jpg"
+        },
+        {
+          "id": "digicartas-086",
+          "number": 44,
+          "label": "44-CENA DO DESENHO 2",
+          "front": "items/digicartas-086-front.jpg",
+          "back": "items/digicartas-088-front.jpg"
+        },
+        {
+          "id": "digicartas-089",
+          "number": 47,
+          "label": "47-CENA DO DESENHO 4.1",
+          "front": "items/digicartas-089-front.jpg",
+          "back": "items/digicartas-091-front.jpg"
+        },
+        {
+          "id": "digicartas-090",
+          "number": 48,
+          "label": "48-CENA DO DESENHO 4.2",
+          "front": "items/digicartas-090-front.jpg",
+          "back": "items/digicartas-092-front.jpg"
+        },
+        {
+          "id": "digicartas-093",
+          "number": 45,
+          "label": "45-CENA DO DESENHO 3.1",
+          "front": "items/digicartas-093-front.jpg",
+          "back": "items/digicartas-095-front.jpg"
+        },
+        {
+          "id": "digicartas-094",
+          "number": 46,
+          "label": "46-CENA DO DESENHO 3.2",
+          "front": "items/digicartas-094-front.jpg",
+          "back": "items/digicartas-096-front.jpg"
+        },
+        {
+          "id": "digicartas-097",
+          "number": 49,
+          "label": "49-CENA DO DESENHO 5.1",
+          "front": "items/digicartas-097-front.jpg",
+          "back": "items/digicartas-099-front.jpg"
+        },
+        {
+          "id": "digicartas-098",
+          "number": 50,
+          "label": "50-CENA DO DESENHO 5.2",
+          "front": "items/digicartas-098-front.jpg",
+          "back": "items/digicartas-100-front.jpg"
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja",
+      "title": "TARJA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/embalagem-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/embalagem-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/embalagem-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-013",
+          "number": 13,
+          "label": "Foto 13",
+          "front": "items/embalagem-013-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propagandas",
+      "title": "PÔSTER / PROPAGANDAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propagandas-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propagandas-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propagandas-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propagandas-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propagandas-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-005",
+          "number": 5,
+          "label": "9",
+          "front": "items/poster-propagandas-005-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

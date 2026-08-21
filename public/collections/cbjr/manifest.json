@@ -1,0 +1,227 @@
+{
+  "slug": "cbjr",
+  "name": "Ruffles+ by Charlie Brown Jr",
+  "year": 2008,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/cbjr",
+  "scrapedAt": "2026-08-05T14:17:29.279Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2008 - CHARLIE BROWN JR.jpg",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "3-6-6",
+      "title": "3 + 6 + 6",
+      "kind": "paired",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "3-6-6-001",
+          "number": 1,
+          "label": "TAG 1",
+          "front": "items/3-6-6-001-front.jpg",
+          "back": "items/3-6-6-004-front.jpg"
+        },
+        {
+          "id": "3-6-6-002",
+          "number": 2,
+          "label": "TAG 2",
+          "front": "items/3-6-6-002-front.jpg",
+          "back": "items/3-6-6-005-front.jpg"
+        },
+        {
+          "id": "3-6-6-003",
+          "number": 3,
+          "label": "TAG 3",
+          "front": "items/3-6-6-003-front.jpg",
+          "back": "items/3-6-6-006-front.jpg"
+        },
+        {
+          "id": "3-6-6-007",
+          "number": 4,
+          "label": "COLAR 1",
+          "front": "items/3-6-6-007-front.jpg",
+          "back": "items/3-6-6-013-front.jpg"
+        },
+        {
+          "id": "3-6-6-008",
+          "number": 5,
+          "label": "COLAR 2",
+          "front": "items/3-6-6-008-front.jpg",
+          "back": "items/3-6-6-014-front.jpg"
+        },
+        {
+          "id": "3-6-6-009",
+          "number": 6,
+          "label": "COLAR 3",
+          "front": "items/3-6-6-009-front.jpg",
+          "back": "items/3-6-6-015-front.jpg"
+        },
+        {
+          "id": "3-6-6-010",
+          "number": 7,
+          "label": "COLAR 4",
+          "front": "items/3-6-6-010-front.jpg",
+          "back": "items/3-6-6-016-front.jpg"
+        },
+        {
+          "id": "3-6-6-011",
+          "number": 8,
+          "label": "COLAR 5",
+          "front": "items/3-6-6-011-front.jpg",
+          "back": "items/3-6-6-017-front.jpg"
+        },
+        {
+          "id": "3-6-6-012",
+          "number": 9,
+          "label": "COLAR 6",
+          "front": "items/3-6-6-012-front.jpg",
+          "back": "items/3-6-6-018-front.jpg"
+        },
+        {
+          "id": "3-6-6-019",
+          "number": 10,
+          "label": "CHAVEIRO 1",
+          "front": "items/3-6-6-019-front.jpg",
+          "back": "items/3-6-6-025-front.jpg"
+        },
+        {
+          "id": "3-6-6-020",
+          "number": 11,
+          "label": "CHAVEIRO 2",
+          "front": "items/3-6-6-020-front.jpg",
+          "back": "items/3-6-6-026-front.jpg"
+        },
+        {
+          "id": "3-6-6-021",
+          "number": 12,
+          "label": "CHAVEIRO 3",
+          "front": "items/3-6-6-021-front.jpg",
+          "back": "items/3-6-6-027-front.jpg"
+        },
+        {
+          "id": "3-6-6-022",
+          "number": 13,
+          "label": "CHAVEIRO 4",
+          "front": "items/3-6-6-022-front.jpg",
+          "back": "items/3-6-6-028-front.jpg"
+        },
+        {
+          "id": "3-6-6-023",
+          "number": 14,
+          "label": "CHAVEIRO 5",
+          "front": "items/3-6-6-023-front.jpg",
+          "back": "items/3-6-6-029-front.jpg"
+        },
+        {
+          "id": "3-6-6-024",
+          "number": 15,
+          "label": "CHAVEIRO 6",
+          "front": "items/3-6-6-024-front.jpg",
+          "back": "items/3-6-6-030-front.jpg"
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}
