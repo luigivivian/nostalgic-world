@@ -72,7 +72,7 @@ export function Collectible({ shape, frontUrl, backUrl, maxSize }: Props) {
         }
         setMaps({ front, back })
       })
-      .catch((e) => console.error('collectible texture load failed:', frontUrl, backUrl, e))
+      .catch((e) => console.error('collectible texture load failed:', frontUrl, backUrl ?? '(no back)', e instanceof Error ? e.message : String(e)))
     return () => {
       cancelled = true
     }

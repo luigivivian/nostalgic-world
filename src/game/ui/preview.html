@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>GameUI preview</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body, #preview-root, .preview-stage { height: 100%; }
+      body { background: #12121a; font-family: system-ui, sans-serif; overflow: hidden; }
+      /* mirrors .game-root in src/styles.css */
+      #preview-root { height: 100%; }
+      .preview-stage { position: fixed; inset: 0; background: #000; z-index: 1000; }
+      .preview-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    </style>
+  </head>
+  <body>
+    <div id="preview-root"></div>
+    <script type="module" src="/src/game/ui/preview.tsx"></script>
+  </body>
+</html>

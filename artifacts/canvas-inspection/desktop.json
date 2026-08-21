@@ -1,0 +1,50 @@
+{
+  "url": "http://localhost:4173/?play=1",
+  "mode": "desktop",
+  "state": null,
+  "seed": null,
+  "screenshotPath": "artifacts/canvas-inspection/desktop.png",
+  "gpu": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1, Unspecified Version)",
+    "vendor": "Google Inc. (Apple)",
+    "softwareRendered": false
+  },
+  "result": {
+    "ok": true,
+    "reason": "nonblank",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "drawingBuffer": {
+      "width": 1280,
+      "height": 720
+    },
+    "alphaPixels": 4096,
+    "variance": 238,
+    "colorBuckets": 90,
+    "metrics": {
+      "colorBuckets": 105,
+      "colorEntropyBits": 4.47,
+      "edgeDensity": 0.111,
+      "luminance": {
+        "mean": 68.1,
+        "p5": 24.4,
+        "p95": 117,
+        "contrast": 92.5
+      },
+      "dominantColorShare": 0.155,
+      "nonBackgroundShare": 0.845
+    },
+    "renderBudget": null,
+    "diagnostics": null
+  },
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "pageErrors": [
+    "A user gesture is required to request Pointer Lock."
+  ]
+}

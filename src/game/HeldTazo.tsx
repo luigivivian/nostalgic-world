@@ -4,7 +4,7 @@ import * as THREE from 'three'
 import { Collectible } from '../collectible/Collectible'
 import type { PoolTazo } from './tazoPool'
 
-const OFFSET = new THREE.Vector3(0.34, -0.22, -0.85) // camera space: low right "hand"
+const OFFSET = new THREE.Vector3(0.42, -0.26, -0.95) // camera space: low right "hand"
 const SHOW_MS = 3200
 
 // First-person inspect: the collected tazo floats up to the hand position and does a
@@ -32,7 +32,7 @@ export function HeldTazo({ tazo, onDone }: { tazo: PoolTazo; onDone: () => void 
     if (spin.current) spin.current.rotation.y += dt * 2.2
     // ease in
     const age = (performance.now() - born.current) / 1000
-    const s = 0.24 * Math.min(1, age * 4)
+    const s = 0.17 * Math.min(1, age * 4)
     g.scale.setScalar(s)
   })
 

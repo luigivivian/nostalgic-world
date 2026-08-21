@@ -1,0 +1,1131 @@
+/* ==========================================================================
+   Ilha Nostálgica — game UI layer
+   Dark translucent panels + yellow accent, borrowed from the acervo home page,
+   pushed toward 90s snack packaging: tilted badges, confetti-dot rings, bold
+   tabular numerals. Everything here is presentation only.
+   ========================================================================== */
+
+/* three-player-controller appends its own touch layer to <body> at z-index 998/999;
+   .game-root is a stacking context, so it has to outrank them as a whole or the
+   invisible look-area swallows every button press on mobile. */
+.game-root {
+  z-index: 1000;
+}
+
+.game-ui {
+  --accent: #f2c94c;
+  --accent-deep: #d8b839;
+  --ink: #f4f4f8;
+  --ink-dim: #b7b7cc;
+  --panel: rgba(14, 14, 22, 0.82);
+  --panel-soft: rgba(14, 14, 22, 0.6);
+  --line: rgba(255, 255, 255, 0.14);
+  --danger: #ff5f4d;
+  --rare: #4cc9f0;
+  --legendary: #ffd23f;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --pad-top: max(14px, env(safe-area-inset-top));
+  --pad-bottom: max(14px, env(safe-area-inset-bottom));
+  --pad-left: max(16px, env(safe-area-inset-left));
+  --pad-right: max(16px, env(safe-area-inset-right));
+
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  color: var(--ink);
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  line-height: 1.35;
+  -webkit-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.game-ui .num {
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
+.game-ui .slash {
+  opacity: 0.45;
+  margin: 0 1px;
+  font-weight: 600;
+}
+
+/* --------------------------------------------------------- album (top-left) */
+
+.hud-album {
+  position: absolute;
+  top: var(--pad-top);
+  left: var(--pad-left);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  /* hard cap: the centred event column starts at 30vw on a 1024px laptop */
+  max-width: min(300px, 28vw);
+}
+
+.album-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 100%;
+  padding: 5px 12px 5px 6px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  transform: rotate(-1.4deg);
+}
+
+.badge-year {
+  flex: none;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #17170f;
+  font-size: 12px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.badge-name {
+  min-width: 0;
+  max-width: 224px;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.album-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px 6px 6px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel-soft);
+  box-shadow: var(--shadow);
+}
+
+.album-count {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.album-count .num {
+  font-size: 20px;
+}
+
+.album-label {
+  font-size: 10.5px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+}
+
+/* ring */
+
+.ring {
+  position: relative;
+  flex: none;
+}
+
+.ring svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.ring-track {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+.ring-fill {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 5;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 420ms ease-out;
+}
+
+.ring-core {
+  position: absolute;
+  inset: 9px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.ring-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: thumb-pop 340ms cubic-bezier(0.2, 1.5, 0.4, 1);
+}
+
+.ring-pct {
+  font-size: 12px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-dim);
+}
+
+@keyframes thumb-pop {
+  0% {
+    transform: scale(0.2) rotate(-25deg);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
+
+/* ------------------------------------------------------- combat (top-right) */
+
+.hud-combat {
+  position: absolute;
+  top: var(--pad-top);
+  right: var(--pad-right);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.score-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.score {
+  min-width: 4.5ch;
+  padding: 4px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  font-size: 22px;
+  text-align: right;
+}
+
+.combo-badge {
+  padding: 3px 9px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #17170f;
+  font-size: 14px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  transform: rotate(-3deg);
+  animation: combo-pop 260ms cubic-bezier(0.2, 1.6, 0.4, 1);
+}
+
+@keyframes combo-pop {
+  0% {
+    transform: scale(0.4) rotate(-14deg);
+  }
+  100% {
+    transform: scale(1) rotate(-3deg);
+  }
+}
+
+.ammo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel-soft);
+  box-shadow: var(--shadow);
+}
+
+.ammo-pips {
+  display: flex;
+  gap: 3px;
+}
+
+.pip {
+  width: 9px;
+  height: 12px;
+  color: rgba(255, 255, 255, 0.22);
+}
+
+.pip.is-full {
+  color: var(--accent);
+}
+
+.ammo.is-low .pip.is-full {
+  color: var(--danger);
+  animation: pip-pulse 900ms ease-in-out infinite;
+}
+
+.ammo-extra {
+  font-size: 11px;
+  color: var(--accent);
+}
+
+.ammo.is-dry {
+  animation: shake 380ms ease-out;
+  border-color: var(--danger);
+}
+
+@keyframes pip-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-6px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+}
+
+/* -------------------------------------------------- stations (bottom-centre) */
+
+.hud-stations {
+  position: absolute;
+  left: 50%;
+  bottom: calc(var(--pad-bottom) + 6px);
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  max-width: calc(100vw - 32px);
+}
+
+.station-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel-soft);
+  box-shadow: var(--shadow);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-dim);
+  white-space: nowrap;
+}
+
+.station-chip.is-active {
+  color: var(--ink);
+  border-color: var(--accent);
+  background: rgba(38, 32, 10, 0.82);
+}
+
+.station-chip.is-cleared {
+  color: var(--accent);
+}
+
+.station-chip.is-locked {
+  opacity: 0.55;
+}
+
+.chip-icon {
+  width: 13px;
+  height: 13px;
+  flex: none;
+}
+
+.chip-count {
+  font-size: 12px;
+  color: var(--ink);
+}
+
+.station-chip.is-active .chip-count {
+  color: var(--accent);
+}
+
+/* -------------------------------------------------------------- crosshair */
+
+.crosshair-ui {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 34px;
+  height: 34px;
+  margin: -17px 0 0 -17px;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.crosshair-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.85);
+}
+
+.crosshair-ring {
+  position: absolute;
+  inset: 8px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.crosshair-ui.is-hit .crosshair-ring {
+  border-color: var(--accent);
+  animation: reticle-hit 220ms ease-out;
+}
+
+.crosshair-ui.is-hit .crosshair-dot {
+  background: var(--accent);
+}
+
+.crosshair-ui.is-dry .crosshair-dot {
+  background: var(--danger);
+  animation: reticle-dry 280ms steps(2, end) 2;
+}
+
+@keyframes reticle-hit {
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes reticle-dry {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.15;
+  }
+}
+
+/* ------------------------------------------------------------------ toasts */
+
+/* one centred column for every transient message; nothing here can overlap */
+.hud-feed {
+  position: absolute;
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: min(340px, calc(100vw - 40px));
+  pointer-events: none;
+}
+
+/* a modal state owns the screen: no stale toasts behind the panel */
+.game-ui[data-phase='paused'] .hud-feed,
+.game-ui[data-phase='roundOver'] .hud-feed {
+  display: none;
+}
+
+.hud-toasts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+}
+
+.toast {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  max-width: 100%;
+  padding: 7px 14px;
+  border: 1px solid var(--line);
+  border-left: 3px solid currentColor;
+  border-radius: 10px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  animation: toast-in 220ms ease-out;
+}
+
+.toast-title {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  color: currentColor;
+  white-space: nowrap;
+}
+
+.toast-sub {
+  min-width: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.toast.rarity-common {
+  color: #ffffff;
+}
+
+.toast.rarity-rare {
+  color: var(--rare);
+}
+
+.toast.rarity-legendary {
+  color: var(--legendary);
+}
+
+.toast.rarity-station {
+  color: var(--accent-deep);
+}
+
+@keyframes toast-in {
+  0% {
+    transform: translateY(-8px) scale(0.96);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/* álbum completo — celebratory, never blocking */
+.album-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 26px;
+  border: 1px solid var(--accent);
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(60, 48, 10, 0.94), rgba(20, 18, 10, 0.94));
+  box-shadow: var(--shadow), 0 0 32px rgba(242, 201, 76, 0.35);
+  text-align: center;
+  animation: banner-in 420ms cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+
+.banner-kicker {
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.banner-title {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+@keyframes banner-in {
+  0% {
+    transform: translateY(-14px) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/* the banner is the headline while it lasts: keep one toast under it, not three */
+.hud-feed:has(.album-banner) .toast:nth-last-child(n + 2) {
+  display: none;
+}
+
+/* ------------------------------------------------------- panels / overlays */
+
+.ui-scrim {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(8, 8, 14, 0.55);
+  pointer-events: none;
+}
+
+/* pause / round over own the input; idle must let the click through to the canvas */
+.ui-scrim.is-blocking {
+  pointer-events: auto;
+  background: rgba(8, 8, 14, 0.72);
+}
+
+.ui-panel {
+  width: min(460px, 100%);
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 26px 30px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  text-align: center;
+  animation: panel-in 200ms ease-out;
+}
+
+@keyframes panel-in {
+  0% {
+    transform: translateY(10px) scale(0.98);
+    opacity: 0;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.panel-kicker {
+  display: block;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.panel-title {
+  margin: 4px 0 0;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+.panel-sub {
+  margin-top: 4px;
+  font-size: 13px;
+  color: var(--ink-dim);
+}
+
+.panel-cta {
+  margin: 16px 0 4px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent);
+  animation: cta-breathe 2.4s ease-in-out infinite;
+}
+
+@keyframes cta-breathe {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.panel-collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.panel-collection .album-badge {
+  max-width: min(280px, 100%);
+}
+
+/* no ellipsis in the panel: this is where the player reads what they are filling */
+.game-ui .panel-collection .badge-name {
+  max-width: none;
+  white-space: normal;
+  overflow: visible;
+  font-size: 13px;
+}
+
+.panel-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  gap: 6px 12px;
+  margin: 16px 0 20px;
+  padding: 14px 0 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+  text-align: left;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--ink-dim);
+}
+
+.legend-key {
+  flex: none;
+  min-width: 34px;
+  padding: 3px 7px;
+  border: 1px solid var(--line);
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--ink);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.panel-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.ui-btn {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 0 18px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease, transform 80ms ease;
+}
+
+.ui-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.ui-btn:active {
+  transform: translateY(1px);
+}
+
+.ui-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.ui-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.ui-btn.primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #17170f;
+}
+
+.ui-btn.primary:hover {
+  background: #ffd95e;
+}
+
+.ui-btn.ghost {
+  color: var(--ink-dim);
+}
+
+.btn-icon {
+  width: 13px;
+  height: 13px;
+  flex: none;
+}
+
+/* round over */
+
+.over-score {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.over-score .num {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.over-score span {
+  font-size: 13px;
+  color: var(--ink-dim);
+}
+
+.over-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 18px 0;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.stat-value {
+  font-size: 20px;
+}
+
+.stat-label {
+  font-size: 10.5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.over-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 6px;
+}
+
+.over-thumb {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  border: 1px solid currentColor;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.35);
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.over-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.over-thumb.rarity-rare {
+  color: var(--rare);
+}
+
+.over-thumb.rarity-legendary {
+  color: var(--legendary);
+}
+
+.over-thumb.more {
+  display: grid;
+  place-items: center;
+  color: var(--ink-dim);
+  font-size: 12px;
+}
+
+.thumb-count {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  padding: 0 4px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 10px;
+}
+
+/* ------------------------------------------------------------ touch controls */
+
+.touch-ui {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+#joystick-zone {
+  position: absolute;
+  left: var(--pad-left);
+  bottom: calc(var(--pad-bottom) + 8px);
+  width: 148px;
+  height: 148px;
+  display: grid;
+  place-items: center;
+  pointer-events: auto;
+  touch-action: none;
+}
+
+.joy-base {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  background: rgba(8, 8, 14, 0.55);
+  box-shadow: var(--shadow);
+}
+
+.joy-knob {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.35);
+  background: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+.touch-actions {
+  position: absolute;
+  right: var(--pad-right);
+  bottom: calc(var(--pad-bottom) + 8px);
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+.touch-btn {
+  pointer-events: auto;
+  touch-action: none;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.touch-btn.fire {
+  width: 84px;
+  height: 84px;
+  border-color: var(--accent);
+  background: rgba(50, 42, 12, 0.86);
+  color: var(--accent);
+}
+
+.touch-btn.fire.is-down {
+  background: var(--accent);
+  color: #17170f;
+}
+
+.touch-btn.jump {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+.touch-btn.jump:active {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.touch-btn.pause {
+  position: absolute;
+  top: var(--pad-top);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 56px;
+  height: 56px;
+}
+
+.touch-icon {
+  width: 40%;
+  height: 40%;
+}
+
+/* --------------------------------------------------------- touch / narrow fit */
+
+/* three top clusters share a 390px row: album 148 + pause 56 + combat 140 */
+.game-ui.is-touch .hud-album {
+  max-width: 148px;
+  gap: 5px;
+}
+
+.game-ui.is-touch .badge-name {
+  max-width: 72px;
+  font-size: 11px;
+}
+
+.game-ui.is-touch .album-row {
+  padding: 4px 10px 4px 4px;
+  gap: 8px;
+}
+
+.game-ui.is-touch .ring {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.game-ui.is-touch .ring-core {
+  inset: 6px;
+}
+
+.game-ui.is-touch .album-count .num {
+  font-size: 16px;
+}
+
+.game-ui.is-touch .album-label {
+  font-size: 9px;
+}
+
+.game-ui.is-touch .score {
+  font-size: 17px;
+  padding: 3px 9px;
+}
+
+.game-ui.is-touch .pip {
+  width: 6px;
+  height: 10px;
+}
+
+.game-ui.is-touch .ammo-pips {
+  gap: 2px;
+}
+
+.game-ui.is-touch .ammo {
+  padding: 4px 8px;
+}
+
+/* the bottom belongs to the thumbs: stations move under the top clusters */
+.game-ui.is-touch .hud-stations {
+  top: calc(var(--pad-top) + 90px);
+  bottom: auto;
+  gap: 6px;
+}
+
+.game-ui.is-touch .station-chip {
+  padding: 5px 9px;
+  font-size: 11px;
+}
+
+.game-ui.is-touch .hud-feed {
+  top: calc(var(--pad-top) + 138px);
+  gap: 6px;
+}
+
+.game-ui.is-touch .toast {
+  padding: 5px 10px;
+}
+
+.game-ui.is-touch .toast-title {
+  font-size: 12px;
+}
+
+.game-ui.is-touch .toast-sub {
+  font-size: 11px;
+}
+
+/* keep the middle of the screen clear on short viewports */
+.game-ui.is-touch .toast:nth-last-child(n + 3) {
+  display: none;
+}
+
+.game-ui.is-touch .album-banner {
+  padding: 7px 16px;
+}
+
+.game-ui.is-touch .banner-title {
+  font-size: 14px;
+}
+
+.game-ui.is-touch .panel-collection {
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* beats the HUD truncation rule above: the panel always spells the name out */
+.game-ui.is-touch .panel-collection .badge-name {
+  max-width: none;
+  white-space: normal;
+  font-size: 13px;
+}
+
+.game-ui.is-touch .panel-title {
+  font-size: 24px;
+}
+
+.game-ui.is-touch .ui-panel {
+  padding: 20px 18px;
+}
+
+.game-ui.is-touch .over-grid {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.game-ui.is-touch .ui-btn {
+  min-height: 48px;
+  flex: 1 1 160px;
+}
+
+/* landscape phone / short window: the vertical middle is all the player has */
+@media (max-height: 520px) {
+  .game-ui .hud-feed {
+    top: 62px;
+  }
+  /* clears the top-centre pause button, still above the middle of the screen */
+  .game-ui.is-touch .hud-feed {
+    top: calc(var(--pad-top) + 64px);
+  }
+  .game-ui .toast:nth-last-child(n + 2) {
+    display: none;
+  }
+  /* wide and short: the bottom centre is free again between the thumb controls */
+  .game-ui.is-touch .hud-stations {
+    top: auto;
+    bottom: calc(var(--pad-bottom) + 6px);
+  }
+  .game-ui .panel-title {
+    font-size: 22px;
+  }
+  .game-ui .ui-panel {
+    padding: 16px 20px;
+  }
+}
+
+/* ------------------------------------------------------------ reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .game-ui *,
+  .game-ui *::before,
+  .game-ui *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

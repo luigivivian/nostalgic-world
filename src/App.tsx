@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { CollectibleViewer } from './collectible/CollectibleViewer'
 import type { CollectibleShape } from './collectible/Collectible'
+import { curatedSections, sectionShape } from './collectible/curation'
 import type { CollectionsIndex, CollectionManifest, ManifestItem, ManifestSection } from './types'
 
 // Game pulls in rapier (wasm) — keep it out of the acervo bundle.
@@ -44,73 +45,12 @@ function Home({
   )
 }
 
-// Only collectible sections are shown; accessory galleries (packaging, posters, tarjas,
-// kits, albums...) stay in the manifests — Phase 3 reuses EMBALAGEM for bag textures —
-// but are hidden here. Paired/shared-back sections are collectibles by construction;
-// galleries only when the title names one (uefa/pacman tazos, montáveis, stamps).
-// Accessory titles start with their kind on the site ("TARJA: ...", "EMBALAGEM: ..."),
-// so the blacklist is anchored — "SILVER STIX / EMBALAGEM ROXA" (a collectible) survives
-// while "EMBALAGEM: CONTÉM 1 TAZO" does not. Pure-numeric titles ("3 + 6 + 6", "60 x 2")
-// are the site's collectible-count sections.
-const HIDDEN_SECTION =
-  /^(TARJA|EMBALAGE|LOTES|P[ÔO]STER|PROPAGANDA|VALE|LANCHINHO|PORTA|TAPE|KIT|CAIXA|BALDE|FICH[ÁA]RIO|[ÁA]LBUM|ARENA|JOGO|COMERCIAL)/
-const NUMERIC_TITLE = /^[\d\s+xX()]+$/
-const COLLECTIBLE_GALLERY = /TAZO|MONT[ÁA]VE|STAMP|ADESIVO|SPINER|CARD|CARTA|FIGURINHA|STICKER|STIX/
-// Manual per-collection overrides (section keys) for accessory sections the generic
-// rules can't tell apart — e.g. tinytoon "5 + 2" is porta-tazo photos, not tazos.
-const HIDDEN_BY_SLUG: Record<string, string[]> = {
-  tinytoon: ['5-2'], // porta-tazo photos
-  maskara: ['pega-tazo', '6-6', '2-2'], // launcher toy + its photo sets
-  yugiohmagic: ['1-2', '1-1'],
-  yugiohmetal: ['1-12'],
-  liga: ['stamp-adesivos'],
-  filhotes: ['figurinha-cinza', 'figurinhas-cinzas-quadradas-toddynho'],
-  funki: ['puf-sticker', 'mega-sticker', '7-x-7'],
-  tecnofun: ['27-x-3'],
-}
-// Item-level hides: stray non-collectible photos inside otherwise good sections.
-const HIDDEN_ITEM_LABELS: Record<string, Record<string, RegExp>> = {
-  fonemania: { 'drop-sticker': /^2006\./ },
-  natal: { tazo: /^TAZO( - EMBALAGEM)?$/ },
-}
-// Display renames and per-section shape fixes (site titles/shapes don't always match
-// the physical collectible — joken tazos are rounded squares, best read as cards).
-const RENAMED_BY_SLUG: Record<string, Record<string, string>> = {
-  filhotes: { '45-15': 'ADESIVOS' },
-}
-const SHAPE_BY_SLUG: Record<string, Record<string, CollectibleShape>> = {
-  jokenpokemon: { '60-x-2': 'card' },
-  tazolive: { '1-60': 'disc', '1-10': 'disc' },
-  cbjr: { '3-6-6': 'card' },
-  digimon: { digicartas: 'card' },
-  spacejam: { 'figurinhas-cards': 'card' },
-  mapa: { cards: 'card' },
-}
-
-function isCollectibleSection(s: ManifestSection, slug: string) {
-  if (HIDDEN_BY_SLUG[slug]?.includes(s.key)) return false
-  if (HIDDEN_SECTION.test(s.title)) return false
-  if (s.kind !== 'gallery') return true
-  return NUMERIC_TITLE.test(s.title) || COLLECTIBLE_GALLERY.test(s.title)
-}
-
 function CollectionView({ slug, onBack }: { slug: string; onBack: () => void }) {
   const [manifest, setManifest] = useState<CollectionManifest | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
-  const sections = useMemo(() => {
-    if (!manifest) return []
-    const renamed = manifest.sections.map((s) => {
-      const title = RENAMED_BY_SLUG[slug]?.[s.key]
-      const hideItem = HIDDEN_ITEM_LABELS[slug]?.[s.key]
-      const items = hideItem ? s.items.filter((i) => !hideItem.test(i.label)) : s.items
-      return title || items !== s.items ? { ...s, title: title ?? s.title, items } : s
-    })
-    const visible = renamed.filter((s) => isCollectibleSection(s, slug) && s.items.length > 0)
-    // defensive: never render an empty collection because the filter was too eager
-    return visible.length > 0 ? visible : renamed.filter((s) => s.items.length > 0)
-  }, [manifest, slug])
+  const sections = useMemo(() => (manifest ? curatedSections(manifest, slug) : []), [manifest, slug])
 
   useEffect(() => {
     setManifest(null)
@@ -157,16 +97,7 @@ function CollectionView({ slug, onBack }: { slug: string; onBack: () => void }) 
   // those with a real shape — TAZO galleries as discs, CARTA/CARD galleries as cards
   // (the card mesh's corner rounding + UV inset hide the scanner's white margin, which
   // the flat photo print would show). Only true photo sections get the flat print.
-  const shape: CollectibleShape = selected
-    ? (SHAPE_BY_SLUG[slug]?.[selected.section.key] ??
-      (selected.section.kind !== 'gallery'
-        ? manifest.shape
-        : /\bTAZOS?\b/.test(selected.section.title) && manifest.shape === 'disc'
-          ? 'disc'
-          : /CARTA|CARD/.test(selected.section.title)
-            ? 'card'
-            : 'photo'))
-    : 'photo'
+  const shape: CollectibleShape = selected && manifest ? sectionShape(slug, selected.section, manifest.shape) : 'photo'
   const backUrl = selected
     ? selected.item.back
       ? `${base}/${selected.item.back}`
@@ -229,7 +160,8 @@ function CollectionView({ slug, onBack }: { slug: string; onBack: () => void }) 
 export default function App() {
   const [index, setIndex] = useState<CollectionsIndex | null>(null)
   const [slug, setSlug] = useState<string | null>(null)
-  const [playing, setPlaying] = useState(false)
+  // ?play opens the island directly (QA tooling: canvas inspector, visual harness)
+  const [playing, setPlaying] = useState(() => new URLSearchParams(location.search).has('play'))
 
   useEffect(() => {
     fetch('/collections/index.json')

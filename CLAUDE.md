@@ -17,6 +17,8 @@ npm run build               # Production build
 npm run scrape <slug...>    # Scrape collections (or --all) → manifest + 1024px images
 npm test                    # Vitest: parser (real fixtures) + geometry invariants
 npm run smoke               # Playwright visual smoke (needs dev server on port 5199)
+/Applications/Blender.app/Contents/MacOS/Blender -b --python scripts/mixamo-to-glb.py -- --out X.glb Idle_Loop=a.fbx ...
+                            # Mixamo FBX downloads -> one rigged GLB with named clips
 ```
 
 ## Structure

@@ -1,188 +1,105 @@
 # Nostalgic World Dev Log
 
 ## Working State
-**Session:** 4 | **Date:** 2026-08-05
+**Session:** 5i | **Date:** 2026-08-21
 
-### Active Task (part 2)
-FP island game mode (user refs: threejs pointerlock + ammo_break + TSL procedural terrain).
-- [x] npm i @react-three/rapier (2.2.0) + @react-three/postprocessing
-- [x] src/game/: noise.ts (seeded value-noise fbm) + terrain.ts (128x128 plane, radial
-      falloff island, vertex colors sand/grass/rock/snow, terrainHeight(x,z) shared with
-      physics) + Island.tsx (trimesh collider, animated water plane, Sky+Clouds+fog)
-- [x] Player.tsx: rapier capsule (lockRotations) + drei PointerLockControls, WASD in view
-      yaw, space jump w/ ground ray, ocean-fall respawn. window.__pp debug (DEV only).
-- [x] Blocks.tsx: 4x3 dynamic wall ahead of spawn; projectile hit (userData.projectile)
-      -> 8 half-size fragments w/ radial impulse, 4s decay -> onBreak spawns pickup
-- [x] Projectiles.tsx: ccd spheres 46 m/s from camera, 3s TTL
-- [x] Pickups.tsx: floating spinning tazo (reuses Collectible + real scraped textures,
-      random disc collection per session via tazoPool.ts); proximity collect
-- [x] HeldTazo.tsx: FP inspect — collected tazo glued to camera (quaternion offset),
-      full spin shows front+verso, 3.2s then counts into HUD album
-- [x] Game.tsx: Canvas + Physics INSIDE <Suspense> (rapier wasm suspends; boundary must
-      be inside Canvas or App's Suspense unmounts the whole Canvas — WebGL + PLC die)
-- [x] App: lazy(Game) "Jogar" mode; lock overlay pointer-events:none (click passes to
-      canvas -> PLC lock), crosshair, HUD counter. Polish: fog, hemisphere light, bloom
-      +vignette, 28 seeded low-poly palms, cloud layer, vertex-swell water.
-- [x] Validated via scripts/smoke-game.mjs (HEADED — pointer lock rejected in headless):
-      lock, walk, 8 shots, wall breaks, tazos drop w/ real looney textures. tsc clean.
-- [x] Review applied: projectile/player collision groups (self-hit on steep down-aim),
-      dispose={null} on shared Collectible geometry (R3F disposed the singleton on every
-      pickup unmount), album commit on collect not on animation end (2nd collect ate the
-      1st), fire cooldown 220ms, jump per-press, projectile timers cleared on unmount,
-      fetch .ok checks in tazoPool. Skipped as deliberate: velocity override (tight FPS
-      control), piercing shots, vegetation instancing (within budget).
-- [x] Toon pass (user: "vete bala 1 e 2"): shared 4-step DataTexture ramp (toon.ts),
-      MeshToonMaterial on terrain/blocks/fragments/vegetation, drei Outlines on blocks
-      (world-units thickness ~0.03, NOT pixels). Tazos stay glossy physical (prints).
-- [x] Kenney CC0 nature GLTFs (pmndrs/market-assets mirror, Draco-compressed, decoder
-      from gstatic CDN on first load): 4 palms + 3 rock formations + plant ->
-      public/game/models/. Vegetation v2: 70 seeded spots, palms on beach band, rocks
-      high ground, plants on grass; one toonified template per file, clones share
-      materials. Validated: models render toonified, tsc clean, no console errors.
-- [x] Section filter (user: hide non-collectible sections): isCollectibleSection in
-      App.tsx — anchored blacklist (^TARJA|^EMBALAGE|^PORTA|^KIT|...: site accessory
-      titles always START with their kind), numeric titles ("60 x 2", "3 + 6 + 6") are
-      collectible counts, gallery whitelist TAZO|MONTÁVE|STAMP|ADESIVO|SPINER|CARD|CARTA|
-      FIGURINHA|STICKER|STIX. Validated against all 39 manifests: zero empty collections.
-      Data stays in manifests (Phase 3 needs EMBALAGEM for bag textures) — display only.
-- [x] Filter refinements (user): HIDDEN_BY_SLUG manual overrides — tinytoon '5-2'
-      (porta-tazo photos), maskara 'pega-tazo'/'6-6'/'2-2' (launcher toy). Gallery
-      sections titled CARTA/CARD now render as shape card (corner rounding + UV inset
-      hide scanner margin) — fixes digimon DIGICARTAS white border. Verified headless.
-- [x] More curation (user): hidden — yugiohmagic 1+2/1+1, yugiohmetal 1+12, liga stamps,
-      filhotes figurinha sections. RENAMED_BY_SLUG (filhotes 45-15 -> ADESIVOS) and
-      SHAPE_BY_SLUG (jokenpokemon 60-x-2 -> card: rounded-square tazos, kills white
-      scan margin). bobesponja manifest rewritten by one-off script: 100 alt-coded
-      items ("2005.02.01.NN-A/-B") paired A=front B=back, renumbered 1-50, kind paired.
-      NOTE: re-scraping bobesponja regenerates the wrong labels — parser doesn't know
-      the -A/-B suffix pattern yet (tech debt).
-- [x] Batch curation round 2 (user): sharp trim({threshold:35}) rewrote 372 images
-      in-place (fonemania metal/drop, funki metal/black/105-7, cbjr 3-6-6) — kills
-      scanner margins at the file level; sharp now a devDependency. cbjr manifest
-      one-off: label-duplicate runs paired front/back -> 15 items (TAG/COLAR/CHAVEIRO).
-      App: HIDDEN_ITEM_LABELS (fonemania drop 2006.*, natal TAZO/TAZO - EMBALAGEM),
-      funki puf/mega/7x7 + tecnofun 27x3 hidden, tazolive 1-60/1-10 -> disc, cbjr ->
-      card. FIX: initial selection now derives from filtered sections (natal's first
-      raw item is hidden -> canvas never mounted).
-- [x] Versos for all card collections (user: "espelhe as cartas"): mythomania stray
-      items removed in-manifest, stray verso scan promoted to sharedBack; digimon
-      digicartas (50) and spacejam pops (30) paired by duplicate-label runs (1st=front,
-      2nd=verso); mapa cards get VERSO-MODELO-1 as sharedBack (site has 15 verso models,
-      no per-card mapping). SHAPE_BY_SLUG: digimon/spacejam/mapa card sections -> card
-      (collections are shape disc). naruto has no verso scans on the site. starwars/
-      dracomania/wolverine/eco/vampiros/ferro/pokemon1 already flipped.
-- [x] Fake-verso audit (user: "dracomania nao espelhou"): every shared-back EXCEPT
-      starwars was a SEALED-PACK photo, not a verso scan — the parser's SHARED_BACK_RE
-      matched "CARD LACRADO" groups. Cleared sharedBack in dracomania(2)/wolverine/eco/
-      vampiros(2)/ferro; no Virar button now (honest: site has no verso scans for these).
-- [!] SITE IS DOWN as of 2026-08-20: elmachipscolecoes.com.br returns Wix
-      "ConnectYourDomain Error" 404. Wayback only has the homepage. The offline archive
-      (public/collections, 1GB+) is now the ONLY copy — do not delete/purge it.
-- [x] Multi-agent round (user: skills + model analysis + green island + footIK):
-      * 10 project skills installed in .claude/skills/ (threejs-game-skills ×9,
-        webgpu-threejs-tsl ×1; the 3 generator skills need paid API keys).
-      * Model catalog: .tmp/model-catalog.json (610 entries, analyzer script at
-        .tmp/analyze-models.mjs). kenney_nature-kit = 1:1 scale, self-contained;
-        KayKit 2-5x too big (use ~0.25-0.5); hexagon-kit unusable; Shrubs pack fbx-only.
-        kenney palette is pastel: leaves TEAL, dirt SALMON — rock_* read pink, use stone_*.
-      * Vegetation v3 (parent wrote it — map agent died on API session limit): 330 seeded
-        spots, 27 templates, groves via fbm mask, flower triplets, 3 POIs (KayKit
-        showpiece tree, woodcutter camp, gold treasure). Toon conversion now keeps .map.
-      * PlayerTPS.tsx (agent): three-player-controller@0.6.0 + three-mesh-bvh, footIK
-        plugin, Quaternius UAL mannequin (CC0) at public/game/character/ual.glb.
-        Controller is BVH-based, NOT rapier: player ignores blocks/projectiles.
-        Integration: shots spawn from controller.getPosition()+1.4, pickups collect vs
-        character pos, HUD lists Shift/V. Player.tsx (FP) left unused (V toggles FP).
-      * Visual fixes: Sky turbidity 2.2/mie 0.003 + Bloom threshold 1.0 (sky was washing
-        white), water #2a9cc4, peak stones sparse (spawn sits on the summit).
-- [x] Bug (user: "tela piscando sem parar ao mover"): two causes fixed — (a) inline
-      onReady prop re-created per Game render -> PlayerTPS effect tore down + re-inited
-      the controller (GLB reload, BVH rebuild, camera re-parent) on every state change;
-      now useCallback. (b) overlay/crosshair mirrored pointerlockchange while the TPS
-      controller acquires/releases lock itself -> overlay flashed. Now a `playing` flag:
-      first pointerdown on .game-root starts, Escape stops; ShootListener gated by
-      `playing` (via ref, so the starting click doesn't fire).
-- [ ] User manual test: TPS walk/footIK feel, shooting from 3rd person, island decor
-      <-- CURRENT
-
-### Watch Out (additions)
-- Headless screenshots ALWAYS show the dark lock overlay (no pointer lock) — hide it
-  with addStyleTag('.lock-overlay{display:none}') before judging colors/sky.
-- First game load after new deps: vite re-optimizes → canvas takes >20s; probes must
-  wait or retry.
-- TPS player does not collide with rapier blocks (BVH terrain only) — addDynamicCollider
-  per block via onReady if needed.
-
-### Previous task (same session): scrape remaining tazo-family collections — DONE.
-- [x] Site inventory via /pages-sitemap.xml + /lista: ~95 pages; 5 tazo-family
-      collections missing from index: cadê, máquinadotempo, dbz, montáveismarvel, tech.
-      (surpresa1-3 = CHEETOS COM SURPRESA physical toys, multi-promo pages — skipped;
-      cat1-3 = kits/pelúcias/revistas — out of scope.)
-- [x] Parser: pairMirroredRuns — cadê lists fronts/backs as separate runs in blocks of 10
-      (fronts 01-10, backs 01-10, ...); matched by leading number (site alts carry typos,
-      e.g. "29 - CORÉIA DO SUL01-29-A"). TAZOS now paired 30/30, zero anomalies.
-- [x] Parser: numbered groups of exactly 4 images = two variants of the same number, each
-      front+back (dbz spinners come in 2 edge cuts) — split into 2 items; previously
-      images[2..3] were silently dropped. Oversized-group anomaly now only for >4.
-- [x] Scraper: optional `page` field in index.json (site path with accents, ASCII slug
-      for folder/URL-safety), encodeURIComponent on fetch; fill only for shape disc
-      (montável plates are arbitrary rectangles → fit).
-- [x] Index: +5 collections (cade, maquinadotempo, dbz = tazos; montaveismarvel, tech =
-      new category "extras", shape photo). types.ts: shape union + page?.
-- [x] Scrape: 5/5 downloaded — 878 images, 184MB, 0 failed. All anomalies benign EXCESS
-      (montável 108 = 36 figures × 3 plates; tech stamps 36 vs 30 = variants).
-- [x] Tests: +cade/dbz fixtures, 26/26 pass (mirrored-run pairing, 4-group split,
-      no misfire on non-repeating sections). tsc clean.
-- [x] Visual spot-check: cade front↔back pairing correct, dbz variant split correct
-      (wavy vs fine-toothed edges), montável aspect preserved.
-- [ ] Manual test by user (new: Extras category on home, cade/dbz flips) <-- CURRENT
+### Active Task
+/threejs-game-director full premium pass (phases 2-7) on the island game. Built by three
+parallel Opus workers with disjoint file ownership (gameplay / assets+VFX / UI+mobile),
+integrated by the director; a second Claude session (peer "nostalgic-world-b3") owns the
+hero (Luigi GLB, retargeted UAL clips, double-jump glide, aim raycast in ShootListener).
+- [x] Phase 2 gameplay: store-driven loop (ammo 12, 10s tazo despawn, 20s ammo piles,
+      combo 2.5s, album meta-progression), 3 stations (praia static / bosque rails /
+      mirante pendulums, tier-based rarity), round lifecycle, test hooks + diagnostics
+- [x] Phase 3-4 assets: SnackBag (procedural pillow mesh + real EMBALAGEM scans via
+      public/game/bag-textures.json, refcounted cache w/ 2s release grace), AmmoPile,
+      StationDressing, SpawnBeach (pier, campfire, signs), instanced vegetation (900),
+      shore blend, 3-light rig, GameVFX (3 pooled draw calls, event-driven, no lights)
+- [x] Phase 5 UI: src/game/ui/* GameUI (album ring, ammo pips, combo, station chips,
+      toasts, panels idle/paused/roundOver/albumComplete, touch joystick+fire+jump+pause)
+- [x] Integration: GameUI/GameVFX/StationDressing mounted, Targets->SnackBag with explicit
+      CuboidCollider, curation shared (src/collectible/curation.ts) by acervo + drop pool,
+      round gated on pool load, game:restart/game:fire/game:move events, LOW_END tier
+      (quality.ts: DPR<=1.5, no post, no FootIK on coarse pointer)
+- [x] Phase 6 profile (real GPU headless, channel chromium, Apple M1): desktop 60fps /
+      332-350 calls / 431-471k tris; mobile 60fps / 261 calls (tier budget 150: over,
+      documented) ; rapier 7 bodies idle, 47 peak
+- [x] Phase 7 QA: probe-gameplay 30/30, probe-touch, probe-integrated (0 errors/404),
+      production build + `vite preview` inspected nonblank, vitest 43/43, smoke PASS
+- [ ] Fresh-eyes scorecard review + final report audit <-- CURRENT
+- [ ] Commit (only when user asks) — include peer session files as on disk
 
 ### Key Files (current shape)
-**`scripts/lib/parse.mjs`** (~230 lines, v2.1)
-Generic Wix parser: button-label markers, nav expected counts, consecutive-equal-alt
-grouping + mirrored front/back runs + 4-image variant split, shared-back, gallery fallback.
-
-**`scripts/scrape.mjs`** (~125 lines, v2.1)
-Multi-collection CLI (--all), meta.page for accented site paths, fill only for disc,
-manifest v2, exit code on anomalies, idempotent.
-
-**`public/collections/index.json`**
-39 collections (28 tazos, 9 cards, 2 extras) + 3 categories. `page` = site path when
-slug is ASCII-normalized.
-
-**`src/types.ts`**
-CollectionInfo/CollectionManifest: shape 'disc' | 'card' | 'photo', optional page.
-
-**`src/App.tsx`**
-Home (categories from index.json) + CollectionView; photo shape flips too (back material).
+**`src/game/store.ts`** (NEW, ~200 lines) zustand contract: phase/round/ammo/score/combo,
+album keyed by tazo.front, stations, event log (lastEvent+eventSeq). Only gameplay writes.
+**`src/game/Game.tsx`** (MODIFIED, ~400) phase machine, ShootListener (screen-centre
+rapier castRay, peer-owned), round guards, mounts everything. `?play=1` deep link in App.
+**`src/game/Targets.tsx` + `stations.ts`** (NEW) station targets (fixed/kinematic),
+break->8 fragments (groups 3), per-block + per-projectile hit guards, SnackBag visual.
+**`src/game/assets/*`** (NEW) bagGeometry/bagTexture/SnackBag/AmmoPile/StationDressing/
+SpawnBeach/InstancedProps/props/DevShowcase (`?showcase=1`).
+**`src/game/ui/*`** (NEW, ~2300 incl. CSS) GameUI + preview.html harness (drives real store).
 
 ### Decisions (active)
-- ASCII slugs on disk, accented site path via `page` — avoids accent-encoded folder/URL pairs.
-- dbz 4-image groups = 2 variants per number, both kept as separate items (same number).
-- Montáveis = category "extras", shape photo (rect plates, fit download, flip supported).
-- Site alt typos (dbz #17/29/43/56/58, "2005.03.01.43-B") left as-is: extra unpaired items,
-  every scan kept, nothing guessed.
+- Generators (Tripo/Gemini/ElevenLabs) all MISSING -> procedural + packs + scans only.
+- Ammo piles keep a round alive (recovery beat) but despawn at 20s (no softlock).
+- Drop pool uses strict curation (no empty-collection fallback) and discs only; 9 "disc"
+  collections curate to zero discs and are skipped (test pins the list).
+- Headless can't pointer-lock: hits proven via test hooks; bot proves walk/fire/miss.
 
 ### Next Steps
-1. User manual test: Extras category, cade tazo flip, dbz variant pairs, montável photos.
-2. MVP step 3: bag models from EMBALAGEM galleries + shooting mechanic.
+1. Fresh-eyes scorecard -> final report -> `audit_reference_report.py --premium --physics`
+2. Mobile draw calls (261 vs 150 tier): merge dressing sub-meshes / LOD, real-device test
+3. Audio layer (no key) ; hitstop/shake need controller camera hooks
 
 ### Blockers
-- None.
+- None hard. Paid generators unavailable by design.
 
 ### Watch Out
-- smoke-game.mjs runs HEADED (headless chromium rejects pointer lock, WrongDocumentError)
-  and CAPTURES THE REAL MOUSE — touching the mouse mid-run spins the camera and fails
-  screenshots. Warn the user before running it.
-- Scraper exits 1 on ANY anomaly, including benign EXCESS — check "0 failed" lines before
-  treating a scrape as broken.
-- npm/scrape MUST run from nostalgic-world/ — session cwd resets between some tool calls.
-- Smoke needs dev server on port 5199.
+- `selectAlbumProgress` returns a fresh object: never use it as a useGame selector (v5 loop).
+- Adding/removing lights recompiles every material (halo meshes instead of pointLights).
+- A wrapper on console.error reads `.stack` of every arg: never log null/undefined args.
 
 ---
 ---
 
 ## Session Archive
+
+### Session 5i -- 2026-08-21: Game director phases 2-7 (premium pass)
+**What we did:** Three parallel Opus workers (gameplay / assets+VFX / UI+mobile) + director integration: store-driven station shooter with album progression, snack-bag targets wearing real packaging scans, beach spawn + dressing + instanced vegetation, pooled VFX, full HUD/menus/touch controls, mobile quality tier, shared curation module, test hooks + diagnostics, canvas inspector on prod preview. Review (Sonnet) + QA (43 tests) applied.
+**Files:** src/game/{store,stations,Targets,AmmoPickups,diagnostics,quality}.ts(x), src/game/assets/*, src/game/vfx/GameVFX.tsx, src/game/ui/*, src/collectible/curation.ts (+tests), Game/Pickups/Projectiles/HeldTazo/tazoPool/PlayerTPS/Island/Vegetation, App.tsx (?play), index.html, tsconfig (exclude tests), vite.config (vitest exclude .claude).
+**Decisions:** No paid generators (probe MISSING). Workers died once with the CLI process and were resumed from transcripts. Peer session owns the hero; coordinated via SendMessage before touching PlayerTPS.
+
+### Session 5h -- 2026-08-21: Luigi animated via Blender retarget (no Mixamo needed)
+**What we did:** "o gnomo nao esta animado, o luigi ficaria animado?" -- gnome has no skeleton (puppet only); Luigi has 79 bones but zero clips. Wrote `scripts/retarget-ual.py` (headless Blender): imports ual.glb next to the Luigi rig, and per frame applies each UAL bone's rotation delta from its own rest (armature space, `pose.matrix @ rest.inverted()`) to the mapped Luigi bone's rest rotation; pelvis translation delta scaled by pelvis-height ratio (23.0). Bone local axes never matter -- only that both rigs rest in the same pose (both T-pose, feet forward; Source "bip" bones have 0.1-unit tails and arbitrary rolls, so world-delta is the only sane method). 20 bone pairs; fingers/face left at rest. Each clip -> NLA track -> `export_animation_mode='NLA_TRACKS'` -> public/game/character/luigi.glb (3.0 MB, 6 clips, 25 textures). Rig yaw (-20 deg in the .blend) zeroed before export; glTF front = +Z, so `rotateY: Math.PI`. PlayerTPS: rigged GLB -> real clips + FootIK with `bip_*` names + `headBoneName: 'bip_head'` (first person back); no clips -> puppet fallback. All meshes MeshToonMaterial (albedo only, keep transparent/alphaTest/side for eyes/brows), `frustumCulled=false` on the skinned parts. Verified: `.tmp/anim-view.html` strip of Walk_Loop (stride + arm swing, front and side) and in-game back view mid-stride, no console errors.
+**Files:** scripts/retarget-ual.py, public/game/character/luigi.glb, src/game/PlayerTPS.tsx
+**Decisions:** Blender retarget over Mixamo: zero manual steps and reuses the UAL clip names the controller already maps. Luigi is a Nintendo asset -- private build only. Mixamo uploads in `.tmp/mixamo/` stay as the fallback if a clean-IP character is needed later.
+
+### Session 5g -- 2026-08-21: Gnome as the character (unrigged, puppet-animated)
+**What we did:** User dropped `gnome.glb` (root; copied to public/game/character/): one static mesh, 2543 verts, 1024^2 PNG, T-pose, FBX2glTF, 5.7 u tall -- NO skeleton, NO clips. Swapped it in anyway: three-player-controller normalises any model to its capsule height and parents it under the capsule, so PlayerTPS re-parents the mesh under a `puppet` pivot and animates that each frame from `playerVelocity`/`getIsOnGround`: hop (|sin| 7 cm), waddle roll, lean into speed, landing squash, airborne stretch, idle breathing. Six no-op AnimationClips (zero track on an `animDummy` node) keep the lib's state machine + jump LoopOnce/'finished' chain quiet. MeshToonMaterial with the GLB's texture. FootIK, heroLook and first-person toggle (needs a head bone) removed. `rotateY: Math.PI` -- gnome is authored facing +Z, controller forward is -Z (verified: back view at spawn). Also wrote `.tmp/gnome-mixamo.zip` (OBJ+MTL+PNG, world transform baked, UV v flipped) for Mixamo auto-rig.
+**Files:** src/game/PlayerTPS.tsx, public/game/character/gnome.glb
+**Blender installed** (`brew install --cask blender`, 5.2 LTS, `/Applications/Blender.app/Contents/MacOS/Blender -b`). With it: inspected `luigi model.blend` (Super Mario Odyssey rip: 79-bone `bip_*` Source skeleton, 5.4k verts, PBR textures, ZERO actions -- rigged but unanimated; Nintendo IP, private use only); exported a mesh-only T-pose FBX (`.tmp/mixamo/luigi-mixamo.fbx`, unparent must keep `matrix_world` or the pieces scatter) next to `.tmp/mixamo/gnome-mixamo.zip`. Wrote `scripts/mixamo-to-glb.py`: first FBX "With Skin" + N "Without Skin" -> actions parked as NLA tracks -> one GLB with clips named by KEY (`export_animation_mode='NLA_TRACKS'`). Tested on UAL re-exported to FBX: 52 joints, 2 clips.
+**Decisions:** Mixamo (free) over Tripo (no API key). Puppet gnome is the stopgap until the Mixamo download lands. heroLook.ts is now unused by PlayerTPS (parallel session's file, left in place).
+
+### Session 5f -- 2026-08-21: "bolas marrom ao redor do jogador"
+**What we did:** Scene inspection (DEV `window.__scene`, traverse meshes near `__pp` by bounding radius) found the culprits: `heroCap` dome r=9.6 and brim r=9.4 parented to the Head bone, plus the inverted-hull outline inflated 1.5 units (#241a14 = the dark brown ball). `src/game/assets/heroLook.ts` (parallel session's costume pass) assumed rig units x0.01, but the UAL GLB is authored in metres (mesh bbox 1.83 high) and three-player-controller does NOT scale the model node -- its `scale` only maps its own physics numbers. Converted every constant to metres: outline 0.015, cap 0.096/0.094, offsets 0.085/0.015, stripe band 0.11, sole 0.022.
+**Files:** src/game/assets/heroLook.ts, src/game/PlayerTPS.tsx (DEV `window.__scene` hook)
+**Decisions:** Kept the `__scene` DEV hook next to `__pp`/`__air` -- `.tmp/inspect.mjs` makes "what is this giant thing" a 10 s question.
+
+### Session 5e -- 2026-08-21: Double jump / air sprint
+**What we did:** "espaço duplo = sprint voador que flutua". Space while airborne (once per airtime) in PlayerTPS.tsx: `playerVelocity.y = 520*scale` (ground jump is 600), `gravity` -2400 -> -700 (*scale) for 900 ms, xz velocity re-pinned to 11 u/s along the current move dir every frame (the controller eases xz back to walk/run speed each update, so a one-shot impulse would decay), `animation.startJump(true)` replays jumpLoop. Gravity restored when the window ends or on landing; `used` flag resets on ground. Measured (headed Playwright, in-page rAF recorder, DEV `window.__air`): single jump +0.7 u; air jump adds +1.9 u with a slow apex; walk 3.0 u/s -> glide 9.5 u/s for 0.88 s -> back to 3.0.
+**Files:** src/game/PlayerTPS.tsx
+**Decisions:** Listener on document keydown next to the lib's own window listener (lib does not stop propagation; it ignores Space when airborne, so no double handling). Re-pin only when xz speed > 1 u/s so decel tails are not amplified into a stray 11 u/s push. TouchControls' synthetic Space keydown also triggers it (mobile double-tap jump). Probing tip: `page.evaluate` polling is ~80 ms and useless for jump arcs -- record per frame inside the page (`.tmp/jump-probe.mjs`, `.tmp/sprint-probe.mjs`).
+
+### Session 5d -- 2026-08-20: TPS aim: reticle above/ahead, shots converge on it
+**What we did:** (1) "mira no umbigo": crosshair is a fixed screen-centre dot, so its world point is the controller's orbit target -- `camLookAtHeightRatio` 0.5 -> 1.9 (0 = capsule bottom, 1 = top, no clamp): character centred low in frame, reticle ~2 heads above him. Tried the lib's over-shoulder view (`enableOverShoulderView`, camera.setViewOffset) at 0.18 then 0.08 -- user wanted him centred, so removed. (2) "bolinha sai acima da mira": `playerCapsule.position` is the capsule's TOP sphere centre, so `body.y + 1.4` spawned ~1.4 u above the head, flying parallel to the camera ray. Now: Raycaster.setFromCamera((0,0)) (goes through the projection matrix, so honours the view offset) -> rapier `world.castRay` with the projectile's groups -> aim point (or 120 u out) -> shot spawns at shoulder (`body.y - 0.35`, 0.6 u along the aim dir) and is aimed spawn->aim point. Hits closer than the character (camera clipping into a slope) ignored. Projectile `gravityScale` 0 -- at world gravity -22 the ball dropped ~0.5 u over the 10 u to the wall; even 0.15 left a visible miss, user wants it to land ON the dot. Ray excludes sensors (`QueryFilterFlags.EXCLUDE_SENSORS`). ShootListener moved inside `<Physics>` for `useRapier`.
+**Files:** src/game/PlayerTPS.tsx, src/game/Game.tsx, src/game/Projectiles.tsx
+**Watch out:** a parallel session rewrote Game.tsx and Projectiles.tsx during this work and silently dropped the aim raycast + gravityScale (ball went back to spawning above the head) -- re-applied twice. Check `SHOULDER_DROP` still exists in Game.tsx before blaming aim math.
+**Decisions:** rapier `RayColliderHit` field is `timeOfImpact` (nested @dimforge under @react-three/rapier), not the top-level package's `toi`. HeldTazo glues to camera centre, so it now sits slightly left of the reticle -- acceptable.
+
+### Session 5c -- 2026-08-20: Game director phase 1 (assessment only)
+**What we did:** /threejs-game-director discovery: five sibling skills + playbook + scorecard loaded, credential probe (Tripo/Gemini/ElevenLabs all MISSING), baseline scorecard avg 1.0 (HUD 0, obstacles 0, hero 1, world 1), mobile has no touch input. Wrote design brief / core loop / station-based level plan. Report: .tmp/director-phase1.md (not committed, .tmp ignored).
+**Decisions:** No paid generators available -- premium pass would be procedural + existing packs. Phases 2-7 await user scope choice.
 
 ### Session 5b -- 2026-08-20: Block-break performance pass
 **What we did:** "quebrar blocos spawna muitos tazos e fica lento". Four causes fixed: (1) a block's rapier body outlives its React state by a frame, so one projectile fired `onCollisionEnter` several times and kept flying through the wall -- `broken` Set guard + projectile removed on impact (one block per shot); (2) each pickup carried a `pointLight` -- light-count change recompiles EVERY material (terrain, ~330 plants) on each spawn/collect -- replaced by a shared additive halo mesh that Bloom picks up; (3) pickups decoded 1024px front+back on the main thread -- `Collectible` gained `maxSize` (ImageBitmapLoader `resizeWidth`, `imageOrientation:'flipY'` because flipY is ignored for bitmaps; TextureLoader fallback), pickups 256px, held tazo 512px; (4) fragments/blocks/projectiles now share one geometry + material, debris has no Outlines/shadow, 2.5s TTL, caps: 40 fragments, 8 pickups (oldest culled).
