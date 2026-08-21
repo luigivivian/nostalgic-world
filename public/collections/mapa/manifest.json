@@ -1,0 +1,673 @@
+{
+  "slug": "mapa",
+  "name": "Mapa do Tesouro",
+  "year": 1999,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/mapa",
+  "scrapedAt": "2026-08-05T03:20:57.390Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "embalagens-e-tarjas",
+      "title": "EMBALAGENS E TARJAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagens-e-tarjas-001",
+          "number": 1,
+          "label": "logo",
+          "front": "items/embalagens-e-tarjas-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "cards",
+      "title": "CARDS",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 40,
+      "sharedBack": "items/versos-vale-brinde-001-front.jpg",
+      "items": [
+        {
+          "id": "cards-001",
+          "number": 1,
+          "label": "1",
+          "front": "items/cards-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-002",
+          "number": 2,
+          "label": "2",
+          "front": "items/cards-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-003",
+          "number": 3,
+          "label": "3",
+          "front": "items/cards-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-004",
+          "number": 4,
+          "label": "4",
+          "front": "items/cards-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-005",
+          "number": 5,
+          "label": "5",
+          "front": "items/cards-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-006",
+          "number": 6,
+          "label": "6",
+          "front": "items/cards-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-007",
+          "number": 7,
+          "label": "7",
+          "front": "items/cards-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-008",
+          "number": 8,
+          "label": "8",
+          "front": "items/cards-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-009",
+          "number": 9,
+          "label": "9",
+          "front": "items/cards-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-010",
+          "number": 10,
+          "label": "10",
+          "front": "items/cards-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-011",
+          "number": 11,
+          "label": "11",
+          "front": "items/cards-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-012",
+          "number": 12,
+          "label": "12",
+          "front": "items/cards-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-013",
+          "number": 13,
+          "label": "13",
+          "front": "items/cards-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-014",
+          "number": 14,
+          "label": "14",
+          "front": "items/cards-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-015",
+          "number": 15,
+          "label": "15",
+          "front": "items/cards-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-016",
+          "number": 16,
+          "label": "16",
+          "front": "items/cards-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-017",
+          "number": 17,
+          "label": "17",
+          "front": "items/cards-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-018",
+          "number": 18,
+          "label": "18",
+          "front": "items/cards-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-019",
+          "number": 19,
+          "label": "19",
+          "front": "items/cards-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-020",
+          "number": 20,
+          "label": "20",
+          "front": "items/cards-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-021",
+          "number": 21,
+          "label": "21",
+          "front": "items/cards-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-022",
+          "number": 22,
+          "label": "22",
+          "front": "items/cards-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-023",
+          "number": 23,
+          "label": "23",
+          "front": "items/cards-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-024",
+          "number": 24,
+          "label": "24",
+          "front": "items/cards-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-025",
+          "number": 25,
+          "label": "25",
+          "front": "items/cards-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-026",
+          "number": 26,
+          "label": "26",
+          "front": "items/cards-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-027",
+          "number": 27,
+          "label": "27",
+          "front": "items/cards-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-028",
+          "number": 28,
+          "label": "28",
+          "front": "items/cards-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-029",
+          "number": 29,
+          "label": "29",
+          "front": "items/cards-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-030",
+          "number": 30,
+          "label": "30",
+          "front": "items/cards-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-031",
+          "number": 31,
+          "label": "31",
+          "front": "items/cards-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-032",
+          "number": 32,
+          "label": "32",
+          "front": "items/cards-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-033",
+          "number": 33,
+          "label": "33",
+          "front": "items/cards-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-034",
+          "number": 34,
+          "label": "34",
+          "front": "items/cards-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-035",
+          "number": 35,
+          "label": "35",
+          "front": "items/cards-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-036",
+          "number": 36,
+          "label": "36",
+          "front": "items/cards-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-037",
+          "number": 37,
+          "label": "37",
+          "front": "items/cards-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-038",
+          "number": 38,
+          "label": "38",
+          "front": "items/cards-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-039",
+          "number": 39,
+          "label": "39",
+          "front": "items/cards-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-040",
+          "number": 40,
+          "label": "40",
+          "front": "items/cards-040-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "versos-vale-brinde",
+      "title": "VERSOS + VALE-BRINDE",
+      "kind": "gallery",
+      "points": null,
+      "expected": 15,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "versos-vale-brinde-001",
+          "number": 1,
+          "label": "VERSO - MODELO 1",
+          "front": "items/versos-vale-brinde-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-002",
+          "number": 2,
+          "label": "VERSO - MODELO 2",
+          "front": "items/versos-vale-brinde-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-003",
+          "number": 3,
+          "label": "VERSO - MODELO 3",
+          "front": "items/versos-vale-brinde-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-004",
+          "number": 4,
+          "label": "VERSO - MODELO 4",
+          "front": "items/versos-vale-brinde-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-005",
+          "number": 5,
+          "label": "VERSO - MODELO 5",
+          "front": "items/versos-vale-brinde-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-006",
+          "number": 6,
+          "label": "VERSO - MODELO 6",
+          "front": "items/versos-vale-brinde-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-007",
+          "number": 7,
+          "label": "VERSO - MODELO 7",
+          "front": "items/versos-vale-brinde-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-008",
+          "number": 8,
+          "label": "VERSO - MODELO 8",
+          "front": "items/versos-vale-brinde-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-009",
+          "number": 9,
+          "label": "VERSO - MODELO 9",
+          "front": "items/versos-vale-brinde-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-010",
+          "number": 10,
+          "label": "VERSO - MODELO 10",
+          "front": "items/versos-vale-brinde-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-011",
+          "number": 11,
+          "label": "VERSO - MODELO 11",
+          "front": "items/versos-vale-brinde-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-012",
+          "number": 12,
+          "label": "VERSO - MODELO 12",
+          "front": "items/versos-vale-brinde-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-013",
+          "number": 13,
+          "label": "VERSO - MODELO 13",
+          "front": "items/versos-vale-brinde-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-014",
+          "number": 14,
+          "label": "VERSO - MODELO 14",
+          "front": "items/versos-vale-brinde-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "versos-vale-brinde-015",
+          "number": 15,
+          "label": "VERSO - MODELO 15",
+          "front": "items/versos-vale-brinde-015-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "album-porta-album",
+      "title": "ÁLBUM + PORTA ÁLBUM",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "album-porta-album-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/album-porta-album-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/album-porta-album-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/album-porta-album-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/album-porta-album-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/album-porta-album-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/album-porta-album-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/album-porta-album-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/album-porta-album-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/album-porta-album-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/album-porta-album-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/album-porta-album-011-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Z A5",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Z A6",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja",
+      "title": "TARJA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/tarja-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/tarja-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/tarja-011-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propagandas",
+      "title": "PÔSTER / PROPAGANDAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propagandas-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propagandas-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propagandas-002-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

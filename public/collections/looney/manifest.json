@@ -1,0 +1,2207 @@
+{
+  "slug": "looney",
+  "name": "Tazo Mania - Looney Tunes",
+  "year": 1997,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/looney",
+  "scrapedAt": "2026-08-05T03:19:01.614Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "tazo-verso-amarelo-1-ponto",
+      "title": "TAZO (VERSO AMARELO - 1 PONTO)",
+      "kind": "paired",
+      "points": 1,
+      "expected": 40,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tazo-verso-amarelo-1-ponto-001",
+          "number": 1,
+          "label": "1",
+          "front": "items/tazo-verso-amarelo-1-ponto-001-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-001-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-002",
+          "number": 2,
+          "label": "2",
+          "front": "items/tazo-verso-amarelo-1-ponto-002-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-002-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-003",
+          "number": 3,
+          "label": "3",
+          "front": "items/tazo-verso-amarelo-1-ponto-003-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-003-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-004",
+          "number": 4,
+          "label": "4",
+          "front": "items/tazo-verso-amarelo-1-ponto-004-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-004-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-005",
+          "number": 5,
+          "label": "5",
+          "front": "items/tazo-verso-amarelo-1-ponto-005-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-005-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-006",
+          "number": 6,
+          "label": "6",
+          "front": "items/tazo-verso-amarelo-1-ponto-006-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-006-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-007",
+          "number": 7,
+          "label": "7",
+          "front": "items/tazo-verso-amarelo-1-ponto-007-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-007-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-008",
+          "number": 8,
+          "label": "8",
+          "front": "items/tazo-verso-amarelo-1-ponto-008-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-008-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-009",
+          "number": 9,
+          "label": "9",
+          "front": "items/tazo-verso-amarelo-1-ponto-009-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-009-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-010",
+          "number": 10,
+          "label": "10",
+          "front": "items/tazo-verso-amarelo-1-ponto-010-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-010-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-011",
+          "number": 11,
+          "label": "11",
+          "front": "items/tazo-verso-amarelo-1-ponto-011-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-011-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-012",
+          "number": 12,
+          "label": "12",
+          "front": "items/tazo-verso-amarelo-1-ponto-012-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-012-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-013",
+          "number": 13,
+          "label": "13",
+          "front": "items/tazo-verso-amarelo-1-ponto-013-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-013-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-014",
+          "number": 14,
+          "label": "14",
+          "front": "items/tazo-verso-amarelo-1-ponto-014-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-014-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-015",
+          "number": 15,
+          "label": "15",
+          "front": "items/tazo-verso-amarelo-1-ponto-015-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-015-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-016",
+          "number": 16,
+          "label": "16",
+          "front": "items/tazo-verso-amarelo-1-ponto-016-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-016-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-017",
+          "number": 17,
+          "label": "17",
+          "front": "items/tazo-verso-amarelo-1-ponto-017-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-017-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-018",
+          "number": 18,
+          "label": "18",
+          "front": "items/tazo-verso-amarelo-1-ponto-018-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-018-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-019",
+          "number": 19,
+          "label": "19",
+          "front": "items/tazo-verso-amarelo-1-ponto-019-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-019-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-020",
+          "number": 20,
+          "label": "20",
+          "front": "items/tazo-verso-amarelo-1-ponto-020-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-020-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-021",
+          "number": 21,
+          "label": "21",
+          "front": "items/tazo-verso-amarelo-1-ponto-021-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-021-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-022",
+          "number": 22,
+          "label": "22",
+          "front": "items/tazo-verso-amarelo-1-ponto-022-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-022-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-023",
+          "number": 23,
+          "label": "23",
+          "front": "items/tazo-verso-amarelo-1-ponto-023-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-023-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-024",
+          "number": 24,
+          "label": "24",
+          "front": "items/tazo-verso-amarelo-1-ponto-024-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-024-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-025",
+          "number": 25,
+          "label": "25",
+          "front": "items/tazo-verso-amarelo-1-ponto-025-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-025-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-026",
+          "number": 26,
+          "label": "26",
+          "front": "items/tazo-verso-amarelo-1-ponto-026-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-026-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-027",
+          "number": 27,
+          "label": "27",
+          "front": "items/tazo-verso-amarelo-1-ponto-027-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-027-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-028",
+          "number": 28,
+          "label": "28",
+          "front": "items/tazo-verso-amarelo-1-ponto-028-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-028-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-029",
+          "number": 29,
+          "label": "29",
+          "front": "items/tazo-verso-amarelo-1-ponto-029-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-029-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-030",
+          "number": 30,
+          "label": "30",
+          "front": "items/tazo-verso-amarelo-1-ponto-030-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-030-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-031",
+          "number": 31,
+          "label": "31",
+          "front": "items/tazo-verso-amarelo-1-ponto-031-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-031-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-032",
+          "number": 32,
+          "label": "32",
+          "front": "items/tazo-verso-amarelo-1-ponto-032-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-032-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-033",
+          "number": 33,
+          "label": "33",
+          "front": "items/tazo-verso-amarelo-1-ponto-033-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-033-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-034",
+          "number": 34,
+          "label": "34",
+          "front": "items/tazo-verso-amarelo-1-ponto-034-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-034-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-035",
+          "number": 35,
+          "label": "35",
+          "front": "items/tazo-verso-amarelo-1-ponto-035-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-035-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-036",
+          "number": 36,
+          "label": "36",
+          "front": "items/tazo-verso-amarelo-1-ponto-036-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-036-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-037",
+          "number": 37,
+          "label": "37",
+          "front": "items/tazo-verso-amarelo-1-ponto-037-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-037-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-038",
+          "number": 38,
+          "label": "38",
+          "front": "items/tazo-verso-amarelo-1-ponto-038-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-038-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-039",
+          "number": 39,
+          "label": "39",
+          "front": "items/tazo-verso-amarelo-1-ponto-039-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-039-back.jpg"
+        },
+        {
+          "id": "tazo-verso-amarelo-1-ponto-040",
+          "number": 40,
+          "label": "40",
+          "front": "items/tazo-verso-amarelo-1-ponto-040-front.jpg",
+          "back": "items/tazo-verso-amarelo-1-ponto-040-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "super-tazo-verso-azul-2-pontos",
+      "title": "SUPER TAZO (VERSO AZUL - 2 PONTOS)",
+      "kind": "paired",
+      "points": 2,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "super-tazo-verso-azul-2-pontos-001",
+          "number": 41,
+          "label": "41",
+          "front": "items/super-tazo-verso-azul-2-pontos-001-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-001-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-002",
+          "number": 42,
+          "label": "42",
+          "front": "items/super-tazo-verso-azul-2-pontos-002-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-002-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-003",
+          "number": 43,
+          "label": "43",
+          "front": "items/super-tazo-verso-azul-2-pontos-003-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-003-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-004",
+          "number": 44,
+          "label": "44",
+          "front": "items/super-tazo-verso-azul-2-pontos-004-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-004-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-005",
+          "number": 45,
+          "label": "45",
+          "front": "items/super-tazo-verso-azul-2-pontos-005-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-005-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-006",
+          "number": 46,
+          "label": "46",
+          "front": "items/super-tazo-verso-azul-2-pontos-006-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-006-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-007",
+          "number": 47,
+          "label": "47",
+          "front": "items/super-tazo-verso-azul-2-pontos-007-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-007-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-008",
+          "number": 48,
+          "label": "48",
+          "front": "items/super-tazo-verso-azul-2-pontos-008-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-008-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-009",
+          "number": 49,
+          "label": "49",
+          "front": "items/super-tazo-verso-azul-2-pontos-009-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-009-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-010",
+          "number": 50,
+          "label": "50",
+          "front": "items/super-tazo-verso-azul-2-pontos-010-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-010-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-011",
+          "number": 51,
+          "label": "51",
+          "front": "items/super-tazo-verso-azul-2-pontos-011-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-011-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-012",
+          "number": 52,
+          "label": "52",
+          "front": "items/super-tazo-verso-azul-2-pontos-012-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-012-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-013",
+          "number": 53,
+          "label": "53",
+          "front": "items/super-tazo-verso-azul-2-pontos-013-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-013-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-014",
+          "number": 54,
+          "label": "54",
+          "front": "items/super-tazo-verso-azul-2-pontos-014-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-014-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-015",
+          "number": 55,
+          "label": "55",
+          "front": "items/super-tazo-verso-azul-2-pontos-015-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-015-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-016",
+          "number": 56,
+          "label": "56",
+          "front": "items/super-tazo-verso-azul-2-pontos-016-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-016-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-017",
+          "number": 57,
+          "label": "57",
+          "front": "items/super-tazo-verso-azul-2-pontos-017-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-017-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-018",
+          "number": 58,
+          "label": "58",
+          "front": "items/super-tazo-verso-azul-2-pontos-018-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-018-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-019",
+          "number": 59,
+          "label": "59",
+          "front": "items/super-tazo-verso-azul-2-pontos-019-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-019-back.jpg"
+        },
+        {
+          "id": "super-tazo-verso-azul-2-pontos-020",
+          "number": 60,
+          "label": "60",
+          "front": "items/super-tazo-verso-azul-2-pontos-020-front.jpg",
+          "back": "items/super-tazo-verso-azul-2-pontos-020-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "mega-tazo-verso-verde-3-pontos",
+      "title": "MEGA TAZO (VERSO VERDE - 3 PONTOS)",
+      "kind": "paired",
+      "points": 3,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-001",
+          "number": 61,
+          "label": "61",
+          "front": "items/mega-tazo-verso-verde-3-pontos-001-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-001-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-002",
+          "number": 62,
+          "label": "62",
+          "front": "items/mega-tazo-verso-verde-3-pontos-002-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-002-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-003",
+          "number": 63,
+          "label": "63",
+          "front": "items/mega-tazo-verso-verde-3-pontos-003-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-003-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-004",
+          "number": 64,
+          "label": "64",
+          "front": "items/mega-tazo-verso-verde-3-pontos-004-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-004-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-005",
+          "number": 65,
+          "label": "65",
+          "front": "items/mega-tazo-verso-verde-3-pontos-005-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-005-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-006",
+          "number": 66,
+          "label": "66",
+          "front": "items/mega-tazo-verso-verde-3-pontos-006-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-006-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-007",
+          "number": 67,
+          "label": "67",
+          "front": "items/mega-tazo-verso-verde-3-pontos-007-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-007-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-008",
+          "number": 68,
+          "label": "68",
+          "front": "items/mega-tazo-verso-verde-3-pontos-008-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-008-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-009",
+          "number": 69,
+          "label": "69",
+          "front": "items/mega-tazo-verso-verde-3-pontos-009-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-009-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-010",
+          "number": 70,
+          "label": "70",
+          "front": "items/mega-tazo-verso-verde-3-pontos-010-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-010-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-011",
+          "number": 71,
+          "label": "71",
+          "front": "items/mega-tazo-verso-verde-3-pontos-011-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-011-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-012",
+          "number": 72,
+          "label": "72",
+          "front": "items/mega-tazo-verso-verde-3-pontos-012-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-012-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-013",
+          "number": 73,
+          "label": "73",
+          "front": "items/mega-tazo-verso-verde-3-pontos-013-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-013-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-014",
+          "number": 74,
+          "label": "74",
+          "front": "items/mega-tazo-verso-verde-3-pontos-014-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-014-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-015",
+          "number": 75,
+          "label": "75",
+          "front": "items/mega-tazo-verso-verde-3-pontos-015-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-015-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-016",
+          "number": 76,
+          "label": "76",
+          "front": "items/mega-tazo-verso-verde-3-pontos-016-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-016-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-017",
+          "number": 77,
+          "label": "77",
+          "front": "items/mega-tazo-verso-verde-3-pontos-017-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-017-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-018",
+          "number": 78,
+          "label": "78",
+          "front": "items/mega-tazo-verso-verde-3-pontos-018-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-018-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-019",
+          "number": 79,
+          "label": "79",
+          "front": "items/mega-tazo-verso-verde-3-pontos-019-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-019-back.jpg"
+        },
+        {
+          "id": "mega-tazo-verso-verde-3-pontos-020",
+          "number": 80,
+          "label": "80",
+          "front": "items/mega-tazo-verso-verde-3-pontos-020-front.jpg",
+          "back": "items/mega-tazo-verso-verde-3-pontos-020-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "master-tazo-fino-edicao-especial",
+      "title": "MASTER-TAZO FINO (EDIÇÃO ESPECIAL)",
+      "kind": "paired",
+      "points": null,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "master-tazo-fino-edicao-especial-001",
+          "number": 81,
+          "label": "81",
+          "front": "items/master-tazo-fino-edicao-especial-001-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-001-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-002",
+          "number": 82,
+          "label": "82",
+          "front": "items/master-tazo-fino-edicao-especial-002-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-002-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-003",
+          "number": 83,
+          "label": "83",
+          "front": "items/master-tazo-fino-edicao-especial-003-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-003-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-004",
+          "number": 84,
+          "label": "84",
+          "front": "items/master-tazo-fino-edicao-especial-004-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-004-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-005",
+          "number": 85,
+          "label": "85",
+          "front": "items/master-tazo-fino-edicao-especial-005-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-005-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-006",
+          "number": 86,
+          "label": "86",
+          "front": "items/master-tazo-fino-edicao-especial-006-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-006-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-007",
+          "number": 87,
+          "label": "87",
+          "front": "items/master-tazo-fino-edicao-especial-007-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-007-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-008",
+          "number": 88,
+          "label": "88",
+          "front": "items/master-tazo-fino-edicao-especial-008-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-008-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-009",
+          "number": 89,
+          "label": "89",
+          "front": "items/master-tazo-fino-edicao-especial-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-010",
+          "number": 897,
+          "label": "897.01.01.89-B",
+          "front": "items/master-tazo-fino-edicao-especial-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-011",
+          "number": 90,
+          "label": "90",
+          "front": "items/master-tazo-fino-edicao-especial-011-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-011-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-012",
+          "number": 91,
+          "label": "91",
+          "front": "items/master-tazo-fino-edicao-especial-012-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-012-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-013",
+          "number": 92,
+          "label": "92",
+          "front": "items/master-tazo-fino-edicao-especial-013-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-013-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-014",
+          "number": 93,
+          "label": "93",
+          "front": "items/master-tazo-fino-edicao-especial-014-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-014-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-015",
+          "number": 94,
+          "label": "94",
+          "front": "items/master-tazo-fino-edicao-especial-015-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-015-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-016",
+          "number": 95,
+          "label": "95",
+          "front": "items/master-tazo-fino-edicao-especial-016-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-016-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-017",
+          "number": 96,
+          "label": "96",
+          "front": "items/master-tazo-fino-edicao-especial-017-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-017-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-018",
+          "number": 97,
+          "label": "97",
+          "front": "items/master-tazo-fino-edicao-especial-018-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-018-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-019",
+          "number": 98,
+          "label": "98",
+          "front": "items/master-tazo-fino-edicao-especial-019-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-019-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-020",
+          "number": 99,
+          "label": "99",
+          "front": "items/master-tazo-fino-edicao-especial-020-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-020-back.jpg"
+        },
+        {
+          "id": "master-tazo-fino-edicao-especial-021",
+          "number": 100,
+          "label": "100",
+          "front": "items/master-tazo-fino-edicao-especial-021-front.jpg",
+          "back": "items/master-tazo-fino-edicao-especial-021-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "taz",
+      "title": "TAZ",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "taz-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/taz-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/taz-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/taz-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/taz-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/taz-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/taz-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-007",
+          "number": 7,
+          "label": "MASTER-TAZO - AZUL",
+          "front": "items/taz-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-008",
+          "number": 8,
+          "label": "MASTER-TAZO - AZUL",
+          "front": "items/taz-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-009",
+          "number": 9,
+          "label": "MASTER-TAZO - AZUL",
+          "front": "items/taz-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-010",
+          "number": 10,
+          "label": "MASTER-TAZO - AZUL",
+          "front": "items/taz-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-011",
+          "number": 11,
+          "label": "MASTER-TAZO - AZUL",
+          "front": "items/taz-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-012",
+          "number": 12,
+          "label": "MASTER-TAZO - AZUL",
+          "front": "items/taz-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-013",
+          "number": 13,
+          "label": "MASTER-TAZO - AZUL",
+          "front": "items/taz-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-014",
+          "number": 14,
+          "label": "MASTER-TAZO - LARANJA",
+          "front": "items/taz-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-015",
+          "number": 15,
+          "label": "MASTER-TAZO - LARANJA",
+          "front": "items/taz-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-016",
+          "number": 16,
+          "label": "MASTER-TAZO - LARANJA",
+          "front": "items/taz-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-017",
+          "number": 17,
+          "label": "MASTER-TAZO - LARANJA",
+          "front": "items/taz-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-018",
+          "number": 18,
+          "label": "MASTER-TAZO - LARANJA",
+          "front": "items/taz-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-019",
+          "number": 19,
+          "label": "MASTER-TAZO - LARANJA",
+          "front": "items/taz-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-020",
+          "number": 20,
+          "label": "MASTER-TAZO - LARANJA",
+          "front": "items/taz-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-021",
+          "number": 21,
+          "label": "MASTER-TAZO - ROSA",
+          "front": "items/taz-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-022",
+          "number": 22,
+          "label": "MASTER-TAZO - ROSA",
+          "front": "items/taz-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-023",
+          "number": 23,
+          "label": "MASTER-TAZO - ROSA",
+          "front": "items/taz-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-024",
+          "number": 24,
+          "label": "MASTER-TAZO - ROSA",
+          "front": "items/taz-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-025",
+          "number": 25,
+          "label": "MASTER-TAZO - ROSA",
+          "front": "items/taz-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-026",
+          "number": 26,
+          "label": "MASTER-TAZO - ROSA",
+          "front": "items/taz-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-027",
+          "number": 27,
+          "label": "MASTER-TAZO - ROSA",
+          "front": "items/taz-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-028",
+          "number": 28,
+          "label": "MASTER-TAZO - ROXO",
+          "front": "items/taz-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-029",
+          "number": 29,
+          "label": "MASTER-TAZO - ROXO",
+          "front": "items/taz-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-030",
+          "number": 30,
+          "label": "MASTER-TAZO - ROXO",
+          "front": "items/taz-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-031",
+          "number": 31,
+          "label": "MASTER-TAZO - ROXO",
+          "front": "items/taz-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-032",
+          "number": 32,
+          "label": "MASTER-TAZO - ROXO",
+          "front": "items/taz-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-033",
+          "number": 33,
+          "label": "MASTER-TAZO - ROXO",
+          "front": "items/taz-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-034",
+          "number": 34,
+          "label": "MASTER-TAZO - ROXO",
+          "front": "items/taz-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-035",
+          "number": 35,
+          "label": "MASTER-TAZO - VERDE",
+          "front": "items/taz-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-036",
+          "number": 36,
+          "label": "MASTER-TAZO - VERDE",
+          "front": "items/taz-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-037",
+          "number": 37,
+          "label": "MASTER-TAZO - VERDE",
+          "front": "items/taz-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-038",
+          "number": 38,
+          "label": "MASTER-TAZO - VERDE",
+          "front": "items/taz-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-039",
+          "number": 39,
+          "label": "MASTER-TAZO - VERDE",
+          "front": "items/taz-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-040",
+          "number": 40,
+          "label": "MASTER-TAZO - VERDE",
+          "front": "items/taz-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-041",
+          "number": 41,
+          "label": "MASTER-TAZO - VERDE",
+          "front": "items/taz-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-042",
+          "number": 42,
+          "label": "MASTER-TAZO - VERMELHO",
+          "front": "items/taz-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-043",
+          "number": 43,
+          "label": "MASTER-TAZO - VERMELHO",
+          "front": "items/taz-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-044",
+          "number": 44,
+          "label": "MASTER-TAZO - VERMELHO",
+          "front": "items/taz-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-045",
+          "number": 45,
+          "label": "MASTER-TAZO - VERMELHO",
+          "front": "items/taz-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-046",
+          "number": 46,
+          "label": "MASTER-TAZO - VERMELHO",
+          "front": "items/taz-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-047",
+          "number": 47,
+          "label": "MASTER-TAZO - VERMELHO",
+          "front": "items/taz-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "taz-048",
+          "number": 48,
+          "label": "MASTER-TAZO - VERMELHO",
+          "front": "items/taz-048-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "porta-tazo",
+      "title": "PORTA-TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 6,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "porta-tazo-001",
+          "number": 1,
+          "label": "PORTA-TAZO - AZUL",
+          "front": "items/porta-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-002",
+          "number": 2,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-003",
+          "number": 3,
+          "label": "PORTA-TAZO - ROSA",
+          "front": "items/porta-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-004",
+          "number": 4,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-005",
+          "number": 5,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-006",
+          "number": 6,
+          "label": "PORTA-TAZO - VERMELHO",
+          "front": "items/porta-tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-007",
+          "number": 7,
+          "label": "PORTA-TAZO - AZUL",
+          "front": "items/porta-tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-008",
+          "number": 8,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-009",
+          "number": 9,
+          "label": "PORTA-TAZO - ROSA",
+          "front": "items/porta-tazo-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-010",
+          "number": 10,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-011",
+          "number": 11,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-012",
+          "number": 12,
+          "label": "PORTA-TAZO - VERMELHO",
+          "front": "items/porta-tazo-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-013",
+          "number": 13,
+          "label": "PORTA-TAZO - AZUL",
+          "front": "items/porta-tazo-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-014",
+          "number": 14,
+          "label": "PORTA-TAZO - LARANJA",
+          "front": "items/porta-tazo-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-015",
+          "number": 15,
+          "label": "PORTA-TAZO - ROSA",
+          "front": "items/porta-tazo-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-016",
+          "number": 16,
+          "label": "PORTA-TAZO - ROXO",
+          "front": "items/porta-tazo-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-017",
+          "number": 17,
+          "label": "PORTA-TAZO - VERDE",
+          "front": "items/porta-tazo-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "porta-tazo-018",
+          "number": 18,
+          "label": "PORTA-TAZO - VERMELHO",
+          "front": "items/porta-tazo-018-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tape-tazo",
+      "title": "TAPE-TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 9,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tape-tazo-001",
+          "number": 1,
+          "label": "TAPE-TAZO",
+          "front": "items/tape-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-002",
+          "number": 2,
+          "label": "TAPE-TAZO",
+          "front": "items/tape-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-003",
+          "number": 3,
+          "label": "TAPE-TAZO - AMARELO",
+          "front": "items/tape-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-004",
+          "number": 4,
+          "label": "TAPE-TAZO - AMARELO",
+          "front": "items/tape-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-005",
+          "number": 5,
+          "label": "TAPE-TAZO - AZUL",
+          "front": "items/tape-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-006",
+          "number": 6,
+          "label": "TAPE-TAZO - AZUL",
+          "front": "items/tape-tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-007",
+          "number": 7,
+          "label": "TAPE-TAZO - CINZA",
+          "front": "items/tape-tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-008",
+          "number": 8,
+          "label": "TAPE-TAZO - CINZA",
+          "front": "items/tape-tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-009",
+          "number": 9,
+          "label": "TAPE-TAZO - LARANJA",
+          "front": "items/tape-tazo-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-010",
+          "number": 10,
+          "label": "TAPE-TAZO - LARANJA",
+          "front": "items/tape-tazo-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-011",
+          "number": 11,
+          "label": "TAPE-TAZO - PRETO",
+          "front": "items/tape-tazo-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-012",
+          "number": 12,
+          "label": "TAPE-TAZO - PRETO",
+          "front": "items/tape-tazo-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-013",
+          "number": 13,
+          "label": "TAPE-TAZO - ROSA",
+          "front": "items/tape-tazo-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-014",
+          "number": 14,
+          "label": "TAPE-TAZO - ROSA",
+          "front": "items/tape-tazo-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-015",
+          "number": 15,
+          "label": "TAPE-TAZO - ROXO",
+          "front": "items/tape-tazo-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-016",
+          "number": 16,
+          "label": "TAPE-TAZO - ROXO",
+          "front": "items/tape-tazo-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-017",
+          "number": 17,
+          "label": "TAPE-TAZO - VERDE",
+          "front": "items/tape-tazo-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-018",
+          "number": 18,
+          "label": "TAPE-TAZO - VERDE",
+          "front": "items/tape-tazo-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-019",
+          "number": 19,
+          "label": "TAPE-TAZO - VERMELHO",
+          "front": "items/tape-tazo-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tape-tazo-020",
+          "number": 20,
+          "label": "TAPE-TAZO - VERMELHO",
+          "front": "items/tape-tazo-020-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "album-fichario",
+      "title": "ÁLBUM (FICHÁRIO)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "album-fichario-001",
+          "number": 1,
+          "label": "FICHÁRIO",
+          "front": "items/album-fichario-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-fichario-002",
+          "number": 2,
+          "label": "FICHÁRIO",
+          "front": "items/album-fichario-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "kit-tazo",
+      "title": "KIT-TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "kit-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/kit-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/kit-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/kit-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/kit-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/kit-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/kit-tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/kit-tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-tazo-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/kit-tazo-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "caixa-kit-promocional",
+      "title": "CAIXA / KIT PROMOCIONAL",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "caixa-kit-promocional-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/caixa-kit-promocional-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/caixa-kit-promocional-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/caixa-kit-promocional-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/caixa-kit-promocional-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/caixa-kit-promocional-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/caixa-kit-promocional-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/caixa-kit-promocional-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/caixa-kit-promocional-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/lotes-outras-fotos-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/lotes-outras-fotos-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/lotes-outras-fotos-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/lotes-outras-fotos-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-013",
+          "number": 13,
+          "label": "Foto 13",
+          "front": "items/lotes-outras-fotos-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-014",
+          "number": 14,
+          "label": "Foto 14",
+          "front": "items/lotes-outras-fotos-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-015",
+          "number": 15,
+          "label": "Foto 15",
+          "front": "items/lotes-outras-fotos-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-016",
+          "number": 16,
+          "label": "Foto 16",
+          "front": "items/lotes-outras-fotos-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-017",
+          "number": 17,
+          "label": "Foto 17",
+          "front": "items/lotes-outras-fotos-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-018",
+          "number": 18,
+          "label": "Foto 18",
+          "front": "items/lotes-outras-fotos-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-019",
+          "number": 19,
+          "label": "Foto 19",
+          "front": "items/lotes-outras-fotos-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-020",
+          "number": 20,
+          "label": "Foto 20",
+          "front": "items/lotes-outras-fotos-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-021",
+          "number": 21,
+          "label": "Foto 21",
+          "front": "items/lotes-outras-fotos-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-022",
+          "number": 22,
+          "label": "Foto 22",
+          "front": "items/lotes-outras-fotos-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-023",
+          "number": 23,
+          "label": "Foto 23",
+          "front": "items/lotes-outras-fotos-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-024",
+          "number": 24,
+          "label": "Foto 24",
+          "front": "items/lotes-outras-fotos-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-025",
+          "number": 25,
+          "label": "Foto 25",
+          "front": "items/lotes-outras-fotos-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-026",
+          "number": 26,
+          "label": "Foto 26",
+          "front": "items/lotes-outras-fotos-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-027",
+          "number": 27,
+          "label": "Foto 27",
+          "front": "items/lotes-outras-fotos-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-028",
+          "number": 28,
+          "label": "Foto 28",
+          "front": "items/lotes-outras-fotos-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-029",
+          "number": 29,
+          "label": "Foto 29",
+          "front": "items/lotes-outras-fotos-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-030",
+          "number": 30,
+          "label": "Foto 30",
+          "front": "items/lotes-outras-fotos-030-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja",
+      "title": "TARJA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-004",
+          "number": 4,
+          "label": "2",
+          "front": "items/tarja-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-master-tazo-o-tazo-matador",
+      "title": "TARJA: CONTÉM 1 MASTER TAZO (O TAZO MATADOR)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-master-tazo-o-tazo-matador-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-contem-1-master-tazo-o-tazo-matador-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-master-tazo-o-tazo-matador-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-contem-1-master-tazo-o-tazo-matador-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-logo-turma-do-pernalonga",
+      "title": "EMBALAGEM: LOGO TURMA DO PERNALONGA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-logo-turma-do-pernalonga-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-logo-turma-do-pernalonga-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-turma-do-pernalonga-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-logo-turma-do-pernalonga-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-turma-do-pernalonga-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-logo-turma-do-pernalonga-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-turma-do-pernalonga-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-logo-turma-do-pernalonga-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-turma-do-pernalonga-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-logo-turma-do-pernalonga-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-turma-do-pernalonga-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-logo-turma-do-pernalonga-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-turma-do-pernalonga-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-logo-turma-do-pernalonga-007-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-logo-fundo-azul-verso-2",
+      "title": "EMBALAGEM: LOGO FUNDO AZUL (VERSO 2)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-logo-fundo-azul-verso-2-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-logo-fundo-azul-verso-2-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-azul-verso-2-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-logo-fundo-azul-verso-2-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-azul-verso-2-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-logo-fundo-azul-verso-2-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-azul-verso-2-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-logo-fundo-azul-verso-2-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-azul-verso-2-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-logo-fundo-azul-verso-2-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-azul-verso-2-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-logo-fundo-azul-verso-2-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-azul-verso-2-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-logo-fundo-azul-verso-2-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-azul-verso-2-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-logo-fundo-azul-verso-2-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-azul-verso-2-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-logo-fundo-azul-verso-2-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-logo-fundo-verde",
+      "title": "EMBALAGEM: LOGO FUNDO VERDE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-logo-fundo-verde-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-logo-fundo-verde-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-verde-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-logo-fundo-verde-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-logo-fundo-verde-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-logo-fundo-verde-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-fandangos-segurando-tazo",
+      "title": "EMBALAGEM: FANDANGOS SEGURANDO TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-fandangos-segurando-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-fandangos-segurando-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-fandangos-segurando-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-fandangos-segurando-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-fandangos-segurando-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-fandangos-segurando-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-fandangos-segurando-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-fandangos-segurando-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-fandangos-segurando-tazo-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-fandangos-segurando-tazo-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-chester-cheetos-segurando-tazo",
+      "title": "EMBALAGEM: CHESTER CHEETOS SEGURANDO TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-chester-cheetos-segurando-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-chester-cheetos-segurando-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-chester-cheetos-segurando-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-chester-cheetos-segurando-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-chester-cheetos-segurando-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-chester-cheetos-segurando-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-chester-cheetos-segurando-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-chester-cheetos-segurando-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-chester-cheetos-segurando-tazo-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-chester-cheetos-segurando-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-chester-cheetos-segurando-tazo-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-chester-cheetos-segurando-tazo-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-lanchinho-verso-1-e-2",
+      "title": "EMBALAGEM: LANCHINHO (VERSO 1 E 2)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-lanchinho-verso-1-e-2-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-lanchinho-verso-1-e-2-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-lanchinho-verso-1-e-2-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-lanchinho-verso-1-e-2-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-lanchinho-verso-1-e-2-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-lanchinho-verso-1-e-2-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propagandas",
+      "title": "PÔSTER / PROPAGANDAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propagandas-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propagandas-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-002",
+          "number": 2,
+          "label": "4",
+          "front": "items/poster-propagandas-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propagandas-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propagandas-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propagandas-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propagandas-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/poster-propagandas-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/poster-propagandas-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/poster-propagandas-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/poster-propagandas-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/poster-propagandas-011-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

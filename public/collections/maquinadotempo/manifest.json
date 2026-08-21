@@ -1,0 +1,712 @@
+{
+  "slug": "maquinadotempo",
+  "name": "Chester Cheetos na Maquina do Tempo",
+  "year": 2003,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/máquinadotempo",
+  "scrapedAt": "2026-08-06T01:57:31.121Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2003 - MÁQUINA DO TEMPO.png",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "50-2",
+      "title": "50 + 2",
+      "kind": "paired",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "50-2-001",
+          "number": 1,
+          "label": "1 - O HOMEM DAS CAVERNAS",
+          "front": "items/50-2-001-front.jpg",
+          "back": "items/50-2-001-back.jpg"
+        },
+        {
+          "id": "50-2-002",
+          "number": 2,
+          "label": "2 - O FOGO",
+          "front": "items/50-2-002-front.jpg",
+          "back": "items/50-2-002-back.jpg"
+        },
+        {
+          "id": "50-2-003",
+          "number": 3,
+          "label": "3 - A ESCRITA",
+          "front": "items/50-2-003-front.jpg",
+          "back": "items/50-2-003-back.jpg"
+        },
+        {
+          "id": "50-2-004",
+          "number": 4,
+          "label": "4 - A MARATONA",
+          "front": "items/50-2-004-front.jpg",
+          "back": "items/50-2-004-back.jpg"
+        },
+        {
+          "id": "50-2-005",
+          "number": 5,
+          "label": "5 - REIS ANTIGOS",
+          "front": "items/50-2-005-front.jpg",
+          "back": "items/50-2-005-back.jpg"
+        },
+        {
+          "id": "50-2-006",
+          "number": 6,
+          "label": "6 - ANO ZERO",
+          "front": "items/50-2-006-front.jpg",
+          "back": "items/50-2-006-back.jpg"
+        },
+        {
+          "id": "50-2-007",
+          "number": 7,
+          "label": "7 - OS VIKINGS",
+          "front": "items/50-2-007-front.jpg",
+          "back": "items/50-2-007-back.jpg"
+        },
+        {
+          "id": "50-2-008",
+          "number": 8,
+          "label": "8 - A PÓLVORA",
+          "front": "items/50-2-008-front.jpg",
+          "back": "items/50-2-008-back.jpg"
+        },
+        {
+          "id": "50-2-009",
+          "number": 9,
+          "label": "9 - DESCOBRIMENTOS",
+          "front": "items/50-2-009-front.jpg",
+          "back": "items/50-2-009-back.jpg"
+        },
+        {
+          "id": "50-2-010",
+          "number": 10,
+          "label": "10 - O CHOCOLATE",
+          "front": "items/50-2-010-front.jpg",
+          "back": "items/50-2-010-back.jpg"
+        },
+        {
+          "id": "50-2-011",
+          "number": 11,
+          "label": "11 - MONA LISA",
+          "front": "items/50-2-011-front.jpg",
+          "back": "items/50-2-011-back.jpg"
+        },
+        {
+          "id": "50-2-012",
+          "number": 12,
+          "label": "12 - CAVALO DE PAU",
+          "front": "items/50-2-012-front.jpg",
+          "back": "items/50-2-012-back.jpg"
+        },
+        {
+          "id": "50-2-013",
+          "number": 13,
+          "label": "13 - NO TEMPO DAS DILIGÊNCIAS",
+          "front": "items/50-2-013-front.jpg",
+          "back": "items/50-2-013-back.jpg"
+        },
+        {
+          "id": "50-2-014",
+          "number": 14,
+          "label": "14 - PABLO PICASSO",
+          "front": "items/50-2-014-front.jpg",
+          "back": "items/50-2-014-back.jpg"
+        },
+        {
+          "id": "50-2-015",
+          "number": 15,
+          "label": "15 - O CARRO",
+          "front": "items/50-2-015-front.jpg",
+          "back": "items/50-2-015-back.jpg"
+        },
+        {
+          "id": "50-2-016",
+          "number": 16,
+          "label": "16 - RELÓGIO DE PULSO",
+          "front": "items/50-2-016-front.jpg",
+          "back": "items/50-2-016-back.jpg"
+        },
+        {
+          "id": "50-2-017",
+          "number": 17,
+          "label": "17 - RODA PIÃO",
+          "front": "items/50-2-017-front.jpg",
+          "back": "items/50-2-017-back.jpg"
+        },
+        {
+          "id": "50-2-018",
+          "number": 18,
+          "label": "18 - O DIRIGÍVEL ZEPPELIN",
+          "front": "items/50-2-018-front.jpg",
+          "back": "items/50-2-018-back.jpg"
+        },
+        {
+          "id": "50-2-019",
+          "number": 19,
+          "label": "19 - O PRIMEIRO COMPUTADOR",
+          "front": "items/50-2-019-front.jpg",
+          "back": "items/50-2-019-back.jpg"
+        },
+        {
+          "id": "50-2-020",
+          "number": 20,
+          "label": "20 - OS HIPPIES",
+          "front": "items/50-2-020-front.jpg",
+          "back": "items/50-2-020-back.jpg"
+        },
+        {
+          "id": "50-2-021",
+          "number": 21,
+          "label": "21 - A FOTOGRAFIA",
+          "front": "items/50-2-021-front.jpg",
+          "back": "items/50-2-021-back.jpg"
+        },
+        {
+          "id": "50-2-022",
+          "number": 22,
+          "label": "22 - O WALK-MAN",
+          "front": "items/50-2-022-front.jpg",
+          "back": "items/50-2-022-back.jpg"
+        },
+        {
+          "id": "50-2-023",
+          "number": 23,
+          "label": "23 - O SKATE",
+          "front": "items/50-2-023-front.jpg",
+          "back": "items/50-2-023-back.jpg"
+        },
+        {
+          "id": "50-2-024",
+          "number": 24,
+          "label": "24 - A BICICLETA",
+          "front": "items/50-2-024-front.jpg",
+          "back": "items/50-2-024-back.jpg"
+        },
+        {
+          "id": "50-2-025",
+          "number": 25,
+          "label": "25 - A TELEVISÃO",
+          "front": "items/50-2-025-front.jpg",
+          "back": "items/50-2-025-back.jpg"
+        },
+        {
+          "id": "50-2-026",
+          "number": 26,
+          "label": "26 - O TREM-BALA",
+          "front": "items/50-2-026-front.jpg",
+          "back": "items/50-2-026-back.jpg"
+        },
+        {
+          "id": "50-2-027",
+          "number": 27,
+          "label": "27 - O TELEFONE",
+          "front": "items/50-2-027-front.jpg",
+          "back": "items/50-2-027-back.jpg"
+        },
+        {
+          "id": "50-2-028",
+          "number": 28,
+          "label": "28 - A INTERNET",
+          "front": "items/50-2-028-front.jpg",
+          "back": "items/50-2-028-back.jpg"
+        },
+        {
+          "id": "50-2-029",
+          "number": 29,
+          "label": "29 - A LÂMPADA",
+          "front": "items/50-2-029-front.jpg",
+          "back": "items/50-2-029-back.jpg"
+        },
+        {
+          "id": "50-2-030",
+          "number": 30,
+          "label": "30 - O FUTEBOL",
+          "front": "items/50-2-030-front.jpg",
+          "back": "items/50-2-030-back.jpg"
+        },
+        {
+          "id": "50-2-031",
+          "number": 31,
+          "label": "31 - CELULAR COM CHEIRO",
+          "front": "items/50-2-031-front.jpg",
+          "back": "items/50-2-031-back.jpg"
+        },
+        {
+          "id": "50-2-032",
+          "number": 32,
+          "label": "32 - BRASIL OCTACAMPEÃO",
+          "front": "items/50-2-032-front.jpg",
+          "back": "items/50-2-032-back.jpg"
+        },
+        {
+          "id": "50-2-033",
+          "number": 33,
+          "label": "33 - TELETRANSPORTE",
+          "front": "items/50-2-033-front.jpg",
+          "back": "items/50-2-033-back.jpg"
+        },
+        {
+          "id": "50-2-034",
+          "number": 34,
+          "label": "34 - CARROS VOADORES",
+          "front": "items/50-2-034-front.jpg",
+          "back": "items/50-2-034-back.jpg"
+        },
+        {
+          "id": "50-2-035",
+          "number": 35,
+          "label": "35 - HOLOGRAFIA",
+          "front": "items/50-2-035-front.jpg",
+          "back": "items/50-2-035-back.jpg"
+        },
+        {
+          "id": "50-2-036",
+          "number": 36,
+          "label": "36 - TREM INTERPLANETÁRIO",
+          "front": "items/50-2-036-front.jpg",
+          "back": "items/50-2-036-back.jpg"
+        },
+        {
+          "id": "50-2-037",
+          "number": 37,
+          "label": "37 - ESCOLA NA LUA",
+          "front": "items/50-2-037-front.jpg",
+          "back": "items/50-2-037-back.jpg"
+        },
+        {
+          "id": "50-2-038",
+          "number": 38,
+          "label": "38 - VÔO INDIVIDUAL",
+          "front": "items/50-2-038-front.jpg",
+          "back": "items/50-2-038-back.jpg"
+        },
+        {
+          "id": "50-2-039",
+          "number": 39,
+          "label": "39 - SHOW COM ETS",
+          "front": "items/50-2-039-front.jpg",
+          "back": "items/50-2-039-back.jpg"
+        },
+        {
+          "id": "50-2-040",
+          "number": 40,
+          "label": "40 - RAP EM MARTE",
+          "front": "items/50-2-040-front.jpg",
+          "back": "items/50-2-040-back.jpg"
+        },
+        {
+          "id": "50-2-041",
+          "number": 41,
+          "label": "41 - ESQUI NAS ESTRELAS",
+          "front": "items/50-2-041-front.jpg",
+          "back": "items/50-2-041-back.jpg"
+        },
+        {
+          "id": "50-2-042",
+          "number": 42,
+          "label": "42 - PRÉDIOS ALTÍSSIMOS",
+          "front": "items/50-2-042-front.jpg",
+          "back": "items/50-2-042-back.jpg"
+        },
+        {
+          "id": "50-2-043",
+          "number": 43,
+          "label": "43 - REALIDADE VIRTUAL",
+          "front": "items/50-2-043-front.jpg",
+          "back": "items/50-2-043-back.jpg"
+        },
+        {
+          "id": "50-2-044",
+          "number": 44,
+          "label": "44 - RELÓGIO COM TUDO",
+          "front": "items/50-2-044-front.jpg",
+          "back": "items/50-2-044-back.jpg"
+        },
+        {
+          "id": "50-2-045",
+          "number": 45,
+          "label": "45 - CLONES",
+          "front": "items/50-2-045-front.jpg",
+          "back": "items/50-2-045-back.jpg"
+        },
+        {
+          "id": "50-2-046",
+          "number": 46,
+          "label": "46 - LEITOR DE DNA",
+          "front": "items/50-2-046-front.jpg",
+          "back": "items/50-2-046-back.jpg"
+        },
+        {
+          "id": "50-2-047",
+          "number": 47,
+          "label": "47 - MARATONA ESTELAR",
+          "front": "items/50-2-047-front.jpg",
+          "back": "items/50-2-047-back.jpg"
+        },
+        {
+          "id": "50-2-048",
+          "number": 48,
+          "label": "48 - ÔNIBUS ESPACIAL",
+          "front": "items/50-2-048-front.jpg",
+          "back": "items/50-2-048-back.jpg"
+        },
+        {
+          "id": "50-2-049",
+          "number": 49,
+          "label": "49 - ROBÓTICA",
+          "front": "items/50-2-049-front.jpg",
+          "back": "items/50-2-049-back.jpg"
+        },
+        {
+          "id": "50-2-050",
+          "number": 50,
+          "label": "50 - MÁQUINA DO TEMPO",
+          "front": "items/50-2-050-front.jpg",
+          "back": "items/50-2-050-back.jpg"
+        },
+        {
+          "id": "50-2-051",
+          "number": 5,
+          "label": "5 - REIS ANTIGOS (IMAGEM 2)",
+          "front": "items/50-2-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "50-2-052",
+          "number": 5,
+          "label": "5 - REIS ANTIGOS (IMAGEM 1)",
+          "front": "items/50-2-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "50-2-053",
+          "number": 14,
+          "label": "14 - PABLO PICASSO (IMAGEM 2)",
+          "front": "items/50-2-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "50-2-054",
+          "number": 14,
+          "label": "14 - PABLO PICASSO (IMAGEM 1)",
+          "front": "items/50-2-054-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "album-porta-album",
+      "title": "ÁLBUM + PORTA ÁLBUM",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "album-porta-album-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/album-porta-album-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-porta-album-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/album-porta-album-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "vale-brindes",
+      "title": "VALE-BRINDES",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "vale-brindes-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/vale-brindes-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "vale-brindes-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/vale-brindes-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "vale-brindes-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/vale-brindes-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/lotes-outras-fotos-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/lotes-outras-fotos-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja",
+      "title": "TARJA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-006-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}
