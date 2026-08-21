@@ -1,0 +1,844 @@
+{
+  "slug": "tech",
+  "name": "Montaveis Tech + Stamps (X-Men)",
+  "year": 2006,
+  "category": "extras",
+  "shape": "photo",
+  "source": "https://www.elmachipscolecoes.com.br/tech",
+  "scrapedAt": "2026-08-06T01:59:15.915Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2006 - MONTÁVEIS X-MEN.png",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/poster-propaganda-site-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/poster-propaganda-site-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/poster-propaganda-site-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/poster-propaganda-site-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/poster-propaganda-site-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-013",
+          "number": 13,
+          "label": "ARTE OFICIAL SITE",
+          "front": "items/poster-propaganda-site-013-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "27-9",
+      "title": "27 + 9",
+      "kind": "paired",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "27-9-001",
+          "number": 1,
+          "label": "01 - WOLVERINE (1)",
+          "front": "items/27-9-001-front.jpg",
+          "back": "items/27-9-001-back.jpg"
+        },
+        {
+          "id": "27-9-002",
+          "number": 2,
+          "label": "02 - VAMPIRA (1)",
+          "front": "items/27-9-002-front.jpg",
+          "back": "items/27-9-002-back.jpg"
+        },
+        {
+          "id": "27-9-003",
+          "number": 3,
+          "label": "03 - FERA (1)",
+          "front": "items/27-9-003-front.jpg",
+          "back": "items/27-9-003-back.jpg"
+        },
+        {
+          "id": "27-9-004",
+          "number": 4,
+          "label": "04 - CICLOPE (1)",
+          "front": "items/27-9-004-front.jpg",
+          "back": "items/27-9-004-back.jpg"
+        },
+        {
+          "id": "27-9-005",
+          "number": 5,
+          "label": "05 - TEMPESTADE (1)",
+          "front": "items/27-9-005-front.jpg",
+          "back": "items/27-9-005-back.jpg"
+        },
+        {
+          "id": "27-9-006",
+          "number": 6,
+          "label": "06 - FANÁTICO (1)",
+          "front": "items/27-9-006-front.jpg",
+          "back": "items/27-9-006-back.jpg"
+        },
+        {
+          "id": "27-9-007",
+          "number": 7,
+          "label": "07 - FÊNIX (1)",
+          "front": "items/27-9-007-front.jpg",
+          "back": "items/27-9-007-back.jpg"
+        },
+        {
+          "id": "27-9-008",
+          "number": 8,
+          "label": "08 - NOTURNO (1)",
+          "front": "items/27-9-008-front.jpg",
+          "back": "items/27-9-008-back.jpg"
+        },
+        {
+          "id": "27-9-009",
+          "number": 9,
+          "label": "09 - MAGNETO (1)",
+          "front": "items/27-9-009-front.jpg",
+          "back": "items/27-9-009-back.jpg"
+        },
+        {
+          "id": "27-9-010",
+          "number": 10,
+          "label": "10 - WOLVERINE (2)",
+          "front": "items/27-9-010-front.jpg",
+          "back": "items/27-9-010-back.jpg"
+        },
+        {
+          "id": "27-9-011",
+          "number": 11,
+          "label": "11 - ANJO (1)",
+          "front": "items/27-9-011-front.jpg",
+          "back": "items/27-9-011-back.jpg"
+        },
+        {
+          "id": "27-9-012",
+          "number": 12,
+          "label": "12 - COLOSSUS",
+          "front": "items/27-9-012-front.jpg",
+          "back": "items/27-9-012-back.jpg"
+        },
+        {
+          "id": "27-9-013",
+          "number": 13,
+          "label": "13 - FERA(2)",
+          "front": "items/27-9-013-front.jpg",
+          "back": "items/27-9-013-back.jpg"
+        },
+        {
+          "id": "27-9-014",
+          "number": 14,
+          "label": "14 - WOLVERINE (3)",
+          "front": "items/27-9-014-front.jpg",
+          "back": "items/27-9-014-back.jpg"
+        },
+        {
+          "id": "27-9-015",
+          "number": 15,
+          "label": "15 - HOMEM DE GELO (1)",
+          "front": "items/27-9-015-front.jpg",
+          "back": "items/27-9-015-back.jpg"
+        },
+        {
+          "id": "27-9-016",
+          "number": 16,
+          "label": "16 - ANJO (2)",
+          "front": "items/27-9-016-front.jpg",
+          "back": "items/27-9-016-back.jpg"
+        },
+        {
+          "id": "27-9-017",
+          "number": 17,
+          "label": "17 - GAMBIT (1)",
+          "front": "items/27-9-017-front.jpg",
+          "back": "items/27-9-017-back.jpg"
+        },
+        {
+          "id": "27-9-018",
+          "number": 18,
+          "label": "18 - FANÁTICO (2)",
+          "front": "items/27-9-018-front.jpg",
+          "back": "items/27-9-018-back.jpg"
+        },
+        {
+          "id": "27-9-019",
+          "number": 19,
+          "label": "19 - HOMEM DE GELO (2)",
+          "front": "items/27-9-019-front.jpg",
+          "back": "items/27-9-019-back.jpg"
+        },
+        {
+          "id": "27-9-020",
+          "number": 20,
+          "label": "20 - GAMBIT (2)",
+          "front": "items/27-9-020-front.jpg",
+          "back": "items/27-9-020-back.jpg"
+        },
+        {
+          "id": "27-9-021",
+          "number": 21,
+          "label": "21 - VAMPIRA (2)",
+          "front": "items/27-9-021-front.jpg",
+          "back": "items/27-9-021-back.jpg"
+        },
+        {
+          "id": "27-9-022",
+          "number": 22,
+          "label": "22 - FÊNIX (2)",
+          "front": "items/27-9-022-front.jpg",
+          "back": "items/27-9-022-back.jpg"
+        },
+        {
+          "id": "27-9-023",
+          "number": 23,
+          "label": "23 - CICLOPE (2)",
+          "front": "items/27-9-023-front.jpg",
+          "back": "items/27-9-023-back.jpg"
+        },
+        {
+          "id": "27-9-024",
+          "number": 24,
+          "label": "24 - FANÁTICO (3)",
+          "front": "items/27-9-024-front.jpg",
+          "back": "items/27-9-024-back.jpg"
+        },
+        {
+          "id": "27-9-025",
+          "number": 25,
+          "label": "25 - TEMPESTADE (2)",
+          "front": "items/27-9-025-front.jpg",
+          "back": "items/27-9-025-back.jpg"
+        },
+        {
+          "id": "27-9-026",
+          "number": 26,
+          "label": "26 - NOTURNO (2)",
+          "front": "items/27-9-026-front.jpg",
+          "back": "items/27-9-026-back.jpg"
+        },
+        {
+          "id": "27-9-027",
+          "number": 27,
+          "label": "27 - MAGNETO (2)",
+          "front": "items/27-9-027-front.jpg",
+          "back": "items/27-9-027-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "9-3",
+      "title": "9 + 3",
+      "kind": "paired",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "9-3-001",
+          "number": 1,
+          "label": "01 - WOLVERINE",
+          "front": "items/9-3-001-front.jpg",
+          "back": "items/9-3-001-back.jpg"
+        },
+        {
+          "id": "9-3-002",
+          "number": 2,
+          "label": "02 - VAMPIRA",
+          "front": "items/9-3-002-front.jpg",
+          "back": "items/9-3-002-back.jpg"
+        },
+        {
+          "id": "9-3-003",
+          "number": 3,
+          "label": "03 - FERA",
+          "front": "items/9-3-003-front.jpg",
+          "back": "items/9-3-003-back.jpg"
+        },
+        {
+          "id": "9-3-004",
+          "number": 4,
+          "label": "04 - CICLOPE",
+          "front": "items/9-3-004-front.jpg",
+          "back": "items/9-3-004-back.jpg"
+        },
+        {
+          "id": "9-3-005",
+          "number": 5,
+          "label": "05 - TEMPESTADE",
+          "front": "items/9-3-005-front.jpg",
+          "back": "items/9-3-005-back.jpg"
+        },
+        {
+          "id": "9-3-006",
+          "number": 6,
+          "label": "06 - FANÁTICO",
+          "front": "items/9-3-006-front.jpg",
+          "back": "items/9-3-006-back.jpg"
+        },
+        {
+          "id": "9-3-007",
+          "number": 7,
+          "label": "07 - FÊNIX",
+          "front": "items/9-3-007-front.jpg",
+          "back": "items/9-3-007-back.jpg"
+        },
+        {
+          "id": "9-3-008",
+          "number": 8,
+          "label": "08 - NOTURNO",
+          "front": "items/9-3-008-front.jpg",
+          "back": "items/9-3-008-back.jpg"
+        },
+        {
+          "id": "9-3-009",
+          "number": 9,
+          "label": "09 - MAGNETO",
+          "front": "items/9-3-009-front.jpg",
+          "back": "items/9-3-009-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "adesivo-stamps-album-virtual",
+      "title": "ADESIVO (STAMPS) + ÁLBUM VIRTUAL",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 30,
+      "sharedBack": "items/adesivo-stamps-album-virtual-shared-back.jpg",
+      "items": [
+        {
+          "id": "adesivo-stamps-album-virtual-001",
+          "number": 1,
+          "label": "01 - X-MEN",
+          "front": "items/adesivo-stamps-album-virtual-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-002",
+          "number": 2,
+          "label": "02 - WOLVERINE",
+          "front": "items/adesivo-stamps-album-virtual-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-003",
+          "number": 3,
+          "label": "03 - CICLOPE",
+          "front": "items/adesivo-stamps-album-virtual-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-004",
+          "number": 4,
+          "label": "04 - FERA",
+          "front": "items/adesivo-stamps-album-virtual-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-005",
+          "number": 5,
+          "label": "05 - CICLOPE",
+          "front": "items/adesivo-stamps-album-virtual-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-006",
+          "number": 6,
+          "label": "06 - NOTURNO",
+          "front": "items/adesivo-stamps-album-virtual-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-007",
+          "number": 7,
+          "label": "07 - WOLVERINE",
+          "front": "items/adesivo-stamps-album-virtual-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-008",
+          "number": 8,
+          "label": "08 - VAMPIRA",
+          "front": "items/adesivo-stamps-album-virtual-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-009",
+          "number": 9,
+          "label": "09 - WOLVERINE",
+          "front": "items/adesivo-stamps-album-virtual-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-010",
+          "number": 10,
+          "label": "10 - HOMEM DE GELO",
+          "front": "items/adesivo-stamps-album-virtual-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-011",
+          "number": 11,
+          "label": "11 - WOLVERINE",
+          "front": "items/adesivo-stamps-album-virtual-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-012",
+          "number": 12,
+          "label": "12 - TEMPESTADE",
+          "front": "items/adesivo-stamps-album-virtual-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-013",
+          "number": 13,
+          "label": "13 - FERA",
+          "front": "items/adesivo-stamps-album-virtual-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-014",
+          "number": 14,
+          "label": "14 - ANJO",
+          "front": "items/adesivo-stamps-album-virtual-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-015",
+          "number": 15,
+          "label": "15 - FANÁTICO",
+          "front": "items/adesivo-stamps-album-virtual-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-016",
+          "number": 16,
+          "label": "16 - VAMPIRA",
+          "front": "items/adesivo-stamps-album-virtual-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-017",
+          "number": 17,
+          "label": "17 - MAGNETO",
+          "front": "items/adesivo-stamps-album-virtual-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-018",
+          "number": 18,
+          "label": "18 - FÊNIX",
+          "front": "items/adesivo-stamps-album-virtual-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-019",
+          "number": 19,
+          "label": "19 - XAVIER INSTITUTE",
+          "front": "items/adesivo-stamps-album-virtual-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-020",
+          "number": 20,
+          "label": "20 - HOMEM DE GELO",
+          "front": "items/adesivo-stamps-album-virtual-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-021",
+          "number": 21,
+          "label": "21 - ANJO",
+          "front": "items/adesivo-stamps-album-virtual-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-022",
+          "number": 22,
+          "label": "22 - GAMBIT",
+          "front": "items/adesivo-stamps-album-virtual-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-023",
+          "number": 23,
+          "label": "23 - COLOSSUS",
+          "front": "items/adesivo-stamps-album-virtual-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-024",
+          "number": 24,
+          "label": "24 - MAGNETO",
+          "front": "items/adesivo-stamps-album-virtual-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-025",
+          "number": 25,
+          "label": "25 - FANÁTICO",
+          "front": "items/adesivo-stamps-album-virtual-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-026",
+          "number": 26,
+          "label": "26 - NOTURNO",
+          "front": "items/adesivo-stamps-album-virtual-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-027",
+          "number": 27,
+          "label": "27 - GAMBIT",
+          "front": "items/adesivo-stamps-album-virtual-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-028",
+          "number": 28,
+          "label": "28 - FÊNIX",
+          "front": "items/adesivo-stamps-album-virtual-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-029",
+          "number": 29,
+          "label": "29 - TEMPESTADE",
+          "front": "items/adesivo-stamps-album-virtual-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-030",
+          "number": 30,
+          "label": "30 - COLOSSUS",
+          "front": "items/adesivo-stamps-album-virtual-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-031",
+          "number": 31,
+          "label": "31 - WOLVERINE",
+          "front": "items/adesivo-stamps-album-virtual-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-032",
+          "number": 32,
+          "label": "32 - FANÁTICO",
+          "front": "items/adesivo-stamps-album-virtual-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-033",
+          "number": 33,
+          "label": "33 - COLOSSUS",
+          "front": "items/adesivo-stamps-album-virtual-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-034",
+          "number": 34,
+          "label": "34 - WOLVERINE",
+          "front": "items/adesivo-stamps-album-virtual-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-035",
+          "number": 35,
+          "label": "35 - WOLVERINE",
+          "front": "items/adesivo-stamps-album-virtual-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivo-stamps-album-virtual-036",
+          "number": 36,
+          "label": "36 - FERA",
+          "front": "items/adesivo-stamps-album-virtual-036-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lanchinho-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lanchinho-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-stamps",
+      "title": "TARJA: STAMPS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-stamps-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-stamps-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-stamps-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-stamps-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-stamps-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-stamps-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-montaveis",
+      "title": "TARJA: MONTÁVEIS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-montaveis-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-montaveis-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-montaveis-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-montaveis-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-montaveis-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-montaveis-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-montaveis-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-montaveis-brilha-no-escuro",
+      "title": "TARJA: MONTÁVEIS (BRILHA NO ESCURO)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-montaveis-brilha-no-escuro-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-montaveis-brilha-no-escuro-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-brilha-no-escuro-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-montaveis-brilha-no-escuro-002-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

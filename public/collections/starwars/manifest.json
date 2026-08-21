@@ -1,0 +1,436 @@
+{
+  "slug": "starwars",
+  "name": "Star Wars - Episodio I",
+  "year": 1999,
+  "category": "cards",
+  "shape": "card",
+  "source": "https://www.elmachipscolecoes.com.br/starwars",
+  "scrapedAt": "2026-08-05T03:12:46.760Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propagandas",
+      "title": "PÔSTER / PROPAGANDAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propagandas-001",
+          "number": 1,
+          "label": "1999 - STAR WARS.png",
+          "front": "items/poster-propagandas-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "cards",
+      "title": "CARDS",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 40,
+      "sharedBack": "items/cards-shared-back.jpg",
+      "items": [
+        {
+          "id": "cards-001",
+          "number": 1,
+          "label": "1 - PADMÉ",
+          "front": "items/cards-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-002",
+          "number": 2,
+          "label": "2 - OBI-WAN",
+          "front": "items/cards-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-003",
+          "number": 3,
+          "label": "3 - QUI-GON",
+          "front": "items/cards-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-004",
+          "number": 4,
+          "label": "4 - R2-D2",
+          "front": "items/cards-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-005",
+          "number": 5,
+          "label": "5 - ANAKIN",
+          "front": "items/cards-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-006",
+          "number": 6,
+          "label": "6 - DARTH MAUL",
+          "front": "items/cards-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-007",
+          "number": 7,
+          "label": "7 - RAINHA AMIDALA",
+          "front": "items/cards-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-008",
+          "number": 8,
+          "label": "8 - NUTE E RUNE",
+          "front": "items/cards-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-009",
+          "number": 9,
+          "label": "9 - JAR JAR",
+          "front": "items/cards-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-010",
+          "number": 10,
+          "label": "10 - WATTO",
+          "front": "items/cards-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-011",
+          "number": 11,
+          "label": "11 - DARTH MAUL",
+          "front": "items/cards-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-012",
+          "number": 12,
+          "label": "12 - DARTH SIDIOUS",
+          "front": "items/cards-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-013",
+          "number": 13,
+          "label": "13 - BATTLE DROIDS",
+          "front": "items/cards-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-014",
+          "number": 14,
+          "label": "14 - QUI-GON E DARTH MAUL",
+          "front": "items/cards-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-015",
+          "number": 15,
+          "label": "15 - DARTH SIDIOUS E DARTH MAUL",
+          "front": "items/cards-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-016",
+          "number": 16,
+          "label": "16 - QUI-GON, DARTH MAUL E OBI-WAN",
+          "front": "items/cards-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-017",
+          "number": 17,
+          "label": "17 - C-3PO",
+          "front": "items/cards-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-018",
+          "number": 18,
+          "label": "18 - YODA",
+          "front": "items/cards-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-019",
+          "number": 19,
+          "label": "19 - JAR JAR",
+          "front": "items/cards-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-020",
+          "number": 20,
+          "label": "20 - OBI-WAN",
+          "front": "items/cards-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-021",
+          "number": 21,
+          "label": "21 - YODA",
+          "front": "items/cards-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-022",
+          "number": 22,
+          "label": "22 - R2D2 E C3PO",
+          "front": "items/cards-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-023",
+          "number": 23,
+          "label": "23 - DARTH MAUL",
+          "front": "items/cards-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-024",
+          "number": 24,
+          "label": "24 - QUI-GON E WATTO",
+          "front": "items/cards-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-025",
+          "number": 25,
+          "label": "25 - SEBULBA",
+          "front": "items/cards-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-026",
+          "number": 26,
+          "label": "26 - ANAKIN E SHMI",
+          "front": "items/cards-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-027",
+          "number": 27,
+          "label": "27 - ANAKIN",
+          "front": "items/cards-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-028",
+          "number": 28,
+          "label": "28 - OBI-WAN, ANAKIN, QUI-GON",
+          "front": "items/cards-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-029",
+          "number": 29,
+          "label": "29 - SENADOR PALPATINE",
+          "front": "items/cards-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-030",
+          "number": 30,
+          "label": "30 - ANAKIN E OBI-WAN",
+          "front": "items/cards-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-031",
+          "number": 31,
+          "label": "31 - RAINHA AMIDALA E SENADOR PALPATINE",
+          "front": "items/cards-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-032",
+          "number": 32,
+          "label": "32 - CANCILLER VALORUM",
+          "front": "items/cards-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-033",
+          "number": 33,
+          "label": "33 - SHMI",
+          "front": "items/cards-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-034",
+          "number": 34,
+          "label": "34 - SEBULBA",
+          "front": "items/cards-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-035",
+          "number": 35,
+          "label": "35 - ANAKIN",
+          "front": "items/cards-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-036",
+          "number": 36,
+          "label": "36 - CAPITÃO TARPALS",
+          "front": "items/cards-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-037",
+          "number": 37,
+          "label": "37 - DESTROYER DROID",
+          "front": "items/cards-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-038",
+          "number": 38,
+          "label": "38 - MACE WINDU",
+          "front": "items/cards-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-039",
+          "number": 39,
+          "label": "39 - CHEFE NASS",
+          "front": "items/cards-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "cards-040",
+          "number": 40,
+          "label": "40 - JABBA THE HUTT",
+          "front": "items/cards-040-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "album",
+      "title": "ÁLBUM",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "album-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/album-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "IMG_20220629_211332666_HDR",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "IMG_20220629_212522736_HDR",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lanchinho-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lanchinho-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja",
+      "title": "TARJA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-006-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "slug": "pokemon2",
+  "name": "Pokemon (Tazos e Evolutazos)",
+  "year": 2000,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/pokemon2",
+  "scrapedAt": "2026-08-05T03:21:27.570Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propagandas",
+      "title": "PÔSTER / PROPAGANDAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propagandas-001",
+          "number": 1,
+          "label": "2000 - POKÉMON TAZOS.png",
+          "front": "items/poster-propagandas-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propagandas-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tazos",
+      "title": "TAZOS",
+      "kind": "paired",
+      "points": null,
+      "expected": 45,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tazos-001",
+          "number": 1,
+          "label": "1 - #21-SPEAROW",
+          "front": "items/tazos-001-front.jpg",
+          "back": "items/tazos-001-back.jpg"
+        },
+        {
+          "id": "tazos-002",
+          "number": 2,
+          "label": "2 - #22-FEAROW",
+          "front": "items/tazos-002-front.jpg",
+          "back": "items/tazos-002-back.jpg"
+        },
+        {
+          "id": "tazos-003",
+          "number": 3,
+          "label": "3 - #26-RAICHU",
+          "front": "items/tazos-003-front.jpg",
+          "back": "items/tazos-003-back.jpg"
+        },
+        {
+          "id": "tazos-004",
+          "number": 4,
+          "label": "4 - #27-SANDSHREW",
+          "front": "items/tazos-004-front.jpg",
+          "back": "items/tazos-004-back.jpg"
+        },
+        {
+          "id": "tazos-005",
+          "number": 5,
+          "label": "5 - #28-SANDSLASH",
+          "front": "items/tazos-005-front.jpg",
+          "back": "items/tazos-005-back.jpg"
+        },
+        {
+          "id": "tazos-006",
+          "number": 6,
+          "label": "6 - #35-CLEFAIRY",
+          "front": "items/tazos-006-front.jpg",
+          "back": "items/tazos-006-back.jpg"
+        },
+        {
+          "id": "tazos-007",
+          "number": 7,
+          "label": "7 - #36-CLEFABLE",
+          "front": "items/tazos-007-front.jpg",
+          "back": "items/tazos-007-back.jpg"
+        },
+        {
+          "id": "tazos-008",
+          "number": 8,
+          "label": "8 - #37-VULPIX",
+          "front": "items/tazos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazos-009",
+          "number": 8,
+          "label": "8 - #37-VULPIXIX",
+          "front": "items/tazos-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazos-010",
+          "number": 9,
+          "label": "9 - #38-NINETALES",
+          "front": "items/tazos-010-front.jpg",
+          "back": "items/tazos-010-back.jpg"
+        },
+        {
+          "id": "tazos-011",
+          "number": 10,
+          "label": "10 - #39-JIGGLYPUFF",
+          "front": "items/tazos-011-front.jpg",
+          "back": "items/tazos-011-back.jpg"
+        },
+        {
+          "id": "tazos-012",
+          "number": 11,
+          "label": "11 - #40-WIGGLYTUFF",
+          "front": "items/tazos-012-front.jpg",
+          "back": "items/tazos-012-back.jpg"
+        },
+        {
+          "id": "tazos-013",
+          "number": 12,
+          "label": "12 - #41-ZUBAT",
+          "front": "items/tazos-013-front.jpg",
+          "back": "items/tazos-013-back.jpg"
+        },
+        {
+          "id": "tazos-014",
+          "number": 13,
+          "label": "13 - #48-VENONAT",
+          "front": "items/tazos-014-front.jpg",
+          "back": "items/tazos-014-back.jpg"
+        },
+        {
+          "id": "tazos-015",
+          "number": 14,
+          "label": "14 - #49-VENOMOTH",
+          "front": "items/tazos-015-front.jpg",
+          "back": "items/tazos-015-back.jpg"
+        },
+        {
+          "id": "tazos-016",
+          "number": 15,
+          "label": "15 - #50-DIGLETT",
+          "front": "items/tazos-016-front.jpg",
+          "back": "items/tazos-016-back.jpg"
+        },
+        {
+          "id": "tazos-017",
+          "number": 16,
+          "label": "16 - #51-DUGTRIO",
+          "front": "items/tazos-017-front.jpg",
+          "back": "items/tazos-017-back.jpg"
+        },
+        {
+          "id": "tazos-018",
+          "number": 17,
+          "label": "17 - #83-FARFETCH'D",
+          "front": "items/tazos-018-front.jpg",
+          "back": "items/tazos-018-back.jpg"
+        },
+        {
+          "id": "tazos-019",
+          "number": 18,
+          "label": "18 - #95-ONIX",
+          "front": "items/tazos-019-front.jpg",
+          "back": "items/tazos-019-back.jpg"
+        },
+        {
+          "id": "tazos-020",
+          "number": 19,
+          "label": "19 - #104-CUBONE",
+          "front": "items/tazos-020-front.jpg",
+          "back": "items/tazos-020-back.jpg"
+        },
+        {
+          "id": "tazos-021",
+          "number": 20,
+          "label": "20 - #105-MAROWAKAK",
+          "front": "items/tazos-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazos-022",
+          "number": 20,
+          "label": "20 - #105-MAROWAK",
+          "front": "items/tazos-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tazos-023",
+          "number": 21,
+          "label": "21 - #111-RHYHORN",
+          "front": "items/tazos-023-front.jpg",
+          "back": "items/tazos-023-back.jpg"
+        },
+        {
+          "id": "tazos-024",
+          "number": 22,
+          "label": "22 - #112-RHYDON",
+          "front": "items/tazos-024-front.jpg",
+          "back": "items/tazos-024-back.jpg"
+        },
+        {
+          "id": "tazos-025",
+          "number": 23,
+          "label": "23 - #113-CHANSEY",
+          "front": "items/tazos-025-front.jpg",
+          "back": "items/tazos-025-back.jpg"
+        },
+        {
+          "id": "tazos-026",
+          "number": 24,
+          "label": "24 - #114-TANGELA",
+          "front": "items/tazos-026-front.jpg",
+          "back": "items/tazos-026-back.jpg"
+        },
+        {
+          "id": "tazos-027",
+          "number": 25,
+          "label": "25 - #115-KANGASKHAN",
+          "front": "items/tazos-027-front.jpg",
+          "back": "items/tazos-027-back.jpg"
+        },
+        {
+          "id": "tazos-028",
+          "number": 26,
+          "label": "26 - #122-MR. MIME",
+          "front": "items/tazos-028-front.jpg",
+          "back": "items/tazos-028-back.jpg"
+        },
+        {
+          "id": "tazos-029",
+          "number": 27,
+          "label": "27 - #123-SCYTHER",
+          "front": "items/tazos-029-front.jpg",
+          "back": "items/tazos-029-back.jpg"
+        },
+        {
+          "id": "tazos-030",
+          "number": 28,
+          "label": "28 - #124-JYNX",
+          "front": "items/tazos-030-front.jpg",
+          "back": "items/tazos-030-back.jpg"
+        },
+        {
+          "id": "tazos-031",
+          "number": 29,
+          "label": "29 - #125-ELECTABUZZ",
+          "front": "items/tazos-031-front.jpg",
+          "back": "items/tazos-031-back.jpg"
+        },
+        {
+          "id": "tazos-032",
+          "number": 30,
+          "label": "30 - #126-MAGMAR",
+          "front": "items/tazos-032-front.jpg",
+          "back": "items/tazos-032-back.jpg"
+        },
+        {
+          "id": "tazos-033",
+          "number": 31,
+          "label": "31 - #127-PINSIR",
+          "front": "items/tazos-033-front.jpg",
+          "back": "items/tazos-033-back.jpg"
+        },
+        {
+          "id": "tazos-034",
+          "number": 32,
+          "label": "32 - #128-TAUROS",
+          "front": "items/tazos-034-front.jpg",
+          "back": "items/tazos-034-back.jpg"
+        },
+        {
+          "id": "tazos-035",
+          "number": 33,
+          "label": "33 - #131-LAPRAS",
+          "front": "items/tazos-035-front.jpg",
+          "back": "items/tazos-035-back.jpg"
+        },
+        {
+          "id": "tazos-036",
+          "number": 34,
+          "label": "34 - #132-DITTO",
+          "front": "items/tazos-036-front.jpg",
+          "back": "items/tazos-036-back.jpg"
+        },
+        {
+          "id": "tazos-037",
+          "number": 35,
+          "label": "35 - #137-PORYGON",
+          "front": "items/tazos-037-front.jpg",
+          "back": "items/tazos-037-back.jpg"
+        },
+        {
+          "id": "tazos-038",
+          "number": 36,
+          "label": "36 - #140-KABUTO",
+          "front": "items/tazos-038-front.jpg",
+          "back": "items/tazos-038-back.jpg"
+        },
+        {
+          "id": "tazos-039",
+          "number": 37,
+          "label": "37 - #141-KABUTOPS",
+          "front": "items/tazos-039-front.jpg",
+          "back": "items/tazos-039-back.jpg"
+        },
+        {
+          "id": "tazos-040",
+          "number": 38,
+          "label": "38 - #142-AERODACTYL",
+          "front": "items/tazos-040-front.jpg",
+          "back": "items/tazos-040-back.jpg"
+        },
+        {
+          "id": "tazos-041",
+          "number": 39,
+          "label": "39 - #143-SNORLAX",
+          "front": "items/tazos-041-front.jpg",
+          "back": "items/tazos-041-back.jpg"
+        },
+        {
+          "id": "tazos-042",
+          "number": 40,
+          "label": "40 - #144-ARTICUNO",
+          "front": "items/tazos-042-front.jpg",
+          "back": "items/tazos-042-back.jpg"
+        },
+        {
+          "id": "tazos-043",
+          "number": 41,
+          "label": "41 - #145-ZAPDOS",
+          "front": "items/tazos-043-front.jpg",
+          "back": "items/tazos-043-back.jpg"
+        },
+        {
+          "id": "tazos-044",
+          "number": 42,
+          "label": "42 - #146-MOLTRES",
+          "front": "items/tazos-044-front.jpg",
+          "back": "items/tazos-044-back.jpg"
+        },
+        {
+          "id": "tazos-045",
+          "number": 43,
+          "label": "43 - #147-DRATINI",
+          "front": "items/tazos-045-front.jpg",
+          "back": "items/tazos-045-back.jpg"
+        },
+        {
+          "id": "tazos-046",
+          "number": 44,
+          "label": "44 - #148-DRAGONAIR",
+          "front": "items/tazos-046-front.jpg",
+          "back": "items/tazos-046-back.jpg"
+        },
+        {
+          "id": "tazos-047",
+          "number": 45,
+          "label": "45 - #149-DRAGONITE",
+          "front": "items/tazos-047-front.jpg",
+          "back": "items/tazos-047-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "evolutazos",
+      "title": "EVOLUTAZOS",
+      "kind": "paired",
+      "points": null,
+      "expected": 25,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "evolutazos-001",
+          "number": 46,
+          "label": "46 - #16-PIDGEY / #17-PIDGEOTO",
+          "front": "items/evolutazos-001-front.jpg",
+          "back": "items/evolutazos-001-back.jpg"
+        },
+        {
+          "id": "evolutazos-002",
+          "number": 47,
+          "label": "47 - #19-RATTATA / #20-RATICATE",
+          "front": "items/evolutazos-002-front.jpg",
+          "back": "items/evolutazos-002-back.jpg"
+        },
+        {
+          "id": "evolutazos-003",
+          "number": 48,
+          "label": "48 - #25-PIKACHU / #26-RAICHU",
+          "front": "items/evolutazos-003-front.jpg",
+          "back": "items/evolutazos-003-back.jpg"
+        },
+        {
+          "id": "evolutazos-004",
+          "number": 49,
+          "label": "49 - #29-NIDORAN / #30-NIDORINA / #31-NIDOQUEEN",
+          "front": "items/evolutazos-004-front.jpg",
+          "back": "items/evolutazos-004-back.jpg"
+        },
+        {
+          "id": "evolutazos-005",
+          "number": 50,
+          "label": "50 - #32-NIDORAN / #33-NIDORINO / #34-NIDOKING",
+          "front": "items/evolutazos-005-front.jpg",
+          "back": "items/evolutazos-005-back.jpg"
+        },
+        {
+          "id": "evolutazos-006",
+          "number": 51,
+          "label": "51 - #46-PARAS / #47-PARASECT",
+          "front": "items/evolutazos-006-front.jpg",
+          "back": "items/evolutazos-006-back.jpg"
+        },
+        {
+          "id": "evolutazos-007",
+          "number": 52,
+          "label": "52 - #56-MANKEY / #57-PRIMEAPE",
+          "front": "items/evolutazos-007-front.jpg",
+          "back": "items/evolutazos-007-back.jpg"
+        },
+        {
+          "id": "evolutazos-008",
+          "number": 53,
+          "label": "53 - #58-GROWLITHE / #59-ARCANINE",
+          "front": "items/evolutazos-008-front.jpg",
+          "back": "items/evolutazos-008-back.jpg"
+        },
+        {
+          "id": "evolutazos-009",
+          "number": 54,
+          "label": "54 - #66-MACHOP / #67-MACHOKE / #68-MACHAMP",
+          "front": "items/evolutazos-009-front.jpg",
+          "back": "items/evolutazos-009-back.jpg"
+        },
+        {
+          "id": "evolutazos-010",
+          "number": 55,
+          "label": "55 - #69-BELLSPROUT / #70-WEEPINBELL / #71-VECTREEBELL",
+          "front": "items/evolutazos-010-front.jpg",
+          "back": "items/evolutazos-010-back.jpg"
+        },
+        {
+          "id": "evolutazos-011",
+          "number": 56,
+          "label": "56 - #72-TENTACOOL / #73-TENTACRUEL",
+          "front": "items/evolutazos-011-front.jpg",
+          "back": "items/evolutazos-011-back.jpg"
+        },
+        {
+          "id": "evolutazos-012",
+          "number": 57,
+          "label": "57 - #79-SLOWPOKE / #80-SLOWBRO",
+          "front": "items/evolutazos-012-front.jpg",
+          "back": "items/evolutazos-012-back.jpg"
+        },
+        {
+          "id": "evolutazos-013",
+          "number": 58,
+          "label": "58 - #81-MAGNEMITE / #82-MAGNETON",
+          "front": "items/evolutazos-013-front.jpg",
+          "back": "items/evolutazos-013-back.jpg"
+        },
+        {
+          "id": "evolutazos-014",
+          "number": 59,
+          "label": "59 - #84-DODUO / #85-DODRIO- DODRIO",
+          "front": "items/evolutazos-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "evolutazos-015",
+          "number": 59,
+          "label": "59 - #84-DODUO / #85-DODRIO",
+          "front": "items/evolutazos-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "evolutazos-016",
+          "number": 60,
+          "label": "60 - #86-SEEL / #87-DEWGONG",
+          "front": "items/evolutazos-016-front.jpg",
+          "back": "items/evolutazos-016-back.jpg"
+        },
+        {
+          "id": "evolutazos-017",
+          "number": 61,
+          "label": "61 - #88-GRIMER / #89-MUK",
+          "front": "items/evolutazos-017-front.jpg",
+          "back": "items/evolutazos-017-back.jpg"
+        },
+        {
+          "id": "evolutazos-018",
+          "number": 62,
+          "label": "62 - #90-SHELLDER / #91-CLOYSTER",
+          "front": "items/evolutazos-018-front.jpg",
+          "back": "items/evolutazos-018-back.jpg"
+        },
+        {
+          "id": "evolutazos-019",
+          "number": 63,
+          "label": "63 - #96-DROWZEE / #97-HYPNO",
+          "front": "items/evolutazos-019-front.jpg",
+          "back": "items/evolutazos-019-back.jpg"
+        },
+        {
+          "id": "evolutazos-020",
+          "number": 64,
+          "label": "64 - #98-KRABBY / #99-KINGLER",
+          "front": "items/evolutazos-020-front.jpg",
+          "back": "items/evolutazos-020-back.jpg"
+        },
+        {
+          "id": "evolutazos-021",
+          "number": 65,
+          "label": "65 - #100-VOLTORB / #101-ELECTRODE",
+          "front": "items/evolutazos-021-front.jpg",
+          "back": "items/evolutazos-021-back.jpg"
+        },
+        {
+          "id": "evolutazos-022",
+          "number": 66,
+          "label": "66 - #102-EXEGGCUTE / #103-EXEGGUTOR",
+          "front": "items/evolutazos-022-front.jpg",
+          "back": "items/evolutazos-022-back.jpg"
+        },
+        {
+          "id": "evolutazos-023",
+          "number": 67,
+          "label": "67 - #106-HITMONCHAN / #107-HITMONLEE",
+          "front": "items/evolutazos-023-front.jpg",
+          "back": "items/evolutazos-023-back.jpg"
+        },
+        {
+          "id": "evolutazos-024",
+          "number": 68,
+          "label": "68 - #109-KOFFING / #110-WEEZING",
+          "front": "items/evolutazos-024-front.jpg",
+          "back": "items/evolutazos-024-back.jpg"
+        },
+        {
+          "id": "evolutazos-025",
+          "number": 69,
+          "label": "69 - #129-MAGIKARP / #130-GYARADOS",
+          "front": "items/evolutazos-025-front.jpg",
+          "back": "items/evolutazos-025-back.jpg"
+        },
+        {
+          "id": "evolutazos-026",
+          "number": 70,
+          "label": "70 - #138-OMANYTE / #139-OMASTAR",
+          "front": "items/evolutazos-026-front.jpg",
+          "back": "items/evolutazos-026-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-tazo",
+      "title": "TARJA: CONTÉM 1 TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-contem-1-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-contem-1-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-contem-1-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-tazo-004",
+          "number": 4,
+          "label": "A (4)",
+          "front": "items/tarja-contem-1-tazo-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-evolutazo",
+      "title": "TARJA: EVOLUTAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-evolutazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-evolutazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-evolutazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-evolutazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-evolutazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-evolutazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-evolutazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-evolutazo-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "jogo-brincadeira",
+      "title": "JOGO / BRINCADEIRA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "jogo-brincadeira-001",
+          "number": 1,
+          "label": "POKÉMON",
+          "front": "items/jogo-brincadeira-001-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

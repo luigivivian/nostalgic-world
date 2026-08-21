@@ -1,0 +1,806 @@
+{
+  "slug": "tazolive",
+  "name": "Super Tazo Live (Os Vingadores)",
+  "year": 2012,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/tazolive",
+  "scrapedAt": "2026-08-05T14:18:26.796Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2012 - SUPER TAZO LIVE.jpg",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "SITE (2)",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "SITE (1)",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "1-60",
+      "title": "1 + 60",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "1-60-001",
+          "number": 1,
+          "label": "01",
+          "front": "items/1-60-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-002",
+          "number": 2,
+          "label": "02",
+          "front": "items/1-60-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-003",
+          "number": 3,
+          "label": "03",
+          "front": "items/1-60-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-004",
+          "number": 4,
+          "label": "04",
+          "front": "items/1-60-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-005",
+          "number": 5,
+          "label": "05",
+          "front": "items/1-60-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-006",
+          "number": 6,
+          "label": "06",
+          "front": "items/1-60-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-007",
+          "number": 7,
+          "label": "07",
+          "front": "items/1-60-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-008",
+          "number": 8,
+          "label": "08",
+          "front": "items/1-60-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-009",
+          "number": 9,
+          "label": "09",
+          "front": "items/1-60-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-010",
+          "number": 10,
+          "label": "10",
+          "front": "items/1-60-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-011",
+          "number": 11,
+          "label": "11",
+          "front": "items/1-60-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-012",
+          "number": 12,
+          "label": "12",
+          "front": "items/1-60-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-013",
+          "number": 13,
+          "label": "13",
+          "front": "items/1-60-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-014",
+          "number": 14,
+          "label": "14",
+          "front": "items/1-60-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-015",
+          "number": 15,
+          "label": "15",
+          "front": "items/1-60-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-016",
+          "number": 16,
+          "label": "16",
+          "front": "items/1-60-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-017",
+          "number": 17,
+          "label": "17",
+          "front": "items/1-60-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-018",
+          "number": 18,
+          "label": "18",
+          "front": "items/1-60-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-019",
+          "number": 19,
+          "label": "19",
+          "front": "items/1-60-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-020",
+          "number": 20,
+          "label": "20",
+          "front": "items/1-60-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-021",
+          "number": 21,
+          "label": "21",
+          "front": "items/1-60-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-022",
+          "number": 22,
+          "label": "22",
+          "front": "items/1-60-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-023",
+          "number": 23,
+          "label": "23",
+          "front": "items/1-60-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-024",
+          "number": 24,
+          "label": "24",
+          "front": "items/1-60-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-025",
+          "number": 25,
+          "label": "25",
+          "front": "items/1-60-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-026",
+          "number": 26,
+          "label": "26",
+          "front": "items/1-60-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-027",
+          "number": 27,
+          "label": "27",
+          "front": "items/1-60-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-028",
+          "number": 28,
+          "label": "28",
+          "front": "items/1-60-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-029",
+          "number": 29,
+          "label": "29",
+          "front": "items/1-60-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-030",
+          "number": 30,
+          "label": "30",
+          "front": "items/1-60-030-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-031",
+          "number": 31,
+          "label": "31",
+          "front": "items/1-60-031-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-032",
+          "number": 32,
+          "label": "32",
+          "front": "items/1-60-032-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-033",
+          "number": 33,
+          "label": "33",
+          "front": "items/1-60-033-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-034",
+          "number": 34,
+          "label": "34",
+          "front": "items/1-60-034-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-035",
+          "number": 35,
+          "label": "35",
+          "front": "items/1-60-035-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-036",
+          "number": 36,
+          "label": "36",
+          "front": "items/1-60-036-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-037",
+          "number": 37,
+          "label": "37",
+          "front": "items/1-60-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-038",
+          "number": 38,
+          "label": "38",
+          "front": "items/1-60-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-039",
+          "number": 39,
+          "label": "39",
+          "front": "items/1-60-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-040",
+          "number": 40,
+          "label": "40",
+          "front": "items/1-60-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-041",
+          "number": 41,
+          "label": "41",
+          "front": "items/1-60-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-042",
+          "number": 42,
+          "label": "42",
+          "front": "items/1-60-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-043",
+          "number": 43,
+          "label": "43",
+          "front": "items/1-60-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-044",
+          "number": 44,
+          "label": "44",
+          "front": "items/1-60-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-045",
+          "number": 45,
+          "label": "45",
+          "front": "items/1-60-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-046",
+          "number": 46,
+          "label": "46",
+          "front": "items/1-60-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-047",
+          "number": 47,
+          "label": "47",
+          "front": "items/1-60-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-048",
+          "number": 48,
+          "label": "48",
+          "front": "items/1-60-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-049",
+          "number": 49,
+          "label": "49",
+          "front": "items/1-60-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-050",
+          "number": 50,
+          "label": "50",
+          "front": "items/1-60-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-051",
+          "number": 51,
+          "label": "51",
+          "front": "items/1-60-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-052",
+          "number": 52,
+          "label": "52",
+          "front": "items/1-60-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-053",
+          "number": 53,
+          "label": "53",
+          "front": "items/1-60-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-054",
+          "number": 54,
+          "label": "54",
+          "front": "items/1-60-054-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-055",
+          "number": 55,
+          "label": "55",
+          "front": "items/1-60-055-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-056",
+          "number": 56,
+          "label": "56",
+          "front": "items/1-60-056-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-057",
+          "number": 57,
+          "label": "57",
+          "front": "items/1-60-057-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-058",
+          "number": 58,
+          "label": "58",
+          "front": "items/1-60-058-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-059",
+          "number": 59,
+          "label": "59",
+          "front": "items/1-60-059-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-60-060",
+          "number": 60,
+          "label": "60",
+          "front": "items/1-60-060-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "1-10",
+      "title": "1 + 10",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "1-10-001",
+          "number": 1,
+          "label": "01 - HOMEM DE FERRO",
+          "front": "items/1-10-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-10-002",
+          "number": 2,
+          "label": "02 - HOMEM DE FERRO",
+          "front": "items/1-10-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-10-003",
+          "number": 3,
+          "label": "03 - CAPITÃO AMÉRICA",
+          "front": "items/1-10-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-10-004",
+          "number": 4,
+          "label": "04 - CAPITÃO AMÉRICA",
+          "front": "items/1-10-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-10-005",
+          "number": 5,
+          "label": "05 - HULK",
+          "front": "items/1-10-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-10-006",
+          "number": 6,
+          "label": "06 - HULK",
+          "front": "items/1-10-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-10-007",
+          "number": 7,
+          "label": "07 - THOR",
+          "front": "items/1-10-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-10-008",
+          "number": 8,
+          "label": "08 - THOR",
+          "front": "items/1-10-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-10-009",
+          "number": 9,
+          "label": "09 - GAVIÃO ARQUEIRO",
+          "front": "items/1-10-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-10-010",
+          "number": 10,
+          "label": "10 - NICK FURY",
+          "front": "items/1-10-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "premios",
+      "title": "PRÊMIOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "premios-001",
+          "number": 1,
+          "label": "PRÊMIOS (2)",
+          "front": "items/premios-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-002",
+          "number": 2,
+          "label": "PRÊMIOS (1)",
+          "front": "items/premios-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-003",
+          "number": 3,
+          "label": "1",
+          "front": "items/premios-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-004",
+          "number": 4,
+          "label": "BONECOS (9)",
+          "front": "items/premios-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-005",
+          "number": 5,
+          "label": "BONECOS (8)",
+          "front": "items/premios-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-006",
+          "number": 6,
+          "label": "BONECOS (7)",
+          "front": "items/premios-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-007",
+          "number": 7,
+          "label": "BONECOS (6)",
+          "front": "items/premios-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-008",
+          "number": 8,
+          "label": "BONECOS (5)",
+          "front": "items/premios-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-009",
+          "number": 9,
+          "label": "BONECOS (3)",
+          "front": "items/premios-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-010",
+          "number": 10,
+          "label": "BONECOS (2)",
+          "front": "items/premios-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-011",
+          "number": 11,
+          "label": "BONECOS (1)",
+          "front": "items/premios-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "premios-012",
+          "number": 12,
+          "label": "BONECOS (4)",
+          "front": "items/premios-012-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "58671896_1125601804286444_1992880184147050496_n",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "59285648_1126298964216728_7218590833337958400_n",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "DISPLAYS (2)",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "DISPLAYS (1)",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "M9",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-cheetos-edicao-especial-estrela-pizza",
+      "title": "EMBALAGEM: CHEETOS EDIÇÃO ESPECIAL ESTRELA PIZZA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-cheetos-edicao-especial-estrela-pizza-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-cheetos-edicao-especial-estrela-pizza-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-cheetos-edicao-especial-estrela-pizza-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-cheetos-edicao-especial-estrela-pizza-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem",
+      "title": "EMBALAGEM",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/embalagem-010-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}
