@@ -39,7 +39,7 @@ export function HeldTazo({ tazo, onDone }: { tazo: PoolTazo; onDone: () => void 
   return (
     <group ref={group}>
       <group ref={spin}>
-        <Collectible shape="disc" frontUrl={tazo.front} backUrl={tazo.back} />
+        <Collectible shape="disc" frontUrl={tazo.front} backUrl={tazo.back} maxSize={512} />
       </group>
     </group>
   )

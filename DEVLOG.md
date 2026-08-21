@@ -184,6 +184,11 @@ Home (categories from index.json) + CollectionView; photo shape flips too (back 
 
 ## Session Archive
 
+### Session 5b -- 2026-08-20: Block-break performance pass
+**What we did:** "quebrar blocos spawna muitos tazos e fica lento". Four causes fixed: (1) a block's rapier body outlives its React state by a frame, so one projectile fired `onCollisionEnter` several times and kept flying through the wall -- `broken` Set guard + projectile removed on impact (one block per shot); (2) each pickup carried a `pointLight` -- light-count change recompiles EVERY material (terrain, ~330 plants) on each spawn/collect -- replaced by a shared additive halo mesh that Bloom picks up; (3) pickups decoded 1024px front+back on the main thread -- `Collectible` gained `maxSize` (ImageBitmapLoader `resizeWidth`, `imageOrientation:'flipY'` because flipY is ignored for bitmaps; TextureLoader fallback), pickups 256px, held tazo 512px; (4) fragments/blocks/projectiles now share one geometry + material, debris has no Outlines/shadow, 2.5s TTL, caps: 40 fragments, 8 pickups (oldest culled).
+**Files:** src/game/Blocks.tsx, Pickups.tsx, Projectiles.tsx, Game.tsx, HeldTazo.tsx, src/collectible/Collectible.tsx
+**Decisions:** Kept per-body RigidBody for debris (InstancedRigidBodies not worth it at 40 bodies). Headless probe can't aim at the wall (camera orbit needs pointer lock) -- break flow validated by tsc + user test only.
+
 ### Session 5 -- 2026-08-20: Git init + GitHub push
 **What we did:** `git init`, private repo github.com/luigivivian/nostalgic-world. Code + game assets in one commit; public/collections (1.2 GB, 5942 files) in 8 commits of <=200 MB each.
 **Files:** .gitignore (node_modules, dist, .tmp, .env, *.tsbuildinfo), package-lock.json force-added (global gitignore excludes it).

@@ -14,6 +14,8 @@ import { loadTazoPool, randomTazo, type PoolTazo } from './tazoPool'
 
 const PROJECTILE_SPEED = 46
 const PROJECTILE_TTL = 3000
+// Each pickup is two textures + a physical material; uncollected drops are culled oldest-first.
+const MAX_PICKUPS = 8
 
 // Fires on pointerdown while pointer-locked; lives inside the Canvas to reach the camera.
 const FIRE_COOLDOWN_MS = 220
@@ -113,10 +115,13 @@ export default function Game({ onExit }: { onExit: () => void }) {
     timers.current.add(t)
   }, [])
 
-  const handleBreak = useCallback((pos: [number, number, number]) => {
+  // One block per shot: the projectile dies on impact instead of bouncing on through
+  // the wall (a single ccd ball could otherwise break half the wall in one frame).
+  const handleBreak = useCallback((pos: [number, number, number], projectileId: number) => {
+    setProjectiles((ps) => ps.filter((p) => p.id !== projectileId))
     const p = poolRef.current
     if (!p) return
-    setPickups((ps) => [...ps, { id: nextId.current++, pos, tazo: randomTazo(p) }])
+    setPickups((ps) => [...ps, { id: nextId.current++, pos, tazo: randomTazo(p) }].slice(-MAX_PICKUPS))
   }, [])
 
   // Album commit happens HERE, not when the hold animation ends — collecting a second

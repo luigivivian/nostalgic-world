@@ -14,6 +14,21 @@ export interface PickupDef {
 type ControllerRef = React.MutableRefObject<playerController | null>
 
 const COLLECT_DISTANCE = 1.9
+const TEXTURE_SIZE = 256
+
+// Shared glow halo: an over-white additive disc that Bloom picks up. NOT a pointLight —
+// adding/removing a light changes the light count and forces every material in the
+// scene (terrain, ~330 plants, blocks) to recompile its shader, a hitch per pickup.
+const haloGeometry = new THREE.CircleGeometry(0.55, 24)
+const haloMaterial = new THREE.MeshBasicMaterial({
+  color: new THREE.Color(2.2, 1.7, 0.7),
+  toneMapped: false,
+  transparent: true,
+  opacity: 0.35,
+  blending: THREE.AdditiveBlending,
+  depthWrite: false,
+  side: THREE.DoubleSide,
+})
 
 function Pickup({
   def,
@@ -46,8 +61,8 @@ function Pickup({
 
   return (
     <group ref={group} position={def.pos} scale={0.38}>
-      <Collectible shape="disc" frontUrl={def.tazo.front} backUrl={def.tazo.back} />
-      <pointLight intensity={1.1} distance={3} color="#ffe28a" />
+      <Collectible shape="disc" frontUrl={def.tazo.front} backUrl={def.tazo.back} maxSize={TEXTURE_SIZE} />
+      <mesh geometry={haloGeometry} material={haloMaterial} rotation-x={-Math.PI / 2} position-y={-0.9} dispose={null} />
     </group>
   )
 }

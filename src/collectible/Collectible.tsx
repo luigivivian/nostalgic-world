@@ -20,9 +20,35 @@ interface Props {
   shape: CollectibleShape
   frontUrl: string
   backUrl: string | null
+  /**
+   * Decode off the main thread and downscale to this width (keeps aspect). In-game
+   * pickups are a few cm on screen: 256px instead of 1024px is 16x less GPU memory
+   * and no decode hitch. Omit for the viewer (full resolution).
+   */
+  maxSize?: number
 }
 
-export function Collectible({ shape, frontUrl, backUrl }: Props) {
+async function loadTexture(url: string, maxSize?: number): Promise<THREE.Texture> {
+  if (!maxSize) return new THREE.TextureLoader().loadAsync(url)
+  // flipY is ignored for ImageBitmaps — the orientation must be baked at decode time.
+  try {
+    const bitmap = await new THREE.ImageBitmapLoader()
+      .setOptions({ imageOrientation: 'flipY', resizeWidth: maxSize, resizeQuality: 'medium' })
+      .loadAsync(url)
+    return new THREE.CanvasTexture(bitmap)
+  } catch {
+    // older Safari: no resize options on createImageBitmap — take the full-size path
+    return new THREE.TextureLoader().loadAsync(url)
+  }
+}
+
+function disposeTexture(t: THREE.Texture) {
+  t.dispose()
+  const img = t.image as { close?: () => void } | undefined
+  img?.close?.()
+}
+
+export function Collectible({ shape, frontUrl, backUrl, maxSize }: Props) {
   const [maps, setMaps] = useState<{ front: THREE.Texture; back: THREE.Texture | null } | null>(
     null,
   )
@@ -32,18 +58,17 @@ export function Collectible({ shape, frontUrl, backUrl }: Props) {
   // and disposal is explicit — no GPU accumulation.
   useEffect(() => {
     let cancelled = false
-    const loader = new THREE.TextureLoader()
-    Promise.all([loader.loadAsync(frontUrl), backUrl ? loader.loadAsync(backUrl) : null])
+    Promise.all([loadTexture(frontUrl, maxSize), backUrl ? loadTexture(backUrl, maxSize) : null])
       .then(([front, back]) => {
         if (cancelled) {
-          front.dispose()
-          back?.dispose()
+          disposeTexture(front)
+          if (back) disposeTexture(back)
           return
         }
         for (const t of [front, back]) {
           if (!t) continue
           t.colorSpace = THREE.SRGBColorSpace
-          t.anisotropy = 8
+          t.anisotropy = maxSize ? 2 : 8
         }
         setMaps({ front, back })
       })
@@ -51,14 +76,14 @@ export function Collectible({ shape, frontUrl, backUrl }: Props) {
     return () => {
       cancelled = true
     }
-  }, [frontUrl, backUrl, shape])
+  }, [frontUrl, backUrl, shape, maxSize])
 
   // Dispose the previous texture pair when replaced, and the last one on unmount.
   useEffect(() => {
     if (!maps) return
     return () => {
-      maps.front.dispose()
-      maps.back?.dispose()
+      disposeTexture(maps.front)
+      if (maps.back) disposeTexture(maps.back)
     }
   }, [maps])
 
