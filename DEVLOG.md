@@ -184,6 +184,11 @@ Home (categories from index.json) + CollectionView; photo shape flips too (back 
 
 ## Session Archive
 
+### Session 5 -- 2026-08-20: Git init + GitHub push
+**What we did:** `git init`, private repo github.com/luigivivian/nostalgic-world. Code + game assets in one commit; public/collections (1.2 GB, 5942 files) in 8 commits of <=200 MB each.
+**Files:** .gitignore (node_modules, dist, .tmp, .env, *.tsbuildinfo), package-lock.json force-added (global gitignore excludes it).
+**Decisions:** Private because the scans are Elma Chips IP. Collections committed (not LFS/excluded) -- site is dead, the repo is now the backup. Single 1.14 GiB pack push over https fails (`curl 55 Recv failure: Operation timed out`); batching by collection folder + retry loop worked (one hang-up on batch 2, retried). No SSH key on this machine. Commits carry no Co-Authored-By trailer (user rule).
+
 ### Session 4 (part 2) -- 2026-08-05: FP island game mode (MVP Phase 3/4 slice)
 **What we did:** Procedural island (seeded fbm, radial falloff, vertex colors) with rapier
 trimesh; pointer-lock FP capsule controller; projectile shooting; breakable block wall
