@@ -1,0 +1,1517 @@
+{
+  "slug": "maskara",
+  "name": "Tazo Mania - Ultra-Magic (O Maskara)",
+  "year": 1998,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/maskara",
+  "scrapedAt": "2026-08-05T03:20:42.377Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos",
+      "title": "ULTRA-MAGIC TAZO (VERSO VERDE E AMARELO - 8 PONTOS)",
+      "kind": "paired",
+      "points": 8,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-001",
+          "number": 1,
+          "label": "1",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-001-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-001-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-002",
+          "number": 2,
+          "label": "2",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-002-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-002-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-003",
+          "number": 3,
+          "label": "3",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-003-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-003-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-004",
+          "number": 4,
+          "label": "4",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-004-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-004-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-005",
+          "number": 5,
+          "label": "5",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-005-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-005-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-006",
+          "number": 6,
+          "label": "6",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-006-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-006-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-007",
+          "number": 7,
+          "label": "7",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-007-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-007-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-008",
+          "number": 8,
+          "label": "8",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-008-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-008-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-009",
+          "number": 9,
+          "label": "9",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-009-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-009-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-010",
+          "number": 10,
+          "label": "10",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-010-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-010-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-011",
+          "number": 11,
+          "label": "11",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-011-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-011-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-012",
+          "number": 12,
+          "label": "12",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-012-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-012-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-013",
+          "number": 13,
+          "label": "13",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-013-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-013-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-014",
+          "number": 14,
+          "label": "14",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-014-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-014-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-015",
+          "number": 15,
+          "label": "15",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-015-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-015-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-016",
+          "number": 16,
+          "label": "16",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-016-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-016-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-017",
+          "number": 17,
+          "label": "17",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-017-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-017-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-018",
+          "number": 18,
+          "label": "18",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-018-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-018-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-019",
+          "number": 19,
+          "label": "19",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-019-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-019-back.jpg"
+        },
+        {
+          "id": "ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-020",
+          "number": 20,
+          "label": "20",
+          "front": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-020-front.jpg",
+          "back": "items/ultra-magic-tazo-verso-verde-e-amarelo-8-pontos-020-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos",
+      "title": "SUPER ULTRA-MAGIC TAZO (VERSO ROXO E AMARELO - 9 PONTOS)",
+      "kind": "paired",
+      "points": 9,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-001",
+          "number": 21,
+          "label": "21",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-001-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-001-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-002",
+          "number": 22,
+          "label": "22",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-002-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-002-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-003",
+          "number": 23,
+          "label": "23",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-003-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-003-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-004",
+          "number": 24,
+          "label": "24",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-004-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-004-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-005",
+          "number": 25,
+          "label": "25",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-005-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-005-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-006",
+          "number": 26,
+          "label": "26",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-006-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-006-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-007",
+          "number": 27,
+          "label": "27",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-007-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-007-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-008",
+          "number": 28,
+          "label": "28",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-008-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-008-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-009",
+          "number": 29,
+          "label": "29",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-009-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-009-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-010",
+          "number": 30,
+          "label": "30",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-010-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-010-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-011",
+          "number": 31,
+          "label": "31",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-011-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-011-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-012",
+          "number": 32,
+          "label": "32",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-012-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-012-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-013",
+          "number": 33,
+          "label": "33",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-013-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-013-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-014",
+          "number": 34,
+          "label": "34",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-014-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-014-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-015",
+          "number": 35,
+          "label": "35",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-015-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-015-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-016",
+          "number": 36,
+          "label": "36",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-016-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-016-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-017",
+          "number": 37,
+          "label": "37",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-017-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-017-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-018",
+          "number": 38,
+          "label": "38",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-018-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-018-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-019",
+          "number": 39,
+          "label": "39",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-019-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-019-back.jpg"
+        },
+        {
+          "id": "super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-020",
+          "number": 40,
+          "label": "40",
+          "front": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-020-front.jpg",
+          "back": "items/super-ultra-magic-tazo-verso-roxo-e-amarelo-9-pontos-020-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "ultra-magic-tazo-edicao-especial",
+      "title": "ULTRA-MAGIC TAZO (EDIÇÃO ESPECIAL)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 5,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "ultra-magic-tazo-edicao-especial-001",
+          "number": 1,
+          "label": "EDIÇÃO ESPECIAL",
+          "front": "items/ultra-magic-tazo-edicao-especial-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ultra-magic-tazo-edicao-especial-002",
+          "number": 2,
+          "label": "EDIÇÃO ESPECIAL - MODELO 1",
+          "front": "items/ultra-magic-tazo-edicao-especial-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ultra-magic-tazo-edicao-especial-003",
+          "number": 3,
+          "label": "EDIÇÃO ESPECIAL - MODELO 2",
+          "front": "items/ultra-magic-tazo-edicao-especial-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ultra-magic-tazo-edicao-especial-004",
+          "number": 4,
+          "label": "EDIÇÃO ESPECIAL - MODELO 3.04",
+          "front": "items/ultra-magic-tazo-edicao-especial-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ultra-magic-tazo-edicao-especial-005",
+          "number": 5,
+          "label": "EDIÇÃO ESPECIAL - MODELO 4",
+          "front": "items/ultra-magic-tazo-edicao-especial-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "ultra-magic-tazo-edicao-especial-006",
+          "number": 6,
+          "label": "EDIÇÃO ESPECIAL - MODELO 5",
+          "front": "items/ultra-magic-tazo-edicao-especial-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "gigan-tazo-jumbo-ultra-magic",
+      "title": "GIGAN TAZO (JUMBO ULTRA-MAGIC)",
+      "kind": "paired",
+      "points": null,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-001",
+          "number": 41,
+          "label": "41 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-001-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-001-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-002",
+          "number": 42,
+          "label": "42 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-002-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-002-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-003",
+          "number": 43,
+          "label": "43 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-003-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-003-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-004",
+          "number": 44,
+          "label": "44 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-004-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-004-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-005",
+          "number": 45,
+          "label": "45 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-005-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-005-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-006",
+          "number": 46,
+          "label": "46 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-006-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-006-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-007",
+          "number": 47,
+          "label": "47 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-007-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-007-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-008",
+          "number": 48,
+          "label": "48 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-008-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-008-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-009",
+          "number": 49,
+          "label": "49 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-009-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-009-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-010",
+          "number": 50,
+          "label": "50 (JUMBO - BRONZE)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-010-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-010-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-011",
+          "number": 51,
+          "label": "51 (JUMBO - PRATA)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-011-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-011-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-012",
+          "number": 52,
+          "label": "52 (JUMBO - PRATA)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-012-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-012-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-013",
+          "number": 53,
+          "label": "53 (JUMBO - PRATA)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-013-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-013-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-014",
+          "number": 54,
+          "label": "54 (JUMBO - PRATA)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-014-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-014-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-015",
+          "number": 55,
+          "label": "55 (JUMBO - PRATA)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-015-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-015-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-016",
+          "number": 56,
+          "label": "56 (JUMBO - OURO)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-016-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-016-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-017",
+          "number": 57,
+          "label": "57 (JUMBO - OURO)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-017-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-017-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-018",
+          "number": 58,
+          "label": "58 (JUMBO - OURO)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-018-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-018-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-019",
+          "number": 59,
+          "label": "59 (JUMBO - OURO)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-019-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-019-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-jumbo-ultra-magic-020",
+          "number": 60,
+          "label": "60 (JUMBO - OURO)",
+          "front": "items/gigan-tazo-jumbo-ultra-magic-020-front.jpg",
+          "back": "items/gigan-tazo-jumbo-ultra-magic-020-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "gigan-tazo-o-maskara",
+      "title": "GIGAN TAZO - O MÁSKARA",
+      "kind": "paired",
+      "points": null,
+      "expected": 20,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "gigan-tazo-o-maskara-001",
+          "number": 41,
+          "label": "41 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-001-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-001-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-002",
+          "number": 42,
+          "label": "42 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-002-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-002-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-003",
+          "number": 43,
+          "label": "43 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-003-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-003-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-004",
+          "number": 44,
+          "label": "44 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-004-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-004-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-005",
+          "number": 45,
+          "label": "45 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-005-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-005-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-006",
+          "number": 46,
+          "label": "46 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-006-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-006-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-007",
+          "number": 47,
+          "label": "47 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-007-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-007-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-008",
+          "number": 48,
+          "label": "48 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-008-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-008-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-009",
+          "number": 49,
+          "label": "49 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-009-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-009-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-010",
+          "number": 50,
+          "label": "50 (GIGAN TAZO - BRONZE)",
+          "front": "items/gigan-tazo-o-maskara-010-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-010-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-011",
+          "number": 51,
+          "label": "51 (GIGAN TAZO - PRATA)",
+          "front": "items/gigan-tazo-o-maskara-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-o-maskara-012",
+          "number": 51,
+          "label": "51 (GIGAN TAZO - PRATA)B",
+          "front": "items/gigan-tazo-o-maskara-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-o-maskara-013",
+          "number": 52,
+          "label": "52 (GIGAN TAZO - PRATA)",
+          "front": "items/gigan-tazo-o-maskara-013-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-013-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-014",
+          "number": 53,
+          "label": "53 (GIGAN TAZO - PRATA)",
+          "front": "items/gigan-tazo-o-maskara-014-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-014-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-015",
+          "number": 54,
+          "label": "54 (GIGAN TAZO - PRATA)",
+          "front": "items/gigan-tazo-o-maskara-015-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-015-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-016",
+          "number": 55,
+          "label": "55 (GIGAN TAZO - PRATA)",
+          "front": "items/gigan-tazo-o-maskara-016-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-016-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-017",
+          "number": 56,
+          "label": "56 (GIGAN TAZO - OURO)",
+          "front": "items/gigan-tazo-o-maskara-017-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-017-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-018",
+          "number": 57,
+          "label": "57 (GIGAN TAZO - OURO)",
+          "front": "items/gigan-tazo-o-maskara-018-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-018-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-019",
+          "number": 58,
+          "label": "58 (GIGAN TAZO - OURO)",
+          "front": "items/gigan-tazo-o-maskara-019-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-019-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-020",
+          "number": 59,
+          "label": "59 (GIGAN TAZO - OURO)",
+          "front": "items/gigan-tazo-o-maskara-020-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-020-back.jpg"
+        },
+        {
+          "id": "gigan-tazo-o-maskara-021",
+          "number": 60,
+          "label": "60 (GIGAN TAZO - OURO)",
+          "front": "items/gigan-tazo-o-maskara-021-front.jpg",
+          "back": "items/gigan-tazo-o-maskara-021-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "gigan-tazo-diamante",
+      "title": "GIGAN-TAZO (DIAMANTE)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 5,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "gigan-tazo-diamante-001",
+          "number": 1,
+          "label": "GIGAN TAZO DIAMANTE - MODELO 1",
+          "front": "items/gigan-tazo-diamante-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-diamante-002",
+          "number": 2,
+          "label": "GIGAN TAZO DIAMANTE - MODELO 1",
+          "front": "items/gigan-tazo-diamante-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-diamante-003",
+          "number": 3,
+          "label": "GIGAN TAZO DIAMANTE - MODELO 2",
+          "front": "items/gigan-tazo-diamante-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-diamante-004",
+          "number": 4,
+          "label": "GIGAN TAZO DIAMANTE - MODELO 3",
+          "front": "items/gigan-tazo-diamante-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-diamante-005",
+          "number": 5,
+          "label": "GIGAN TAZO DIAMANTE - MODELO 4",
+          "front": "items/gigan-tazo-diamante-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "gigan-tazo-diamante-006",
+          "number": 6,
+          "label": "GIGAN TAZO DIAMANTE - MODELO 5",
+          "front": "items/gigan-tazo-diamante-006-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "pega-tazo",
+      "title": "PEGA TAZO",
+      "kind": "paired",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "pega-tazo-001",
+          "number": 1,
+          "label": "01 - MÃO (COM UNHAS)",
+          "front": "items/pega-tazo-001-front.jpg",
+          "back": "items/pega-tazo-001-back.jpg"
+        },
+        {
+          "id": "pega-tazo-002",
+          "number": 1,
+          "label": "01 - MÃO (SEM UNHAS)",
+          "front": "items/pega-tazo-002-front.jpg",
+          "back": "items/pega-tazo-002-back.jpg"
+        },
+        {
+          "id": "pega-tazo-003",
+          "number": 2,
+          "label": "02 - CORPO DO MÁSKARA",
+          "front": "items/pega-tazo-003-front.jpg",
+          "back": "items/pega-tazo-003-back.jpg"
+        },
+        {
+          "id": "pega-tazo-004",
+          "number": 3,
+          "label": "03 - MILO (CACHORRO)",
+          "front": "items/pega-tazo-004-front.jpg",
+          "back": "items/pega-tazo-004-back.jpg"
+        },
+        {
+          "id": "pega-tazo-005",
+          "number": 4,
+          "label": "04 - ROSTO DO MÁSKARA",
+          "front": "items/pega-tazo-005-front.jpg",
+          "back": "items/pega-tazo-005-back.jpg"
+        },
+        {
+          "id": "pega-tazo-006",
+          "number": 5,
+          "label": "05 - BEBÊ MÁSKARA",
+          "front": "items/pega-tazo-006-front.jpg",
+          "back": "items/pega-tazo-006-back.jpg"
+        },
+        {
+          "id": "pega-tazo-007",
+          "number": 6,
+          "label": "06 - PÉ (GRANDE)",
+          "front": "items/pega-tazo-007-front.jpg",
+          "back": "items/pega-tazo-007-back.jpg"
+        },
+        {
+          "id": "pega-tazo-008",
+          "number": 6,
+          "label": "06 - PÉ (PEQUENO)",
+          "front": "items/pega-tazo-008-front.jpg",
+          "back": "items/pega-tazo-008-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "6-6",
+      "title": "6 + 6",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "6-6-001",
+          "number": 1,
+          "label": "EMBALAGEM PEQUENA",
+          "front": "items/6-6-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "6-6-002",
+          "number": 2,
+          "label": "EMBALAGEM PEQUENA",
+          "front": "items/6-6-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "2-2",
+      "title": "2 + 2",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "2-2-001",
+          "number": 1,
+          "label": "EMBALAGEM MÉDIA",
+          "front": "items/2-2-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "2-2-002",
+          "number": 2,
+          "label": "EMBALAGEM MÉDIA",
+          "front": "items/2-2-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "2-2-003",
+          "number": 3,
+          "label": "EMBALAGEM GRANDE",
+          "front": "items/2-2-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "2-2-004",
+          "number": 4,
+          "label": "EMBALAGEM GRANDE",
+          "front": "items/2-2-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "2-2-005",
+          "number": 5,
+          "label": "EMBALAGEM GRANDE",
+          "front": "items/2-2-005-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "kit-pistola-arma-atira-tazo",
+      "title": "KIT PISTOLA / ARMA / ATIRA TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": 5,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "kit-pistola-arma-atira-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/kit-pistola-arma-atira-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-pistola-arma-atira-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/kit-pistola-arma-atira-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-pistola-arma-atira-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/kit-pistola-arma-atira-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-pistola-arma-atira-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/kit-pistola-arma-atira-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-pistola-arma-atira-tazo-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/kit-pistola-arma-atira-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-pistola-arma-atira-tazo-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/kit-pistola-arma-atira-tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-pistola-arma-atira-tazo-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/kit-pistola-arma-atira-tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-pistola-arma-atira-tazo-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/kit-pistola-arma-atira-tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "kit-pistola-arma-atira-tazo-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/kit-pistola-arma-atira-tazo-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "balde-de-pipoca",
+      "title": "BALDE DE PIPOCA",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "balde-de-pipoca-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/balde-de-pipoca-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "balde-de-pipoca-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/balde-de-pipoca-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "balde-de-pipoca-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/balde-de-pipoca-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "balde-de-pipoca-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/balde-de-pipoca-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "balde-de-pipoca-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/balde-de-pipoca-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "balde-de-pipoca-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/balde-de-pipoca-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "balde-de-pipoca-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/balde-de-pipoca-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "balde-de-pipoca-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/balde-de-pipoca-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "balde-de-pipoca-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/balde-de-pipoca-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "balde-de-pipoca-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/balde-de-pipoca-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "caixa-kit-promocional-pequena",
+      "title": "CAIXA / KIT PROMOCIONAL (PEQUENA)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "caixa-kit-promocional-pequena-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/caixa-kit-promocional-pequena-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-pequena-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/caixa-kit-promocional-pequena-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-pequena-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/caixa-kit-promocional-pequena-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-pequena-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/caixa-kit-promocional-pequena-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-pequena-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/caixa-kit-promocional-pequena-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-pequena-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/caixa-kit-promocional-pequena-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-pequena-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/caixa-kit-promocional-pequena-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-pequena-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/caixa-kit-promocional-pequena-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-pequena-009",
+          "number": 9,
+          "label": "6",
+          "front": "items/caixa-kit-promocional-pequena-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "caixa-kit-promocional-grande",
+      "title": "CAIXA / KIT PROMOCIONAL (GRANDE)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "caixa-kit-promocional-grande-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/caixa-kit-promocional-grande-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-grande-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/caixa-kit-promocional-grande-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-grande-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/caixa-kit-promocional-grande-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-grande-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/caixa-kit-promocional-grande-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-grande-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/caixa-kit-promocional-grande-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-grande-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/caixa-kit-promocional-grande-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-grande-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/caixa-kit-promocional-grande-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "caixa-kit-promocional-grande-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/caixa-kit-promocional-grande-008-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "3",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/lotes-outras-fotos-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/lotes-outras-fotos-010-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-ultra-magic-tazo",
+      "title": "TARJA: CONTÉM 1 ULTRA-MAGIC TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-ultra-magic-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-contem-1-ultra-magic-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-ultra-magic-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-contem-1-ultra-magic-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-ultra-magic-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-contem-1-ultra-magic-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-ultra-magic-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-contem-1-ultra-magic-tazo-004-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-contem-1-ultra-magic-tazo",
+      "title": "EMBALAGEM: CONTÉM 1 ULTRA-MAGIC TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-ultra-magic-tazo-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/embalagem-contem-1-ultra-magic-tazo-012-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-gigan-tazo-com-1-tazo-ouro-na-imagem",
+      "title": "TARJA: CONTÉM 1 GIGAN TAZO (COM 1 TAZO OURO NA IMAGEM)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-gigan-tazo-com-1-tazo-ouro-na-imagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-contem-1-gigan-tazo-com-1-tazo-ouro-na-imagem-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-contem-1-gigan-tazo-com-3-tazos-na-imagem",
+      "title": "TARJA: CONTÉM 1 GIGAN TAZO (COM 3 TAZOS NA IMAGEM)",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-contem-1-gigan-tazo-com-3-tazos-na-imagem-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-contem-1-gigan-tazo-com-3-tazos-na-imagem-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-contem-1-gigan-tazo-com-3-tazos-na-imagem-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-contem-1-gigan-tazo-com-3-tazos-na-imagem-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-contem-1-gigan-tazo",
+      "title": "EMBALAGEM: CONTÉM 1 GIGAN TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-contem-1-gigan-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-contem-1-gigan-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-contem-1-gigan-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/embalagem-contem-1-gigan-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/embalagem-contem-1-gigan-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/embalagem-contem-1-gigan-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/embalagem-contem-1-gigan-tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/embalagem-contem-1-gigan-tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/embalagem-contem-1-gigan-tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-contem-1-gigan-tazo-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/embalagem-contem-1-gigan-tazo-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-pega-tazo",
+      "title": "EMBALAGEM: PEGA-TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-pega-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-pega-tazo-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propagandas",
+      "title": "PÔSTER / PROPAGANDAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propagandas-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propagandas-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propagandas-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propagandas-002-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1272 @@
+{
+  "slug": "montaveismarvel",
+  "name": "Montaveis + Stamps (Herois Marvel)",
+  "year": 2005,
+  "category": "extras",
+  "shape": "photo",
+  "source": "https://www.elmachipscolecoes.com.br/montáveismarvel",
+  "scrapedAt": "2026-08-06T01:58:52.558Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "2005 - MONTÁVEIS MARVEL.jpg",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/poster-propaganda-site-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/poster-propaganda-site-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/poster-propaganda-site-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/poster-propaganda-site-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/poster-propaganda-site-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/poster-propaganda-site-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/poster-propaganda-site-012-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "montavel",
+      "title": "MONTÁVEL",
+      "kind": "gallery",
+      "points": null,
+      "expected": 36,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "montavel-001",
+          "number": 1,
+          "label": "01 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-001-front.jpg",
+          "back": "items/montavel-001-back.jpg"
+        },
+        {
+          "id": "montavel-002",
+          "number": 2,
+          "label": "02 - CICLOPE",
+          "front": "items/montavel-002-front.jpg",
+          "back": "items/montavel-002-back.jpg"
+        },
+        {
+          "id": "montavel-003",
+          "number": 3,
+          "label": "03 - COISA",
+          "front": "items/montavel-003-front.jpg",
+          "back": "items/montavel-003-back.jpg"
+        },
+        {
+          "id": "montavel-004",
+          "number": 4,
+          "label": "04 - VAMPIRA",
+          "front": "items/montavel-004-front.jpg",
+          "back": "items/montavel-004-back.jpg"
+        },
+        {
+          "id": "montavel-005",
+          "number": 5,
+          "label": "05 - VAMPIRA",
+          "front": "items/montavel-005-front.jpg",
+          "back": "items/montavel-005-back.jpg"
+        },
+        {
+          "id": "montavel-006",
+          "number": 6,
+          "label": "06 - THOR",
+          "front": "items/montavel-006-front.jpg",
+          "back": "items/montavel-006-back.jpg"
+        },
+        {
+          "id": "montavel-007",
+          "number": 7,
+          "label": "07 - SR. DESTINO",
+          "front": "items/montavel-007-front.jpg",
+          "back": "items/montavel-007-back.jpg"
+        },
+        {
+          "id": "montavel-008",
+          "number": 8,
+          "label": "08 - MAGNETO",
+          "front": "items/montavel-008-front.jpg",
+          "back": "items/montavel-008-back.jpg"
+        },
+        {
+          "id": "montavel-009",
+          "number": 9,
+          "label": "09 - JEAN GREY",
+          "front": "items/montavel-009-front.jpg",
+          "back": "items/montavel-009-back.jpg"
+        },
+        {
+          "id": "montavel-010",
+          "number": 10,
+          "label": "10 - HOMEM ARANHA",
+          "front": "items/montavel-010-front.jpg",
+          "back": "items/montavel-010-back.jpg"
+        },
+        {
+          "id": "montavel-011",
+          "number": 11,
+          "label": "11 - HOMEM ARANHA",
+          "front": "items/montavel-011-front.jpg",
+          "back": "items/montavel-011-back.jpg"
+        },
+        {
+          "id": "montavel-012",
+          "number": 12,
+          "label": "12 - HOMEN ARANHA",
+          "front": "items/montavel-012-front.jpg",
+          "back": "items/montavel-012-back.jpg"
+        },
+        {
+          "id": "montavel-013",
+          "number": 13,
+          "label": "13 - SR FANTASTICO",
+          "front": "items/montavel-013-front.jpg",
+          "back": "items/montavel-013-back.jpg"
+        },
+        {
+          "id": "montavel-014",
+          "number": 14,
+          "label": "14 - ELEKTRA",
+          "front": "items/montavel-014-front.jpg",
+          "back": "items/montavel-014-back.jpg"
+        },
+        {
+          "id": "montavel-015",
+          "number": 15,
+          "label": "15 - DUENDE VERDE",
+          "front": "items/montavel-015-front.jpg",
+          "back": "items/montavel-015-back.jpg"
+        },
+        {
+          "id": "montavel-016",
+          "number": 16,
+          "label": "16 - TEMPESTADE",
+          "front": "items/montavel-016-front.jpg",
+          "back": "items/montavel-016-back.jpg"
+        },
+        {
+          "id": "montavel-017",
+          "number": 17,
+          "label": "17 - HULK",
+          "front": "items/montavel-017-front.jpg",
+          "back": "items/montavel-017-back.jpg"
+        },
+        {
+          "id": "montavel-018",
+          "number": 18,
+          "label": "18 - WOLVERINE",
+          "front": "items/montavel-018-front.jpg",
+          "back": "items/montavel-018-back.jpg"
+        },
+        {
+          "id": "montavel-019",
+          "number": 19,
+          "label": "19 - HULK",
+          "front": "items/montavel-019-front.jpg",
+          "back": "items/montavel-019-back.jpg"
+        },
+        {
+          "id": "montavel-020",
+          "number": 20,
+          "label": "20 - DUENDE VERDE",
+          "front": "items/montavel-020-front.jpg",
+          "back": "items/montavel-020-back.jpg"
+        },
+        {
+          "id": "montavel-021",
+          "number": 21,
+          "label": "21 - HOMEM DE FERRO",
+          "front": "items/montavel-021-front.jpg",
+          "back": "items/montavel-021-back.jpg"
+        },
+        {
+          "id": "montavel-022",
+          "number": 22,
+          "label": "22 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-022-front.jpg",
+          "back": "items/montavel-022-back.jpg"
+        },
+        {
+          "id": "montavel-023",
+          "number": 23,
+          "label": "23 - WOLVERINE",
+          "front": "items/montavel-023-front.jpg",
+          "back": "items/montavel-023-back.jpg"
+        },
+        {
+          "id": "montavel-024",
+          "number": 24,
+          "label": "24 - TOCHA HUMANA",
+          "front": "items/montavel-024-front.jpg",
+          "back": "items/montavel-024-back.jpg"
+        },
+        {
+          "id": "montavel-025",
+          "number": 25,
+          "label": "25 - SURFISTA PRATEADO",
+          "front": "items/montavel-025-front.jpg",
+          "back": "items/montavel-025-back.jpg"
+        },
+        {
+          "id": "montavel-026",
+          "number": 26,
+          "label": "26 - TEMPESTADE",
+          "front": "items/montavel-026-front.jpg",
+          "back": "items/montavel-026-back.jpg"
+        },
+        {
+          "id": "montavel-027",
+          "number": 27,
+          "label": "27 - MULHER INVISÍVEL",
+          "front": "items/montavel-027-front.jpg",
+          "back": "items/montavel-027-back.jpg"
+        },
+        {
+          "id": "montavel-028",
+          "number": 28,
+          "label": "28 - TOCHA HUMANA",
+          "front": "items/montavel-028-front.jpg",
+          "back": "items/montavel-028-back.jpg"
+        },
+        {
+          "id": "montavel-029",
+          "number": 29,
+          "label": "29 - COISA",
+          "front": "items/montavel-029-front.jpg",
+          "back": "items/montavel-029-back.jpg"
+        },
+        {
+          "id": "montavel-030",
+          "number": 30,
+          "label": "30 - DEMOLIDOR",
+          "front": "items/montavel-030-front.jpg",
+          "back": "items/montavel-030-back.jpg"
+        },
+        {
+          "id": "montavel-031",
+          "number": 31,
+          "label": "31 - DR. OCTOPUS",
+          "front": "items/montavel-031-front.jpg",
+          "back": "items/montavel-031-back.jpg"
+        },
+        {
+          "id": "montavel-032",
+          "number": 32,
+          "label": "32 - SURFISTA PRATEADO",
+          "front": "items/montavel-032-front.jpg",
+          "back": "items/montavel-032-back.jpg"
+        },
+        {
+          "id": "montavel-033",
+          "number": 33,
+          "label": "33 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-033-front.jpg",
+          "back": "items/montavel-033-back.jpg"
+        },
+        {
+          "id": "montavel-034",
+          "number": 34,
+          "label": "34 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-034-front.jpg",
+          "back": "items/montavel-034-back.jpg"
+        },
+        {
+          "id": "montavel-035",
+          "number": 35,
+          "label": "35 - TEMPESTADE",
+          "front": "items/montavel-035-front.jpg",
+          "back": "items/montavel-035-back.jpg"
+        },
+        {
+          "id": "montavel-036",
+          "number": 36,
+          "label": "36 - HOMEM ARANHA",
+          "front": "items/montavel-036-front.jpg",
+          "back": "items/montavel-036-back.jpg"
+        },
+        {
+          "id": "montavel-037",
+          "number": 1,
+          "label": "01 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-037-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-038",
+          "number": 2,
+          "label": "02 - CICLOPE",
+          "front": "items/montavel-038-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-039",
+          "number": 3,
+          "label": "03 - COISA",
+          "front": "items/montavel-039-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-040",
+          "number": 4,
+          "label": "04 - VAMPIRA",
+          "front": "items/montavel-040-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-041",
+          "number": 5,
+          "label": "05 - VAMPIRA",
+          "front": "items/montavel-041-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-042",
+          "number": 6,
+          "label": "06 - THOR",
+          "front": "items/montavel-042-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-043",
+          "number": 7,
+          "label": "07 - SR. DESTINO",
+          "front": "items/montavel-043-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-044",
+          "number": 8,
+          "label": "08 - MAGNETO",
+          "front": "items/montavel-044-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-045",
+          "number": 9,
+          "label": "09 - JEAN GREY",
+          "front": "items/montavel-045-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-046",
+          "number": 10,
+          "label": "10 - HOMEM ARANHA",
+          "front": "items/montavel-046-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-047",
+          "number": 11,
+          "label": "11 - HOMEM ARANHA",
+          "front": "items/montavel-047-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-048",
+          "number": 12,
+          "label": "12 - HOMEN ARANHA",
+          "front": "items/montavel-048-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-049",
+          "number": 13,
+          "label": "13 - SR FANTASTICO",
+          "front": "items/montavel-049-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-050",
+          "number": 14,
+          "label": "14 - ELEKTRA",
+          "front": "items/montavel-050-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-051",
+          "number": 15,
+          "label": "15 - DUENDE VERDE",
+          "front": "items/montavel-051-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-052",
+          "number": 16,
+          "label": "16 - TEMPESTADE",
+          "front": "items/montavel-052-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-053",
+          "number": 17,
+          "label": "17 - HULK",
+          "front": "items/montavel-053-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-054",
+          "number": 18,
+          "label": "18 - WOLVERINE",
+          "front": "items/montavel-054-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-055",
+          "number": 19,
+          "label": "19 - HULK",
+          "front": "items/montavel-055-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-056",
+          "number": 20,
+          "label": "20 - DUENDE VERDE",
+          "front": "items/montavel-056-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-057",
+          "number": 21,
+          "label": "21 - HOMEM DE FERRO",
+          "front": "items/montavel-057-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-058",
+          "number": 22,
+          "label": "22 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-058-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-059",
+          "number": 23,
+          "label": "23 - WOLVERINE",
+          "front": "items/montavel-059-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-060",
+          "number": 24,
+          "label": "24 - TOCHA HUMANA",
+          "front": "items/montavel-060-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-061",
+          "number": 25,
+          "label": "25 - SURFISTA PRATEADO",
+          "front": "items/montavel-061-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-062",
+          "number": 26,
+          "label": "26 - TEMPESTADE",
+          "front": "items/montavel-062-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-063",
+          "number": 27,
+          "label": "27 - MULHER INVISÍVEL",
+          "front": "items/montavel-063-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-064",
+          "number": 28,
+          "label": "28 - TOCHA HUMANA",
+          "front": "items/montavel-064-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-065",
+          "number": 29,
+          "label": "29 - COISA",
+          "front": "items/montavel-065-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-066",
+          "number": 30,
+          "label": "30 - DEMOLIDOR",
+          "front": "items/montavel-066-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-067",
+          "number": 31,
+          "label": "31 - DR. OCTOPUS",
+          "front": "items/montavel-067-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-068",
+          "number": 32,
+          "label": "32 - SURFISTA PRATEADO",
+          "front": "items/montavel-068-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-069",
+          "number": 33,
+          "label": "33 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-069-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-070",
+          "number": 34,
+          "label": "34 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-070-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-071",
+          "number": 35,
+          "label": "35 - TEMPESTADE",
+          "front": "items/montavel-071-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-072",
+          "number": 36,
+          "label": "36 - HOMEM ARANHA",
+          "front": "items/montavel-072-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-073",
+          "number": 1,
+          "label": "01 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-073-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-074",
+          "number": 2,
+          "label": "02 - CICLOPE",
+          "front": "items/montavel-074-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-075",
+          "number": 3,
+          "label": "03 - COISA",
+          "front": "items/montavel-075-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-076",
+          "number": 4,
+          "label": "04 - VAMPIRA",
+          "front": "items/montavel-076-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-077",
+          "number": 5,
+          "label": "05 - VAMPIRA",
+          "front": "items/montavel-077-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-078",
+          "number": 6,
+          "label": "06 - THOR",
+          "front": "items/montavel-078-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-079",
+          "number": 7,
+          "label": "07 - SR. DESTINO",
+          "front": "items/montavel-079-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-080",
+          "number": 8,
+          "label": "08 - MAGNETO",
+          "front": "items/montavel-080-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-081",
+          "number": 9,
+          "label": "09 - JEAN GREY",
+          "front": "items/montavel-081-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-082",
+          "number": 10,
+          "label": "10 - HOMEM ARANHA",
+          "front": "items/montavel-082-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-083",
+          "number": 11,
+          "label": "11 - HOMEM ARANHA",
+          "front": "items/montavel-083-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-084",
+          "number": 12,
+          "label": "12 - HOMEN ARANHA",
+          "front": "items/montavel-084-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-085",
+          "number": 13,
+          "label": "13 - SR FANTASTICO",
+          "front": "items/montavel-085-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-086",
+          "number": 14,
+          "label": "14 - ELEKTRA",
+          "front": "items/montavel-086-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-087",
+          "number": 15,
+          "label": "15 - DUENDE VERDE",
+          "front": "items/montavel-087-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-088",
+          "number": 16,
+          "label": "16 - TEMPESTADE",
+          "front": "items/montavel-088-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-089",
+          "number": 17,
+          "label": "17 - HULK",
+          "front": "items/montavel-089-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-090",
+          "number": 18,
+          "label": "18 - WOLVERINE",
+          "front": "items/montavel-090-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-091",
+          "number": 19,
+          "label": "19 - HULK",
+          "front": "items/montavel-091-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-092",
+          "number": 20,
+          "label": "20 - DUENDE VERDE",
+          "front": "items/montavel-092-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-093",
+          "number": 21,
+          "label": "21 - HOMEM DE FERRO",
+          "front": "items/montavel-093-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-094",
+          "number": 22,
+          "label": "22 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-094-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-095",
+          "number": 23,
+          "label": "23 - WOLVERINE",
+          "front": "items/montavel-095-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-096",
+          "number": 24,
+          "label": "24 - TOCHA HUMANA",
+          "front": "items/montavel-096-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-097",
+          "number": 25,
+          "label": "25 - SURFISTA PRATEADO",
+          "front": "items/montavel-097-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-098",
+          "number": 26,
+          "label": "26 - TEMPESTADE",
+          "front": "items/montavel-098-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-099",
+          "number": 27,
+          "label": "27 - MULHER INVISÍVEL",
+          "front": "items/montavel-099-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-100",
+          "number": 28,
+          "label": "28 - TOCHA HUMANA",
+          "front": "items/montavel-100-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-101",
+          "number": 29,
+          "label": "29 - COISA",
+          "front": "items/montavel-101-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-102",
+          "number": 30,
+          "label": "30 - DEMOLIDOR",
+          "front": "items/montavel-102-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-103",
+          "number": 31,
+          "label": "31 - DR. OCTOPUS",
+          "front": "items/montavel-103-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-104",
+          "number": 32,
+          "label": "32 - SURFISTA PRATEADO",
+          "front": "items/montavel-104-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-105",
+          "number": 33,
+          "label": "33 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-105-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-106",
+          "number": 34,
+          "label": "34 - CAPITÃO AMÉRICA",
+          "front": "items/montavel-106-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-107",
+          "number": 35,
+          "label": "35 - TEMPESTADE",
+          "front": "items/montavel-107-front.jpg",
+          "back": null
+        },
+        {
+          "id": "montavel-108",
+          "number": 36,
+          "label": "36 - HOMEM ARANHA",
+          "front": "items/montavel-108-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "stamp-adesivos",
+      "title": "STAMP (ADESIVOS)",
+      "kind": "gallery",
+      "points": null,
+      "expected": 30,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "stamp-adesivos-001",
+          "number": 1,
+          "label": "1 - HERÓIS MARVEL",
+          "front": "items/stamp-adesivos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-002",
+          "number": 2,
+          "label": "2 - HOMEM-ARANHA",
+          "front": "items/stamp-adesivos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-003",
+          "number": 3,
+          "label": "3 - HOMEM-ARANHA",
+          "front": "items/stamp-adesivos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-004",
+          "number": 4,
+          "label": "4 - HOMEM-ARANHA",
+          "front": "items/stamp-adesivos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-005",
+          "number": 5,
+          "label": "5 - WOLVERINE",
+          "front": "items/stamp-adesivos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-006",
+          "number": 6,
+          "label": "6 - WOLVERINE",
+          "front": "items/stamp-adesivos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-007",
+          "number": 7,
+          "label": "7 - WOLVERINE",
+          "front": "items/stamp-adesivos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-008",
+          "number": 8,
+          "label": "8 - SR. FANTÁSTICO",
+          "front": "items/stamp-adesivos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-009",
+          "number": 9,
+          "label": "9 - SR. FANTÁSTICO",
+          "front": "items/stamp-adesivos-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-010",
+          "number": 10,
+          "label": "10 - COISA",
+          "front": "items/stamp-adesivos-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-011",
+          "number": 11,
+          "label": "11 - COISA",
+          "front": "items/stamp-adesivos-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-012",
+          "number": 12,
+          "label": "12 - TOCHA HUMANA",
+          "front": "items/stamp-adesivos-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-013",
+          "number": 13,
+          "label": "13 - TOCHA HUMANA",
+          "front": "items/stamp-adesivos-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-014",
+          "number": 14,
+          "label": "14 - THOR",
+          "front": "items/stamp-adesivos-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-015",
+          "number": 15,
+          "label": "15 - HULK",
+          "front": "items/stamp-adesivos-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-016",
+          "number": 16,
+          "label": "16 - HULK",
+          "front": "items/stamp-adesivos-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-017",
+          "number": 17,
+          "label": "17 - ELEKTRA",
+          "front": "items/stamp-adesivos-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-018",
+          "number": 18,
+          "label": "18 - ELEKTRA",
+          "front": "items/stamp-adesivos-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-019",
+          "number": 19,
+          "label": "19 - SURFISTA PRATEADO",
+          "front": "items/stamp-adesivos-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-020",
+          "number": 20,
+          "label": "20 - SURFISTA PRATEADO",
+          "front": "items/stamp-adesivos-020-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-021",
+          "number": 21,
+          "label": "21 - CAPITÃO AMÉRICA",
+          "front": "items/stamp-adesivos-021-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-022",
+          "number": 22,
+          "label": "22 - CAPITÃO AMÉRICA",
+          "front": "items/stamp-adesivos-022-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-023",
+          "number": 23,
+          "label": "23 - CAPITÃO AMÉRICA",
+          "front": "items/stamp-adesivos-023-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-024",
+          "number": 24,
+          "label": "24 - HOMEM DE FERRO",
+          "front": "items/stamp-adesivos-024-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-025",
+          "number": 25,
+          "label": "25 - HOMEM DE FERRO",
+          "front": "items/stamp-adesivos-025-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-026",
+          "number": 26,
+          "label": "26 - MULHER INVISÍVEL",
+          "front": "items/stamp-adesivos-026-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-027",
+          "number": 27,
+          "label": "27 - MULHER INVISÍVEL",
+          "front": "items/stamp-adesivos-027-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-028",
+          "number": 28,
+          "label": "28 - DEMOLIDOR",
+          "front": "items/stamp-adesivos-028-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-029",
+          "number": 29,
+          "label": "29 - DEMOLIDOR",
+          "front": "items/stamp-adesivos-029-front.jpg",
+          "back": null
+        },
+        {
+          "id": "stamp-adesivos-030",
+          "number": 30,
+          "label": "30 - TEMPESTADE",
+          "front": "items/stamp-adesivos-030-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lanchinho-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lanchinho-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-stamps",
+      "title": "TARJA: STAMPS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-stamps-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-stamps-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-stamps-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-stamps-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-stamps-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-stamps-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-stamps-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-stamps-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-stamps-007-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-montaveis",
+      "title": "TARJA: MONTÁVEIS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-montaveis-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-montaveis-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-montaveis-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-montaveis-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-montaveis-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-montaveis-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-montaveis-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-montaveis-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-montaveis-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-montaveis-008-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}
