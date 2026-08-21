@@ -30,6 +30,27 @@ const MUSHROOMS = [K + 'mushroom_redGroup.glb', K + 'mushroom_red.glb', K + 'mus
 // read pink at a distance — stones sit better on the high ground.
 const ROCKS = [K + 'stone_largeA.glb', K + 'stone_tallA.glb', K + 'stone_smallFlatA.glb']
 const GRASS = [K + 'grass_leafsLarge.glb', K + 'grass_large.glb', K + 'grass.glb']
+// lightest tufts for the meadow carpet (hundreds of instances)
+const CARPET = [K + 'grass.glb', K + 'grass_leafs.glb']
+
+// Poly / Sketchfab plants (public/game/models/poly, see CREDITS.md). Each file has its
+// own native size and origin, so placements go through putPoly(): target height in
+// world units, lifted so the lowest vertex sits on the ground.
+const P = '/game/models/poly/'
+const POLY = {
+  bulb: { url: P + 'bulb-flower.glb', nativeH: 2.332, minY: -1.862, h: 1.0 },
+  marigold: { url: P + 'desert-marigold.glb', nativeH: 6.2, minY: -0.016, h: 0.9 },
+  fiddlehead: { url: P + 'fiddlehead.glb', nativeH: 2.004, minY: -1.052, h: 1.1 },
+  flower: { url: P + 'flower.glb', nativeH: 3.62, minY: -1.085, h: 1.0 },
+  gnome: { url: P + 'gnome.glb', nativeH: 5.691, minY: -0.22, h: 1.0 },
+  mushrooms: { url: P + 'mushrooms.glb', nativeH: 0.131, minY: -0.067, h: 0.55 },
+  orchid: { url: P + 'orchid.glb', nativeH: 4.138, minY: 0, h: 0.9 },
+  plume: { url: P + 'pastel-plume-flowers.glb', nativeH: 2.702, minY: -1.115, h: 1.0 },
+  sunflower: { url: P + 'sunflower.glb', nativeH: 1.935, minY: -1.303, h: 1.6 },
+  suspicious: { url: P + 'suspicious-plant.glb', nativeH: 3.246, minY: 0, h: 2.2 },
+  tulip: { url: P + 'tulip-3.glb', nativeH: 1.246, minY: -0.64, h: 0.7 },
+} as const
+type PolyKey = keyof typeof POLY
 const STUMPS = [K + 'stump_roundDetailed.glb', K + 'log_stack.glb']
 
 type Spot = Placement & { url: string }
@@ -61,6 +82,12 @@ function buildSpots(): Spot[] {
   const spots: Spot[] = []
   const put = (url: string, x: number, z: number, rot: number, scale: number, sink = 0) => {
     spots.push({ url, pos: [x, terrainHeight(x, z) - 0.08 - sink, z], rot, scale })
+  }
+
+  const putPoly = (key: PolyKey, x: number, z: number, rot: number, jitter = 1) => {
+    const m = POLY[key]
+    const scale = (m.h * jitter) / m.nativeH
+    put(m.url, x, z, rot, scale, m.minY * scale + 0.04)
   }
 
   let i = 0
@@ -168,6 +195,64 @@ function buildSpots(): Spot[] {
   )
   backdrop(24, -22, 11, 8, 17, (v, w) => (v < 0.5 ? [pick(TREES, w), 2.6 + v] : [pick(BUSHES, w), 1.8 + w * 0.5]))
 
+  // Meadow carpet: cheap tufts and flowers on the open ground between the stations, so
+  // the walk from one range to the next never crosses bare hillside (grass is ~100
+  // tris an instance — 160 of them cost less than two trees).
+  let c = 0
+  for (let k = 0; k < 6000 && c < 160; k++) {
+    const a = fbm(k * 0.61, k * 0.17, 41) * Math.PI * 4
+    const r = ((fbm(k * 0.29, k * 0.83, 43) + 1) / 2) * 60 + 8
+    const x = Math.cos(a) * r
+    const z = Math.sin(a) * r
+    const h = terrainHeight(x, z)
+    if (h < WATER_LEVEL + 2.2 || h > 6.8 || inClearing(x, z)) continue
+    const v = (fbm(k * 1.1, k * 0.5, 47) + 1) / 2
+    const w = (fbm(k * 0.7, k * 1.9, 53) + 1) / 2
+    if (v < 0.8) put(pick(CARPET, w), x, z, a * 2, 1.6 + w * 0.9)
+    else put(pick(FLOWERS, w), x, z, a, 1.7 + w * 0.4)
+    c++
+  }
+
+  // Poly plants — authored accents on top of the kit scatter.
+  // spawn: flower beds either side of the pier walk, an orchid and a gnome by the campfire
+  for (const [bx, bz] of [[-5.2, 41.5], [5.4, 42.2], [-4.6, 46.4], [5.8, 46.8]] as const)
+    for (let k = 0; k < 3; k++) putPoly('tulip', bx + (k - 1) * 0.55, bz + (k % 2) * 0.4, k * 1.3, 0.9 + k * 0.1)
+  putPoly('orchid', 2.9, 45.6, 0.6)
+  putPoly('gnome', -2.3, 45.9, 2.4)
+  putPoly('marigold', -6.4, 44.2, 0.2, 1.1)
+  putPoly('marigold', 6.9, 44.8, 1.9)
+  // bosque camp: sunflower row behind the rails, an orchid by the tent, a gnome guarding it
+  backdrop(-26, 4, 7.5, 7, 29, () => [POLY.sunflower.url, POLY.sunflower.h / POLY.sunflower.nativeH])
+  putPoly('orchid', -22.6, 0.4, 1.1)
+  putPoly('gnome', -21.4, 1.2, -0.8)
+  // mirante ridge: odd silhouettes against the sky
+  for (const [sx, sz, r] of [[18.5, -28.2, 0.3], [31, -23.8, 1.2], [20, -30.5, 2.2]] as const) putPoly('suspicious', sx, sz, r, 0.85 + r * 0.1)
+  // treasure spot: a third gnome
+  putPoly('gnome', -10.6, -18.6, 0.9, 0.9)
+  // meadow: mixed flower accents between the stations; grove shade: ferns and mushrooms
+  const MEADOW_MIX: PolyKey[] = ['flower', 'plume', 'bulb', 'marigold', 'flower', 'plume', 'sunflower']
+  let pm = 0
+  let pg = 0
+  for (let k = 0; k < 8000 && (pm < 44 || pg < 16); k++) {
+    const a = fbm(k * 0.41, k * 0.23, 61) * Math.PI * 4
+    const r = ((fbm(k * 0.37, k * 0.71, 67) + 1) / 2) * 60 + 8
+    const x = Math.cos(a) * r
+    const z = Math.sin(a) * r
+    const h = terrainHeight(x, z)
+    if (h < WATER_LEVEL + 2.2 || h > 6.8 || inClearing(x, z)) continue
+    const v = (fbm(k * 1.3, k * 0.9, 71) + 1) / 2
+    const w = (fbm(k * 0.6, k * 1.7, 73) + 1) / 2
+    if (fbm(x / 28, z / 28, 400) > 0.1) {
+      if (pg >= 16) continue
+      putPoly(v < 0.5 ? 'fiddlehead' : 'mushrooms', x + 0.6, z - 0.3, a, 0.85 + w * 0.4)
+      pg++
+    } else {
+      if (pm >= 44) continue
+      putPoly(pick(MEADOW_MIX, v), x, z, a * 2, 0.85 + w * 0.35)
+      pm++
+    }
+  }
+
   // Points of interest (fixed, deterministic; KayKit bases sit slightly below y=0)
   put(KAYKIT_TREE, -22, 10, 0.8, 1.1, -0.05) // showpiece tree
   put(K + 'stone_largeA.glb', -20, 8.4, 2.1, 2.4)
@@ -187,6 +272,7 @@ export function Vegetation() {
 }
 
 const ALL = [
+  ...Object.values(POLY).map((m) => m.url),
   ...TREES,
   ...PALMS,
   ...BUSHES,

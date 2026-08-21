@@ -31,6 +31,10 @@ export function InstancedProps({
   )
 }
 
+// knee-high plants: their shadows are invisible at play distance, but the shadow pass
+// would still draw every instance — skip it for them
+const NO_SHADOW = /poly\/(flower|pastel-plume|tulip|desert-marigold|bulb|mushrooms|fiddlehead|suspicious|orchid)|grass|flower_|mushroom_/
+
 /** Group placements by model file and render them all instanced. */
 export function InstancedScatter({ spots }: { spots: (Placement & { url: string })[] }) {
   const byUrl = useMemo(() => {
@@ -45,7 +49,7 @@ export function InstancedScatter({ spots }: { spots: (Placement & { url: string 
   return (
     <>
       {byUrl.map(([url, group]) => (
-        <InstancedProps key={url} url={url} spots={group} />
+        <InstancedProps key={url} url={url} spots={group} castShadow={!NO_SHADOW.test(url)} />
       ))}
     </>
   )

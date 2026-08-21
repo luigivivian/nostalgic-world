@@ -21,13 +21,27 @@ hero (Luigi GLB, retargeted UAL clips, double-jump glide, aim raycast in ShootLi
       CuboidCollider, curation shared (src/collectible/curation.ts) by acervo + drop pool,
       round gated on pool load, game:restart/game:fire/game:move events, LOW_END tier
       (quality.ts: DPR<=1.5, no post, no FootIK on coarse pointer)
-- [x] Phase 6 profile (real GPU headless, channel chromium, Apple M1): desktop 60fps /
-      332-350 calls / 431-471k tris; mobile 60fps / 261 calls (tier budget 150: over,
-      documented) ; rapier 7 bodies idle, 47 peak
+- [x] Phase 6 profile (real GPU headless, channel chromium, Apple M1), after the merge pass:
+      desktop 236/258/304 calls idle/play/stress, 549-601k tris (count includes the shadow
+      pass), 60fps; mobile 199/221/276 calls; rapier 7 bodies idle, 47 peak
 - [x] Phase 7 QA: probe-gameplay 30/30, probe-touch, probe-integrated (0 errors/404),
       production build + `vite preview` inspected nonblank, vitest 43/43, smoke PASS
-- [ ] Fresh-eyes scorecard review + final report audit <-- CURRENT
-- [ ] Commit (only when user asks) — include peer session files as on disk
+- [x] Fresh-eyes scorecard: 4 Sonnet passes (avg 2.0 / 1.8 / 1.9 / 1.9), each drove a fix
+      round (per-tier target forms, mirante mast + backdrops, water glare, harness bg,
+      meadow carpet). Reconciled 1.9, rewards=1 -> premium gate NOT met; report audited
+      (.tmp/director-final.md, audit_reference_report.py --premium --physics: passed)
+- [x] User playtest: "ficou bem melhor". User dropped 13 GLBs (Poly/Sketchfab plants, gnome)
+      into src/game/vfx + root -> moved to public/game/models/poly/<slug>.glb (+CREDITS.md),
+      sources to assets-src/. NOTE: two "Flower" files collided; Zoe XR's overwrote Poly's.
+- [x] Poly plants placed (Vegetation.tsx putPoly: per-model nativeH/minY normalisation):
+      spawn flower beds + orchid + gnome, bosque sunflower row + gnome, mirante
+      suspicious silhouettes, treasure gnome, 44 meadow accents, 16 grove ferns/mushrooms.
+- [x] props.ts: toonParts now MERGES sub-meshes — untextured into one vertex-coloured
+      geometry per (side/transparent/alphaTest) bucket, textured per material; morph
+      attributes stripped (FBX2glTF gnome crashed the shadow pass: InstancedMesh has no
+      morphTargetInfluences -> `undefined.length`). Small plants castShadow=false.
+      Result: desktop idle 334 -> 236 calls (868 before the merge), mobile 288 -> 199.
+- [ ] Commit (only when user asks) — include peer session files as on disk <-- CURRENT
 
 ### Key Files (current shape)
 **`src/game/store.ts`** (NEW, ~200 lines) zustand contract: phase/round/ammo/score/combo,
@@ -37,7 +51,8 @@ rapier castRay, peer-owned), round guards, mounts everything. `?play=1` deep lin
 **`src/game/Targets.tsx` + `stations.ts`** (NEW) station targets (fixed/kinematic),
 break->8 fragments (groups 3), per-block + per-projectile hit guards, SnackBag visual.
 **`src/game/assets/*`** (NEW) bagGeometry/bagTexture/SnackBag/AmmoPile/StationDressing/
-SpawnBeach/InstancedProps/props/DevShowcase (`?showcase=1`).
+SpawnBeach/InstancedProps/props (merge-by-material toon cache)/DevShowcase (`?showcase=1`);
+`__preview__/poly.html` = contact sheet of public/game/models/poly.
 **`src/game/ui/*`** (NEW, ~2300 incl. CSS) GameUI + preview.html harness (drives real store).
 
 ### Decisions (active)
@@ -47,10 +62,11 @@ SpawnBeach/InstancedProps/props/DevShowcase (`?showcase=1`).
   collections curate to zero discs and are skipped (test pins the list).
 - Headless can't pointer-lock: hits proven via test hooks; bot proves walk/fire/miss.
 
-### Next Steps
-1. Fresh-eyes scorecard -> final report -> `audit_reference_report.py --premium --physics`
-2. Mobile draw calls (261 vs 150 tier): merge dressing sub-meshes / LOD, real-device test
-3. Audio layer (no key) ; hitstop/shake need controller camera hooks
+### Next Steps (scorecard leverage order)
+1. Second reward form readable: bigger ammo crate/pile + idle bob + collect burst, close-up capture
+2. Spawn framing palms off the character's head at the default camera
+3. LOD/merge pass: desktop stress 414 -> <=350 calls, mobile 288 -> <=200; real-device test
+4. Terrain/rock surface variation; muzzle VFX (shot event needs a position); audio when keyed
 
 ### Blockers
 - None hard. Paid generators unavailable by design.
@@ -59,6 +75,8 @@ SpawnBeach/InstancedProps/props/DevShowcase (`?showcase=1`).
 - `selectAlbumProgress` returns a fresh object: never use it as a useGame selector (v5 loop).
 - Adding/removing lights recompiles every material (halo meshes instead of pointLights).
 - A wrapper on console.error reads `.stack` of every arg: never log null/undefined args.
+- New GLBs: run the poly contact sheet first; FBX2glTF files may carry morph targets/skins.
+- `mv` with slugged names: check for collisions first (two "Flower" files -> one lost).
 
 ---
 ---

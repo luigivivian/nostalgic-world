@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import * as THREE from 'three'
 import { useGLTF } from '@react-three/drei'
+import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js'
 import { toonRamp } from '../toon'
 
 // Shared loader/instancer for the low-poly packs in public/game/models.
@@ -32,34 +33,104 @@ const TINTS: [RegExp, THREE.Color][] = [
   [/bridge_(wood|side_wood)/, new THREE.Color('#c08b57')],
 ]
 
-// One toon conversion per GLTF scene object, cached for the lifetime of the page.
+// One toon conversion per GLTF scene object, cached for the lifetime of the page. The
+// original (unmerged) geometries stay alive in drei's useGLTF cache alongside the merged
+// copies — accepted: the packs are small, and disposing them would break any other
+// consumer of the same useGLTF entry (DevShowcase, future props).
 const partsCache = new WeakMap<THREE.Object3D, ToonPart[]>()
+const IDENTITY = new THREE.Matrix4()
 
+// Textured buckets keep position/normal/uv, vertex-coloured ones position/normal/color —
+// uniform attribute sets per bucket, or mergeGeometries() refuses the merge.
+function stripToCore(g: THREE.BufferGeometry, textured: boolean) {
+  for (const name of Object.keys(g.attributes)) {
+    if (name === 'position' || name === 'normal') continue
+    if (textured ? name === 'uv' : name === 'color') continue
+    g.deleteAttribute(name)
+  }
+  g.morphAttributes = {}
+  g.morphTargetsRelative = false
+  if (!g.attributes.normal) g.computeVertexNormals()
+}
+
+function paintVertexColor(g: THREE.BufferGeometry, color: THREE.Color) {
+  const n = g.attributes.position.count
+  const arr = new Float32Array(n * 3)
+  const existing = g.attributes.color as THREE.BufferAttribute | undefined
+  for (let i = 0; i < n; i++) {
+    // obj2gltf scenes sometimes ship vertex colours already — modulate, don't replace
+    const r = existing ? existing.getX(i) : 1
+    const gg = existing ? existing.getY(i) : 1
+    const b = existing ? existing.getZ(i) : 1
+    arr[i * 3] = color.r * r
+    arr[i * 3 + 1] = color.g * gg
+    arr[i * 3 + 2] = color.b * b
+  }
+  g.setAttribute('color', new THREE.BufferAttribute(arr, 3))
+}
+
+/**
+ * Toonify a model file and collapse it to as few draw calls as possible:
+ * - untextured sub-meshes are baked into ONE vertex-coloured geometry per
+ *   (side, transparent, alphaTest) bucket — the Poly "Alien Plants" drops from 90 meshes
+ *   × 11 materials to a single InstancedMesh, Kenney multi-material props to one each;
+ * - textured sub-meshes merge per material (the map has to stay a uniform).
+ * Sub-mesh transforms are baked into the vertices, so every part's `local` is identity.
+ * Geometries with morph targets are flattened (InstancedMesh has no influences and the
+ * renderer would read `undefined.length` in the shadow pass).
+ */
 function toonParts(scene: THREE.Object3D, url: string): ToonPart[] {
   const hit = partsCache.get(scene)
   if (hit) return hit
-  const parts: ToonPart[] = []
-  const converted = new Map<THREE.Material, THREE.Material>()
   const tint = TINTS.find(([re]) => re.test(url))?.[1]
   scene.updateWorldMatrix(false, true)
+
+  type Bucket = { geos: THREE.BufferGeometry[]; material: THREE.Material }
+  const buckets = new Map<string, Bucket>()
   scene.traverse((o) => {
     const mesh = o as THREE.Mesh
     if (!mesh.isMesh) return
-    const src = mesh.material as THREE.MeshStandardMaterial
-    let mat = converted.get(src)
-    if (!mat) {
-      mat = new THREE.MeshToonMaterial({
-        color: tint ?? src.color ?? new THREE.Color('#ffffff'),
-        map: src.map ?? null,
+    // GLTFLoader emits one single-material Mesh per primitive, so a material array
+    // never shows up for glTF input; if another loader ever hands one in, take the first
+    // material rather than slicing groups blind (wrong triangles would be worse).
+    if (Array.isArray(mesh.material)) console.warn('props: multi-material mesh, using material[0]', url, mesh.name)
+    const src = (Array.isArray(mesh.material) ? mesh.material[0] : mesh.material) as THREE.MeshStandardMaterial
+    const textured = !!src.map
+    const g = mesh.geometry.clone()
+    g.applyMatrix4(mesh.matrixWorld)
+    const flags = `${src.side}:${src.transparent ? 1 : 0}:${src.alphaTest ?? 0}`
+    const key = textured ? `tex:${src.uuid}:${flags}` : `vc:${flags}`
+    let b = buckets.get(key)
+    if (!b) {
+      const material = new THREE.MeshToonMaterial({
+        // tint modulates the map when there is one, replaces the colour when there is not
+        color: textured ? (tint ?? src.color ?? new THREE.Color('#ffffff')) : new THREE.Color('#ffffff'),
+        map: textured ? src.map : null,
+        vertexColors: !textured,
         gradientMap: toonRamp(),
         transparent: src.transparent,
         alphaTest: src.alphaTest,
         side: src.side,
       })
-      converted.set(src, mat)
+      b = { geos: [], material }
+      buckets.set(key, b)
     }
-    parts.push({ geometry: mesh.geometry, material: mat, local: mesh.matrixWorld.clone() })
+    stripToCore(g, textured)
+    if (!textured) paintVertexColor(g, tint ?? src.color ?? new THREE.Color('#ffffff'))
+    b.geos.push(g)
   })
+
+  const parts: ToonPart[] = []
+  for (const { geos, material } of buckets.values()) {
+    let list = geos
+    if (list.some((g) => !g.index)) list = list.map((g) => (g.index ? g.toNonIndexed() : g))
+    const merged = list.length === 1 ? list[0] : mergeGeometries(list, false)
+    if (merged) parts.push({ geometry: merged, material, local: IDENTITY })
+    else {
+      console.warn('props: merge failed, falling back to per-mesh instancing', url)
+      for (const g of list) parts.push({ geometry: g, material, local: IDENTITY })
+    }
+  }
   partsCache.set(scene, parts)
   return parts
 }

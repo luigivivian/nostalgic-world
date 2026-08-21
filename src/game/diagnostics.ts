@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
+import type * as THREE from 'three'
 import { useRapier } from '@react-three/rapier'
 import { useGame } from './store'
 import { setDropSeed } from './tazoPool'
@@ -21,6 +22,8 @@ export interface GameTestHooks {
 
 type HookWindow = Window & {
   __THREE_GAME_DIAGNOSTICS__?: () => ReturnType<typeof useGame.getState>
+  /** live scene graph for draw-call attribution probes */
+  __THREE_GAME_SCENE__?: THREE.Scene
   __THREE_GAME_TEST_HOOKS__?: { setState: (name: TestStateName, seed?: number) => void }
 }
 
@@ -65,7 +68,17 @@ export function installDebugHooks(hooks: React.MutableRefObject<GameTestHooks>) 
  */
 export function Diagnostics({ pickups }: { pickups: number }) {
   const gl = useThree((s) => s.gl)
+  const scene = useThree((s) => s.scene)
   const { world } = useRapier()
+
+  useEffect(() => {
+    if (!DEBUG_ENABLED) return
+    const w = window as HookWindow
+    w.__THREE_GAME_SCENE__ = scene
+    return () => {
+      delete w.__THREE_GAME_SCENE__
+    }
+  }, [scene])
   const frames = useRef(0)
   const last = useRef(performance.now())
 
