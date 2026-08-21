@@ -1,0 +1,892 @@
+{
+  "slug": "yugiohmetal",
+  "name": "Yu-Gi-Oh! (Metal Tazos + Stamps)",
+  "year": 2003,
+  "category": "tazos",
+  "shape": "disc",
+  "source": "https://www.elmachipscolecoes.com.br/yugiohmetal",
+  "scrapedAt": "2026-08-05T03:23:33.203Z",
+  "imageSize": 1024,
+  "sections": [
+    {
+      "key": "embalagens-e-tarjas",
+      "title": "EMBALAGENS E TARJAS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagens-e-tarjas-001",
+          "number": 1,
+          "label": "2004 - YU-GI-OH - METAL STAMPS.jpg",
+          "front": "items/embalagens-e-tarjas-001-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "metal-tazos",
+      "title": "METAL TAZOS",
+      "kind": "paired",
+      "points": null,
+      "expected": 40,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "metal-tazos-001",
+          "number": 1,
+          "label": "01 - YAMI YUGI",
+          "front": "items/metal-tazos-001-front.jpg",
+          "back": "items/metal-tazos-001-back.jpg"
+        },
+        {
+          "id": "metal-tazos-002",
+          "number": 2,
+          "label": "02 - YAMI BAKURA",
+          "front": "items/metal-tazos-002-front.jpg",
+          "back": "items/metal-tazos-002-back.jpg"
+        },
+        {
+          "id": "metal-tazos-003",
+          "number": 3,
+          "label": "03 - SETO KAIBA",
+          "front": "items/metal-tazos-003-front.jpg",
+          "back": "items/metal-tazos-003-back.jpg"
+        },
+        {
+          "id": "metal-tazos-004",
+          "number": 4,
+          "label": "04 - TEA GARNER",
+          "front": "items/metal-tazos-004-front.jpg",
+          "back": "items/metal-tazos-004-back.jpg"
+        },
+        {
+          "id": "metal-tazos-005",
+          "number": 5,
+          "label": "05 - ODION",
+          "front": "items/metal-tazos-005-front.jpg",
+          "back": "items/metal-tazos-005-back.jpg"
+        },
+        {
+          "id": "metal-tazos-006",
+          "number": 6,
+          "label": "06 - YAMI MARIK",
+          "front": "items/metal-tazos-006-front.jpg",
+          "back": "items/metal-tazos-006-back.jpg"
+        },
+        {
+          "id": "metal-tazos-007",
+          "number": 7,
+          "label": "07 - JOEY",
+          "front": "items/metal-tazos-007-front.jpg",
+          "back": "items/metal-tazos-007-back.jpg"
+        },
+        {
+          "id": "metal-tazos-008",
+          "number": 8,
+          "label": "08 - YAMI YUGI",
+          "front": "items/metal-tazos-008-front.jpg",
+          "back": "items/metal-tazos-008-back.jpg"
+        },
+        {
+          "id": "metal-tazos-009",
+          "number": 9,
+          "label": "09 - MAGO DO CAOS DAS TREVAS",
+          "front": "items/metal-tazos-009-front.jpg",
+          "back": "items/metal-tazos-009-back.jpg"
+        },
+        {
+          "id": "metal-tazos-010",
+          "number": 10,
+          "label": "10 - BUSTER BLADER",
+          "front": "items/metal-tazos-010-front.jpg",
+          "back": "items/metal-tazos-010-back.jpg"
+        },
+        {
+          "id": "metal-tazos-011",
+          "number": 11,
+          "label": "11 - DRAGÃO METÁLICO NEGRO DE OLHOS VERMELHOS",
+          "front": "items/metal-tazos-011-front.jpg",
+          "back": "items/metal-tazos-011-back.jpg"
+        },
+        {
+          "id": "metal-tazos-012",
+          "number": 12,
+          "label": "12 - AMAZONA DE ESPADA",
+          "front": "items/metal-tazos-012-front.jpg",
+          "back": "items/metal-tazos-012-back.jpg"
+        },
+        {
+          "id": "metal-tazos-013",
+          "number": 13,
+          "label": "13 - GUERREIRO FOGUETE",
+          "front": "items/metal-tazos-013-front.jpg",
+          "back": "items/metal-tazos-013-back.jpg"
+        },
+        {
+          "id": "metal-tazos-014",
+          "number": 14,
+          "label": "14 - SUPREMO DRAGÃO BRANCO DE OLHOS AZUIS",
+          "front": "items/metal-tazos-014-front.jpg",
+          "back": "items/metal-tazos-014-back.jpg"
+        },
+        {
+          "id": "metal-tazos-015",
+          "number": 15,
+          "label": "15 - MAGO NEGRO",
+          "front": "items/metal-tazos-015-front.jpg",
+          "back": "items/metal-tazos-015-back.jpg"
+        },
+        {
+          "id": "metal-tazos-016",
+          "number": 16,
+          "label": "16 - GAIA, O CAVALEIRO FEROZ",
+          "front": "items/metal-tazos-016-front.jpg",
+          "back": "items/metal-tazos-016-back.jpg"
+        },
+        {
+          "id": "metal-tazos-017",
+          "number": 17,
+          "label": "17 - COELHO DAS TREVAS",
+          "front": "items/metal-tazos-017-front.jpg",
+          "back": "items/metal-tazos-017-back.jpg"
+        },
+        {
+          "id": "metal-tazos-018",
+          "number": 18,
+          "label": "18 - GUERREIRO DO MACHADO",
+          "front": "items/metal-tazos-018-front.jpg",
+          "back": "items/metal-tazos-018-back.jpg"
+        },
+        {
+          "id": "metal-tazos-019",
+          "number": 19,
+          "label": "19 - BERFOMET",
+          "front": "items/metal-tazos-019-front.jpg",
+          "back": "items/metal-tazos-019-back.jpg"
+        },
+        {
+          "id": "metal-tazos-020",
+          "number": 20,
+          "label": "20 - DRAGÃO ALADO GUARDIÃO DA FORTALEZA",
+          "front": "items/metal-tazos-020-front.jpg",
+          "back": "items/metal-tazos-020-back.jpg"
+        },
+        {
+          "id": "metal-tazos-021",
+          "number": 21,
+          "label": "21 - TOURO GUERREIRO",
+          "front": "items/metal-tazos-021-front.jpg",
+          "back": "items/metal-tazos-021-back.jpg"
+        },
+        {
+          "id": "metal-tazos-022",
+          "number": 22,
+          "label": "22 - DEMÔNIO GLADIADOR",
+          "front": "items/metal-tazos-022-front.jpg",
+          "back": "items/metal-tazos-022-back.jpg"
+        },
+        {
+          "id": "metal-tazos-023",
+          "number": 23,
+          "label": "23 - AMAZONA DA CORRENTE",
+          "front": "items/metal-tazos-023-front.jpg",
+          "back": "items/metal-tazos-023-back.jpg"
+        },
+        {
+          "id": "metal-tazos-024",
+          "number": 24,
+          "label": "24 - ALFA, O GUERREIRO IMÃ",
+          "front": "items/metal-tazos-024-front.jpg",
+          "back": "items/metal-tazos-024-back.jpg"
+        },
+        {
+          "id": "metal-tazos-025",
+          "number": 25,
+          "label": "25 - BETA, O GUERREIRO IMÃ",
+          "front": "items/metal-tazos-025-front.jpg",
+          "back": "items/metal-tazos-025-back.jpg"
+        },
+        {
+          "id": "metal-tazos-026",
+          "number": 26,
+          "label": "26 - DRAGÃO CAVEIRA NEGRO",
+          "front": "items/metal-tazos-026-front.jpg",
+          "back": "items/metal-tazos-026-back.jpg"
+        },
+        {
+          "id": "metal-tazos-027",
+          "number": 27,
+          "label": "27 - CÍCLOPE GIGANTE HITOTSU",
+          "front": "items/metal-tazos-027-front.jpg",
+          "back": "items/metal-tazos-027-back.jpg"
+        },
+        {
+          "id": "metal-tazos-028",
+          "number": 28,
+          "label": "28 - JINZO",
+          "front": "items/metal-tazos-028-front.jpg",
+          "back": "items/metal-tazos-028-back.jpg"
+        },
+        {
+          "id": "metal-tazos-029",
+          "number": 29,
+          "label": "29 - BONECA FALECIDA",
+          "front": "items/metal-tazos-029-front.jpg",
+          "back": "items/metal-tazos-029-back.jpg"
+        },
+        {
+          "id": "metal-tazos-030",
+          "number": 30,
+          "label": "30 - SOLDADO DO LUSTRO NEGRO",
+          "front": "items/metal-tazos-030-front.jpg",
+          "back": "items/metal-tazos-030-back.jpg"
+        },
+        {
+          "id": "metal-tazos-031",
+          "number": 31,
+          "label": "31 - SEREIA DO MUNDO DA FANTASIA",
+          "front": "items/metal-tazos-031-front.jpg",
+          "back": "items/metal-tazos-031-back.jpg"
+        },
+        {
+          "id": "metal-tazos-032",
+          "number": 32,
+          "label": "32 - DRAGÃO DE OLHOS AZUIS DO MUNDO DA FANTASIA",
+          "front": "items/metal-tazos-032-front.jpg",
+          "back": "items/metal-tazos-032-back.jpg"
+        },
+        {
+          "id": "metal-tazos-033",
+          "number": 33,
+          "label": "33 - FLAUTISTA DO DRAGÃO",
+          "front": "items/metal-tazos-033-front.jpg",
+          "back": "items/metal-tazos-033-back.jpg"
+        },
+        {
+          "id": "metal-tazos-034",
+          "number": 34,
+          "label": "34 - A ABDICAÇÃO",
+          "front": "items/metal-tazos-034-front.jpg",
+          "back": "items/metal-tazos-034-back.jpg"
+        },
+        {
+          "id": "metal-tazos-035",
+          "number": 35,
+          "label": "35 - GEARFRIED, O CAVALEIRO DAS TREVAS",
+          "front": "items/metal-tazos-035-front.jpg",
+          "back": "items/metal-tazos-035-back.jpg"
+        },
+        {
+          "id": "metal-tazos-036",
+          "number": 36,
+          "label": "36 - GUERREIRO GUARDIÃO CELTA",
+          "front": "items/metal-tazos-036-front.jpg",
+          "back": "items/metal-tazos-036-back.jpg"
+        },
+        {
+          "id": "metal-tazos-037",
+          "number": 37,
+          "label": "37 - GUERREIRO DA ESPADA DE CHAMA DOURADA",
+          "front": "items/metal-tazos-037-front.jpg",
+          "back": "items/metal-tazos-037-back.jpg"
+        },
+        {
+          "id": "metal-tazos-038",
+          "number": 38,
+          "label": "38 - DRAGÃO PAPAGAIO",
+          "front": "items/metal-tazos-038-front.jpg",
+          "back": "items/metal-tazos-038-back.jpg"
+        },
+        {
+          "id": "metal-tazos-039",
+          "number": 39,
+          "label": "39 - LOBO PRATEADO",
+          "front": "items/metal-tazos-039-front.jpg",
+          "back": "items/metal-tazos-039-back.jpg"
+        },
+        {
+          "id": "metal-tazos-040",
+          "number": 40,
+          "label": "40 - CAVALEIRO FURIOSO",
+          "front": "items/metal-tazos-040-front.jpg",
+          "back": "items/metal-tazos-040-back.jpg"
+        }
+      ]
+    },
+    {
+      "key": "adesivos-stamps",
+      "title": "ADESIVOS (STAMPS)",
+      "kind": "shared-back",
+      "points": null,
+      "expected": 20,
+      "sharedBack": "items/adesivos-stamps-shared-back.jpg",
+      "items": [
+        {
+          "id": "adesivos-stamps-001",
+          "number": 1,
+          "label": "01 - YAMI YUGI",
+          "front": "items/adesivos-stamps-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-002",
+          "number": 2,
+          "label": "02 - DEMÔNIO SELVAGEM",
+          "front": "items/adesivos-stamps-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-003",
+          "number": 3,
+          "label": "03 - IMPERADOR CRUEL",
+          "front": "items/adesivos-stamps-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-004",
+          "number": 4,
+          "label": "04 - MAGO NEGRO",
+          "front": "items/adesivos-stamps-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-005",
+          "number": 5,
+          "label": "05 - FEITICEIRA NEGRA",
+          "front": "items/adesivos-stamps-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-006",
+          "number": 6,
+          "label": "06 - TIGRE DE MACHADO",
+          "front": "items/adesivos-stamps-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-007",
+          "number": 7,
+          "label": "07 - DRAGÃO MASCOTE DA HARPIA",
+          "front": "items/adesivos-stamps-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-008",
+          "number": 8,
+          "label": "08 - REI CAVEIRA",
+          "front": "items/adesivos-stamps-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-009",
+          "number": 9,
+          "label": "09 - MAGO DO TEMPO",
+          "front": "items/adesivos-stamps-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-010",
+          "number": 10,
+          "label": "10 - DEMÔNIO DE SETE BRAÇOS",
+          "front": "items/adesivos-stamps-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-011",
+          "number": 11,
+          "label": "11 - RYU-RAN",
+          "front": "items/adesivos-stamps-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-012",
+          "number": 12,
+          "label": "12 - EXODIA",
+          "front": "items/adesivos-stamps-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-013",
+          "number": 13,
+          "label": "13 - DRAGÃO METÁLICO NEGRO DE OLHOS VERMELHOS",
+          "front": "items/adesivos-stamps-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-014",
+          "number": 14,
+          "label": "14 - DRAGÃO BRANCO DE OLHOS AZUIS",
+          "front": "items/adesivos-stamps-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-015",
+          "number": 15,
+          "label": "15 - DUENDE MÍSTICO",
+          "front": "items/adesivos-stamps-015-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-016",
+          "number": 16,
+          "label": "16 - GAIA, O MATADOR DE DRAGÇOES",
+          "front": "items/adesivos-stamps-016-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-017",
+          "number": 17,
+          "label": "17 - TOURO GUERREIRO",
+          "front": "items/adesivos-stamps-017-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-018",
+          "number": 18,
+          "label": "18 - PANTERA GUERREIRO",
+          "front": "items/adesivos-stamps-018-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-019",
+          "number": 19,
+          "label": "19 - TARTARUGA CATAPULTA",
+          "front": "items/adesivos-stamps-019-front.jpg",
+          "back": null
+        },
+        {
+          "id": "adesivos-stamps-020",
+          "number": 20,
+          "label": "20 - IRMÃS HARPIA",
+          "front": "items/adesivos-stamps-020-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "1-12",
+      "title": "1 + 12",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "1-12-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/1-12-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "1-12-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/1-12-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "album",
+      "title": "ÁLBUM",
+      "kind": "gallery",
+      "points": null,
+      "expected": 1,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "album-001",
+          "number": 1,
+          "label": "ÁLBUM",
+          "front": "items/album-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-002",
+          "number": 2,
+          "label": "ÁLBUM",
+          "front": "items/album-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "album-003",
+          "number": 3,
+          "label": "ÁLBUM",
+          "front": "items/album-003-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lotes-outras-fotos",
+      "title": "LOTES / OUTRAS FOTOS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lotes-outras-fotos-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lotes-outras-fotos-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lotes-outras-fotos-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/lotes-outras-fotos-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/lotes-outras-fotos-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/lotes-outras-fotos-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/lotes-outras-fotos-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/lotes-outras-fotos-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/lotes-outras-fotos-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lotes-outras-fotos-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/lotes-outras-fotos-009-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "lanchinho",
+      "title": "LANCHINHO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "lanchinho-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/lanchinho-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "lanchinho-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/lanchinho-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-adesivos-stamps",
+      "title": "TARJA: ADESIVOS STAMPS",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-adesivos-stamps-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-adesivos-stamps-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-adesivos-stamps-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-adesivos-stamps-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-adesivos-stamps-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-adesivos-stamps-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-adesivos-stamps-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-adesivos-stamps-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-adesivos-stamps-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/tarja-adesivos-stamps-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/tarja-adesivos-stamps-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-adesivos-stamps-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/tarja-adesivos-stamps-011-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "tarja-metal-tazo",
+      "title": "TARJA: METAL TAZO",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "tarja-metal-tazo-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/tarja-metal-tazo-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/tarja-metal-tazo-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/tarja-metal-tazo-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/tarja-metal-tazo-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/tarja-metal-tazo-005-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-006",
+          "number": 6,
+          "label": "Foto 6",
+          "front": "items/tarja-metal-tazo-006-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-007",
+          "number": 7,
+          "label": "Foto 7",
+          "front": "items/tarja-metal-tazo-007-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-008",
+          "number": 8,
+          "label": "Foto 8",
+          "front": "items/tarja-metal-tazo-008-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-009",
+          "number": 9,
+          "label": "Foto 9",
+          "front": "items/tarja-metal-tazo-009-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-010",
+          "number": 10,
+          "label": "Foto 10",
+          "front": "items/tarja-metal-tazo-010-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-011",
+          "number": 11,
+          "label": "Foto 11",
+          "front": "items/tarja-metal-tazo-011-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-012",
+          "number": 12,
+          "label": "Foto 12",
+          "front": "items/tarja-metal-tazo-012-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-013",
+          "number": 13,
+          "label": "Foto 13",
+          "front": "items/tarja-metal-tazo-013-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-014",
+          "number": 14,
+          "label": "Foto 14",
+          "front": "items/tarja-metal-tazo-014-front.jpg",
+          "back": null
+        },
+        {
+          "id": "tarja-metal-tazo-015",
+          "number": 15,
+          "label": "Foto 15",
+          "front": "items/tarja-metal-tazo-015-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "embalagem-especial-cheetos-em-formato-de-adaga",
+      "title": "EMBALAGEM ESPECIAL: CHEETOS EM FORMATO DE ADAGA",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "embalagem-especial-cheetos-em-formato-de-adaga-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/embalagem-especial-cheetos-em-formato-de-adaga-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "embalagem-especial-cheetos-em-formato-de-adaga-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/embalagem-especial-cheetos-em-formato-de-adaga-002-front.jpg",
+          "back": null
+        }
+      ]
+    },
+    {
+      "key": "poster-propaganda-site",
+      "title": "PÔSTER / PROPAGANDA / SITE",
+      "kind": "gallery",
+      "points": null,
+      "expected": null,
+      "sharedBack": null,
+      "items": [
+        {
+          "id": "poster-propaganda-site-001",
+          "number": 1,
+          "label": "Foto 1",
+          "front": "items/poster-propaganda-site-001-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-002",
+          "number": 2,
+          "label": "Foto 2",
+          "front": "items/poster-propaganda-site-002-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-003",
+          "number": 3,
+          "label": "Foto 3",
+          "front": "items/poster-propaganda-site-003-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-004",
+          "number": 4,
+          "label": "Foto 4",
+          "front": "items/poster-propaganda-site-004-front.jpg",
+          "back": null
+        },
+        {
+          "id": "poster-propaganda-site-005",
+          "number": 5,
+          "label": "Foto 5",
+          "front": "items/poster-propaganda-site-005-front.jpg",
+          "back": null
+        }
+      ]
+    }
+  ]
+}
