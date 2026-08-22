@@ -1,8 +1,9 @@
 import { terrainHeight, WATER_LEVEL } from './terrain'
 import { fbm } from './noise'
-import { preloadProps, type Placement } from './assets/props'
+import type { Placement } from './assets/props'
 import { TRAIL_CLEAR } from './assets/Trails'
 import { LOW_END } from './quality'
+import { activeBiome, type BiomeId } from './biomes'
 
 // Green-island decor built from the low-poly packs in public/game/models (see
 // .tmp/model-catalog.json). kenney_nature-kit is the 1:1-scale self-contained base;
@@ -155,6 +156,150 @@ const STUMPS = rich([K + 'stump_roundDetailed.glb', K + 'log_stack.glb'], [K + '
 
 type Spot = Placement & { url: string }
 
+// --- biome kits -------------------------------------------------------------------
+// Kenney kits installed 2026-08-22 (public/game/models/KITS.md). Native scales differ:
+// graveyard/holiday are 1:1 with the nature kit, survival is half size, pirate is 2-4x —
+// the unit() factors below fold that into the shared role scales.
+const GY = '/game/models/kenney_graveyard-kit/Models/GLB%20format/'
+const HO = '/game/models/kenney_holiday-kit/Models/GLB%20format/'
+const SV = '/game/models/kenney_survival-kit/Models/GLB%20format/'
+const PI = '/game/models/kenney_pirate-kit/Models/GLB%20format/'
+// Tripo landmarks (assets-src/models/biome-*/): normalised to a 1 u cube, pivot at the
+// bbox centre, so the scale IS the height and LIFT carries the (negative) minY.
+const GEN = '/game/models/gen/'
+const SIGNATURE: Record<Exclude<BiomeId, 'praia'>, { url: string; minY: number; h: number }> = {
+  deserto: { url: GEN + 'biome-deserto.glb', minY: -0.4342, h: 8 },
+  neve: { url: GEN + 'biome-neve.glb', minY: -0.4569, h: 6 },
+  pantano: { url: GEN + 'biome-pantano.glb', minY: -0.5, h: 7 },
+  montanha: { url: GEN + 'biome-montanha.glb', minY: -0.4608, h: 7 },
+  ruinas: { url: GEN + 'biome-ruinas.glb', minY: -0.3842, h: 8 },
+}
+for (const m of Object.values(SIGNATURE)) LIFT.set(m.url, m.minY)
+/** every biome's landmark stands on the same east-meadow knoll, between praia and mirante */
+export const SIGNATURE_SPOT: [number, number] = [13, -3]
+
+interface Kit {
+  TREES: string[]
+  FALL_TREES: string[]
+  /** textured copses on RICH; [] = no copse swap in this biome */
+  KAYKIT_TREES: string[]
+  PINES: string[]
+  BARE_TREES: string[]
+  PALMS: string[]
+  /** what stands on the shore band (palms here, boulders and logs elsewhere) */
+  SHORE: string[]
+  BUSHES: string[]
+  FERNS: string[]
+  FLOWERS: string[]
+  MUSHROOMS: string[]
+  ROCKS: string[]
+  KAYKIT_ROCKS: string[]
+  FORMATIONS: string[]
+  GRASS: string[]
+  CARPET: string[]
+  LILIES: string[]
+  STUMPS: string[]
+  GROVES: number
+  SCATTER: number
+  CARPET_N: number
+  LILIES_N: number
+  /** lily band relative to WATER_LEVEL: [lo, hi] */
+  LILY_BAND: [number, number]
+  /** the hand-placed poly plants (sunflowers, gnomes, twisting trees) are a green-island thing */
+  POLY_ACCENTS: boolean
+  /** authored landmarks: [url, x, z, rot, scale, sink] */
+  ACCENTS: [string, number, number, number, number, number?][]
+  /** extra keep-out circles for the accents */
+  CLEAR: [number, number, number][]
+}
+
+const CACTI = [unit(K + 'cactus_tall.glb', 1.4), unit(K + 'cactus_short.glb', 1.6)]
+const SNOW_TREES = [unit(HO + 'tree-snow-a.glb', 0.85), unit(HO + 'tree-snow-b.glb', 0.85), unit(HO + 'tree-snow-c.glb', 0.85)]
+const GY_PINE = unit(GY + 'pine.glb', 0.7)
+const GY_PINE_CROOKED = unit(GY + 'pine-crooked.glb', 0.7)
+const GY_PINE_FALL = unit(GY + 'pine-fall-crooked.glb', 0.7)
+const HO_ROCKS = [unit(HO + 'rocks-large.glb', 0.8), unit(HO + 'rocks-medium.glb', 0.8), unit(HO + 'rocks-small.glb', 0.8)]
+const SAND_ROCKS = [unit(SV + 'rock-sand-a.glb', 2.2), unit(SV + 'rock-sand-b.glb', 2.2), unit(SV + 'rock-sand-c.glb', 2.2)]
+const SAND_BOULDERS = [unit(PI + 'rocks-sand-a.glb', 0.5), unit(PI + 'rocks-sand-b.glb', 0.5), unit(PI + 'rocks-sand-c.glb', 0.5)]
+const PIRATE_PALMS = [unit(PI + 'palm-bend.glb', 0.3), unit(PI + 'palm-straight.glb', 0.3), unit(PI + 'palm-detailed-bend.glb', 0.3)]
+const RUIN_PIECES = [
+  GY + 'pillar-large.glb', GY + 'pillar-small.glb', GY + 'pillar-square.glb', GY + 'column-large.glb',
+  unit(GY + 'stone-wall.glb', 1.2), unit(GY + 'stone-wall-damaged.glb', 1.2), K + 'statue_columnDamaged.glb',
+]
+const SNOW_PILE = unit(HO + 'snow-pile.glb', 1.0)
+const SV_LOG = unit(SV + 'tree-log.glb', 3)
+
+const PRAIA_KIT: Kit = {
+  TREES, FALL_TREES, KAYKIT_TREES, PINES, BARE_TREES, PALMS, SHORE: PALMS, BUSHES, FERNS, FLOWERS, MUSHROOMS,
+  ROCKS, KAYKIT_ROCKS, FORMATIONS, GRASS, CARPET, LILIES, STUMPS,
+  GROVES: 58, SCATTER: 1300, CARPET_N: 320, LILIES_N: 70, LILY_BAND: [-0.55, -0.1], POLY_ACCENTS: true, ACCENTS: [], CLEAR: [],
+}
+const signature = (id: Exclude<BiomeId, 'praia'>, rot: number): Kit['ACCENTS'][number] => [SIGNATURE[id].url, SIGNATURE_SPOT[0], SIGNATURE_SPOT[1], rot, SIGNATURE[id].h, 0.15]
+const SIG_CLEAR: [number, number, number] = [SIGNATURE_SPOT[0], SIGNATURE_SPOT[1], 6.5]
+
+const KITS: Record<BiomeId, Kit> = {
+  praia: PRAIA_KIT,
+  deserto: {
+    ...PRAIA_KIT,
+    TREES: CACTI, FALL_TREES: CACTI, KAYKIT_TREES: [], PINES: [CACTI[0]], PALMS: [...PIRATE_PALMS, ...PALMS], SHORE: [...PIRATE_PALMS, ...PALMS],
+    BUSHES: [K + 'plant_bush.glb', K + 'plant_bushLarge.glb', unit(PI + 'patch-sand-foliage.glb', 0.25)],
+    FERNS: [K + 'grass_leafs.glb'], FLOWERS: [K + 'flower_yellowB.glb', K + 'flower_yellowC.glb'],
+    MUSHROOMS: SAND_ROCKS, ROCKS: [...SAND_ROCKS, K + 'stone_largeA.glb'], KAYKIT_ROCKS: SAND_BOULDERS,
+    GRASS: [K + 'grass_large.glb', unit(SV + 'grass-large.glb', 2)], CARPET: [K + 'grass.glb', unit(PI + 'patch-sand.glb', 0.2)], LILIES: [],
+    STUMPS: [unit(SV + 'tree-trunk.glb', 2.5), K + 'log.glb'],
+    GROVES: 22, SCATTER: 800, CARPET_N: 120, LILIES_N: 0, POLY_ACCENTS: false,
+    ACCENTS: [signature('deserto', 0.5), [K + 'statue_obelisk.glb', 17.5, -6.5, 0.3, 2.6], [K + 'statue_obelisk.glb', 9, 0.5, 1.1, 2.2]],
+    CLEAR: [SIG_CLEAR],
+  },
+  neve: {
+    ...PRAIA_KIT,
+    TREES: SNOW_TREES, FALL_TREES: [GY_PINE], KAYKIT_TREES: [], PINES: [SNOW_TREES[1], GY_PINE], PALMS: [],
+    SHORE: [HO_ROCKS[2], GY_PINE_CROOKED, K + 'stone_largeB.glb'],
+    BUSHES: [unit(HO + 'snow-pile.glb', 1.2), K + 'plant_bush.glb'], FERNS: [], FLOWERS: [], MUSHROOMS: [SNOW_PILE],
+    KAYKIT_ROCKS: HO_ROCKS, GRASS: [K + 'grass.glb'], CARPET: [unit(HO + 'snow-pile.glb', 0.8), unit(HO + 'snow-flat.glb', 0.8)], LILIES: [],
+    STUMPS: [GY + 'trunk-long.glb', K + 'stump_old.glb'],
+    GROVES: 40, SCATTER: 900, CARPET_N: 200, LILIES_N: 0, POLY_ACCENTS: false,
+    ACCENTS: [signature('neve', 0.8), [HO + 'snowman.glb', -8, 36, 0.6, 1.6], [HO + 'lantern.glb', 6.5, 33.5, 0, 1.3], [HO + 'lantern.glb', 18, -8, 0, 1.3]],
+    CLEAR: [SIG_CLEAR],
+  },
+  pantano: {
+    ...PRAIA_KIT,
+    TREES: [K + 'tree_thin.glb', K + 'tree_default.glb', GY_PINE_CROOKED, unit(KAYKIT + 'Tree_Bare_1_A_Color1.gltf', 0.45)],
+    FALL_TREES: [GY_PINE_FALL, K + 'tree_oak_fall.glb'], KAYKIT_TREES: [], PINES: [GY_PINE_CROOKED], PALMS: [],
+    SHORE: [SV_LOG, K + 'log_large.glb', K + 'stone_largeA.glb', K + 'plant_flatTall.glb', K + 'stone_smallFlatB.glb'],
+    BUSHES: [K + 'plant_bushDetailed.glb', K + 'plant_bush.glb', unit(SH + 'bush_3.glb', 0.4)], FERNS: [...FERNS, K + 'plant_flatTall.glb'],
+    FLOWERS: [K + 'mushroom_redGroup.glb', K + 'mushroom_tanTall.glb'], CARPET: [K + 'grass_leafs.glb', K + 'plant_flatShort.glb'],
+    STUMPS: [SV_LOG, K + 'stump_old.glb', K + 'log_stack.glb'],
+    GROVES: 48, SCATTER: 1200, CARPET_N: 280, LILIES_N: 160, LILY_BAND: [-0.9, 0.25], POLY_ACCENTS: false,
+    ACCENTS: [signature('pantano', 2.4), [GY + 'lantern-candle.glb', 9.5, -1.5, 0, 2.0], [GY + 'lantern-candle.glb', 16.5, -5.5, 0, 2.0], [unit(KAYKIT + 'Tree_Bare_2_A_Color1.gltf', 0.45), 10, -7, 1.0, 2.4]],
+    CLEAR: [SIG_CLEAR],
+  },
+  montanha: {
+    ...PRAIA_KIT,
+    TREES: [...PINES, K + 'tree_pineTallA.glb', K + 'tree_pineTallB.glb'], FALL_TREES: [unit(GY + 'pine-fall.glb', 0.7)], KAYKIT_TREES: [],
+    PINES: [...PINES, GY_PINE], PALMS: [], SHORE: [K + 'stone_largeB.glb', HO_ROCKS[1], K + 'tree_pineSmallA.glb'],
+    FLOWERS: [K + 'flower_purpleA.glb', K + 'flower_yellowC.glb'],
+    KAYKIT_ROCKS: [...KAYKIT_ROCKS, HO_ROCKS[0], unit(PI + 'rocks-a.glb', 0.5)], LILIES: [],
+    GROVES: 50, SCATTER: 1300, CARPET_N: 260, LILIES_N: 0, POLY_ACCENTS: false,
+    ACCENTS: [signature('montanha', 0.2), [HO_ROCKS[0], 8.5, -8, 0.4, 1.0], [K + 'stone_tallA.glb', 18.5, 0.5, 2.0, 2.6]],
+    CLEAR: [SIG_CLEAR],
+  },
+  ruinas: {
+    ...PRAIA_KIT,
+    TREES: [K + 'tree_oak.glb', K + 'tree_default.glb', K + 'tree_plateau.glb', K + 'tree_detailed.glb'], KAYKIT_TREES: [], PINES: [K + 'tree_cone.glb'],
+    MUSHROOMS: [GY + 'debris.glb', unit(GY + 'gravestone-broken.glb', 1.2)], ROCKS: RUIN_PIECES,
+    KAYKIT_ROCKS: [unit(GY + 'rocks-tall.glb', 1.2), ...KAYKIT_ROCKS], STUMPS: [unit(GY + 'debris-wood.glb', 1.5), K + 'stump_old.glb'],
+    GROVES: 36, SCATTER: 1100, CARPET_N: 300, LILIES_N: 40, POLY_ACCENTS: false,
+    ACCENTS: [
+      signature('ruinas', 0.3),
+      [GY + 'pillar-obelisk.glb', 18.5, -7.5, 0.2, 2.8], [GY + 'pillar-obelisk.glb', 7.5, 1.5, 1.4, 2.8], [GY + 'pillar-large.glb', 19, 1, 0, 2.6], [GY + 'column-large.glb', 7, -8, 0, 2.6],
+      [unit(PI + 'tower-complete-small.glb', 1.0), -6, -12, 0.6, 1.0], [unit(PI + 'castle-wall.glb', 0.9), -3.2, -9.2, 0.6, 1.0], [unit(PI + 'castle-window.glb', 0.9), -1.4, -6.4, 0.6, 1.0],
+      [unit(GY + 'crypt-small.glb', 1.6), -14.5, -25.5, 1.0, 1.0],
+    ],
+    CLEAR: [SIG_CLEAR, [-4, -9.5, 5.5]],
+  },
+}
+
 /**
  * Keep-out circles. The three stations and the beach spawn need clean ground: a bush
  * in front of a target is an unfair miss, and the arrival shot has to read as a place
@@ -164,6 +309,7 @@ type Spot = Placement & { url: string }
 const CLEAR: [number, number, number][] = [
   [0, 28, 7], // praia station
   [-26, 4, 8], // bosque station
+  [-26, 14.5, 5.5], // bosque south approach (praia -> bosque): a grove sat right on the walk-up
   [24, -22, 8], // mirante station
   [0, 44, 9], // beach spawn — SpawnBeach authors this ground; the scatter stays out
   [0, 38, 3.5], // the walk from spawn to the first station
@@ -174,6 +320,7 @@ const CLEAR: [number, number, number][] = [
 
 function inClearing(x: number, z: number) {
   for (const [cx, cz, r] of CLEAR) if (Math.hypot(x - cx, z - cz) < r) return true
+  for (const [cx, cz, r] of KITS[activeBiome().id].CLEAR) if (Math.hypot(x - cx, z - cz) < r) return true
   return false
 }
 
@@ -187,7 +334,11 @@ const pick = <T,>(arr: T[], v: number) => arr[Math.floor(v * arr.length) % arr.l
 // island read as designed.
 export function vegetationSpots(): Spot[] {
   const spots: Spot[] = []
-  const put = (url: string, x: number, z: number, rot: number, scale: number, sink = 0) => {
+  // the biome kit shadows the praia pools declared above: same scatter, different plants
+  const kit = KITS[activeBiome().id]
+  const { TREES, FALL_TREES, KAYKIT_TREES, PINES, BARE_TREES, PALMS, SHORE, BUSHES, FERNS, FLOWERS, MUSHROOMS, ROCKS, KAYKIT_ROCKS, FORMATIONS, GRASS, CARPET, LILIES, STUMPS } = kit
+  const put = (url: string | undefined, x: number, z: number, rot: number, scale: number, sink = 0) => {
+    if (!url) return // an empty pool for this biome (no palms in the snow)
     const s = scale * (UNIT.get(url) ?? 1)
     spots.push({ url, pos: [x, terrainHeight(x, z) - 0.08 - sink - (LIFT.get(url) ?? 0) * s, z], rot, scale: s })
   }
@@ -199,7 +350,7 @@ export function vegetationSpots(): Spot[] {
 
   // --- grove centres: seeded rejection sampling over the mid band ---
   const clusters: [number, number, number, number][] = [] // x, z, size, seed
-  for (let k = 0; k < 8000 && clusters.length < 58; k++) {
+  for (let k = 0; k < 8000 && clusters.length < kit.GROVES; k++) {
     const a = fbm(k * 0.53, k * 0.31, 201) * Math.PI * 4
     const r = ((fbm(k * 0.37, k * 0.71, 203) + 1) / 2) * 58 + 8
     const x = Math.cos(a) * r
@@ -215,7 +366,7 @@ export function vegetationSpots(): Spot[] {
   for (const [cx, cz, size, seed] of clusters) {
     const isFall = Math.floor(seed * 97) % 3 === 0
     // on RICH, one grove in three (of the non-autumn ones) is a textured KayKit copse
-    const isKayKit = RICH && !isFall && Math.floor(seed * 53) % 3 === 1
+    const isKayKit = RICH && KAYKIT_TREES.length > 0 && !isFall && Math.floor(seed * 53) % 3 === 1
     const trees = 3 + Math.floor(seed * 3)
     for (let t = 0; t < trees; t++) {
       const ang = seed * 9 + (t * Math.PI * 2) / trees + fbm(cx + t, cz - t, 223) * 0.7
@@ -247,7 +398,7 @@ export function vegetationSpots(): Spot[] {
 
   let i = 0
   let placed = 0
-  while (placed < 1300 && i < 22000) {
+  while (placed < kit.SCATTER && i < 22000) {
     const a = fbm(i * 0.37, i * 0.91, 31) * Math.PI * 4
     const r = ((fbm(i * 0.53, i * 0.13, 77) + 1) / 2) * 72 + 5
     const v = (fbm(i * 1.7, i * 0.3, 5) + 1) / 2
@@ -262,7 +413,7 @@ export function vegetationSpots(): Spot[] {
     if (h < WATER_LEVEL + 2.2) {
       // beach band: palms and grass clumps, denser than the rest — this is the
       // foreground of the arrival shot, so it carries the framing
-      if (v < 0.5) put(pick(PALMS, w), x, z, a * 3, 2.0 + v)
+      if (v < 0.5) put(pick(SHORE, w), x, z, a * 3, 2.0 + v)
       else if (v < 0.78) put(pick(GRASS, w), x, z, a * 2, 1.6 + w * 0.8)
       else if (v > 0.96) put(pick(FORMATIONS, w), x, z, a, 1.7 + w * 0.9, 0.1)
       else if (v > 0.92) put(K + 'stone_smallFlatA.glb', x, z, a, 2.2)
@@ -350,7 +501,7 @@ export function vegetationSpots(): Spot[] {
   // the walk from one range to the next never crosses bare hillside (grass is ~100
   // tris an instance — 160 of them cost less than two trees).
   let c = 0
-  for (let k = 0; k < 9000 && c < 320; k++) {
+  for (let k = 0; k < 9000 && c < kit.CARPET_N; k++) {
     const a = fbm(k * 0.61, k * 0.17, 41) * Math.PI * 4
     const r = ((fbm(k * 0.29, k * 0.83, 43) + 1) / 2) * 60 + 8
     const x = Math.cos(a) * r
@@ -366,6 +517,7 @@ export function vegetationSpots(): Spot[] {
 
   // Poly plants — authored accents on top of the kit scatter (the spawn beach keeps
   // none: SpawnBeach.tsx owns that ground and it stays clean).
+  if (kit.POLY_ACCENTS) {
   // blue tulip bed by the bosque orchid
   for (const [bx, bz] of [[-19.6, -3.2]] as const)
     for (let k = 0; k < 3; k++) putPoly('blueTulips', bx + (k - 1) * 0.5, bz + (k % 2) * 0.35, k * 1.1, 0.9 + k * 0.08)
@@ -405,16 +557,18 @@ export function vegetationSpots(): Spot[] {
     }
   }
 
+  }
+
   // Lily pads on the shallows: where the sand runs out under the water, in clustered
   // patches (fbm gate) so they read as ponds of pads, not confetti on the sea.
   let lp = 0
-  for (let k = 0; k < 8000 && lp < 70; k++) {
+  for (let k = 0; k < 8000 && lp < kit.LILIES_N; k++) {
     const a = fbm(k * 0.27, k * 0.63, 501) * Math.PI * 4
     const r = ((fbm(k * 0.51, k * 0.23, 503) + 1) / 2) * 40 + 55
     const x = Math.cos(a) * r
     const z = Math.sin(a) * r
     const h = terrainHeight(x, z)
-    if (h < WATER_LEVEL - 0.55 || h > WATER_LEVEL - 0.1 || inClearing(x, z)) continue
+    if (h < WATER_LEVEL + kit.LILY_BAND[0] || h > WATER_LEVEL + kit.LILY_BAND[1] || inClearing(x, z)) continue
     if (fbm(x / 9, z / 9, 505) < 0.1) continue
     const w = (fbm(k * 0.9, k * 1.7, 507) + 1) / 2
     spots.push({ url: pick(LILIES, w), pos: [x, WATER_LEVEL + 0.08, z], rot: a * 3, scale: 3.6 + w * 1.8 })
@@ -454,30 +608,10 @@ export function vegetationSpots(): Spot[] {
   put(K + 'stone_largeA.glb', -13.2, -19.1, 0.3, 2.6)
   put(K + 'stone_tallA.glb', -10.8, -21.2, 2.9, 2.2)
 
+  // Biome landmarks: the Tripo signature piece and the authored props around it
+  for (const [url, x, z, rot, scale, sink] of kit.ACCENTS) put(url, x, z, rot, scale, sink ?? 0)
+
   return spots
 }
 
 
-const ALL = [
-  ...Object.values(POLY).map((m) => m.url),
-  ...TREES,
-  ...FALL_TREES,
-  ...PINES,
-  ...PALMS,
-  ...BUSHES,
-  ...FERNS,
-  ...FLOWERS,
-  ...MUSHROOMS,
-  ...ROCKS,
-  ...KAYKIT_ROCKS,
-  ...FORMATIONS,
-  ...GRASS,
-  ...STUMPS,
-  ...LILIES,
-  ...(RICH ? [...KAYKIT_TREES, ...BARE_TREES, KAYKIT_PLANKS, KAYKIT_LOG_A] : [KAYKIT_TREE]),
-  KAYKIT_LOGS,
-  KAYKIT_GOLD,
-  KAYKIT_GOLD_BARS,
-  KAYKIT_COPPER,
-]
-preloadProps(ALL)

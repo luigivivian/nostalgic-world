@@ -1,0 +1,58 @@
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 1%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 8%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 15%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 22%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 28%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 36%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 42%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 48%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 56%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 62%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 68%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 76%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 82%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 88%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: running 96%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46: success 100%
+5a4621ff-b3a1-4e08-bea8-5cbb99973d46
+{
+  "task_id": "5a4621ff-b3a1-4e08-bea8-5cbb99973d46",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "prompt": "stylized low-poly ice crystal shrine: cluster of tall translucent blue ice crystals growing from a snowy rock base, small stone lantern at the foot, cartoon game asset, clean silhouette, centered pivot",
+    "model_version": "v3.1-20260211",
+    "texture": true,
+    "pbr": true,
+    "texture_quality": "standard",
+    "texture_alignment": "geometry",
+    "export_uv": true,
+    "face_limit": 8000,
+    "geometry_quality": "standard"
+  },
+  "output": {
+    "pbr_model": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/5a4621ff-b3a1-4e08-bea8-5cbb99973d46/tripo_pbr_model_5a4621ff-b3a1-4e08-bea8-5cbb99973d46.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvNWE0NjIxZmYtYjNhMS00ZTA4LWJlYTgtNWNiYjk5OTczZDQ2L3RyaXBvX3Bicl9tb2RlbF81YTQ2MjFmZi1iM2ExLTRlMDgtYmVhOC01Y2JiOTk5NzNkNDYuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=L0EK3wlCkx5UAi8DS-3FXXL1pe82VXxHjMag68VRTztYoMnRinOjJ2oABYMOwJMfPZIe7bOuCw7JUkUx4GCD23bCsQpiXN6OxcTSbdcjXgHmGwSgx2F-4l-cgbOa0NiDt6C0U9zek7wRTYqI7lCFePgOkt5Q6mf6pxIzD127OsKQiIoLAdBQz~e-OSvCe9Az8Y6XvjSm~32d~b5KcchWqUKxhQOzHj2REcuYt7OyFUsD7IZ7a376WGE5Ow4cIC6OgZ9ysO-V3TGcwBm0LeU~D2Yr2NUnn6FDFo7dtOwtbBYljZJ3sxHWXe5z3p1VXb8qASBukpwK-0zUBq-P6BIY6Q__",
+    "generated_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/5a4621ff-b3a1-4e08-bea8-5cbb99973d46/text2image_5a4621ff-b3a1-4e08-bea8-5cbb99973d46.jpeg?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvNWE0NjIxZmYtYjNhMS00ZTA4LWJlYTgtNWNiYjk5OTczZDQ2L3RleHQyaW1hZ2VfNWE0NjIxZmYtYjNhMS00ZTA4LWJlYTgtNWNiYjk5OTczZDQ2LmpwZWciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=UXoKAjSRhzVfMdQD-7zP9fUb3Skz0lfoXsAbDtOZBk6PmTAYt5BI2CK12ryNrCTvGIj923Fz63jKJJE5miSYoEMMvtqoymfUMdY5313~hyH~TduRLuzwnUUgCoGItzdTSM-6sIz2AbTGMczYgu~L~FTwQeuzdGcQWbzzKDWDt8BolmazhTgg9-MMJtM4JiBPqNF8sjBYTnFZm3vHYZ4moSM1PG4lFeUiSpc~xwEKDJHDJlEPHt4QGl~oZj6fNq7sHC8Jh-RlRhe1zxVC9n2AbGt~3Y6SyhP-MCokplBSt-DtFtJUekGmndB0LGNsQ-rPTmUevNlPOOtMBaJtQORQBg__",
+    "rendered_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/5a4621ff-b3a1-4e08-bea8-5cbb99973d46/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvNWE0NjIxZmYtYjNhMS00ZTA4LWJlYTgtNWNiYjk5OTczZDQ2L2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=VXvZAkHtckxRIaCYk4ai9qY3Fgs6PqOdrWg5TbcpTBrlFmbJrwA2RjsMRuSeKcQlEq8cLz9PcZdSv1XDCldseVDGIrHN5lUN3f3iG-noWJB5ak68rL~kCU3jBGNUya5uAhQtSI-7ZH~NDQW580bxOIbSe3ILeZObZmS79hLJat2xj0luCiYxVIJdCy-Y2~LCHpZoBSrYZV0tPY-tovOhM1H3lVbq8rOdBXk-8ROSWk42rUTPkMBsAhFbcmKsVeuFAlr9rQlIMoRJwXZT49ijhwQ~76AWjr5s~kzNoaxkR0GERe4vBjtZKxDIFFBrqA564K5y6fIepleXY4AF0Mg3Jg__"
+  },
+  "progress": 100,
+  "create_time": 1787377183,
+  "consumed_credit": 20,
+  "prompt": "stylized low-poly ice crystal shrine: cluster of tall translucent blue ice crystals growing from a snowy rock base, small stone lantern at the foot, cartoon game asset, clean silhouette, centered pivot",
+  "thumbnail": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/5a4621ff-b3a1-4e08-bea8-5cbb99973d46/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvNWE0NjIxZmYtYjNhMS00ZTA4LWJlYTgtNWNiYjk5OTczZDQ2L2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=VXvZAkHtckxRIaCYk4ai9qY3Fgs6PqOdrWg5TbcpTBrlFmbJrwA2RjsMRuSeKcQlEq8cLz9PcZdSv1XDCldseVDGIrHN5lUN3f3iG-noWJB5ak68rL~kCU3jBGNUya5uAhQtSI-7ZH~NDQW580bxOIbSe3ILeZObZmS79hLJat2xj0luCiYxVIJdCy-Y2~LCHpZoBSrYZV0tPY-tovOhM1H3lVbq8rOdBXk-8ROSWk42rUTPkMBsAhFbcmKsVeuFAlr9rQlIMoRJwXZT49ijhwQ~76AWjr5s~kzNoaxkR0GERe4vBjtZKxDIFFBrqA564K5y6fIepleXY4AF0Mg3Jg__",
+  "queuing_num": -1,
+  "running_left_time": -1,
+  "result": {
+    "pbr_model": {
+      "type": "glb",
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/5a4621ff-b3a1-4e08-bea8-5cbb99973d46/tripo_pbr_model_5a4621ff-b3a1-4e08-bea8-5cbb99973d46.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvNWE0NjIxZmYtYjNhMS00ZTA4LWJlYTgtNWNiYjk5OTczZDQ2L3RyaXBvX3Bicl9tb2RlbF81YTQ2MjFmZi1iM2ExLTRlMDgtYmVhOC01Y2JiOTk5NzNkNDYuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=L0EK3wlCkx5UAi8DS-3FXXL1pe82VXxHjMag68VRTztYoMnRinOjJ2oABYMOwJMfPZIe7bOuCw7JUkUx4GCD23bCsQpiXN6OxcTSbdcjXgHmGwSgx2F-4l-cgbOa0NiDt6C0U9zek7wRTYqI7lCFePgOkt5Q6mf6pxIzD127OsKQiIoLAdBQz~e-OSvCe9Az8Y6XvjSm~32d~b5KcchWqUKxhQOzHj2REcuYt7OyFUsD7IZ7a376WGE5Ow4cIC6OgZ9ysO-V3TGcwBm0LeU~D2Yr2NUnn6FDFo7dtOwtbBYljZJ3sxHWXe5z3p1VXb8qASBukpwK-0zUBq-P6BIY6Q__"
+    },
+    "rendered_image": {
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/5a4621ff-b3a1-4e08-bea8-5cbb99973d46/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvNWE0NjIxZmYtYjNhMS00ZTA4LWJlYTgtNWNiYjk5OTczZDQ2L2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=VXvZAkHtckxRIaCYk4ai9qY3Fgs6PqOdrWg5TbcpTBrlFmbJrwA2RjsMRuSeKcQlEq8cLz9PcZdSv1XDCldseVDGIrHN5lUN3f3iG-noWJB5ak68rL~kCU3jBGNUya5uAhQtSI-7ZH~NDQW580bxOIbSe3ILeZObZmS79hLJat2xj0luCiYxVIJdCy-Y2~LCHpZoBSrYZV0tPY-tovOhM1H3lVbq8rOdBXk-8ROSWk42rUTPkMBsAhFbcmKsVeuFAlr9rQlIMoRJwXZT49ijhwQ~76AWjr5s~kzNoaxkR0GERe4vBjtZKxDIFFBrqA564K5y6fIepleXY4AF0Mg3Jg__",
+      "type": "webp"
+    }
+  }
+}
+/Users/luigivivian/luigiDev/nostalgic-world/assets-src/models/biome-neve/5a4621ff-b3a1-4e08-bea8-5cbb99973d46-pbr_model.glb
+/Users/luigivivian/luigiDev/nostalgic-world/assets-src/models/biome-neve/5a4621ff-b3a1-4e08-bea8-5cbb99973d46-rendered_image.webp
+/Users/luigivivian/luigiDev/nostalgic-world/assets-src/models/biome-neve/5a4621ff-b3a1-4e08-bea8-5cbb99973d46-generated_image.jpeg

@@ -13,6 +13,10 @@ import time
 from typing import Any
 from urllib import error, parse, request
 
+# Cloudflare in front of api.tripo3d.ai rejects the default Python-urllib user agent
+# (HTTP 403 "error code: 1010"); a browser-style UA passes.
+UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+
 BASE_URL = "https://api.tripo3d.ai/v2/openapi"
 FINAL_STATUSES = {"success", "failed", "banned", "expired", "cancelled", "unknown"}
 DOWNLOAD_KEYS = (
@@ -104,6 +108,7 @@ def json_request(api_key: str, method: str, path: str, payload: dict[str, Any] |
     url = f"{BASE_URL}{path}"
     body = json.dumps(payload).encode("utf-8") if payload is not None else None
     req = request.Request(url, data=body, method=method)
+    req.add_header("User-Agent", UA)
     req.add_header("Authorization", f"Bearer {api_key}")
     if payload is not None:
         req.add_header("Content-Type", "application/json")
@@ -146,6 +151,7 @@ def multipart_upload(api_key: str, file_path: Path) -> str:
     ]
     body = b"".join(parts)
     req = request.Request(f"{BASE_URL}/upload/sts", data=body, method="POST")
+    req.add_header("User-Agent", UA)
     req.add_header("Authorization", f"Bearer {api_key}")
     req.add_header("Content-Type", f"multipart/form-data; boundary={boundary}")
     req.add_header("Content-Length", str(len(body)))
@@ -220,6 +226,7 @@ def extension_for(key: str, url: str, content_type: str | None = None) -> str:
 
 def download_url(url: str, out_dir: Path, filename_base: str, key: str) -> Path:
     req = request.Request(url, method="GET")
+    req.add_header("User-Agent", UA)
     with request.urlopen(req, timeout=300) as resp:
         content = resp.read()
         content_type = resp.headers.get("Content-Type")

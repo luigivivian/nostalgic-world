@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import * as THREE from 'three'
 import { useGame, type GameEvent } from '../store'
-import { STATIONS } from '../stations'
+import { stations } from '../stations'
 
 // Event-driven VFX. Three pooled systems, three draw calls, no lights and no per-effect
 // meshes: crumbs (Points), scraps/confetti (InstancedMesh of quads) and impact rings
@@ -269,6 +269,15 @@ export function GameVFX() {
 
     const handle = (e: GameEvent) => {
       switch (e.type) {
+        case 'shot': {
+          if (!e.pos || !e.dir) break
+          // muzzle flash at the shoulder: a few over-white crumbs thrown along the shot
+          const [x, y, z] = e.pos
+          const [dx, dy, dz] = e.dir
+          for (let i = 0; i < 7; i++) crumb(x + dx * 0.2, y + dy * 0.2, z + dz * 0.2, 1.4, 0.4, 0.06, C_BURST[i % 3], 0.16)
+          ring(x + dx * 0.3, y + dy * 0.3, z + dz * 0.3, C_RING_HIT, 0.14, 0, 0.2)
+          break
+        }
         case 'hit': {
           const [x, y, z] = e.pos
           for (let i = 0; i < 30; i++) crumb(x, y, z, 4.2, 2.2, 0.09 + (i % 3) * 0.025, C_BURST[i % 3], 0.7)
@@ -294,7 +303,7 @@ export function GameVFX() {
           break
         }
         case 'stationCleared': {
-          const s = STATIONS.find((x) => x.id === e.stationId)
+          const s = stations().find((x) => x.id === e.stationId)
           if (s) ring(s.x, s.groundY + 1.4, s.z, C_RING_GOLD, 0.8, 1.2, 1.6)
           break
         }

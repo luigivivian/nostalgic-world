@@ -7,7 +7,8 @@ import { playerController } from 'three-player-controller'
 import { FootIK } from 'three-player-controller/foot-ik'
 import { createIslandGeometry, terrainHeight } from './terrain'
 import { LOW_END } from './quality'
-import { toonRamp } from './toon'
+import { rimLight, toonRamp } from './toon'
+import { createBlaster, loadBlaster } from './assets/Blaster'
 import { mergeSkinnedByMaterial } from './assets/heroLook'
 
 // Luigi rig with the UAL clips retargeted onto it (scripts/retarget-ual.py). The
@@ -29,6 +30,18 @@ const LUIGI_SKELETON = {
 // 0.01 maps that rig onto our world: 1.8-unit character, 3 u/s walk, 8.5 u/s sprint,
 // -24 u/s² gravity — i.e. the same feel the rapier capsule had (SPEED 8, gravity -22).
 const MODEL_SCALE = 0.01
+// Fist around the grip: each finger joint rotates about its measured local curl axis
+// (finger runs along local +Y; axis = along x inward, expressed in bone space) after the
+// animation has written the frame's pose. Angles per phalanx, radians.
+const FINGER_CURL: [string, [number, number, number], number[]][] = [
+  ['index', [0.36, 0, -0.93], [0.8, 1.05, 0.7]],
+  ['middle', [0.56, 0, -0.83], [0.85, 1.1, 0.75]],
+  ['ring', [0.57, 0, -0.82], [0.85, 1.1, 0.75]],
+  ['pinky', [0.47, 0, -0.88], [0.8, 1.0, 0.7]],
+]
+// blaster attachment in the hand bone's space (rig units). pos = midpoint of the thumb's
+// and middle finger's middle joints, read back through hand.worldToLocal (probe-grip2.mjs).
+const WEAPON = { bone: 'bip_hand_R', scale: 36, pos: [-2.17, 6.07, -0.76] as [number, number, number], rot: [-1.7039, -0.6352, 2.0057] as [number, number, number] }
 const WALK_SPEED = 300 // * scale = 3 u/s
 const RUN_SPEED = 850 // * scale = 8.5 u/s
 const CAM_MIN = 80 // * scale = 0.8 world units
@@ -38,7 +51,10 @@ const CAM_MAX = 450 // * scale = 4.5 world units
 // stations aim at; the nearest sand there that clears the surf is z = 43 (terrain 1.54,
 // i.e. WATER_LEVEL + 1.5). Facing -Z the player looks up the island at the high ground
 // and the praia station, with the sea and the pier behind him — the framed first shot.
-export const SPAWN = new THREE.Vector3(0, terrainHeight(0, 43) + 2.2, 43)
+export const SPAWN_X = 0
+export const SPAWN_Z = 43
+/** computed per mount: the beach height depends on the active biome's terrain */
+export const spawnPoint = () => new THREE.Vector3(SPAWN_X, terrainHeight(SPAWN_X, SPAWN_Z) + 2.2, SPAWN_Z)
 /** camera/character heading at spawn: 0 = looking down -Z, inland */
 export const SPAWN_YAW = 0
 const DROWN_Y = -12
@@ -93,6 +109,10 @@ interface Props {
   extraColliders?: THREE.Object3D[]
   /** Escape hatch for the raw controller (animations, camera mode, reset, ...). */
   onReady?: (controller: playerController) => void
+  /** Where to start and respawn; defaults to the island beach. */
+  spawn?: () => THREE.Vector3
+  /** Falling below this height resets to `spawn` (default: the sea floor). */
+  fallY?: number
 }
 
 /**
@@ -102,7 +122,7 @@ interface Props {
  * sweep against `collider` and the character's animation mixer — rapier is not
  * involved, so the player does not collide with rapier bodies (blocks, projectiles).
  */
-export function PlayerTPS({ onLockChange, collider, extraColliders, onReady }: Props) {
+export function PlayerTPS({ onLockChange, collider, extraColliders, onReady, spawn = spawnPoint, fallY = DROWN_Y }: Props) {
   const scene = useThree((s) => s.scene)
   const camera = useThree((s) => s.camera)
   const gl = useThree((s) => s.gl)
@@ -172,18 +192,47 @@ export function PlayerTPS({ onLockChange, collider, extraColliders, onReady }: P
         const mesh = o as THREE.Mesh
         if (!mesh.isMesh) return
         const old = mesh.material as THREE.MeshStandardMaterial
-        mesh.material = new THREE.MeshToonMaterial({
-          map: old.map,
-          gradientMap: toonRamp(),
-          transparent: old.transparent,
-          alphaTest: old.alphaTest,
-          side: old.side,
-        })
+        mesh.material = rimLight(
+          new THREE.MeshToonMaterial({
+            map: old.map,
+            gradientMap: toonRamp(),
+            transparent: old.transparent,
+            alphaTest: old.alphaTest,
+            side: old.side,
+          }),
+          '#dff0ff',
+          0.75,
+          2.6,
+        )
         old.dispose()
         mesh.castShadow = true
         mesh.receiveShadow = true
         mesh.frustumCulled = false
       })
+      // The blaster rides the right-hand bone. Bone space is rig units (cm), so the
+      // metre-authored model is scaled back up; offsets tuned against a close-up capture.
+      const hand = gltf.scene.getObjectByName(WEAPON.bone)
+      if (hand) {
+        const blaster = await loadBlaster().catch((e) => {
+          console.warn('blaster: generated GLB failed, using the procedural one', e)
+          return createBlaster()
+        })
+        blaster.scale.setScalar(WEAPON.scale)
+        blaster.position.set(...WEAPON.pos)
+        blaster.rotation.set(...WEAPON.rot)
+        hand.add(blaster)
+        // base × curl every frame (never multiply in place: the idle clip has no finger
+        // tracks, so an in-place multiply accumulates and the fingers spin)
+        const list: [THREE.Object3D, THREE.Quaternion][] = []
+        for (const [finger, axis, angles] of FINGER_CURL)
+          angles.forEach((a, i) => {
+            const bone = gltf.scene.getObjectByName(`bip_${finger}_${i}_R`)
+            if (!bone) return
+            const curl = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(...axis).normalize(), a)
+            list.push([bone, bone.quaternion.clone().multiply(curl)])
+          })
+        fingers.current = list
+      }
       // NOT outlined: addHeroOutline(gltf.scene) works (assets/heroLook.ts) but this rig
       // is 20 sub-meshes, so the inverted-hull pass costs 20 draw calls and at play
       // distance the 15 mm of ink never showed up in a capture. Kept for a simpler rig.
@@ -208,7 +257,7 @@ export function PlayerTPS({ onLockChange, collider, extraColliders, onReady }: P
         camera: camera as THREE.PerspectiveCamera,
         controls,
         staticCollider: extraColliders?.length ? [colliderSource, ...extraColliders] : colliderSource,
-        initPos: SPAWN.clone(),
+        initPos: spawn(),
         minCamDistance: CAM_MIN,
         maxCamDistance: CAM_MAX,
         // 0 = capsule bottom, 1 = top. >1 parks the orbit target (= screen-centre
@@ -279,10 +328,12 @@ export function PlayerTPS({ onLockChange, collider, extraColliders, onReady }: P
     // Re-initialising on a changed collider is intentional; the other deps are stable.
   }, [scene, camera, gl, collider, extraColliders, onReady])
 
+  const fingers = useRef<[THREE.Object3D, THREE.Quaternion][]>([])
   useFrame((_, delta) => {
     const c = ctrl.current
     if (!c) return
     c.update(delta)
+    for (const [bone, pose] of fingers.current) bone.quaternion.copy(pose)
 
     const g = glide.current
     if (c.getIsOnGround()) {
@@ -335,7 +386,7 @@ export function PlayerTPS({ onLockChange, collider, extraColliders, onReady }: P
       const pc = camera as THREE.PerspectiveCamera
       ;(window as { __cam?: number[] }).__cam = [pc.near, pc.far, pc.fov]
     }
-    if (pos.y < DROWN_Y) c.reset(SPAWN.clone())
+    if (pos.y < fallY) c.reset(spawn())
   })
 
   return null

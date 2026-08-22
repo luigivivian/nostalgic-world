@@ -1,0 +1,38 @@
+{
+  "task_id": "bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "prompt": "stylized low-poly mountain shrine: stone cairn tower with a small wooden torii-like gate and prayer flags, cartoon game asset, grey stone and red wood, readable silhouette, centered pivot",
+    "model_version": "v3.1-20260211",
+    "texture": true,
+    "pbr": true,
+    "texture_quality": "standard",
+    "texture_alignment": "geometry",
+    "export_uv": true,
+    "face_limit": 8000,
+    "geometry_quality": "standard"
+  },
+  "output": {
+    "pbr_model": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6/tripo_pbr_model_bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYmMwMWM3YmItMjJkNi00YTIzLWE1Y2EtMGI2YjBiNDcwYWQ2L3RyaXBvX3Bicl9tb2RlbF9iYzAxYzdiYi0yMmQ2LTRhMjMtYTVjYS0wYjZiMGI0NzBhZDYuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=LlrFMemG7OVFyMJvlCfA-NTy96UwFVWprPuuU0qnHFb0uFcEYQDfrntT4N9EiAUSVVDxtWxJXU~aZqWRg3bWz07slqnyZiHb0F-GqfN6ww6TnOydQB0s5tbIReCNOm6kpgqCsOBtfAfp7q5b1JRlDbM5Vu3HV5bQyZ7mC1Bhs6cRv-F6OUK10u-4FIvKZKiFegFdR3R9gfPYmET88vbnfgqHSZQC3cCf4JpCKzb9A1DCZ9W5AGDd7qEHVG9vXY67HOjp8GfUDE04PznrmeeklLacl6LItVscSGKh7cR1R4agmtFUFelFaqTzcztl1hIuMAIKUC8Dsk9OtGSM33Bq8A__",
+    "generated_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6/text2image_bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6.jpeg?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYmMwMWM3YmItMjJkNi00YTIzLWE1Y2EtMGI2YjBiNDcwYWQ2L3RleHQyaW1hZ2VfYmMwMWM3YmItMjJkNi00YTIzLWE1Y2EtMGI2YjBiNDcwYWQ2LmpwZWciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=VjN8gZ2vN2ZD7C-elSq1G2sul9gIdUx8sWUkSXpToUYwyUp~G5-W~fQl4F0xpMASO13IE7xCBC2Tibbyb7AqOT-hLkA9d64HOPJP6XzDZU1AOQCXjjlVzXEOnptsHwjv6SvTPU1nb73~a8eIKVXm2MZoCx3ejUMQ0MAzwzO3~FEIxqh7-HuMjioMlhcFBEe8OYsR~6gNGuVxg9zfIe~J~A9o5W~o58DADCh-9ZtDVKgWdoWp6AubVFmg879d9UFC88ZjvxKTmRZOBgdAd7UU3harJMzX-U9QQmX~ArgvLXJo40Mj4y2f5Hv7GioHDCNtNNzmvlN8OIr0cvamVRNc0w__",
+    "rendered_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYmMwMWM3YmItMjJkNi00YTIzLWE1Y2EtMGI2YjBiNDcwYWQ2L2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=U0RaUAWRy5XCG8frVqbnEseZcpa34AOfzSchh-9Mwv9TjQdP-A7pPr8sUDNwQd6xasdkmDzTrHwZuooLr7mo2OakO86Pm0abE64aym-SuPLrAAYSYFalOEL85GOWP736FBi9CXNev8bakjDJ2Ck3NMLmraVId4XQJahEpODC0lT8XCre9pEeaHvIEvL1oRr9gePBAjAiZHT1i7gikMWo4L3c77avRONN8z-~Qqp~w5Irg1Scu81rYVs5JL954IoRcyMunpRna9Qo6vPFbSzTtmtv3~0GL-SMndj3fmcjKDM0NpVWvM44V3ZXK0dEGkSf11Bx5vHVaXdr-XwVeF96sg__"
+  },
+  "progress": 100,
+  "create_time": 1787377183,
+  "consumed_credit": 20,
+  "prompt": "stylized low-poly mountain shrine: stone cairn tower with a small wooden torii-like gate and prayer flags, cartoon game asset, grey stone and red wood, readable silhouette, centered pivot",
+  "thumbnail": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYmMwMWM3YmItMjJkNi00YTIzLWE1Y2EtMGI2YjBiNDcwYWQ2L2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=U0RaUAWRy5XCG8frVqbnEseZcpa34AOfzSchh-9Mwv9TjQdP-A7pPr8sUDNwQd6xasdkmDzTrHwZuooLr7mo2OakO86Pm0abE64aym-SuPLrAAYSYFalOEL85GOWP736FBi9CXNev8bakjDJ2Ck3NMLmraVId4XQJahEpODC0lT8XCre9pEeaHvIEvL1oRr9gePBAjAiZHT1i7gikMWo4L3c77avRONN8z-~Qqp~w5Irg1Scu81rYVs5JL954IoRcyMunpRna9Qo6vPFbSzTtmtv3~0GL-SMndj3fmcjKDM0NpVWvM44V3ZXK0dEGkSf11Bx5vHVaXdr-XwVeF96sg__",
+  "queuing_num": -1,
+  "running_left_time": -1,
+  "result": {
+    "pbr_model": {
+      "type": "glb",
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6/tripo_pbr_model_bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYmMwMWM3YmItMjJkNi00YTIzLWE1Y2EtMGI2YjBiNDcwYWQ2L3RyaXBvX3Bicl9tb2RlbF9iYzAxYzdiYi0yMmQ2LTRhMjMtYTVjYS0wYjZiMGI0NzBhZDYuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=LlrFMemG7OVFyMJvlCfA-NTy96UwFVWprPuuU0qnHFb0uFcEYQDfrntT4N9EiAUSVVDxtWxJXU~aZqWRg3bWz07slqnyZiHb0F-GqfN6ww6TnOydQB0s5tbIReCNOm6kpgqCsOBtfAfp7q5b1JRlDbM5Vu3HV5bQyZ7mC1Bhs6cRv-F6OUK10u-4FIvKZKiFegFdR3R9gfPYmET88vbnfgqHSZQC3cCf4JpCKzb9A1DCZ9W5AGDd7qEHVG9vXY67HOjp8GfUDE04PznrmeeklLacl6LItVscSGKh7cR1R4agmtFUFelFaqTzcztl1hIuMAIKUC8Dsk9OtGSM33Bq8A__"
+    },
+    "rendered_image": {
+      "type": "webp",
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/bc01c7bb-22d6-4a23-a5ca-0b6b0b470ad6/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYmMwMWM3YmItMjJkNi00YTIzLWE1Y2EtMGI2YjBiNDcwYWQ2L2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=U0RaUAWRy5XCG8frVqbnEseZcpa34AOfzSchh-9Mwv9TjQdP-A7pPr8sUDNwQd6xasdkmDzTrHwZuooLr7mo2OakO86Pm0abE64aym-SuPLrAAYSYFalOEL85GOWP736FBi9CXNev8bakjDJ2Ck3NMLmraVId4XQJahEpODC0lT8XCre9pEeaHvIEvL1oRr9gePBAjAiZHT1i7gikMWo4L3c77avRONN8z-~Qqp~w5Irg1Scu81rYVs5JL954IoRcyMunpRna9Qo6vPFbSzTtmtv3~0GL-SMndj3fmcjKDM0NpVWvM44V3ZXK0dEGkSf11Bx5vHVaXdr-XwVeF96sg__"
+    }
+  }
+}

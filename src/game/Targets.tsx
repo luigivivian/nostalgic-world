@@ -11,7 +11,7 @@ import * as THREE from "three";
 import { toonRamp } from "./toon";
 import { useGame } from "./store";
 import {
-  STATIONS,
+  stations as stationDefs,
   TARGET_SIZE,
   buildStationTargets,
   stationById,
@@ -232,7 +232,7 @@ interface Props {
  */
 export function Targets({ slug, onBreak, handle }: Props) {
   const stations = useGame((s) => s.stations);
-  const all = useMemo(() => STATIONS.flatMap(buildStationTargets), []);
+  const all = useMemo(() => stationDefs().flatMap(buildStationTargets), []);
   const [broken, setBroken] = useState<Set<number>>(() => new Set());
   const [fragments, setFragments] = useState<Fragment[]>([]);
   const fragId = useRef(1);

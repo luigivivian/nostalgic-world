@@ -3,9 +3,11 @@ import { CollectibleViewer } from './collectible/CollectibleViewer'
 import type { CollectibleShape } from './collectible/Collectible'
 import { curatedSections, sectionShape } from './collectible/curation'
 import type { CollectionsIndex, CollectionManifest, ManifestItem, ManifestSection } from './types'
+import { biomeFromSearch, setBiome, type BiomeId } from './game/biomes'
 
 // Game pulls in rapier (wasm) — keep it out of the acervo bundle.
 const Game = lazy(() => import('./game/Game'))
+const Hub = lazy(() => import('./game/hub/Hub'))
 
 function Home({
   index,
@@ -21,8 +23,9 @@ function Home({
       <h1>Nostalgic World</h1>
       <p className="subtitle">Coleções Elma Chips — acervo virtual</p>
       <button className="play-btn" onClick={onPlay}>
-        ▶ Jogar — Ilha Nostálgica
+        ▶ Jogar — Jardim do Céu
       </button>
+      <p className="biome-blurb">Seis ilhas: praia, deserto, neve, pântano, montanha e ruínas — escolha no portal</p>
       {index.categories.map((cat) => (
         <section key={cat.key}>
           <h2>{cat.label}</h2>
@@ -160,8 +163,24 @@ function CollectionView({ slug, onBack }: { slug: string; onBack: () => void }) 
 export default function App() {
   const [index, setIndex] = useState<CollectionsIndex | null>(null)
   const [slug, setSlug] = useState<string | null>(null)
-  // ?play opens the island directly (QA tooling: canvas inspector, visual harness)
-  const [playing, setPlaying] = useState(() => new URLSearchParams(location.search).has('play'))
+  // ?play opens an island directly, ?hub the sky garden (QA tooling: canvas inspector,
+  // visual harness); ?biome=<id> picks the phase (set before the island module computes
+  // any terrain). Normal flow: Home -> hub -> portal -> island -> back to the hub.
+  const [screen, setScreen] = useState<'home' | 'hub' | 'play'>(() => {
+    const q = new URLSearchParams(location.search)
+    if (q.has('play')) {
+      setBiome(biomeFromSearch(location.search))
+      return 'play'
+    }
+    return q.has('hub') ? 'hub' : 'home'
+  })
+  const play = (biome: BiomeId) => {
+    setBiome(biome)
+    const url = new URL(location.href)
+    url.searchParams.set('biome', biome)
+    history.replaceState(null, '', url)
+    setScreen('play')
+  }
 
   useEffect(() => {
     fetch('/collections/index.json')
@@ -170,13 +189,19 @@ export default function App() {
       .catch(() => setIndex({ categories: [], collections: [] }))
   }, [])
 
-  if (playing)
+  if (screen === 'play')
     return (
       <Suspense fallback={<div className="center-msg">Carregando ilha...</div>}>
-        <Game onExit={() => setPlaying(false)} />
+        <Game onExit={() => setScreen('hub')} />
+      </Suspense>
+    )
+  if (screen === 'hub')
+    return (
+      <Suspense fallback={<div className="center-msg">Carregando o Jardim do Céu...</div>}>
+        <Hub onEnter={play} onExit={() => setScreen('home')} />
       </Suspense>
     )
   if (!index) return <div className="center-msg">Carregando...</div>
-  if (!slug) return <Home index={index} onOpen={setSlug} onPlay={() => setPlaying(true)} />
+  if (!slug) return <Home index={index} onOpen={setSlug} onPlay={() => setScreen('hub')} />
   return <CollectionView slug={slug} onBack={() => setSlug(null)} />
 }

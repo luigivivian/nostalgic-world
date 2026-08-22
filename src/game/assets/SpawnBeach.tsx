@@ -1,8 +1,9 @@
 import { useMemo } from 'react'
 import * as THREE from 'three'
 import { terrainHeight, WATER_LEVEL } from '../terrain'
-import { preloadProps, type Placement } from './props'
-import { SPAWN } from '../PlayerTPS'
+import type { Placement } from './props'
+import { SPAWN_X, SPAWN_Z } from '../PlayerTPS'
+import { swapProp } from './biomeSwaps'
 
 // The arrival: south beach, camera looking inland. This is the first screenshot of the
 // game, so it is authored by hand instead of scattered — a wooden pier running into the
@@ -31,15 +32,18 @@ const ROCK_B = KK + 'Rock_1_B_Color1.gltf'
 const TUFT = KK + 'Grass_2_A_Color1.gltf'
 
 const PIER_SCALE = 1.7
-const X = SPAWN.x
-const Z = SPAWN.z
+const X = SPAWN_X
+const Z = SPAWN_Z
 
 type Spot = Placement & { url: string }
 
 export function spawnBeachSpots(): Spot[] {
   const s: Spot[] = []
-  const put = (url: string, x: number, z: number, y: number, rot: number, scale: number) =>
-    s.push({ url, pos: [x, y, z], rot, scale })
+  // biomeSwaps: the palms/bushes become that biome's trees, same layout
+  const put = (url: string, x: number, z: number, y: number, rot: number, scale: number) => {
+    const swap = swapProp(url, scale)
+    if (swap) s.push({ url: swap[0], pos: [x, y, z], rot, scale: swap[1] })
+  }
   const ground = (url: string, x: number, z: number, rot: number, scale: number, sink = 0.08) =>
     put(url, x, z, terrainHeight(x, z) - sink, rot, scale)
 
@@ -137,4 +141,3 @@ export function SpawnBeach() {
   return <Campfire />
 }
 
-preloadProps([PIER, PIER_SIDE, SIGN, CAMPFIRE, STUMP, PALM_TALL, PALM_SHORT, PALM_BEND, GRASS, BUSH_ROUND, BUSH_WIDE, BUSH_SMALL, BOULDER, ROCK, ROCK_B, TUFT])

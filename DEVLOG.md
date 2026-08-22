@@ -1,99 +1,169 @@
 # Nostalgic World Dev Log
 
 ## Working State
-**Session:** 6 | **Date:** 2026-08-21
+**Session:** 9 | **Date:** 2026-08-22
 
 ### Active Task
-Asset-variety pass (user: "o pacote de assets é muito maior dos recursos utilizados,
-explore melhor") on top of the playtest fixes (archived below).
-- [x] Inventory (.tmp script): Kenney 76/329 used, KayKit Forest 13/105, ResourceBits
-      9/76, hexagon-kit 1/72 (tile style — left out), Ekfs Shrubs 0/20 (FBX only).
-- [x] Ekfs pack → 20 GLB (public/game/models/shrubs, .tmp/shrubs-to-glb.py, Blender
-      headless, atlas embedded).
-- [x] Vegetation pools: RICH tier (= !LOW_END) layers textured variants on the base
-      pools via rich(base, extra); UNIT map normalises per-file size inside put();
-      LIFT map applies the poly minY lift on every placement path (the bosque backdrop
-      sunflowers were buried to the head). KayKit Tree_1/2/3/4 groves (one non-autumn
-      grove in three), Tree_Bare on the top band, KayKit/Ekfs bushes, Ekfs flowers +
-      mushrooms + stones, KayKit stones, stump_old/oldTall, Ekfs grass; highland band
-      now has Kenney pine stands (pineGround/Small/Round/Default) + bushes; lily pads
-      (lily_large/small) on the shallows (h in [-0.55,-0.1], fbm-clustered, 70 max).
-      Density: groves 42→58 (min spacing 13), scatter 900→1300, carpet 160→320, poly
-      meadow 44→70. KayKit boulders shrunk (were 7 u cubes on the ridge).
-- [x] POIs (Trails.tsx, RICH): homestead plot at (-36,-8) — 3 crop rows (corn, wheat,
-      pumpkin+melon) in a fence with gate, pots, sign; quarry at (-26,-26) — stone
-      chunks, brick stack, iron/silver nuggets, covered pallet, boulders, sign; bivouac
-      pots; woodcutter camp + planks stack + 2 logs (Vegetation POIs).
-- [x] props.ts MATERIAL_COLORS grew: wood/woodDark (fences, signs, pots were salmon),
-      grass (corn/pumpkin leaves were teal), dirt/dirtDark.
-- [x] BUG found by the density bump: formation-*.gltf (same pack as palm-detailed) carry
-      a 5-12 u root-node translation — every formation rock rendered far from its spot
-      (one landed behind the hero; the "sea pillars" SW of the island were these). Fix
-      generalised in toonParts: any loose /game/models/*.gltf gets its root offsets
-      zeroed. Found with .tmp/probe-which.mjs (hide each InstancedMesh, diff a pixel
-      patch).
-- [x] Verified: tsc, vitest 43/43, probe-gameplay ALL PASS, views (farm/quarry/
-      woodcutter/shallows/meadow/overview/spawn) in .tmp/view-*.png.
-- [ ] User playtest <-- CURRENT
+Biomes = phases (/threejs-3d-generator: "variedade de itens e cenários: deserto, neve,
+pântano, montanha, ruínas"). One island recipe, six looks, picked on the Home screen.
+- [x] `src/game/biomes.ts`: BiomeId praia|deserto|neve|pantano|montanha|ruinas. Each owns
+      terrain knobs (maxHeight, broad, detailAmp, peakLine, rockSlope, sink), the height-band
+      palette, sky dome colours, fog, hemi/sun/rim lights, water, cloud list. Module state:
+      `setBiome()` before the island mounts; `activeBiome()` everywhere else. `?biome=<id>`
+      deep link (QA probes), Home picker chips otherwise (App.tsx writes the param too).
+- [x] terrain.ts reads the knobs (same SEED 7 + radial falloff → same coastline family, so
+      the authored stations/trails/spawn stay on land). stations.ts: `STATIONS` const →
+      `stations()` cached per biome (groundY depends on the terrain). PlayerTPS: `SPAWN`
+      const → `SPAWN_X/SPAWN_Z` + `spawnPoint()` (height per biome).
+- [x] Island.tsx: palette → shoreBlend bands, peak line, rock slope; sky uniforms, fog,
+      lights, water colour/opacity, clouds all from the biome. Praia = the exact previous
+      constants (probe-gameplay 30/30, praia captures unchanged).
+- [x] Vegetation.tsx: pools became a `Kit` per biome (`KITS`), destructured inside
+      vegetationSpots() so the scatter code is shared; empty pools (no palms in the snow)
+      are skipped by put(); density knobs (GROVES/SCATTER/CARPET_N/LILIES_N/LILY_BAND);
+      `SHORE` pool for the beach band; authored `ACCENTS` per biome (landmark + props) and
+      extra CLEAR circles; `preloadProps` now per kit inside the function.
+- [x] props.ts: `BIOME_TINTS` checked before `TINTS` (frosted grass, ochre scrub, murky
+      swamp tufts, limestone ruins); toon-parts cache keyed per biome.
+- [x] `assets/biomeSwaps.ts`: the authored layers (SpawnBeach, Trails, StationDressing)
+      keep their layouts but route every prop through `swapProp(url, scale)` — palms → snow
+      trees/pines/crooked pines, fall grove → biome trees, corn field → dropped or swapped,
+      fairy ring → stones/snow/gravestones (it sat under the landmark). Code-reviewer caught
+      the gap (palm at the beach station, a farm on the snow island). Preload is now ONE call
+      in Island.WorldProps over the merged spot list (after the swaps), no per-file preloads.
+- [x] Kits (agent, CC0, 11 MB): kenney graveyard / holiday / survival / pirate in
+      public/game/models/kenney_*-kit (GLB + atlas only), catalogued in .tmp/model-catalog.json
+      (963 entries) and public/game/models/KITS.md. Scale gotcha: survival ≈ ½, pirate 2-4×.
+- [x] Tripo (agent, 100 credits, balance 360): one landmark per biome, text-to-3D v3.1
+      standard, 8k face limit → public/game/models/gen/biome-<id>.glb (0.7-1 MB, ~7.6k tris,
+      3 JPEGs). All normalised to a 1 u cube, pivot at bbox centre → scale = height, LIFT =
+      minY. Task ids in assets-src/models/biome-*/. Placed on the east knoll [13, -3].
+- [x] Tests: src/game/__tests__/biomes.test.ts (25): per biome — stations unmoved and on
+      land, spawn on the beach, landmark off the trails, 400-3200 spots all on land (lilies
+      excepted), landmark present; mountain taller than swamp. vitest 68/68, tsc clean.
+- [x] Probe (.tmp/probe-biomes.mjs): 6 biomes, 0 page errors, 59-60 fps, 217-277 calls,
+      captures .tmp/biome-<id>-{spawn,knoll,overview,ridge}.png.
+- [x] User playtest: "ficou muito bom a variação dos biomas".
+- [x] **Hub "Jardim do Céu"** (user: Astro Bot sky-garden hub as the spawn before a phase):
+      `src/game/hub/` — hubIsland.ts (radial floating island: grass mound, flat stone
+      promenade at r 21, plaza at r 5.5, rolled rim, jagged rock underside; top = BVH
+      collider), Hub.tsx (scene: GradientSky with its own colours, cloud-sea shader plane
+      + drei cloud ring below, crystal tree = poly twisting-tree + 9 emissive shards +
+      10 orbiting tazo discs (MeshBasic ×1.7, toneMapped off → bloom), 6 portals = stone
+      pillars + emissive torus + swirl ShaderMaterial tinted by the biome's sky colours,
+      diorama of that biome's kit on each pad, drei Html labels (transform+sprite),
+      Sparkles, 10 floating KayKit rocks orbiting outside, Bloom 1.0/0.55), HubUI.tsx
+      (title, hint, nearest-portal card, fade). PlayerTPS got `spawn`/`fallY` props.
+      Walking within 2 u of a ring centre → fade → App.play(biome). Flow is now
+      Home → Hub → portal → island → "Voltar" → Hub. `?hub` deep link. Home chips removed.
+      Probe (.tmp/probe-hub.mjs): 60 fps, 158 calls, 113k tris, 42 tex; teleport into
+      the praia ring navigates to ?biome=praia and the island mounts. 0 page errors (the
+      lone 404 is /favicon.ico).
+- [ ] User playtest of the hub <-- CURRENT
 - [ ] Commit only when the user asks (never a Co-Authored-By trailer)
 
-### Perf (probe-budget, headless M1, calls = main + shadow pass)
-| | idle | play | stress |
+### Perf (probe-biomes, headless M1, idle at spawn, calls = main + shadow pass)
+| biome | calls | tris | tex |
 |---|---|---|---|
-| desktop before (post-5k) | 339 | 361 | 397 |
-| desktop now (variety pass) | 289 | 311 | 372 |
-| mobile before | 273 | 295 | 319 |
-| mobile now | 139 | 161 | 180 |
-Tris 1.02M desktop / 0.72M mobile. The RICH tier costs desktop +48 idle calls (≈40 more
-model files); stress sits ~20 over the 350 goal at 60+ fps — accepted for the variety,
-trim candidates are the Ekfs mushrooms/grass. Mobile stays under 200.
+| praia | 277 | 929k | 82 |
+| deserto | 233 | 573k | 68 |
+| neve | 226 | 822k | 67 |
+| pantano | 241 | 804k | 70 |
+| montanha | 254 | 657k | 71 |
+| ruinas | 256 | 668k | 82 |
+All under the 314 desktop ceiling; no biome adds textures beyond the three landmark JPEGs.
 
 ### Key Files (current shape)
-**`src/game/Vegetation.tsx`** (MODIFIED, ~470 lines) pools = rich(base, extra); UNIT /
-LIFT maps in put(); groves (KayKit on RICH), highland pines, lily shallows, POIs.
-**`src/game/assets/Trails.tsx`** (MODIFIED) trail loop + crags + accents; homestead and
-quarry POIs behind RICH.
-**`src/game/assets/props.ts`** (MODIFIED) MATERIAL_COLORS (9 kit material names) →
-TINTS by file; root-offset strip for loose /game/models/*.gltf.
-**`src/game/assets/SpawnBeach.tsx`** (REWRITTEN) authored spawn ground only.
-**`public/game/models/shrubs/`** (NEW) 20 Ekfs GLBs, atlas embedded.
+**`src/game/biomes.ts`** (NEW, ~300 lines) the six Biome defs + active-biome module state,
+`biomeFromSearch()`. Shape/palette/sky only — no asset URLs.
+**`src/game/Vegetation.tsx`** (MODIFIED, ~620 lines) `Kit` interface, `KITS` per biome,
+`SIGNATURE` landmark table + `SIGNATURE_SPOT`, `ACCENTS` placed at the end of vegetationSpots().
+**`src/game/assets/props.ts`** (MODIFIED) `BIOME_TINTS`, `partsCacheFor(biome)`.
+**`src/game/stations.ts`** (MODIFIED) `stations()` per-biome cache replaces the const.
+**`src/App.tsx`** (MODIFIED) Home biome chips → `play(biome)` sets the biome + URL param.
+**`src/game/assets/biomeSwaps.ts`** (NEW, ~60 lines) per-biome url → [url, scale]|null table + `swapProp()`.
+**`src/game/hub/Hub.tsx`** (NEW, ~330 lines) the sky garden scene + portal trigger; `PORTALS` table, `HUB_SPAWN`.
 
 ### Decisions (active)
-- Static props never mount their own scatter: add spots to WorldProps (Island.tsx).
-- LOW_END drops the scatter shadow pass (hero/bags/terrain keep theirs) — that is what
-  brought mobile from 273 to 129 calls; revisit only with a real-device fps number.
-- No sea landmarks: the island is the whole map; the horizon stays empty.
-- Kit colour fixes go in props.ts MATERIAL_COLORS (by material name), never per file
-  unless one file needs to differ (TINTS).
-- Spawn ground is authored in SpawnBeach.tsx only; Vegetation keeps out (r 9).
-- Variety is desktop-only (RICH): the base pools are the mobile draw-call budget.
-- New kit material colours: MATERIAL_COLORS by material name, never per file.
+- Biome = skin + kit + shape knobs over ONE authored island, not a generated island: every
+  gameplay coordinate (stations, trails, CLEAR circles, spawn) stays valid in all six.
+  Generated islands (seed per collection) come later as a placement solver on top of this.
+- Hub needs no rapier bodies but sits inside <Physics paused> only because Diagnostics
+  (useRapier) is what exposes the scene to the headless probes.
+- Biome is module state resolved before mount; anything derived from the terrain is a
+  function (stations(), spawnPoint()) or computed in a mount-time useMemo. No React context.
+- Free CC0 kits for the repeated props, Tripo only for the one landmark per biome (20 credits
+  each at standard quality). Still 360 credits.
+- Generated assets are a tooling step: sources in assets-src/, runtime files in public/game/.
+- Shader work only via toon.ts helpers; juice only via FOV + physics pause.
 
 ### Next Steps
-1. Roadmap 9: progression between collections + album in localStorage
-2. Roadmap 8: hero collides with bags/debris (needs BVH colliders, not rapier)
-3. Real phone test of the LOW_END tier (fps + touch) — numbers above are emulated
-4. Roadmap 6/7/10: terrain surface grain, shot VFX + hitstop, audio (CC0)
+1. Playtest feedback per biome; likely tuning: desert carpet density, swamp ground darkness,
+   ruins fortress pieces (pirate kit, tinted #efc48a — replace with graveyard walls if it
+   still reads plastic). Known seam: from the ridge the water plane's far edge (1280 u) sits
+   outside the sky dome (r 820), so in the flat-lit swamp a horizon line shows — fix by
+   growing the dome past the water (check the camera far plane) rather than by colour.
+2. Gameplay next (from the director plan): monsters (Quaternius Spider/Rat CC0, animated)
+   → parkour route to the knoll → generated islands (seed per collection + placement solver).
+3. Obstacles to 2 (distinct bag silhouette per tier) and Materials to 2 (vertex AO on props).
+4. Blaster aim pose; Roadmap 9 album persistence; real phone test of LOW_END.
 
 ### Blockers
-- None hard. Paid generators unavailable by design.
+- None. Tripo 360 credits; Gemini + ElevenLabs working.
 
 ### Watch Out
-- **The player does NOT collide with rapier bodies.** Walkable props go into the
-  controller's BVH (PlayerTPS extraColliders), not rapier.
-- **controller.getPosition() ≈ feet + 1.5 u**, not the feet: any proximity test against
-  ground objects must work in XZ (or subtract the offset), never raw 3D distance.
-- Loose gltfs at the models root carry root-node offsets (toonParts strips them); a
-  model that "appears somewhere else" → check node translations first (.tmp/bbox.mjs).
-- Test hook 'active-play' calls store.startRound only — no ammo piles; press Enter
-  (Game.beginRound) in probes that need them.
-- A user GLB "environment" may ship its own sky/sea/ground meshes — strip them before
-  mounting (sea-keep's black sky dome cost a session to notice).
+- Anything computed from terrainHeight at MODULE scope goes stale when the biome changes —
+  keep it a function or a mount-time memo (SPAWN and STATIONS were both module consts).
+- Kenney kit scales differ (survival ½, pirate 2-4×): fold them into `unit()` factors in
+  Vegetation, never into the shared role scales.
+- Tripo outputs are normalised to a 1 u cube with the pivot at the bbox centre: scale is
+  the height, and the model needs +(-minY)·scale to stand on the ground.
+- Per-frame bone overrides must be `copy(base × delta)`, never `multiply` in place.
+- GLSL ES reserved words in injected shader code → console-only compile error; every shader
+  edit needs a console-error capture.
 
 ---
 ---
 
 ## Session Archive
+
+### Session 9b -- 2026-08-22: Hub "Jardim do Céu"
+**What we did:** Astro Bot-style floating sky-garden hub (src/game/hub/): radial island mesh,
+crystal tree, six biome portals with swirl shaders + kit dioramas, cloud sea, floating rocks;
+walking into a ring loads that biome. Home → Hub → island → Hub.
+**Files:** hub/hubIsland.ts, hub/Hub.tsx, hub/HubUI.tsx, PlayerTPS.tsx (spawn/fallY),
+Island.tsx (GradientSky exported with colours), App.tsx, game-ui.css, __tests__/hub.test.ts
+**Decisions:** hub is its own Canvas/screen, not a game phase; portals trigger by distance.
+
+### Session 9 -- 2026-08-22: Biomes — six phases over one island
+**What we did:** biomes.ts (terrain knobs + palette + sky per phase), per-biome prop kits in
+Vegetation (Kit/KITS), BIOME_TINTS, stations()/spawnPoint() made biome-aware, Home picker +
+?biome=. Agents: 4 Kenney CC0 kits installed + catalogued; 5 Tripo landmarks (100 credits).
+**Files:** biomes.ts, terrain.ts, stations.ts, Island.tsx, Vegetation.tsx, props.ts,
+SpawnBeach.tsx, Trails.tsx, StationDressing.tsx, biomeSwaps.ts, PlayerTPS.tsx, App.tsx, Panels.tsx, styles.css, __tests__/biomes.test.ts
+**Decisions:** skin+kit over the authored island (gameplay coords stay valid); CC0 kits for
+repeats, Tripo only for one landmark per biome; biome = module state set before mount.
+
+### Session 8 -- 2026-08-22: External sourcing — blaster (Gemini→procedural), ElevenLabs audio, instance tint
+**What we did:** Keys set up (Tripo/Gemini/ElevenLabs). Gemini concept for the snack blaster;
+Tripo blocked (Cloudflare UA 403 → patched the skill script; then balance 0). Built the
+blaster procedurally to the concept as one merged mesh, attached to the right hand with a
+measured bone-local transform, shots now leave the muzzle. 11 ElevenLabs clips + audio.ts
+(Web Audio groups, unlock, cooldowns, mute, pause). Per-instance tint jitter on the prop kit.
+**Files:** assets/Blaster.ts (new), audio.ts (new), PlayerTPS.tsx, Game.tsx, assets/props.ts,
+public/game/audio/*, assets-src/concepts/blaster-side.png, skill script UA patch, .env(.example).
+**Decisions:** generators are tooling, outputs committed; audio = store subscriber; Tripo
+credits are a purchase blocker, not a skip.
+
+### Session 7 -- 2026-08-22: Graphics pass 7 — terrain grain, rim, shot VFX, hitstop, sun glare
+**What we did:** Ran the AAA graphics builder loop: terrain grain + rim light as toon shader
+injections, `shot` event with position → muzzle burst + capsule tracer + FOV punch + 70 ms
+hitstop; fresh-eyes review found the bosque approach grove hiding the hero and the sun glare
+from the shallows — both fixed (CLEAR circle; water roughness/Bloom threshold/fog/water size).
+**Files:** toon.ts, vfx/CameraPunch.tsx (new), vfx/GameVFX.tsx, Projectiles.tsx, Game.tsx,
+Island.tsx, PlayerTPS.tsx, assets/SnackBag.tsx, store.ts, Vegetation.tsx.
+**Decisions:** juice only through FOV + physics pause; reconciled scorecard 1.9, premium not met
+(Materials 1 from the reviewer); 0 extra draw calls.
 
 ### Session 6c -- 2026-08-21: Asset-variety pass — KayKit/Ekfs pools, POIs, highland pines
 **What we did:** Inventoried the packs (Kenney 23% used, KayKit 12%), converted the Ekfs

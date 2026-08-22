@@ -1,10 +1,11 @@
 import { terrainHeight, WATER_LEVEL } from './terrain'
+import { activeBiome } from './biomes'
 import type { StationState } from './store'
 
 // Level plan: three stations on the island, escalating from static to moving to
 // swinging. Positions are authored in world XZ; every Y comes from terrainHeight so
 // the layout survives any terrain retune. This module is data only (no three.js),
-// so the asset worker can read STATIONS for prop placement without pulling the scene.
+// so the asset worker can read stations() for prop placement without pulling the scene.
 
 /** Snack-bag proportions: the placeholder box and the real <SnackBag/> share these. */
 export const TARGET_SIZE: [number, number, number] = [0.8, 1.2, 0.35]
@@ -84,14 +85,25 @@ function station(
   return { id, name, tier, x: px, z: pz, layout, groundY, yaw: facingYaw(px, pz), count, rare, legendary }
 }
 
-export const STATIONS: StationDef[] = [
-  station('praia', 'Praia', 1, 0, 28, 'wall', 6, 0.1, 0),
-  station('bosque', 'Bosque', 2, -26, 4, 'rail', 6, 0.3, 0),
-  station('mirante', 'Mirante', 3, 24, -22, 'pendulum', 6, 0.45, 0.1),
-]
+// Built per biome (the ground height under each station depends on the terrain knobs),
+// cached until the biome changes. Same authored coordinates in every biome: landAt()
+// keeps them on land and STATION_NUDGES reports if a biome had to move one.
+let cache: { biome: string; list: StationDef[] } | null = null
+export function stations(): StationDef[] {
+  const biome = activeBiome().id
+  if (cache?.biome === biome) return cache.list
+  STATION_NUDGES.length = 0
+  const list = [
+    station('praia', 'Praia', 1, 0, 28, 'wall', 6, 0.1, 0),
+    station('bosque', 'Bosque', 2, -26, 4, 'rail', 6, 0.3, 0),
+    station('mirante', 'Mirante', 3, 24, -22, 'pendulum', 6, 0.45, 0.1),
+  ]
+  cache = { biome, list }
+  return list
+}
 
 export function stationById(id: string) {
-  return STATIONS.find((s) => s.id === id)
+  return stations().find((s) => s.id === id)
 }
 
 /** Highest ground a target can travel over, so a level rail never sinks into a dune. */
@@ -112,7 +124,7 @@ function place(s: StationDef, right: number, y: number): [number, number, number
 
 /** Deterministic layout: same target ids and positions every round. */
 export function buildStationTargets(s: StationDef): TargetDef[] {
-  const base = STATIONS.indexOf(s) * 100
+  const base = stations().indexOf(s) * 100
   const defs: TargetDef[] = []
 
   if (s.layout === 'wall') {
@@ -170,7 +182,7 @@ export function buildStationTargets(s: StationDef): TargetDef[] {
 
 /** Fresh station states for a new round: only tier 1 starts unlocked. */
 export function initialStationStates(): StationState[] {
-  return STATIONS.map((s) => ({
+  return stations().map((s) => ({
     id: s.id,
     name: s.name,
     tier: s.tier,

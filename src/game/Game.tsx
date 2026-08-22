@@ -13,12 +13,14 @@ import { AmmoPickups, AMMO_PER_PICKUP, AMMO_TTL_MS, type AmmoPickupDef } from '.
 import { HeldTazo } from './HeldTazo'
 import { loadTazoPool, randomTazo, rollRarity, type PoolTazo } from './tazoPool'
 import { terrainHeight } from './terrain'
-import { STATIONS, initialStationStates, stationById, type TargetDef } from './stations'
+import { stations, initialStationStates, stationById, type TargetDef } from './stations'
 import { useGame } from './store'
 import { Diagnostics, installDebugHooks, type GameTestHooks } from './diagnostics'
 import { GameUI } from './ui/GameUI'
 import { LOW_END } from './quality'
 import { GameVFX } from './vfx/GameVFX'
+import { CameraPunch } from './vfx/CameraPunch'
+import { useGameAudio } from './audio'
 
 const PROJECTILE_SPEED = 46
 const PROJECTILE_TTL = 3000
@@ -28,6 +30,7 @@ const MAX_AMMO_PICKUPS = 8
 
 // Fires on pointerdown while playing; lives inside the Canvas to reach the camera.
 const FIRE_COOLDOWN_MS = 220
+const HITSTOP_MS = 70
 
 // Reticle ray range: past this the shot just flies straight along the camera ray.
 const AIM_RANGE = 120
@@ -49,6 +52,7 @@ function ShootListener({
   enabled: boolean
 }) {
   const camera = useThree((s) => s.camera)
+  const scene = useThree((s) => s.scene)
   const { world, rapier } = useRapier()
   // read through a ref so the click that STARTS the round (enabled flips on that same
   // event, but the ref only updates on the next render) doesn't also fire a shot
@@ -82,7 +86,10 @@ function ShootListener({
         onShoot(pos.copy(origin).addScaledVector(direction, 1.1), dir.copy(direction))
         return
       }
-      pos.set(body.x, body.y - SHOULDER_DROP, body.z)
+      // the shot leaves the blaster's muzzle when the hero has one (hip level), else the shoulder
+      const muzzle = scene.getObjectByName('muzzle')
+      if (muzzle) muzzle.getWorldPosition(pos)
+      else pos.set(body.x, body.y - SHOULDER_DROP, body.z)
       // Same groups as the projectile, so the reticle lands on what the ball can hit.
       // Ignore hits closer than the character (camera clipping into a slope behind him).
       const hit = world.castRay(
@@ -105,7 +112,7 @@ function ShootListener({
       document.removeEventListener('pointerdown', handler)
       window.removeEventListener('game:fire', handler)
     }
-  }, [camera, world, rapier, onShoot, controllerRef])
+  }, [camera, scene, world, rapier, onShoot, controllerRef])
   return null
 }
 
@@ -119,6 +126,10 @@ export default function Game({ onExit }: { onExit: () => void }) {
   const [pickups, setPickups] = useState<PickupDef[]>([])
   const [ammoPickups, setAmmoPickups] = useState<AmmoPickupDef[]>([])
   const [held, setHeld] = useState<PoolTazo | null>(null)
+  // hitstop: the physics world freezes for a beat on every bag break (the controller
+  // is BVH-based, so the player keeps moving; only bags, debris and shots hold)
+  const [hitstop, setHitstop] = useState(false)
+  useGameAudio()
   const nextId = useRef(1)
   const poolRef = useRef<PoolTazo[] | null>(null)
   const controllerRef = useRef<playerController | null>(null)
@@ -136,6 +147,20 @@ export default function Game({ onExit }: { onExit: () => void }) {
   useEffect(() => {
     const pending = timers.current
     return () => pending.forEach(clearTimeout)
+  }, [])
+
+  useEffect(() => {
+    let t: ReturnType<typeof setTimeout> | null = null
+    const unsub = useGame.subscribe((s, prev) => {
+      if (s.eventSeq === prev.eventSeq || s.lastEvent?.type !== 'hit') return
+      setHitstop(true)
+      if (t) clearTimeout(t)
+      t = setTimeout(() => setHitstop(false), HITSTOP_MS)
+    })
+    return () => {
+      unsub()
+      if (t) clearTimeout(t)
+    }
   }, [])
 
   // Fresh session: the store outlives this component (module singleton).
@@ -176,12 +201,12 @@ export default function Game({ onExit }: { onExit: () => void }) {
     setProjectiles([])
     setPickups([])
     setHeld(null)
-    setAmmoPickups(ammoAround(STATIONS[0].x, STATIONS[0].z, 1))
+    setAmmoPickups(ammoAround(stations()[0].x, stations()[0].z, 1))
   }, [ammoAround])
 
   const shoot = useCallback((pos: THREE.Vector3, dir: THREE.Vector3) => {
     // dry fire consumes the cooldown but spawns nothing
-    if (!useGame.getState().tryShoot()) return
+    if (!useGame.getState().tryShoot([pos.x, pos.y, pos.z], [dir.x, dir.y, dir.z])) return
     const id = nextId.current++
     setProjectiles((ps) => [
       ...ps,
@@ -355,7 +380,7 @@ export default function Game({ onExit }: { onExit: () => void }) {
             or the suspension bubbles to App's <Suspense> and unmounts the whole
             Canvas (WebGL context + PointerLockControls die mid-flight) */}
         <Suspense fallback={null}>
-          <Physics gravity={[0, -22, 0]} paused={phase === 'paused'}>
+          <Physics gravity={[0, -22, 0]} paused={phase === 'paused' || hitstop}>
             <Island />
             <PlayerTPS onReady={handleControllerReady} />
             {/* remount on every round: broken bags, fragments and hit guards reset */}
@@ -363,6 +388,7 @@ export default function Game({ onExit }: { onExit: () => void }) {
             <Projectiles projectiles={projectiles} onMiss={handleMiss} />
             <Pickups pickups={pickups} onCollect={handleCollect} controllerRef={controllerRef} />
             <GameVFX />
+            <CameraPunch />
             <AmmoPickups slug={slug} pickups={ammoPickups} onCollect={handleAmmo} controllerRef={controllerRef} />
             <Diagnostics pickups={pickups.length} />
             <ShootListener onShoot={shoot} controllerRef={controllerRef} enabled={playing} />
@@ -372,7 +398,7 @@ export default function Game({ onExit }: { onExit: () => void }) {
         {!LOW_END && (
           <EffectComposer>
             {/* threshold above sky luminance: only emissive shots/pickup glow bloom */}
-            <Bloom luminanceThreshold={1.0} intensity={0.35} mipmapBlur />
+            <Bloom luminanceThreshold={1.1} intensity={0.35} mipmapBlur />
             <Vignette darkness={0.55} offset={0.28} />
           </EffectComposer>
         )}

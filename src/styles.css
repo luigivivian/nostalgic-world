@@ -343,3 +343,9 @@ body {
 .play-btn:hover {
   background: #383214;
 }
+
+.biome-blurb {
+  margin: 0 0 26px;
+  color: #9a937a;
+  font-size: 13px;
+}

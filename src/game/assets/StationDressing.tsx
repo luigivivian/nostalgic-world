@@ -1,6 +1,7 @@
 import { terrainHeight } from '../terrain'
 import { stationById } from '../stations'
-import { preloadProps, type Placement } from './props'
+import type { Placement } from './props'
+import { swapProp } from './biomeSwaps'
 
 // Set dressing per station. The stations themselves are gameplay (Targets.tsx); this is
 // the authored place around them — what makes "Praia" read as a beach range, "Bosque" as
@@ -128,12 +129,13 @@ export function stationSpots(id: StationId): (Placement & { url: string })[] {
   if (!s || !layout) return []
   const cos = Math.cos(s.yaw)
   const sin = Math.sin(s.yaw)
-  return layout.map(([url, right, back, rot, scale]) => {
+  const out: (Placement & { url: string })[] = []
+  for (const [url, right, back, rot, scale] of layout) {
     // right = station +X, back = away from the approach direction
     const x = s.x + cos * right - sin * back
     const z = s.z - sin * right - cos * back
-    return { url, pos: [x, terrainHeight(x, z) - 0.06, z], rot: s.yaw + rot, scale }
-  })
+    const swap = swapProp(url, scale)
+    if (swap) out.push({ url: swap[0], pos: [x, terrainHeight(x, z) - 0.06, z], rot: s.yaw + rot, scale: swap[1] })
+  }
+  return out
 }
-
-preloadProps([...new Set(Object.values(LAYOUTS).flat().map((l) => l[0]))])

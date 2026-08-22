@@ -1,3 +1,4 @@
+import { activeBiome } from '../biomes'
 import { useMemo } from 'react'
 import { useGame } from '../store'
 import { ProgressRing } from './AlbumCluster'
@@ -46,7 +47,7 @@ export function StartPanel({ onExit, isTouch }: { onExit: () => void; isTouch: b
   return (
     <div className="ui-scrim is-open">
       <div className="ui-panel start-panel">
-        <span className="panel-kicker">Coleção da sessão</span>
+        <span className="panel-kicker">Fase · {activeBiome().name}</span>
         <h1 className="panel-title">Ilha Nostálgica</h1>
         <CollectionLine />
         <p className="panel-cta">{isTouch ? 'Toque para jogar' : 'Clique para jogar'}</p>

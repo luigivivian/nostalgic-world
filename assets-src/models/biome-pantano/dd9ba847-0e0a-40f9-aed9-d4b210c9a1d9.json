@@ -1,0 +1,38 @@
+{
+  "task_id": "dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "prompt": "stylized low-poly swamp stilt hut: small wooden shack on four crooked stilts, moss on the roof, hanging lantern, rope ladder, cartoon game asset, dark wood and green moss, readable silhouette, centered pivot",
+    "model_version": "v3.1-20260211",
+    "texture": true,
+    "pbr": true,
+    "texture_quality": "standard",
+    "texture_alignment": "geometry",
+    "export_uv": true,
+    "face_limit": 8000,
+    "geometry_quality": "standard"
+  },
+  "output": {
+    "pbr_model": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9/tripo_pbr_model_dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZGQ5YmE4NDctMGUwYS00MGY5LWFlZDktZDRiMjEwYzlhMWQ5L3RyaXBvX3Bicl9tb2RlbF9kZDliYTg0Ny0wZTBhLTQwZjktYWVkOS1kNGIyMTBjOWExZDkuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=nmvoIa4G99KaYGNJstH2TO4iPjij83in8IMWbrudzV7-O48UMnHIGpoqh8glSdyPRz~On278V2MPLeQiTbxbce9-D5Xl0Px1Qp7KsPEx7EPp~lJayr3ZSLRoqekYquVpQVN~g0KOPGZ-hVBsmo9cmoIhkN~xYNWkV-QNHD4N1K29BkBe1HzV7ovsnIaqQOlnpC0wUww2j4HbPhuqhnviKjtc~~fkt5Z3P0hvWG3MsVAer5gyi7JzUFozKgnDb8hnSHdUz~1qtFeDzW~mkwcTF~PVGzipi5EjbShPxjMe6Euv2ojF-LwYYj~AI1KGHjTTDa3M-QpHt8uIJESDgSkWxg__",
+    "generated_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9/text2image_dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9.jpeg?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZGQ5YmE4NDctMGUwYS00MGY5LWFlZDktZDRiMjEwYzlhMWQ5L3RleHQyaW1hZ2VfZGQ5YmE4NDctMGUwYS00MGY5LWFlZDktZDRiMjEwYzlhMWQ5LmpwZWciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=AVMNPPOCqnXJcNEBw-OQLNdInTTjMRWyEiSNFji2EQiQwLgSeI8HWcsKGQAhVgzx05TPrzQeSi8F4hoNsAOIBrlCXUz5PgV9PxuSaAsAgMNOIPO5RUl3Ke3A5hHtapG5dy48rmMZv0EFueuIAOx~W-rmK5pnOyFB118FhIc~39c3ulqQoTtuNmp11vep95~uRWyLANlWIKdi9KZFMUQuqSlMxcp85GLUgMkqT~5hEg9vS6pkTZUdnMGk8CXKsNc99M6a1zUrD71RcmGQxi7IQu0qxnZ4Qt~UyeujmA4XNHzIHD7gOg10Sqr95NSEYuo4QKZd5BS9DHNmjDLsGcjV1w__",
+    "rendered_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZGQ5YmE4NDctMGUwYS00MGY5LWFlZDktZDRiMjEwYzlhMWQ5L2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=l35CJCbQ5B4roSQH5tMNz6uD6f6h01uSzKsivMMOVaSxJjxvVnxZrne4sU6c8mym1vsuyV8wxKH5JulAa0AA3de6QsygseQPXGj0ZbeK4EMRCnQWAfqsAhjDu2Z82GA5unqX5flXU03BTjN0eyd1JcRgSf~369JriH5C872vyBCgZcRctvCljudlZMeX5eGXAGaXnuiWpXsHty9hD34DeYOF6aOdBCZoq3Osj-93j2lS1dK9DsMu2tlXVpoeTHows5T9JD3KxEQZbSHEFDw2KgYsAfS1FESDJpJlFHEif1xj1olM1m9E6~zxn~lFpLhk5Ptr1omE3V~wHeKUwAmatQ__"
+  },
+  "progress": 100,
+  "create_time": 1787377183,
+  "consumed_credit": 20,
+  "prompt": "stylized low-poly swamp stilt hut: small wooden shack on four crooked stilts, moss on the roof, hanging lantern, rope ladder, cartoon game asset, dark wood and green moss, readable silhouette, centered pivot",
+  "thumbnail": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZGQ5YmE4NDctMGUwYS00MGY5LWFlZDktZDRiMjEwYzlhMWQ5L2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=l35CJCbQ5B4roSQH5tMNz6uD6f6h01uSzKsivMMOVaSxJjxvVnxZrne4sU6c8mym1vsuyV8wxKH5JulAa0AA3de6QsygseQPXGj0ZbeK4EMRCnQWAfqsAhjDu2Z82GA5unqX5flXU03BTjN0eyd1JcRgSf~369JriH5C872vyBCgZcRctvCljudlZMeX5eGXAGaXnuiWpXsHty9hD34DeYOF6aOdBCZoq3Osj-93j2lS1dK9DsMu2tlXVpoeTHows5T9JD3KxEQZbSHEFDw2KgYsAfS1FESDJpJlFHEif1xj1olM1m9E6~zxn~lFpLhk5Ptr1omE3V~wHeKUwAmatQ__",
+  "queuing_num": -1,
+  "running_left_time": -1,
+  "result": {
+    "pbr_model": {
+      "type": "glb",
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9/tripo_pbr_model_dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZGQ5YmE4NDctMGUwYS00MGY5LWFlZDktZDRiMjEwYzlhMWQ5L3RyaXBvX3Bicl9tb2RlbF9kZDliYTg0Ny0wZTBhLTQwZjktYWVkOS1kNGIyMTBjOWExZDkuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=nmvoIa4G99KaYGNJstH2TO4iPjij83in8IMWbrudzV7-O48UMnHIGpoqh8glSdyPRz~On278V2MPLeQiTbxbce9-D5Xl0Px1Qp7KsPEx7EPp~lJayr3ZSLRoqekYquVpQVN~g0KOPGZ-hVBsmo9cmoIhkN~xYNWkV-QNHD4N1K29BkBe1HzV7ovsnIaqQOlnpC0wUww2j4HbPhuqhnviKjtc~~fkt5Z3P0hvWG3MsVAer5gyi7JzUFozKgnDb8hnSHdUz~1qtFeDzW~mkwcTF~PVGzipi5EjbShPxjMe6Euv2ojF-LwYYj~AI1KGHjTTDa3M-QpHt8uIJESDgSkWxg__"
+    },
+    "rendered_image": {
+      "type": "webp",
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/dd9ba847-0e0a-40f9-aed9-d4b210c9a1d9/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZGQ5YmE4NDctMGUwYS00MGY5LWFlZDktZDRiMjEwYzlhMWQ5L2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=l35CJCbQ5B4roSQH5tMNz6uD6f6h01uSzKsivMMOVaSxJjxvVnxZrne4sU6c8mym1vsuyV8wxKH5JulAa0AA3de6QsygseQPXGj0ZbeK4EMRCnQWAfqsAhjDu2Z82GA5unqX5flXU03BTjN0eyd1JcRgSf~369JriH5C872vyBCgZcRctvCljudlZMeX5eGXAGaXnuiWpXsHty9hD34DeYOF6aOdBCZoq3Osj-93j2lS1dK9DsMu2tlXVpoeTHows5T9JD3KxEQZbSHEFDw2KgYsAfS1FESDJpJlFHEif1xj1olM1m9E6~zxn~lFpLhk5Ptr1omE3V~wHeKUwAmatQ__"
+    }
+  }
+}

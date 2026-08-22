@@ -1,0 +1,57 @@
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: queued 0%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 8%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 15%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 22%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 28%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 36%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 42%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 48%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 56%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 62%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 68%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 76%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 82%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: running 88%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3: success 100%
+ab483f0b-f8b7-40da-99ef-124d22b89ea3
+{
+  "task_id": "ab483f0b-f8b7-40da-99ef-124d22b89ea3",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "prompt": "stylized low-poly ancient temple ruin: broken stone archway with two cracked pillars, vines and moss, fallen blocks at the base, cartoon game asset, pale limestone with green vines, readable silhouette, centered pivot",
+    "model_version": "v3.1-20260211",
+    "texture": true,
+    "pbr": true,
+    "texture_quality": "standard",
+    "texture_alignment": "geometry",
+    "export_uv": true,
+    "face_limit": 8000,
+    "geometry_quality": "standard"
+  },
+  "output": {
+    "pbr_model": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/ab483f0b-f8b7-40da-99ef-124d22b89ea3/tripo_pbr_model_ab483f0b-f8b7-40da-99ef-124d22b89ea3.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYWI0ODNmMGItZjhiNy00MGRhLTk5ZWYtMTI0ZDIyYjg5ZWEzL3RyaXBvX3Bicl9tb2RlbF9hYjQ4M2YwYi1mOGI3LTQwZGEtOTllZi0xMjRkMjJiODllYTMuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=mD4ITfn5ZFP6a~rPhkBTgjwrtlkHcWG55QvgJWEIOY6CRIAl1MuLpZ~mhkrRo253X3k2cmD7YIHKLIF2lRMrh5WX8xbPyVypMOjc2N1rmSsHk7cpE3sxYhK5cdfQXvywe7zdsrRAU9j55Y8tudJsky6kIkz17CAnOX6AqqFm7D77V-Bq~x69yarVQOynplsGkxgJdxSwmqAu2ZWIKtIa0BWxbTJXlbrdMNJe5IRev9c8FSkqVscXj~q8j22MQvDJlGwXqZyH5o7RI8JNkhtyPbdqP2KEH-HoB-oOg92Q~GmBBNOx01j~EcdrGCcKMqE1-o3x9Hxlzl61OOl8UA7B5Q__",
+    "generated_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/ab483f0b-f8b7-40da-99ef-124d22b89ea3/text2image_ab483f0b-f8b7-40da-99ef-124d22b89ea3.jpeg?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYWI0ODNmMGItZjhiNy00MGRhLTk5ZWYtMTI0ZDIyYjg5ZWEzL3RleHQyaW1hZ2VfYWI0ODNmMGItZjhiNy00MGRhLTk5ZWYtMTI0ZDIyYjg5ZWEzLmpwZWciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=fi7rEYtssGxxTXlavBst4D28zAtZAJJ-CrY~YS3JmHEmzfPreIHAqvMqI226j10~wUCJxcns~Z6oH~tU2OdnGobSlNaqXM6EnA9cykj3UbvDVUhRq-gBnPp8Kibtx7vbFnOkx~X1Lgt85H~HLGVgRUXfJ~Vl2wbSJ7Pa9rAdwjeXnmj08iQPq0lix~-d~8OVggJlUwql5gGnP-latyhfJu2IIYOaOHRNts9D-7Nj4dYGESKmYkFe~5F19nbdFLBRo6rrbZKwRaoJy8gSOguc2ji0ICJ1dA4tcyGqCH6Okj0-Vu-rLCQjZIxFUSx9U9CABOzbxGxClMCTQJx0A31Ngw__",
+    "rendered_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/ab483f0b-f8b7-40da-99ef-124d22b89ea3/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYWI0ODNmMGItZjhiNy00MGRhLTk5ZWYtMTI0ZDIyYjg5ZWEzL2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=wLf2-YfEb3RAw6RDrjgwIsIv-dGHvgBu9KQRVKjkFflhZ3b50hFgkgiKZ9DctQf2I2dXBXNT8W1roPX0tuVSxk-rtU92TTtJ9X3Fm2NBJhDj2T9z9hEvOUAob~gjFmPpwL8nxo5vZUXwUsSUoNiamVTZbd3wW4ZTiZR5mNw~fOAL3lXQQkoLAKVgsrET~IZTOvdwgfg1Jhpy4zCcIrI5jNNU13Y5VLLpGcP8unxlXZGpGYy69qNH8-mRJ3a0mf9InbhO67e9oFBZemudj6IjrYSwZO8vUXPJOdQsf3XzFk4oPjTD~-Vjs8c-tFKQFvoXW1s67QRWbJrf3XumY7Y6VA__"
+  },
+  "progress": 100,
+  "create_time": 1787377183,
+  "consumed_credit": 20,
+  "prompt": "stylized low-poly ancient temple ruin: broken stone archway with two cracked pillars, vines and moss, fallen blocks at the base, cartoon game asset, pale limestone with green vines, readable silhouette, centered pivot",
+  "thumbnail": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/ab483f0b-f8b7-40da-99ef-124d22b89ea3/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYWI0ODNmMGItZjhiNy00MGRhLTk5ZWYtMTI0ZDIyYjg5ZWEzL2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=wLf2-YfEb3RAw6RDrjgwIsIv-dGHvgBu9KQRVKjkFflhZ3b50hFgkgiKZ9DctQf2I2dXBXNT8W1roPX0tuVSxk-rtU92TTtJ9X3Fm2NBJhDj2T9z9hEvOUAob~gjFmPpwL8nxo5vZUXwUsSUoNiamVTZbd3wW4ZTiZR5mNw~fOAL3lXQQkoLAKVgsrET~IZTOvdwgfg1Jhpy4zCcIrI5jNNU13Y5VLLpGcP8unxlXZGpGYy69qNH8-mRJ3a0mf9InbhO67e9oFBZemudj6IjrYSwZO8vUXPJOdQsf3XzFk4oPjTD~-Vjs8c-tFKQFvoXW1s67QRWbJrf3XumY7Y6VA__",
+  "queuing_num": -1,
+  "running_left_time": -1,
+  "result": {
+    "pbr_model": {
+      "type": "glb",
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/ab483f0b-f8b7-40da-99ef-124d22b89ea3/tripo_pbr_model_ab483f0b-f8b7-40da-99ef-124d22b89ea3.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYWI0ODNmMGItZjhiNy00MGRhLTk5ZWYtMTI0ZDIyYjg5ZWEzL3RyaXBvX3Bicl9tb2RlbF9hYjQ4M2YwYi1mOGI3LTQwZGEtOTllZi0xMjRkMjJiODllYTMuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=mD4ITfn5ZFP6a~rPhkBTgjwrtlkHcWG55QvgJWEIOY6CRIAl1MuLpZ~mhkrRo253X3k2cmD7YIHKLIF2lRMrh5WX8xbPyVypMOjc2N1rmSsHk7cpE3sxYhK5cdfQXvywe7zdsrRAU9j55Y8tudJsky6kIkz17CAnOX6AqqFm7D77V-Bq~x69yarVQOynplsGkxgJdxSwmqAu2ZWIKtIa0BWxbTJXlbrdMNJe5IRev9c8FSkqVscXj~q8j22MQvDJlGwXqZyH5o7RI8JNkhtyPbdqP2KEH-HoB-oOg92Q~GmBBNOx01j~EcdrGCcKMqE1-o3x9Hxlzl61OOl8UA7B5Q__"
+    },
+    "rendered_image": {
+      "type": "webp",
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/ab483f0b-f8b7-40da-99ef-124d22b89ea3/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvYWI0ODNmMGItZjhiNy00MGRhLTk5ZWYtMTI0ZDIyYjg5ZWEzL2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=wLf2-YfEb3RAw6RDrjgwIsIv-dGHvgBu9KQRVKjkFflhZ3b50hFgkgiKZ9DctQf2I2dXBXNT8W1roPX0tuVSxk-rtU92TTtJ9X3Fm2NBJhDj2T9z9hEvOUAob~gjFmPpwL8nxo5vZUXwUsSUoNiamVTZbd3wW4ZTiZR5mNw~fOAL3lXQQkoLAKVgsrET~IZTOvdwgfg1Jhpy4zCcIrI5jNNU13Y5VLLpGcP8unxlXZGpGYy69qNH8-mRJ3a0mf9InbhO67e9oFBZemudj6IjrYSwZO8vUXPJOdQsf3XzFk4oPjTD~-Vjs8c-tFKQFvoXW1s67QRWbJrf3XumY7Y6VA__"
+    }
+  }
+}
+/Users/luigivivian/luigiDev/nostalgic-world/assets-src/models/biome-ruinas/ab483f0b-f8b7-40da-99ef-124d22b89ea3-pbr_model.glb
+/Users/luigivivian/luigiDev/nostalgic-world/assets-src/models/biome-ruinas/ab483f0b-f8b7-40da-99ef-124d22b89ea3-rendered_image.webp
+/Users/luigivivian/luigiDev/nostalgic-world/assets-src/models/biome-ruinas/ab483f0b-f8b7-40da-99ef-124d22b89ea3-generated_image.jpeg

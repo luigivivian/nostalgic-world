@@ -1,4 +1,4 @@
-import { RigidBody, interactionGroups } from '@react-three/rapier'
+import { BallCollider, RigidBody, interactionGroups } from '@react-three/rapier'
 import * as THREE from 'three'
 
 export interface ProjectileDef {
@@ -7,12 +7,12 @@ export interface ProjectileDef {
   vel: [number, number, number]
 }
 
-const geometry = new THREE.SphereGeometry(0.09, 12, 12)
-const material = new THREE.MeshStandardMaterial({
-  color: '#ffd23f',
-  emissive: '#c98800',
-  emissiveIntensity: 0.6,
-})
+// The shot reads as a tracer: a short capsule stretched along its velocity, over-white
+// so it crosses the Bloom threshold. The collider stays the 0.09 ball the aim was tuned on.
+const geometry = new THREE.CapsuleGeometry(0.055, 0.75, 3, 8)
+const material = new THREE.MeshBasicMaterial({ color: new THREE.Color(2.4, 1.9, 0.7), toneMapped: false })
+const UP = new THREE.Vector3(0, 1, 0)
+const dir = new THREE.Vector3()
 
 interface Props {
   projectiles: ProjectileDef[]
@@ -29,7 +29,7 @@ export function Projectiles({ projectiles, onMiss }: Props) {
           key={p.id}
           position={p.pos}
           linearVelocity={p.vel}
-          colliders="ball"
+          colliders={false}
           ccd
           density={4}
           // no gravity: the shot must land exactly on the reticle (at world gravity the
@@ -43,7 +43,13 @@ export function Projectiles({ projectiles, onMiss }: Props) {
             onMiss(p.id)
           }}
         >
-          <mesh geometry={geometry} material={material} dispose={null} />
+          <BallCollider args={[0.09]} />
+          <mesh
+            geometry={geometry}
+            material={material}
+            quaternion={new THREE.Quaternion().setFromUnitVectors(UP, dir.set(...p.vel).normalize())}
+            dispose={null}
+          />
         </RigidBody>
       ))}
     </>

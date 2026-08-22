@@ -1,6 +1,7 @@
 import { terrainHeight, WATER_LEVEL } from '../terrain'
 import { fbm } from '../noise'
-import { preloadProps, type Placement } from './props'
+import type { Placement } from './props'
+import { swapProp } from './biomeSwaps'
 import { LOW_END } from '../quality'
 
 // Authored terrain structures on top of the scatter: the island trail network and the
@@ -207,8 +208,11 @@ export function trailSpots(): Spot[] {
 
   // High-visibility accents: the variety pools scatter thin, so these clumps are what
   // the player actually notices walking the trail.
-  const accent = (url: string, x: number, z: number, rot: number, scale: number, sink = 0) =>
-    spots.push({ url, pos: [x, terrainHeight(x, z) - 0.08 - sink, z], rot, scale })
+  // authored accents go through biomeSwaps (no corn field in the snow)
+  const accent = (url: string, x: number, z: number, rot: number, scale: number, sink = 0) => {
+    const swap = swapProp(url, scale)
+    if (swap) spots.push({ url: swap[0], pos: [x, terrainHeight(x, z) - 0.08 - sink, z], rot, scale: swap[1] })
+  }
 
   // autumn grove: an orange copse where leg B climbs out of the praia valley
   for (let k = 0; k < 7; k++) {
@@ -310,5 +314,3 @@ export const TRAIL_CLEAR: [number, number, number][] = (() => {
   return out
 })()
 
-preloadProps([PATH_STONE, PATH_WOOD, CLIFF_SLOPE, CLIFF_LARGE, CLIFF_CAVE, STATUE_HEAD, STATUE_BLOCK, GROUND_ROCKS, BRIDGE, FALL_OAK, FALL_CONE, MUSH_TAN, CAMPFIRE_BRICKS, TENT_SMALL, SIGN, POT_SMALL, POT_LARGE, ...FLOWER_PICK])
-if (RICH) preloadProps([DIRT_ROW, CORN, WHEAT, PUMPKIN, MELON, FENCE, FENCE_CORNER, FENCE_GATE, STONE_CHUNKS, STONE_BRICKS, IRON, SILVER, PALLET_COVERED, KK_ROCK])

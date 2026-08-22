@@ -11,7 +11,7 @@ export type RoundEndReason = 'ammo' | 'cleared' | 'quit'
 export type GameEvent =
   | { type: 'roundStart'; at: number; round: number }
   | { type: 'roundOver'; at: number; reason: RoundEndReason; score: number }
-  | { type: 'shot'; at: number; ammoLeft: number }
+  | { type: 'shot'; at: number; ammoLeft: number; pos?: [number, number, number]; dir?: [number, number, number] }
   | { type: 'dryFire'; at: number }
   | { type: 'hit'; at: number; pos: [number, number, number]; targetId: number; stationId: string; combo: number }
   | { type: 'miss'; at: number }
@@ -87,7 +87,7 @@ interface GameState {
   endRound: (reason: RoundEndReason) => void
   setPhase: (p: GamePhase) => void
   /** consumes one ammo; returns false (and emits dryFire) when empty */
-  tryShoot: () => boolean
+  tryShoot: (pos?: [number, number, number], dir?: [number, number, number]) => boolean
   registerHit: (targetId: number, stationId: string, pos: [number, number, number]) => void
   registerMiss: () => void
   collect: (tazo: PoolTazo, rarity: Rarity, pos: [number, number, number]) => void
@@ -139,7 +139,7 @@ export const useGame = create<GameState>()((set, get) => {
     },
     setPhase: (phase) => set({ phase }),
 
-    tryShoot: () => {
+    tryShoot: (pos, dir) => {
       const { ammo, phase } = get()
       if (phase !== 'playing') return false
       if (ammo <= 0) {
@@ -147,7 +147,7 @@ export const useGame = create<GameState>()((set, get) => {
         return false
       }
       set({ ammo: ammo - 1 })
-      emit({ type: 'shot', at: performance.now(), ammoLeft: ammo - 1 })
+      emit({ type: 'shot', at: performance.now(), ammoLeft: ammo - 1, pos, dir })
       return true
     },
     registerHit: (targetId, stationId, pos) => {

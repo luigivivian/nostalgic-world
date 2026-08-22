@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Outlines } from '@react-three/drei'
 import * as THREE from 'three'
-import { toonRamp } from '../toon'
+import { rimLight, toonRamp } from '../toon'
 import { bagGeometry } from './bagGeometry'
 import { acquireBagTexture, bagSources, onBagTextureDisposed, proceduralBagTexture, releaseBagTexture } from './bagTexture'
 
@@ -28,7 +28,7 @@ export function bagMaterial(map: THREE.Texture | null): THREE.MeshToonMaterial {
   if (!map) return loadingMaterial
   const hit = materials.get(map)
   if (hit) return hit
-  const m = new THREE.MeshToonMaterial({ map, gradientMap: toonRamp() })
+  const m = rimLight(new THREE.MeshToonMaterial({ map, gradientMap: toonRamp() }), '#fff1cc', 0.28)
   materials.set(map, m)
   return m
 }

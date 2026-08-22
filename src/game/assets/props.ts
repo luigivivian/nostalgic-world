@@ -3,6 +3,7 @@ import * as THREE from 'three'
 import { useGLTF } from '@react-three/drei'
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js'
 import { toonRamp } from '../toon'
+import { activeBiome, type BiomeId } from '../biomes'
 
 // Shared loader/instancer for the low-poly packs in public/game/models.
 // Two jobs:
@@ -70,7 +71,49 @@ const TINTS: [RegExp, THREE.Color][] = [
 // original (unmerged) geometries stay alive in drei's useGLTF cache alongside the merged
 // copies — accepted: the packs are small, and disposing them would break any other
 // consumer of the same useGLTF entry (DevShowcase, future props).
-const partsCache = new WeakMap<THREE.Object3D, ToonPart[]>()
+// Biome overrides, checked before TINTS: the same kit file reads as a different plant in
+// a different climate (frosted grass, ochre desert scrub, murky swamp tufts).
+const BIOME_TINTS: Partial<Record<BiomeId, [RegExp, THREE.Color][]>> = {
+  deserto: [
+    [/grass(_large|_leafs|_leafsLarge)?\.glb$/, new THREE.Color('#c9b36a')],
+    [/plant_(bush|flat)/, new THREE.Color('#9c9a52')],
+    [/cactus_/, new THREE.Color('#5e9a4a')],
+    [/(stone_|cliff_|formation-)/, new THREE.Color('#b8744c')],
+    [/Rock_\d/, new THREE.Color('#c4875c')],
+  ],
+  neve: [
+    [/grass(_large|_leafs|_leafsLarge)?\.glb$/, new THREE.Color('#b9c9c0')],
+    [/plant_(bush|flat)/, new THREE.Color('#8fb0a0')],
+    [/tree_pine/, new THREE.Color('#3f6b52')],
+    [/(stone_|cliff_|formation-)/, new THREE.Color('#7d838e')],
+  ],
+  pantano: [
+    [/grass(_large|_leafs|_leafsLarge)?\.glb$/, new THREE.Color('#6f8a3d')],
+    [/plant_(bush|flat)/, new THREE.Color('#4f7a3a')],
+    [/tree_(default|thin|oak|fat)/, new THREE.Color('#5a7a3c')],
+    [/(stone_|cliff_|formation-)/, new THREE.Color('#6e7a5a')],
+    [/lily_/, new THREE.Color('#4f8a3f')],
+  ],
+  montanha: [
+    [/(stone_|cliff_|formation-)/, new THREE.Color('#8a8378')],
+    [/cliff_top/, new THREE.Color('#5f9e4a')],
+  ],
+  ruinas: [
+    [/grass(_large|_leafs|_leafsLarge)?\.glb$/, new THREE.Color('#b2b36a')],
+    // the pirate-kit fortress pieces ship bright grey; the ruins are pale limestone
+    [/(castle|tower)-/, new THREE.Color('#efc48a')],
+    [/statue_/, new THREE.Color('#cfc3a6')],
+    [/(stone_|formation-)/, new THREE.Color('#b0a28c')],
+  ],
+}
+
+// Toon parts are cached per (biome, scene): a biome re-tints the same kit files.
+const partsCaches = new Map<BiomeId, WeakMap<THREE.Object3D, ToonPart[]>>()
+function partsCacheFor(biome: BiomeId) {
+  let c = partsCaches.get(biome)
+  if (!c) partsCaches.set(biome, (c = new WeakMap()))
+  return c
+}
 const IDENTITY = new THREE.Matrix4()
 
 // Textured buckets keep position/normal/uv, vertex-coloured ones position/normal/color —
@@ -113,9 +156,11 @@ function paintVertexColor(g: THREE.BufferGeometry, color: THREE.Color) {
  * renderer would read `undefined.length` in the shadow pass).
  */
 function toonParts(scene: THREE.Object3D, url: string): ToonPart[] {
+  const biome = activeBiome().id
+  const partsCache = partsCacheFor(biome)
   const hit = partsCache.get(scene)
   if (hit) return hit
-  const tint = TINTS.find(([re]) => re.test(url))?.[1]
+  const tint = (BIOME_TINTS[biome]?.find(([re]) => re.test(url)) ?? TINTS.find(([re]) => re.test(url)))?.[1]
   // the loose gltfs at the models root (formation-*, palm-*, plant) keep their
   // scene-placement offset on the root node (5-12 u), so the mesh would render far from
   // the authored spot, swung around by the instance yaw — drop it
@@ -186,6 +231,7 @@ const scratch = {
   p: new THREE.Vector3(),
   s: new THREE.Vector3(),
   e: new THREE.Euler(),
+  c: new THREE.Color(),
 }
 const Z_AXIS = new THREE.Vector3(0, 0, 1)
 
@@ -215,12 +261,27 @@ export function buildInstances(parts: ToonPart[], spots: Placement[], castShadow
     const inst = new THREE.InstancedMesh(part.geometry, part.material, spots.length)
     inst.castShadow = castShadow
     inst.receiveShadow = false
-    for (let i = 0; i < spots.length; i++)
+    for (let i = 0; i < spots.length; i++) {
       inst.setMatrixAt(i, placementMatrix(spots[i], part.local, scratch.m))
+      inst.setColorAt(i, instanceTint(spots[i], scratch.c))
+    }
     inst.instanceMatrix.needsUpdate = true
+    if (inst.instanceColor) inst.instanceColor.needsUpdate = true
     inst.computeBoundingSphere()
     return inst
   })
+}
+
+// Per-instance tint jitter: ±9% value and a small warm/cool tilt, hashed from the spot so
+// it is stable across reloads. Breaks the "same tree stamped 60 times" read without any
+// extra draw call — instanceColor multiplies the toon diffuse (vertex colour or map).
+function instanceTint(p: Placement, out: THREE.Color) {
+  const h = Math.sin(p.pos[0] * 12.9898 + p.pos[2] * 78.233) * 43758.5453
+  const a = h - Math.floor(h)
+  const b = (h * 1.37) % 1
+  const value = 0.91 + a * 0.18
+  const warm = (b - 0.5) * 0.1
+  return out.setRGB(value * (1 + warm), value, value * (1 - warm))
 }
 
 export function preloadProps(urls: readonly string[]) {

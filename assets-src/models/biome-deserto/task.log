@@ -1,0 +1,58 @@
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: queued 0%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: queued 0%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 16%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 25%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 32%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 40%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 47%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 55%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 63%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 70%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 78%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 86%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 93%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 99%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: running 99%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf: success 100%
+f0283baf-cb23-4577-aa96-9db4be7cc2bf
+{
+  "task_id": "f0283baf-cb23-4577-aa96-9db4be7cc2bf",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "prompt": "stylized low-poly sandstone monument: a giant weathered stone disc (like a coin / game token) half-buried upright in sand, carved sun rays on its face, cracked edges, small dunes at the base, cartoon game asset, warm orange sandstone, readable silhouette, centered pivot, no text",
+    "model_version": "v3.1-20260211",
+    "texture": true,
+    "pbr": true,
+    "texture_quality": "standard",
+    "texture_alignment": "geometry",
+    "export_uv": true,
+    "face_limit": 8000,
+    "geometry_quality": "standard"
+  },
+  "output": {
+    "pbr_model": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/f0283baf-cb23-4577-aa96-9db4be7cc2bf/tripo_pbr_model_f0283baf-cb23-4577-aa96-9db4be7cc2bf.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZjAyODNiYWYtY2IyMy00NTc3LWFhOTYtOWRiNGJlN2NjMmJmL3RyaXBvX3Bicl9tb2RlbF9mMDI4M2JhZi1jYjIzLTQ1NzctYWE5Ni05ZGI0YmU3Y2MyYmYuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=wtg1Bw-GHfCC0E0hsnYPUaQB6KLBHZ0q84shc3ElwT-prhhERpa7t1X3Hpz8i-lF-PpAJ1molPYyGK3ViA2Xli-LRk15ZV3Cq2SK~fhJsEGCzF4mGPMaIt7W87myqO5zqtn1qId40aXK4pBJbtD0NWvWvocbgpM2t4tyKJED5G3fcr2OZHmIllKqGi5XGhGs63K9jqAN-dP49iLwC61rWjbPuq595utyxQdib0QuyOYv2VvT4u0CsTwvP3HV~498ilM73G74osGDKaDqUWBu5K~xo9XKPt8SjPSN6BefnojXPKwZaL8G~Qlxanbc1kY8WVEBz3wSR~pzhVPB3NXQ4A__",
+    "generated_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/f0283baf-cb23-4577-aa96-9db4be7cc2bf/text2image_f0283baf-cb23-4577-aa96-9db4be7cc2bf.jpeg?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZjAyODNiYWYtY2IyMy00NTc3LWFhOTYtOWRiNGJlN2NjMmJmL3RleHQyaW1hZ2VfZjAyODNiYWYtY2IyMy00NTc3LWFhOTYtOWRiNGJlN2NjMmJmLmpwZWciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=o5BduqeWHdtwR-arArhhjTnViQeEWvkmvMA2CEllpgD3zYAGBQMB25bqGWx9kUXa9JKgpnzhzm0PD6m4KQhItBegg8wZ4rPlSpAzfz0Kkqx9~usHOO5rvEdqvlSn9ZsU8WDvLnFSPNwbQsfQKf-BhDJBKLyF739Dp9yS-z02~aauJ7KBbx5l0lUMe3PkdAnZ53-AxTs9WGyHn2R8LD-JQGu5DIh2Ez0lOxAKBiSQI0bktn1Q0YJz4DcjhDj9mkr5G7Cb3QsgCac5A5htOgIu1l4tMRzm28Iuut4cCo2teRQwoKUaobJ-nh9XXyjo8lSYJcQXf1TXOAHsMPJh8wVEbQ__",
+    "rendered_image": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/f0283baf-cb23-4577-aa96-9db4be7cc2bf/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZjAyODNiYWYtY2IyMy00NTc3LWFhOTYtOWRiNGJlN2NjMmJmL2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=GJxn0yM0qmg8CVWUeUh-McQpYI-sSwoObPe3ZQh-hK~kB5Rk4m~2rbCZGm-QtwzZQQOr374FpGW71o0dGrLfjRXcgdYzi~-hZPchwgDuombN1Ni2pal1aynyeZcyFBi3t0eNWfGxNQIVMCJeEMF5KV3WU3PUPALbjvIWa4ZrKguOPCtOZLWSMy--ABlkuTt9HCHlEYrilvQmr01eAvSvOBxhmL8UWCZ8Ei16W-HDoB8YVigWX1TcjKjSPGemst62sPbfLfWZu-QYwiLIoLtZm2YnrwI~WWhCOSx5cWvy-BxaQomfNrVKWQ2j4h56XymCxfzK7vtZ15oBe~SOvLOUDA__"
+  },
+  "progress": 100,
+  "create_time": 1787377183,
+  "consumed_credit": 20,
+  "prompt": "stylized low-poly sandstone monument: a giant weathered stone disc (like a coin / game token) half-buried upright in sand, carved sun rays on its face, cracked edges, small dunes at the base, cartoon game asset, warm orange sandstone, readable silhouette, centered pivot, no text",
+  "thumbnail": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/f0283baf-cb23-4577-aa96-9db4be7cc2bf/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZjAyODNiYWYtY2IyMy00NTc3LWFhOTYtOWRiNGJlN2NjMmJmL2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=GJxn0yM0qmg8CVWUeUh-McQpYI-sSwoObPe3ZQh-hK~kB5Rk4m~2rbCZGm-QtwzZQQOr374FpGW71o0dGrLfjRXcgdYzi~-hZPchwgDuombN1Ni2pal1aynyeZcyFBi3t0eNWfGxNQIVMCJeEMF5KV3WU3PUPALbjvIWa4ZrKguOPCtOZLWSMy--ABlkuTt9HCHlEYrilvQmr01eAvSvOBxhmL8UWCZ8Ei16W-HDoB8YVigWX1TcjKjSPGemst62sPbfLfWZu-QYwiLIoLtZm2YnrwI~WWhCOSx5cWvy-BxaQomfNrVKWQ2j4h56XymCxfzK7vtZ15oBe~SOvLOUDA__",
+  "queuing_num": -1,
+  "running_left_time": -1,
+  "result": {
+    "pbr_model": {
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/f0283baf-cb23-4577-aa96-9db4be7cc2bf/tripo_pbr_model_f0283baf-cb23-4577-aa96-9db4be7cc2bf.glb?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZjAyODNiYWYtY2IyMy00NTc3LWFhOTYtOWRiNGJlN2NjMmJmL3RyaXBvX3Bicl9tb2RlbF9mMDI4M2JhZi1jYjIzLTQ1NzctYWE5Ni05ZGI0YmU3Y2MyYmYuZ2xiIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg3NDQzMjAwfX19XX0_&Signature=wtg1Bw-GHfCC0E0hsnYPUaQB6KLBHZ0q84shc3ElwT-prhhERpa7t1X3Hpz8i-lF-PpAJ1molPYyGK3ViA2Xli-LRk15ZV3Cq2SK~fhJsEGCzF4mGPMaIt7W87myqO5zqtn1qId40aXK4pBJbtD0NWvWvocbgpM2t4tyKJED5G3fcr2OZHmIllKqGi5XGhGs63K9jqAN-dP49iLwC61rWjbPuq595utyxQdib0QuyOYv2VvT4u0CsTwvP3HV~498ilM73G74osGDKaDqUWBu5K~xo9XKPt8SjPSN6BefnojXPKwZaL8G~Qlxanbc1kY8WVEBz3wSR~pzhVPB3NXQ4A__",
+      "type": "glb"
+    },
+    "rendered_image": {
+      "type": "webp",
+      "url": "https://tripo-data.rg1.data.tripo3d.com/tcli_db922585dc9043bdbe0ab9534be6c305/20260822/f0283baf-cb23-4577-aa96-9db4be7cc2bf/legacy_mesh.webp?Key-Pair-Id=K1676C64NMVM2J&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90cmlwby1kYXRhLnJnMS5kYXRhLnRyaXBvM2QuY29tL3RjbGlfZGI5MjI1ODVkYzkwNDNiZGJlMGFiOTUzNGJlNmMzMDUvMjAyNjA4MjIvZjAyODNiYWYtY2IyMy00NTc3LWFhOTYtOWRiNGJlN2NjMmJmL2xlZ2FjeV9tZXNoLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3ODc0NDMyMDB9fX1dfQ__&Signature=GJxn0yM0qmg8CVWUeUh-McQpYI-sSwoObPe3ZQh-hK~kB5Rk4m~2rbCZGm-QtwzZQQOr374FpGW71o0dGrLfjRXcgdYzi~-hZPchwgDuombN1Ni2pal1aynyeZcyFBi3t0eNWfGxNQIVMCJeEMF5KV3WU3PUPALbjvIWa4ZrKguOPCtOZLWSMy--ABlkuTt9HCHlEYrilvQmr01eAvSvOBxhmL8UWCZ8Ei16W-HDoB8YVigWX1TcjKjSPGemst62sPbfLfWZu-QYwiLIoLtZm2YnrwI~WWhCOSx5cWvy-BxaQomfNrVKWQ2j4h56XymCxfzK7vtZ15oBe~SOvLOUDA__"
+    }
+  }
+}
+/Users/luigivivian/luigiDev/nostalgic-world/assets-src/models/biome-deserto/f0283baf-cb23-4577-aa96-9db4be7cc2bf-pbr_model.glb
+/Users/luigivivian/luigiDev/nostalgic-world/assets-src/models/biome-deserto/f0283baf-cb23-4577-aa96-9db4be7cc2bf-rendered_image.webp
+/Users/luigivivian/luigiDev/nostalgic-world/assets-src/models/biome-deserto/f0283baf-cb23-4577-aa96-9db4be7cc2bf-generated_image.jpeg
