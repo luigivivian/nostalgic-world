@@ -1,87 +1,154 @@
 # Nostalgic World Dev Log
 
 ## Working State
-**Session:** 5i | **Date:** 2026-08-21
+**Session:** 6 | **Date:** 2026-08-21
 
 ### Active Task
-/threejs-game-director full premium pass (phases 2-7) on the island game. Built by three
-parallel Opus workers with disjoint file ownership (gameplay / assets+VFX / UI+mobile),
-integrated by the director; a second Claude session (peer "nostalgic-world-b3") owns the
-hero (Luigi GLB, retargeted UAL clips, double-jump glide, aim raycast in ShootListener).
-- [x] Phase 2 gameplay: store-driven loop (ammo 12, 10s tazo despawn, 20s ammo piles,
-      combo 2.5s, album meta-progression), 3 stations (praia static / bosque rails /
-      mirante pendulums, tier-based rarity), round lifecycle, test hooks + diagnostics
-- [x] Phase 3-4 assets: SnackBag (procedural pillow mesh + real EMBALAGEM scans via
-      public/game/bag-textures.json, refcounted cache w/ 2s release grace), AmmoPile,
-      StationDressing, SpawnBeach (pier, campfire, signs), instanced vegetation (900),
-      shore blend, 3-light rig, GameVFX (3 pooled draw calls, event-driven, no lights)
-- [x] Phase 5 UI: src/game/ui/* GameUI (album ring, ammo pips, combo, station chips,
-      toasts, panels idle/paused/roundOver/albumComplete, touch joystick+fire+jump+pause)
-- [x] Integration: GameUI/GameVFX/StationDressing mounted, Targets->SnackBag with explicit
-      CuboidCollider, curation shared (src/collectible/curation.ts) by acervo + drop pool,
-      round gated on pool load, game:restart/game:fire/game:move events, LOW_END tier
-      (quality.ts: DPR<=1.5, no post, no FootIK on coarse pointer)
-- [x] Phase 6 profile (real GPU headless, channel chromium, Apple M1), after the merge pass:
-      desktop 236/258/304 calls idle/play/stress, 549-601k tris (count includes the shadow
-      pass), 60fps; mobile 199/221/276 calls; rapier 7 bodies idle, 47 peak
-- [x] Phase 7 QA: probe-gameplay 30/30, probe-touch, probe-integrated (0 errors/404),
-      production build + `vite preview` inspected nonblank, vitest 43/43, smoke PASS
-- [x] Fresh-eyes scorecard: 4 Sonnet passes (avg 2.0 / 1.8 / 1.9 / 1.9), each drove a fix
-      round (per-tier target forms, mirante mast + backdrops, water glare, harness bg,
-      meadow carpet). Reconciled 1.9, rewards=1 -> premium gate NOT met; report audited
-      (.tmp/director-final.md, audit_reference_report.py --premium --physics: passed)
-- [x] User playtest: "ficou bem melhor". User dropped 13 GLBs (Poly/Sketchfab plants, gnome)
-      into src/game/vfx + root -> moved to public/game/models/poly/<slug>.glb (+CREDITS.md),
-      sources to assets-src/. NOTE: two "Flower" files collided; Zoe XR's overwrote Poly's.
-- [x] Poly plants placed (Vegetation.tsx putPoly: per-model nativeH/minY normalisation):
-      spawn flower beds + orchid + gnome, bosque sunflower row + gnome, mirante
-      suspicious silhouettes, treasure gnome, 44 meadow accents, 16 grove ferns/mushrooms.
-- [x] props.ts: toonParts now MERGES sub-meshes — untextured into one vertex-coloured
-      geometry per (side/transparent/alphaTest) bucket, textured per material; morph
-      attributes stripped (FBX2glTF gnome crashed the shadow pass: InstancedMesh has no
-      morphTargetInfluences -> `undefined.length`). Small plants castShadow=false.
-      Result: desktop idle 334 -> 236 calls (868 before the merge), mobile 288 -> 199.
-- [ ] Commit (only when user asks) — include peer session files as on disk <-- CURRENT
+Asset-variety pass (user: "o pacote de assets é muito maior dos recursos utilizados,
+explore melhor") on top of the playtest fixes (archived below).
+- [x] Inventory (.tmp script): Kenney 76/329 used, KayKit Forest 13/105, ResourceBits
+      9/76, hexagon-kit 1/72 (tile style — left out), Ekfs Shrubs 0/20 (FBX only).
+- [x] Ekfs pack → 20 GLB (public/game/models/shrubs, .tmp/shrubs-to-glb.py, Blender
+      headless, atlas embedded).
+- [x] Vegetation pools: RICH tier (= !LOW_END) layers textured variants on the base
+      pools via rich(base, extra); UNIT map normalises per-file size inside put();
+      LIFT map applies the poly minY lift on every placement path (the bosque backdrop
+      sunflowers were buried to the head). KayKit Tree_1/2/3/4 groves (one non-autumn
+      grove in three), Tree_Bare on the top band, KayKit/Ekfs bushes, Ekfs flowers +
+      mushrooms + stones, KayKit stones, stump_old/oldTall, Ekfs grass; highland band
+      now has Kenney pine stands (pineGround/Small/Round/Default) + bushes; lily pads
+      (lily_large/small) on the shallows (h in [-0.55,-0.1], fbm-clustered, 70 max).
+      Density: groves 42→58 (min spacing 13), scatter 900→1300, carpet 160→320, poly
+      meadow 44→70. KayKit boulders shrunk (were 7 u cubes on the ridge).
+- [x] POIs (Trails.tsx, RICH): homestead plot at (-36,-8) — 3 crop rows (corn, wheat,
+      pumpkin+melon) in a fence with gate, pots, sign; quarry at (-26,-26) — stone
+      chunks, brick stack, iron/silver nuggets, covered pallet, boulders, sign; bivouac
+      pots; woodcutter camp + planks stack + 2 logs (Vegetation POIs).
+- [x] props.ts MATERIAL_COLORS grew: wood/woodDark (fences, signs, pots were salmon),
+      grass (corn/pumpkin leaves were teal), dirt/dirtDark.
+- [x] BUG found by the density bump: formation-*.gltf (same pack as palm-detailed) carry
+      a 5-12 u root-node translation — every formation rock rendered far from its spot
+      (one landed behind the hero; the "sea pillars" SW of the island were these). Fix
+      generalised in toonParts: any loose /game/models/*.gltf gets its root offsets
+      zeroed. Found with .tmp/probe-which.mjs (hide each InstancedMesh, diff a pixel
+      patch).
+- [x] Verified: tsc, vitest 43/43, probe-gameplay ALL PASS, views (farm/quarry/
+      woodcutter/shallows/meadow/overview/spawn) in .tmp/view-*.png.
+- [ ] User playtest <-- CURRENT
+- [ ] Commit only when the user asks (never a Co-Authored-By trailer)
+
+### Perf (probe-budget, headless M1, calls = main + shadow pass)
+| | idle | play | stress |
+|---|---|---|---|
+| desktop before (post-5k) | 339 | 361 | 397 |
+| desktop now (variety pass) | 289 | 311 | 372 |
+| mobile before | 273 | 295 | 319 |
+| mobile now | 139 | 161 | 180 |
+Tris 1.02M desktop / 0.72M mobile. The RICH tier costs desktop +48 idle calls (≈40 more
+model files); stress sits ~20 over the 350 goal at 60+ fps — accepted for the variety,
+trim candidates are the Ekfs mushrooms/grass. Mobile stays under 200.
 
 ### Key Files (current shape)
-**`src/game/store.ts`** (NEW, ~200 lines) zustand contract: phase/round/ammo/score/combo,
-album keyed by tazo.front, stations, event log (lastEvent+eventSeq). Only gameplay writes.
-**`src/game/Game.tsx`** (MODIFIED, ~400) phase machine, ShootListener (screen-centre
-rapier castRay, peer-owned), round guards, mounts everything. `?play=1` deep link in App.
-**`src/game/Targets.tsx` + `stations.ts`** (NEW) station targets (fixed/kinematic),
-break->8 fragments (groups 3), per-block + per-projectile hit guards, SnackBag visual.
-**`src/game/assets/*`** (NEW) bagGeometry/bagTexture/SnackBag/AmmoPile/StationDressing/
-SpawnBeach/InstancedProps/props (merge-by-material toon cache)/DevShowcase (`?showcase=1`);
-`__preview__/poly.html` = contact sheet of public/game/models/poly.
-**`src/game/ui/*`** (NEW, ~2300 incl. CSS) GameUI + preview.html harness (drives real store).
+**`src/game/Vegetation.tsx`** (MODIFIED, ~470 lines) pools = rich(base, extra); UNIT /
+LIFT maps in put(); groves (KayKit on RICH), highland pines, lily shallows, POIs.
+**`src/game/assets/Trails.tsx`** (MODIFIED) trail loop + crags + accents; homestead and
+quarry POIs behind RICH.
+**`src/game/assets/props.ts`** (MODIFIED) MATERIAL_COLORS (9 kit material names) →
+TINTS by file; root-offset strip for loose /game/models/*.gltf.
+**`src/game/assets/SpawnBeach.tsx`** (REWRITTEN) authored spawn ground only.
+**`public/game/models/shrubs/`** (NEW) 20 Ekfs GLBs, atlas embedded.
 
 ### Decisions (active)
-- Generators (Tripo/Gemini/ElevenLabs) all MISSING -> procedural + packs + scans only.
-- Ammo piles keep a round alive (recovery beat) but despawn at 20s (no softlock).
-- Drop pool uses strict curation (no empty-collection fallback) and discs only; 9 "disc"
-  collections curate to zero discs and are skipped (test pins the list).
-- Headless can't pointer-lock: hits proven via test hooks; bot proves walk/fire/miss.
+- Static props never mount their own scatter: add spots to WorldProps (Island.tsx).
+- LOW_END drops the scatter shadow pass (hero/bags/terrain keep theirs) — that is what
+  brought mobile from 273 to 129 calls; revisit only with a real-device fps number.
+- No sea landmarks: the island is the whole map; the horizon stays empty.
+- Kit colour fixes go in props.ts MATERIAL_COLORS (by material name), never per file
+  unless one file needs to differ (TINTS).
+- Spawn ground is authored in SpawnBeach.tsx only; Vegetation keeps out (r 9).
+- Variety is desktop-only (RICH): the base pools are the mobile draw-call budget.
+- New kit material colours: MATERIAL_COLORS by material name, never per file.
 
-### Next Steps (scorecard leverage order)
-1. Second reward form readable: bigger ammo crate/pile + idle bob + collect burst, close-up capture
-2. Spawn framing palms off the character's head at the default camera
-3. LOD/merge pass: desktop stress 414 -> <=350 calls, mobile 288 -> <=200; real-device test
-4. Terrain/rock surface variation; muzzle VFX (shot event needs a position); audio when keyed
+### Next Steps
+1. Roadmap 9: progression between collections + album in localStorage
+2. Roadmap 8: hero collides with bags/debris (needs BVH colliders, not rapier)
+3. Real phone test of the LOW_END tier (fps + touch) — numbers above are emulated
+4. Roadmap 6/7/10: terrain surface grain, shot VFX + hitstop, audio (CC0)
 
 ### Blockers
 - None hard. Paid generators unavailable by design.
 
 ### Watch Out
-- `selectAlbumProgress` returns a fresh object: never use it as a useGame selector (v5 loop).
-- Adding/removing lights recompiles every material (halo meshes instead of pointLights).
-- A wrapper on console.error reads `.stack` of every arg: never log null/undefined args.
-- New GLBs: run the poly contact sheet first; FBX2glTF files may carry morph targets/skins.
-- `mv` with slugged names: check for collisions first (two "Flower" files -> one lost).
+- **The player does NOT collide with rapier bodies.** Walkable props go into the
+  controller's BVH (PlayerTPS extraColliders), not rapier.
+- **controller.getPosition() ≈ feet + 1.5 u**, not the feet: any proximity test against
+  ground objects must work in XZ (or subtract the offset), never raw 3D distance.
+- Loose gltfs at the models root carry root-node offsets (toonParts strips them); a
+  model that "appears somewhere else" → check node translations first (.tmp/bbox.mjs).
+- Test hook 'active-play' calls store.startRound only — no ammo piles; press Enter
+  (Game.beginRound) in probes that need them.
+- A user GLB "environment" may ship its own sky/sea/ground meshes — strip them before
+  mounting (sea-keep's black sky dome cost a session to notice).
 
 ---
 ---
 
 ## Session Archive
+
+### Session 6c -- 2026-08-21: Asset-variety pass — KayKit/Ekfs pools, POIs, highland pines
+**What we did:** Inventoried the packs (Kenney 23% used, KayKit 12%), converted the Ekfs
+FBX pack to GLB, layered textured variants on every pool behind a RICH (= !LOW_END)
+tier, added highland pine stands, lily shallows, a homestead, a quarry, camp extras;
+remapped 5 more salmon/teal kit materials; fixed the formation-*.gltf root offsets.
+**Files:** Vegetation.tsx, assets/Trails.tsx, assets/props.ts, assets/InstancedProps.tsx,
+public/game/models/shrubs/*, poly/CREDITS.md.
+**Decisions:** variety is desktop-only; desktop 289/311/372 calls accepted (mobile 180).
+
+### Session 6b -- 2026-08-21: Playtest fixes — pickup bug, glowing debris, clean spawn, no islands
+**What we did:** Fixed the uncollectable ammo pile (getPosition() sits 1.5 u above the
+feet; +0.9 more put the test point out of radius → XZ test). Bag debris became bouncing
+over-white yellow balls (Bloom) + yellow crumb burst. Removed hex islet, sea keep,
+causeways and their colliders. Re-authored the spawn with Kenney palms + KayKit
+understory only; kit-wide material remap (salmon bark → brown, teal leaves → green).
+**Files:** AmmoPickups.tsx, Targets.tsx, vfx/GameVFX.tsx, assets/SpawnBeach.tsx,
+Vegetation.tsx, assets/Trails.tsx, assets/props.ts, assets/InstancedProps.tsx,
+assets/StationDressing.tsx, Island.tsx, Game.tsx; HexIslet.tsx deleted.
+**Decisions:** island-only map; MATERIAL_COLORS by name in props.ts; spawn ground owned
+by SpawnBeach. Desktop 241/263/293, mobile 132/154/181 calls.
+
+### Session 6 -- 2026-08-21: Ammo legibility, spawn sightline, DeepSeek code review, draw-call pass
+**What we did:** Found the real head-occlusion bug (palm-detailed root-node offset, fixed
+in toonParts), rebuilt the ammo pile (pallet + merged bags + halo + burst), reviewed the
+5k (DeepSeek) code — stripped the sea-keep's own sky dome and decimated it 19 MB → 2.9 MB,
+fixed HexIslet hook order/dead rapier body, deduped Trails causeway math — and unified all
+static props into one InstancedScatter, merged Luigi's skinned meshes, instanced debris.
+**Files:** Island, Vegetation, Game, PlayerTPS, Targets, AmmoPickups, store, GameVFX,
+assets/{AmmoPile,SnackBag,SpawnBeach,Trails,HexIslet,StationDressing,InstancedProps,props,heroLook,DevShowcase}, env/sea-keep.glb
+**Decisions:** One WorldProps scatter; LOW_END skips scatter shadows; mobile 273→129 calls.
+
+### Session 5k -- 2026-08-21: 5 new user GLBs analysed + island dressing pass
+**What we did:** User dropped 5 GLBs at the repo root. Analysed each (node GLB probe:
+sizes/bbox/materials/animations, then in-page baked-bbox measurement). Classified:
+blue-tulips (0.75 u, 31k verts, 1 tex mat) and twisting-tree (7.5 u, 3k verts, textured)
+= instanced props -> moved to poly/ and placed via putPoly (3 blue tulip beds, 5 twisting
+showpiece trees). sea-keep (19.3 MB, 229k verts, 7 meshes) -> env/, mounted as a distant
+landmark on the south horizon at the pier's sight line (Suspense, castShadow=false,
+LOW_END-gated). shanghai-gardens (4155 meshes!) and zen-gallery (19 MB textures, 3088 u
+world, animated) -> env/, NOT mounted: future portal/album rooms needing a bake pass.
+Also: KAYKIT_ROCKS pool + formation-*.gltf (tinted #98836b) into the high band, beach and
+a new 26-boulder shoreline scatter. Two bugs found via pixel probes: (1) accessor bbox
+ignores node transforms (keep floated 16 u — pinned the baked sea disc instead);
+(2) InstancedMesh frustum culling is instance-unaware and the baked geometry sits ~1200 u
+from the object origin, so the keep was culled — added `frustumCulled` to
+buildInstances/InstancedProps. Added __THREE_GAME_RENDERER__ dev hook; probe-keep renders
+the live scene with a temp camera and diffs pixels (456k px delta proves the silhouette
+draws at the horizon). Perf after: desktop idle 256 calls / 1005k tris / 60fps; vitest
+43/43, probe-gameplay 30/30, tsc + prod build clean.
+**Files:** src/game/Vegetation.tsx, src/game/Island.tsx, src/game/assets/props.ts,
+src/game/assets/InstancedProps.tsx, src/game/diagnostics.ts,
+public/game/models/{poly,env}/*, .tmp/probe-keep.mjs, .tmp/analyze-models.mjs (re-run)
+**Decisions:** Env GLBs stay unmounted until a real merge/atlas pass. Baked-bbox math for
+any environment-scale model. LOW_END skips the keep (download + 208k tris on phones).
 
 ### Session 5i -- 2026-08-21: Game director phases 2-7 (premium pass)
 **What we did:** Three parallel Opus workers (gameplay / assets+VFX / UI+mobile) + director integration: store-driven station shooter with album progression, snack-bag targets wearing real packaging scans, beach spawn + dressing + instanced vegetation, pooled VFX, full HUD/menus/touch controls, mobile quality tier, shared curation module, test hooks + diagnostics, canvas inspector on prod preview. Review (Sonnet) + QA (43 tests) applied.
@@ -196,6 +263,52 @@ mapped /looney sections and /lista catalog (~60 collections 1981-2005). Wrote PR
 - [ ] Phase 6 — perf pass + Vercel deploy
 
 ## Mistakes & Lessons
+### 2026-08-21 - formation rocks rendered 12 u from their spots (and one behind the hero)
+**What happened:** After densifying the scatter a tan block sat at the hero's back; the
+instance list within 6 u of the spawn showed nothing. Hiding InstancedMeshes one by one
+and diffing a pixel patch blamed formation-rock.gltf.
+**Root cause:** The three formation-*.gltf (same source pack as palm-detailed-*.gltf)
+carry a scene-placement translation on the root node (5.7,0,-10.7 etc.). The palm fix
+from session 6 was file-specific, so the siblings kept the bug — the "sand pillars" out
+at sea SW of the island were these rocks all along.
+**How we fixed it:** toonParts zeroes root-node positions for any loose
+/game/models/*.gltf (the kits keep theirs: Kenney's -0.05 y is meaningful).
+**Lesson:** When one file from a pack needs a workaround, check its siblings the same
+day. And `.tmp/bbox.mjs` prints node translations — run it on every new model.
+
+### 2026-08-21 - Ammo pile could never be collected
+**What happened:** Piles spawned, bobbed, glowed — and the ammo count never moved.
+**Root cause:** three-player-controller's `getPosition()` returns a point ~1.5 u above
+the feet. AmmoPickups added +0.9 (copied from Pickups.tsx) and measured 3D distance to
+a pile on the ground: minimum possible distance 2.4 > collect radius 1.9. The tazo
+pickups hid the same offset because their magnet radius (3.2) is larger than it.
+**How we fixed it:** XZ distance + a 3 u height band; probe teleports onto a pile and
+asserts the count rises.
+**Lesson:** Never trust a "player position" without measuring what it is relative to
+the feet (`__pp` vs terrainHeight in a probe takes 10 s). Proximity tests against
+ground objects work in XZ.
+
+### 2026-08-21 - "Palm on the hero's head" was a model offset, not a placement
+**What happened:** Two sessions tuned SpawnBeach/StationDressing palm positions; a palm
+crown still sat on Luigi's head at spawn.
+**Root cause:** palm-detailed-short/long.gltf keep a (2.7|3.9, 0, -7.17) translation on
+their root node. Every instance rendered ~7.7 u from its authored spot, rotated by its
+yaw — keep-outs and authored framing were all checked against the wrong position.
+**How we fixed it:** toonParts zeroes the root-child translation for /palm-detailed/;
+re-authored the six spawn palms; probe-head2.mjs projects every mesh's 8 bbox corners
+onto the head pixel to find occluders (origin-only projection missed it).
+**Lesson:** When a prop is "in the wrong place", check the GLTF node transforms before
+moving the placement; and probe with full bboxes, not origins.
+
+### 2026-08-21 - The black dome on the horizon was inside the GLB
+**What happened:** sea-keep.glb rendered a black half-dome over the sea.
+**Root cause:** The model ships its own Sky_Sky_0 (baseColor black) and Sea_Sea_0 meshes;
+toonParts merged them in with the fortress.
+**How we fixed it:** Blender headless re-export stripping Sky/Sea + decimating
+(19.3 MB → 2.9 MB, 168k → 14k tris).
+**Lesson:** Inspect mesh names/materials of environment GLBs before mounting; strip
+sky/sea/ground meshes and decimate landmarks seen only from afar.
+
 ### 2026-08-05 - key={itemId} on the Canvas wrapper leaked WebGL contexts
 **What happened:** User reported PORTA-TAZO "not rendering" — actually the whole canvas
 died after browsing items ("THREE.WebGLRenderer: Context Lost").

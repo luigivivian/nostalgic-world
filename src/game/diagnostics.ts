@@ -24,6 +24,10 @@ type HookWindow = Window & {
   __THREE_GAME_DIAGNOSTICS__?: () => ReturnType<typeof useGame.getState>
   /** live scene graph for draw-call attribution probes */
   __THREE_GAME_SCENE__?: THREE.Scene
+  /** renderer, for offscreen-pixel probes (keep visibility etc) */
+  __THREE_GAME_RENDERER__?: THREE.WebGLRenderer
+  /** rapier world, for collider diagnostics */
+  __THREE_GAME_WORLD__?: ReturnType<typeof useRapier>['world']
   __THREE_GAME_TEST_HOOKS__?: { setState: (name: TestStateName, seed?: number) => void }
 }
 
@@ -75,10 +79,14 @@ export function Diagnostics({ pickups }: { pickups: number }) {
     if (!DEBUG_ENABLED) return
     const w = window as HookWindow
     w.__THREE_GAME_SCENE__ = scene
+    w.__THREE_GAME_RENDERER__ = gl
+    w.__THREE_GAME_WORLD__ = world
     return () => {
       delete w.__THREE_GAME_SCENE__
+      delete w.__THREE_GAME_RENDERER__
+      delete w.__THREE_GAME_WORLD__
     }
-  }, [scene])
+  }, [scene, gl, world])
   const frames = useRef(0)
   const last = useRef(performance.now())
 

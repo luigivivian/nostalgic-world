@@ -16,7 +16,7 @@ export type GameEvent =
   | { type: 'hit'; at: number; pos: [number, number, number]; targetId: number; stationId: string; combo: number }
   | { type: 'miss'; at: number }
   | { type: 'collect'; at: number; pos: [number, number, number]; tazo: PoolTazo; rarity: Rarity; isNew: boolean }
-  | { type: 'ammoPickup'; at: number; amount: number }
+  | { type: 'ammoPickup'; at: number; amount: number; pos: [number, number, number] }
   | { type: 'stationCleared'; at: number; stationId: string }
   | { type: 'albumComplete'; at: number }
 
@@ -91,7 +91,7 @@ interface GameState {
   registerHit: (targetId: number, stationId: string, pos: [number, number, number]) => void
   registerMiss: () => void
   collect: (tazo: PoolTazo, rarity: Rarity, pos: [number, number, number]) => void
-  addAmmo: (n: number) => void
+  addAmmo: (n: number, pos: [number, number, number]) => void
   setDiagnostics: (d: Partial<Diagnostics>) => void
   emit: (e: GameEvent) => void
   resetGame: () => void
@@ -186,9 +186,9 @@ export const useGame = create<GameState>()((set, get) => {
       const total = s.collection?.poolSize ?? 0
       if (isNew && total > 0 && Object.keys(album).length >= total) emit({ type: 'albumComplete', at: now })
     },
-    addAmmo: (n) => {
+    addAmmo: (n, pos) => {
       set((s) => ({ ammo: Math.min(MAX_AMMO, s.ammo + n) }))
-      emit({ type: 'ammoPickup', at: performance.now(), amount: n })
+      emit({ type: 'ammoPickup', at: performance.now(), amount: n, pos })
     },
     setDiagnostics: (d) => set((s) => ({ diagnostics: { ...s.diagnostics, ...d } })),
     emit,

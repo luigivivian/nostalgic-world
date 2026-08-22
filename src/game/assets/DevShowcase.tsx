@@ -5,7 +5,6 @@ import { terrainHeight } from '../terrain'
 import { SPAWN } from '../PlayerTPS'
 import { SnackBag } from './SnackBag'
 import { AmmoPile } from './AmmoPile'
-import { StationDressing } from './StationDressing'
 import { GameVFX, playVfxEvent } from '../vfx/GameVFX'
 import type { PoolTazo } from '../tazoPool'
 
@@ -64,7 +63,6 @@ export function DevShowcase() {
       <group position={[SPAWN.x + 2.6, terrainHeight(SPAWN.x + 2.6, ROW_Z), ROW_Z]}>
         <AmmoPile slug="looney" />
       </group>
-      <StationDressing id="praia" />
       <GameVFX />
       <VfxLoop />
     </>

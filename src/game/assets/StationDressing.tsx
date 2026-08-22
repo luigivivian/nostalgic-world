@@ -1,7 +1,5 @@
-import { useMemo } from 'react'
 import { terrainHeight } from '../terrain'
 import { stationById } from '../stations'
-import { InstancedScatter } from './InstancedProps'
 import { preloadProps, type Placement } from './props'
 
 // Set dressing per station. The stations themselves are gameplay (Targets.tsx); this is
@@ -38,8 +36,13 @@ const STONE_LARGE = K + 'stone_largeD.glb'
 const STONE_TALL = K + 'stone_tallA.glb'
 const FLAT = K + 'stone_smallFlatA.glb'
 const GRASS = K + 'grass_leafsLarge.glb'
-const PALM = '/game/models/palm-detailed-short.gltf'
+const PALM = K + 'tree_palmDetailedShort.glb'
 const CANOE = K + 'canoe.glb'
+const WHEAT = K + 'crops_wheatStageB.glb'
+const CORN = K + 'crops_cornStageB.glb'
+const BED = K + 'bed.glb'
+const STONE_BRICKS = R + 'Stone_Bricks_Stack_Small.gltf'
+const TEXTILES = R + 'Textiles_A.gltf'
 
 type Local = [url: string, right: number, back: number, rot: number, scale: number]
 
@@ -65,7 +68,8 @@ const LAYOUTS: Record<string, Local[]> = {
     [GRASS, 4.4, -1.2, 2.6, 1.8],
   ],
   bosque: [
-    // woodcutters' camp: the rail runs past a working clearing
+    // woodcutters' camp: the rail runs past a working clearing, with a farm patch
+    // beside the tent (wheat rows + corn + a bed — the camp that grows its food)
     [TENT, -4.6, 1.8, 0.5, 2.6],
     [CAMPFIRE, -3.4, 0.2, 0, 2.6],
     [LOG_LARGE, -2.4, -0.7, 1.2, 1.5],
@@ -82,6 +86,17 @@ const LAYOUTS: Record<string, Local[]> = {
     [GRASS, -3.0, -2.4, 0.5, 2.0],
     [GRASS, 3.4, -2.6, 2.1, 1.9],
     [FLAT, 0.4, -3.2, 1.1, 2.2],
+    [WHEAT, -5.6, 2.8, 0.3, 1.5],
+    [WHEAT, -5.2, 3.0, 0.9, 1.6],
+    [WHEAT, -4.8, 3.2, 1.6, 1.5],
+    [WHEAT, -5.8, 3.6, 2.2, 1.6],
+    [WHEAT, -5.3, 3.9, 2.8, 1.5],
+    [WHEAT, -4.9, 4.1, 3.3, 1.6],
+    [CORN, -5.9, 2.2, 1.1, 2.4],
+    [CORN, -6.3, 3.2, 2.4, 2.2],
+    [BED, -4.2, 2.9, 0.4, 1.9],
+    [TEXTILES, -3.5, 2.5, 0.8, 0.9],
+    [SIGN, 4.2, -0.8, 0.4, 2.6],
   ],
   mirante: [
     // stone ring on the ridge: a built lookout, the reward station
@@ -95,6 +110,7 @@ const LAYOUTS: Record<string, Local[]> = {
     [STONE_LARGE, -5.6, 0.2, 1.1, 2.4],
     [STONE_TALL, 5.4, -0.6, 2.2, 2.0],
     [SIGN, -2.6, -2.8, 0.4, 2.6],
+    [STONE_BRICKS, -5.2, 1.4, 0.7, 0.9],
     [FENCE, -3.9, 0.6, 1.57, 2.6],
     [FENCE, 3.9, 0.6, 1.57, 2.6],
     [GRASS, -2.2, -3.4, 0.7, 1.8],
@@ -106,21 +122,18 @@ const LAYOUTS: Record<string, Local[]> = {
 export type StationId = keyof typeof LAYOUTS
 
 /** Props around one station, grounded on the terrain and yawed to face the player. */
-export function StationDressing({ id }: { id: StationId }) {
-  const spots = useMemo(() => {
-    const s = stationById(id)
-    const layout = LAYOUTS[id]
-    if (!s || !layout) return []
-    const cos = Math.cos(s.yaw)
-    const sin = Math.sin(s.yaw)
-    return layout.map(([url, right, back, rot, scale]): Placement & { url: string } => {
-      // right = station +X, back = away from the approach direction
-      const x = s.x + cos * right - sin * back
-      const z = s.z - sin * right - cos * back
-      return { url, pos: [x, terrainHeight(x, z) - 0.06, z], rot: s.yaw + rot, scale }
-    })
-  }, [id])
-  return <InstancedScatter spots={spots} />
+export function stationSpots(id: StationId): (Placement & { url: string })[] {
+  const s = stationById(id)
+  const layout = LAYOUTS[id]
+  if (!s || !layout) return []
+  const cos = Math.cos(s.yaw)
+  const sin = Math.sin(s.yaw)
+  return layout.map(([url, right, back, rot, scale]) => {
+    // right = station +X, back = away from the approach direction
+    const x = s.x + cos * right - sin * back
+    const z = s.z - sin * right - cos * back
+    return { url, pos: [x, terrainHeight(x, z) - 0.06, z], rot: s.yaw + rot, scale }
+  })
 }
 
 preloadProps([...new Set(Object.values(LAYOUTS).flat().map((l) => l[0]))])

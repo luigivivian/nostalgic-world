@@ -8,6 +8,7 @@ import { FootIK } from 'three-player-controller/foot-ik'
 import { createIslandGeometry, terrainHeight } from './terrain'
 import { LOW_END } from './quality'
 import { toonRamp } from './toon'
+import { mergeSkinnedByMaterial } from './assets/heroLook'
 
 // Luigi rig with the UAL clips retargeted onto it (scripts/retarget-ual.py). The
 // controller normalises any model to its capsule height, so the GLB's own size is moot.
@@ -88,6 +89,8 @@ interface Props {
    * from the same analytic height field the visible terrain uses.
    */
   collider?: THREE.Object3D
+  /** Additional static colliders (causeway stones etc), merged alongside `collider`. */
+  extraColliders?: THREE.Object3D[]
   /** Escape hatch for the raw controller (animations, camera mode, reset, ...). */
   onReady?: (controller: playerController) => void
 }
@@ -99,7 +102,7 @@ interface Props {
  * sweep against `collider` and the character's animation mixer — rapier is not
  * involved, so the player does not collide with rapier bodies (blocks, projectiles).
  */
-export function PlayerTPS({ onLockChange, collider, onReady }: Props) {
+export function PlayerTPS({ onLockChange, collider, extraColliders, onReady }: Props) {
   const scene = useThree((s) => s.scene)
   const camera = useThree((s) => s.camera)
   const gl = useThree((s) => s.gl)
@@ -161,6 +164,9 @@ export function PlayerTPS({ onLockChange, collider, onReady }: Props) {
         pivot.add(...gltf.scene.children)
         gltf.scene.add(pivot)
       }
+      // 21 body-part meshes share 8 atlases: merge per atlas so the hero costs 8 draw
+      // calls (16 with shadows) instead of 42.
+      mergeSkinnedByMaterial(gltf.scene)
       // Toon-shade with the albedo only, like everything else on the island.
       gltf.scene.traverse((o) => {
         const mesh = o as THREE.Mesh
@@ -201,7 +207,7 @@ export function PlayerTPS({ onLockChange, collider, onReady }: Props) {
         scene,
         camera: camera as THREE.PerspectiveCamera,
         controls,
-        staticCollider: colliderSource,
+        staticCollider: extraColliders?.length ? [colliderSource, ...extraColliders] : colliderSource,
         initPos: SPAWN.clone(),
         minCamDistance: CAM_MIN,
         maxCamDistance: CAM_MAX,
@@ -241,6 +247,12 @@ export function PlayerTPS({ onLockChange, collider, onReady }: Props) {
         controller = null
         return
       }
+      if (import.meta.env.DEV) {
+        // teleport hook for headless probes (causeway support checks etc)
+        const c = controller
+        ;(window as { __tp?: (x: number, y: number, z: number) => void }).__tp = (x, y, z) =>
+          c.reset(new THREE.Vector3(x, y, z))
+      }
 
       // foot IK on 11 skinned meshes is the heaviest per-frame cost — desktop only
       if (rigged && !LOW_END) controller.use(new FootIK({ skeleton: LUIGI_SKELETON, soleSkinThickness: 1.6 }))
@@ -265,7 +277,7 @@ export function PlayerTPS({ onLockChange, collider, onReady }: Props) {
       ownedCollider?.geometry.dispose()
     }
     // Re-initialising on a changed collider is intentional; the other deps are stable.
-  }, [scene, camera, gl, collider, onReady])
+  }, [scene, camera, gl, collider, extraColliders, onReady])
 
   useFrame((_, delta) => {
     const c = ctrl.current

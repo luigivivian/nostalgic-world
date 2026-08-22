@@ -1,6 +1,7 @@
 import { useEffect, useMemo } from 'react'
 import type * as THREE from 'three'
 import { buildInstances, useToonParts, type Placement } from './props'
+import { LOW_END } from '../quality'
 
 /**
  * Every placement of one model file, as one InstancedMesh per sub-mesh.
@@ -18,8 +19,12 @@ export function InstancedProps({
 }) {
   const parts = useToonParts(url)
   const meshes = useMemo(
-    () => (spots.length ? buildInstances(parts, spots, castShadow) : []),
-    [parts, spots, castShadow],
+    () => {
+      const list = spots.length ? buildInstances(parts, spots, castShadow) : []
+      for (const m of list) m.name = url
+      return list
+    },
+    [url, parts, spots, castShadow],
   )
   useEffect(() => () => meshes.forEach((m: THREE.InstancedMesh) => m.dispose()), [meshes])
   return (
@@ -31,12 +36,23 @@ export function InstancedProps({
   )
 }
 
-// knee-high plants: their shadows are invisible at play distance, but the shadow pass
-// would still draw every instance — skip it for them
-const NO_SHADOW = /poly\/(flower|pastel-plume|tulip|desert-marigold|bulb|mushrooms|fiddlehead|suspicious|orchid)|grass|flower_|mushroom_/
+// Skip the shadow pass where it buys nothing: knee-high plants, stumps, pots, fences,
+// crops (shadows invisible at play distance), flat path slabs, lily pads and ground
+// patches (no height to cast). On the LOW_END tier the
+// whole scatter skips it — the shadow pass is ~40% of a phone's draw calls, and the
+// hero, bags and terrain keep theirs so the scene still has grounding shadows.
+const NO_SHADOW =
+  /poly\/(flower|pastel-plume|tulip|desert-marigold|bulb|mushrooms|fiddlehead|suspicious|orchid)|grass|Grass_|Bush_|flower_|mushroom_|path_|ground_pathRocks|plant_|stump_|lily_|pot_|fence_|crops?_|Nuggets|Wood_Log_A|shrubs\/(bush|flower|grass|mushroom)/
 
 /** Group placements by model file and render them all instanced. */
-export function InstancedScatter({ spots }: { spots: (Placement & { url: string })[] }) {
+export function InstancedScatter({
+  spots,
+  castShadow,
+}: {
+  spots: (Placement & { url: string })[]
+  /** override the NO_SHADOW heuristic — e.g. distant landmarks never cast */
+  castShadow?: boolean
+}) {
   const byUrl = useMemo(() => {
     const m = new Map<string, Placement[]>()
     for (const s of spots) {
@@ -49,7 +65,12 @@ export function InstancedScatter({ spots }: { spots: (Placement & { url: string 
   return (
     <>
       {byUrl.map(([url, group]) => (
-        <InstancedProps key={url} url={url} spots={group} castShadow={!NO_SHADOW.test(url)} />
+        <InstancedProps
+          key={url}
+          url={url}
+          spots={group}
+          castShadow={castShadow ?? (!LOW_END && !NO_SHADOW.test(url))}
+        />
       ))}
     </>
   )

@@ -14,6 +14,8 @@ export interface Placement {
   pos: [number, number, number]
   /** rotation about Y, radians */
   rot: number
+  /** fore-aft tilt of the model's long axis (local +X), radians — for path slabs on slopes */
+  pitch?: number
   scale: number
 }
 
@@ -27,10 +29,41 @@ export interface ToonPart {
 // Per-file colour corrections. The kits mix palettes: Kenney's grass tufts are teal and
 // read as blue spikes against this island's meadow green, and the "rock" variants are
 // dirt-salmon. One tint per file keeps the world cohesive without editing the assets.
+// Kenney's shared palette reads off under the toon ramp: its bark is salmon-pink and
+// its palm fronds teal. Remapped by material NAME, kit-wide, so every trunk, log, stump
+// and palm agrees with the KayKit textures next to them. File tints (below) win.
+const MATERIAL_COLORS: Record<string, THREE.Color> = {
+  woodBark: new THREE.Color('#9a6340'),
+  woodBarkDark: new THREE.Color('#7c4e33'),
+  wood: new THREE.Color('#b8824f'),
+  woodDark: new THREE.Color('#8a5a36'),
+  leafsGreen: new THREE.Color('#52ad4a'),
+  leafsDark: new THREE.Color('#2f8a4a'),
+  grass: new THREE.Color('#5cb34f'),
+  dirt: new THREE.Color('#a9744a'),
+  dirtDark: new THREE.Color('#7d5233'),
+}
+
 const TINTS: [RegExp, THREE.Color][] = [
   [/grass(_large|_leafs|_leafsLarge)?\.glb$/, new THREE.Color('#8dbf59')],
   // the kit's bridge deck is near-white stone-grey; the pier has to read as timber
   [/bridge_(wood|side_wood)/, new THREE.Color('#c08b57')],
+  // formation_* gltfs ship a "wood" brown material that reads as mud against the island
+  // rock bands — tint them to the terrain's rock grey
+  [/formation-(rock|stone)/, new THREE.Color('#98836b')],
+  // cliff pieces are pale cyan-grey ("stone" mat) — warm them into the island rock;
+  // cliff_top carries the kit's teal "grass" cap, which becomes meadow green instead
+  [/cliff_top/, new THREE.Color('#6cb04f')],
+  [/cliff_/, new THREE.Color('#9b8a75')],
+  // the stone path slabs ship cold blue-grey; the trail should read as warm sandstone
+  [/path_stone/, new THREE.Color('#a89a85')],
+  // statues are the same cold grey — warm them to match the new mirante crag
+  [/statue_/, new THREE.Color('#a89a85')],
+  // ground_pathRocks mixes dirt brown + teal grass patches; one warm rock tone reads
+  // as a proper rocky patch instead
+  [/ground_pathRocks/, new THREE.Color('#a8907a')],
+  // plant_flat* ferns ship fully teal — meadow green instead
+  [/plant_flat/, new THREE.Color('#6cb04f')],
 ]
 
 // One toon conversion per GLTF scene object, cached for the lifetime of the page. The
@@ -83,6 +116,10 @@ function toonParts(scene: THREE.Object3D, url: string): ToonPart[] {
   const hit = partsCache.get(scene)
   if (hit) return hit
   const tint = TINTS.find(([re]) => re.test(url))?.[1]
+  // the loose gltfs at the models root (formation-*, palm-*, plant) keep their
+  // scene-placement offset on the root node (5-12 u), so the mesh would render far from
+  // the authored spot, swung around by the instance yaw — drop it
+  if (/^\/game\/models\/[^/]+\.gltf$/.test(url)) for (const c of scene.children) c.position.set(0, 0, 0)
   scene.updateWorldMatrix(false, true)
 
   type Bucket = { geos: THREE.BufferGeometry[]; material: THREE.Material }
@@ -98,13 +135,14 @@ function toonParts(scene: THREE.Object3D, url: string): ToonPart[] {
     const textured = !!src.map
     const g = mesh.geometry.clone()
     g.applyMatrix4(mesh.matrixWorld)
+    const base = tint ?? MATERIAL_COLORS[src.name] ?? src.color ?? new THREE.Color('#ffffff')
     const flags = `${src.side}:${src.transparent ? 1 : 0}:${src.alphaTest ?? 0}`
     const key = textured ? `tex:${src.uuid}:${flags}` : `vc:${flags}`
     let b = buckets.get(key)
     if (!b) {
       const material = new THREE.MeshToonMaterial({
         // tint modulates the map when there is one, replaces the colour when there is not
-        color: textured ? (tint ?? src.color ?? new THREE.Color('#ffffff')) : new THREE.Color('#ffffff'),
+        color: textured ? base : new THREE.Color('#ffffff'),
         map: textured ? src.map : null,
         vertexColors: !textured,
         gradientMap: toonRamp(),
@@ -116,7 +154,7 @@ function toonParts(scene: THREE.Object3D, url: string): ToonPart[] {
       buckets.set(key, b)
     }
     stripToCore(g, textured)
-    if (!textured) paintVertexColor(g, tint ?? src.color ?? new THREE.Color('#ffffff'))
+    if (!textured) paintVertexColor(g, base)
     b.geos.push(g)
   })
 
@@ -144,15 +182,23 @@ export function useToonParts(url: string): ToonPart[] {
 const scratch = {
   m: new THREE.Matrix4(),
   q: new THREE.Quaternion(),
+  q2: new THREE.Quaternion(),
   p: new THREE.Vector3(),
   s: new THREE.Vector3(),
   e: new THREE.Euler(),
 }
+const Z_AXIS = new THREE.Vector3(0, 0, 1)
 
 /** world matrix for one placement of one sub-mesh */
 export function placementMatrix(p: Placement, local: THREE.Matrix4, out: THREE.Matrix4) {
   scratch.e.set(0, p.rot, 0)
   scratch.q.setFromEuler(scratch.e)
+  if (p.pitch) {
+    // pitch tilts the model's long axis (local +X) up first, then yaw carries it along —
+    // qYaw · qPitch, so the tilt stays fore-aft regardless of the trail direction
+    scratch.q2.setFromAxisAngle(Z_AXIS, p.pitch)
+    scratch.q.multiply(scratch.q2)
+  }
   scratch.p.set(p.pos[0], p.pos[1], p.pos[2])
   scratch.s.setScalar(p.scale)
   out.compose(scratch.p, scratch.q, scratch.s)

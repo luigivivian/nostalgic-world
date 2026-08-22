@@ -19,7 +19,6 @@ import { Diagnostics, installDebugHooks, type GameTestHooks } from './diagnostic
 import { GameUI } from './ui/GameUI'
 import { LOW_END } from './quality'
 import { GameVFX } from './vfx/GameVFX'
-import { StationDressing } from './assets/StationDressing'
 
 const PROJECTILE_SPEED = 46
 const PROJECTILE_TTL = 3000
@@ -257,7 +256,7 @@ export default function Game({ onExit }: { onExit: () => void }) {
 
   const handleAmmo = useCallback((def: AmmoPickupDef) => {
     setAmmoPickups((ps) => ps.filter((p) => p.id !== def.id))
-    useGame.getState().addAmmo(def.amount)
+    useGame.getState().addAmmo(def.amount, def.pos)
   }, [])
 
   const handleHeldDone = useCallback(() => setHeld(null), [])
@@ -361,9 +360,6 @@ export default function Game({ onExit }: { onExit: () => void }) {
             <PlayerTPS onReady={handleControllerReady} />
             {/* remount on every round: broken bags, fragments and hit guards reset */}
             {slug && <Targets key={round} slug={slug} onBreak={handleBreak} handle={targetsRef} />}
-            <StationDressing id="praia" />
-            <StationDressing id="bosque" />
-            <StationDressing id="mirante" />
             <Projectiles projectiles={projectiles} onMiss={handleMiss} />
             <Pickups pickups={pickups} onCollect={handleCollect} controllerRef={controllerRef} />
             <GameVFX />

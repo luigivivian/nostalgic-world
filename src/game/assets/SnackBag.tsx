@@ -24,7 +24,7 @@ onBagTextureDisposed((t) => {
   materials.delete(t)
 })
 
-function bagMaterial(map: THREE.Texture | null): THREE.MeshToonMaterial {
+export function bagMaterial(map: THREE.Texture | null): THREE.MeshToonMaterial {
   if (!map) return loadingMaterial
   const hit = materials.get(map)
   if (hit) return hit
@@ -52,12 +52,13 @@ export function preloadSnackBag(slug: string) {
   })
 }
 
-export function SnackBag({ slug, variant = 0, scale = 1, outline = true }: Props) {
-  const geometry = useMemo(() => bagGeometry(variant), [variant])
+/**
+ * The collection's scan for one bag variant, or null while it decodes. Manual load
+ * (not useLoader): a suspending texture swap blanks the mesh for a frame, and these
+ * are the targets — a blink reads as a broken bag.
+ */
+export function useBagTexture(slug: string, variant: number): THREE.Texture | null {
   const [map, setMap] = useState<THREE.Texture | null>(null)
-
-  // Manual load (not useLoader): a suspending texture swap blanks the mesh for a
-  // frame, and these are the targets — a blink reads as a broken bag.
   useEffect(() => {
     let alive = true
     let held: string | null = null
@@ -80,7 +81,12 @@ export function SnackBag({ slug, variant = 0, scale = 1, outline = true }: Props
       if (held) releaseBagTexture(held)
     }
   }, [slug, variant])
+  return map
+}
 
+export function SnackBag({ slug, variant = 0, scale = 1, outline = true }: Props) {
+  const geometry = useMemo(() => bagGeometry(variant), [variant])
+  const map = useBagTexture(slug, variant)
   const material = bagMaterial(map)
 
   // dispose={null}: geometry and material are shared module-level singletons.

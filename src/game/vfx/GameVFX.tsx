@@ -17,11 +17,16 @@ const GRAVITY = -11
 // palette shared with the world: snack orange/yellow for impacts, gold for a tazo,
 // purple for a legendary. Threats and rewards differ by colour AND by effect shape.
 const C_CRUMB = [new THREE.Color('#f2b134'), new THREE.Color('#e2622a'), new THREE.Color('#f7e1a8')]
+// over-white yellows for the bag burst: the Points shader skips tone mapping, so >1
+// channels push the sprites over the Bloom threshold — tiny glowing crumbs, not dust
+const C_BURST = [new THREE.Color(2.2, 1.8, 0.5), new THREE.Color(1.9, 1.4, 0.3), new THREE.Color(2.4, 2.2, 0.9)]
 const C_SCRAP = [new THREE.Color('#e8452f'), new THREE.Color('#f4c020'), new THREE.Color('#1fa9c4')]
 const C_GOLD = new THREE.Color('#ffd45e')
 const C_PURPLE = new THREE.Color('#b06cf0')
 const C_RING_HIT = new THREE.Color(1.6, 0.9, 0.35)
 const C_RING_GOLD = new THREE.Color(1.8, 1.4, 0.5)
+const C_AMMO = new THREE.Color('#ff9a3c')
+const C_RING_AMMO = new THREE.Color(2.0, 1.15, 0.35)
 
 function crumbSprite() {
   const s = 32
@@ -266,7 +271,7 @@ export function GameVFX() {
       switch (e.type) {
         case 'hit': {
           const [x, y, z] = e.pos
-          for (let i = 0; i < 22; i++) crumb(x, y, z, 4.5, 1.6, 0.1, C_CRUMB[i % 3], 0.55)
+          for (let i = 0; i < 30; i++) crumb(x, y, z, 4.2, 2.2, 0.09 + (i % 3) * 0.025, C_BURST[i % 3], 0.7)
           for (let i = 0; i < 8; i++) scrap(x, y, z, 3.4, 1.8, C_SCRAP[i % 3], 0.7, 0.94)
           ring(x, y, z, C_RING_HIT, 0.32, 0, 0.6)
           break
@@ -279,6 +284,13 @@ export function GameVFX() {
           // the "+tazo" coin ring: rises off the pickup toward the HUD counter
           ring(x, y, z, C_RING_GOLD, 0.6, 2.2, 0.45)
           if (gold) for (let i = 0; i < 20; i++) scrap(x, y + 0.3, z, 2.6, 2.6, i % 2 ? C_GOLD : C_PURPLE, 1.1, 0.96)
+          break
+        }
+        case 'ammoPickup': {
+          const [x, y, z] = e.pos
+          // orange to match the HUD pips that just filled; chips fly wide, low
+          for (let i = 0; i < 24; i++) crumb(x, y + 0.5, z, 3.0, 2.2, 0.13, i % 3 ? C_AMMO : C_CRUMB[0], 0.65)
+          ring(x, y + 0.3, z, C_RING_AMMO, 0.6, 1.8, 0.9)
           break
         }
         case 'stationCleared': {

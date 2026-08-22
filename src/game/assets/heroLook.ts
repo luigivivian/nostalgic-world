@@ -1,4 +1,5 @@
 import * as THREE from 'three'
+import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js'
 import { toonRamp } from '../toon'
 
 // The Quaternius UAL rig ships as ONE mesh with two flat materials (orange body,
@@ -213,4 +214,53 @@ export function applyHeroLook(model: THREE.Object3D, facing?: THREE.Object3D) {
 
   const head = skinned[0]?.skeleton.bones.find((b) => b.name === 'Head')
   if (head && !head.children.some((c) => c.name === 'heroCap')) addCap(head, model, facing)
+}
+
+/**
+ * Merge a rig's skinned sub-meshes that share a material recipe (same albedo map and
+ * blend flags) into one SkinnedMesh each. A game-ready rig is often exported as one
+ * mesh per body part but textured from a handful of atlases; every part is a draw call
+ * (two with shadows). Only meshes on the same skeleton with the same world transform
+ * and no morph targets merge — anything else is left alone. Returns the merged count.
+ */
+export function mergeSkinnedByMaterial(root: THREE.Object3D): number {
+  root.updateMatrixWorld(true)
+  const groups = new Map<string, THREE.SkinnedMesh[]>()
+  root.traverse((o) => {
+    const m = o as THREE.SkinnedMesh
+    if (!m.isSkinnedMesh || Array.isArray(m.material) || m.morphTargetInfluences?.length) return
+    const mat = m.material as THREE.MeshStandardMaterial
+    const key = `${mat.map?.uuid ?? 'none'}:${mat.transparent ? 1 : 0}:${mat.alphaTest}:${mat.side}:${m.skeleton.uuid}:${m.parent?.uuid}`
+    const list = groups.get(key)
+    if (list) list.push(m)
+    else groups.set(key, [m])
+  })
+  let merged = 0
+  for (const list of groups.values()) {
+    if (list.length < 2) continue
+    const first = list[0]
+    const same = list.filter(
+      (m) =>
+        m.matrixWorld.equals(first.matrixWorld) &&
+        m.bindMatrix.equals(first.bindMatrix) &&
+        Object.keys(m.geometry.attributes).join() === Object.keys(first.geometry.attributes).join(),
+    )
+    if (same.length < 2) continue
+    const geometry = mergeGeometries(same.map((m) => m.geometry), false)
+    if (!geometry) continue
+    const mesh = new THREE.SkinnedMesh(geometry, first.material)
+    mesh.name = first.name
+    mesh.position.copy(first.position)
+    mesh.quaternion.copy(first.quaternion)
+    mesh.scale.copy(first.scale)
+    mesh.bind(first.skeleton, first.bindMatrix)
+    first.parent!.add(mesh)
+    for (const m of same) {
+      m.removeFromParent()
+      m.geometry.dispose()
+      if (m !== first) (m.material as THREE.Material).dispose()
+    }
+    merged += same.length - 1
+  }
+  return merged
 }

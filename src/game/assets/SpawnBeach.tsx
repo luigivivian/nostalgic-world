@@ -1,30 +1,34 @@
 import { useMemo } from 'react'
 import * as THREE from 'three'
 import { terrainHeight, WATER_LEVEL } from '../terrain'
-import { InstancedScatter } from './InstancedProps'
 import { preloadProps, type Placement } from './props'
 import { SPAWN } from '../PlayerTPS'
 
 // The arrival: south beach, camera looking inland. This is the first screenshot of the
 // game, so it is authored by hand instead of scattered — a wooden pier running into the
-// surf behind the player, a campfire he just left, a signpost pointing up the island,
-// driftwood, and two palm groups framing the left and right edges of the shot.
+// surf behind the player, the camp he just left (fire ring, two stump seats), a
+// signpost pointing up the island, and two palm groups framing the inland view. Kept
+// sparse on purpose: the beach has to read as a place you can walk into.
 
 const K = '/game/models/kenney_nature-kit/Models/GLTF%20format/'
+const KK = '/game/models/KayKit_Forest_Nature_Pack_1.0_FREE/Assets/gltf/'
 const PIER = K + 'bridge_wood.glb'
 const PIER_SIDE = K + 'bridge_side_wood.glb'
 const SIGN = K + 'sign.glb'
 const CAMPFIRE = K + 'campfire_stones.glb'
-const LOG = K + 'log_large.glb'
-const LOG_STACK = K + 'log_stack.glb'
-const CANOE = K + 'canoe.glb'
-const PADDLE = K + 'canoe_paddle.glb'
-const PALM_LONG = '/game/models/palm-detailed-long.gltf'
-const PALM_SHORT = '/game/models/palm-detailed-short.gltf'
+const STUMP = K + 'stump_roundDetailed.glb'
+const PALM_TALL = K + 'tree_palmDetailedTall.glb'
+const PALM_SHORT = K + 'tree_palmDetailedShort.glb'
 const PALM_BEND = K + 'tree_palmBend.glb'
-const STONE_FLAT = K + 'stone_smallFlatA.glb'
-const PATH = K + 'path_wood.glb'
 const GRASS = K + 'grass_leafsLarge.glb'
+// KayKit pieces: textured bushes/rocks/grass — richer than the flat kit plants up close
+const BUSH_ROUND = KK + 'Bush_2_A_Color1.gltf'
+const BUSH_WIDE = KK + 'Bush_3_A_Color1.gltf'
+const BUSH_SMALL = KK + 'Bush_1_A_Color1.gltf'
+const BOULDER = KK + 'Rock_2_C_Color1.gltf'
+const ROCK = KK + 'Rock_1_A_Color1.gltf'
+const ROCK_B = KK + 'Rock_1_B_Color1.gltf'
+const TUFT = KK + 'Grass_2_A_Color1.gltf'
 
 const PIER_SCALE = 1.7
 const X = SPAWN.x
@@ -32,7 +36,7 @@ const Z = SPAWN.z
 
 type Spot = Placement & { url: string }
 
-function build(): Spot[] {
+export function spawnBeachSpots(): Spot[] {
   const s: Spot[] = []
   const put = (url: string, x: number, z: number, y: number, rot: number, scale: number) =>
     s.push({ url, pos: [x, y, z], rot, scale })
@@ -49,47 +53,50 @@ function build(): Spot[] {
       put(PIER_SIDE, X - 1.8 + PIER_SCALE * 0.5, pz, deckY, Math.PI, PIER_SCALE)
     }
   }
-  // a beached canoe under the pier head
-  ground(CANOE, X + 2.6, Z + 3.4, 1.05, 2.4, 0.02)
-  ground(PADDLE, X + 3.4, Z + 2.6, 2.2, 2.2, 0.02)
 
-  // --- camp: fire ring, two seats, a stack of firewood ---
+  // --- camp: fire ring and two stump seats ---
   ground(CAMPFIRE, X + 1.4, Z - 1.2, 0.4, 2.6, 0.02)
-  ground(LOG, X + 2.9, Z - 0.6, 1.3, 1.5)
-  ground(LOG, X + 0.2, Z - 2.4, 2.7, 1.4)
-  ground(LOG_STACK, X + 3.1, Z - 2.3, 0.7, 1.8)
+  ground(STUMP, X + 2.9, Z - 0.4, 1.3, 2.0, 0.02)
+  ground(STUMP, X + 0.1, Z - 2.6, 2.7, 1.9, 0.02)
 
-  // --- signpost + a few stepping planks pointing inland ---
-  ground(SIGN, X - 0.9, Z - 2.6, Math.PI, 2.6, 0.02)
-  for (let i = 0; i < 4; i++) ground(PATH, X - 0.3 + i * 0.25, Z - 4.2 - i * 1.9, 0.06 * i, 1.9, 0.0)
+  // --- signpost pointing inland (the trail's first wood slabs start at z 34) ---
+  ground(SIGN, X - 2.6, Z - 2.0, 0.3, 2.6, 0.02)
 
-  // --- framing: palm groups left and right of the inland view ---
-  // scales differ per model: the "detailed" palms are 2.4 units tall at scale 1
+  // --- framing: palm groups left and right of the inland view, both INLAND of the
+  // player (-z) so they flank the arrival shot; the sun is WSW, shadows fall away ---
   const palms: [string, number, number, number, number][] = [
-    // the west group sits SOUTH of the player: the sun is WSW, so their shadows fall
-    // behind him instead of dropping the arrival shot into shade
-    [PALM_LONG, -8.4, 5.0, 0.4, 1.5],
-    [PALM_BEND, -9.6, 2.2, 1.9, 2.6],
-    [PALM_SHORT, -7.6, 8.0, 3.0, 1.3],
-    [PALM_LONG, 8.6, 1.8, 2.4, 1.6],
-    [PALM_BEND, 9.8, -2.2, 0.9, 2.4],
-    [PALM_SHORT, 7.2, -4.8, 4.1, 1.35],
+    [PALM_TALL, -7.0, -7.0, 0.4, 2.7],
+    [PALM_BEND, -9.6, -3.4, 1.9, 2.5],
+    [PALM_SHORT, -8.4, -10.6, 3.0, 2.3],
+    [PALM_TALL, 8.0, -8.0, 2.4, 2.8],
+    [PALM_BEND, 10.0, -3.8, 0.9, 2.4],
+    [PALM_SHORT, 7.4, -11.6, 4.1, 2.2],
+    // one each side of the pier head, for the turn-around view
+    [PALM_BEND, -5.6, 3.2, 1.2, 2.3],
+    [PALM_TALL, 6.2, 2.4, 4.0, 2.6],
   ]
   for (const [url, dx, dz, rot, scale] of palms) ground(url, X + dx, Z + dz, rot, scale)
 
-  // --- driftwood, flat stones and grass tufts in the sand ---
-  const litter: [string, number, number, number, number][] = [
-    [LOG, -3.4, 1.6, 0.9, 1.3],
-    [LOG, 4.6, 4.2, 2.1, 1.1],
-    [STONE_FLAT, -2.2, 3.4, 0.3, 2.4],
-    [STONE_FLAT, 3.2, -3.8, 1.7, 2.0],
-    [STONE_FLAT, -4.8, -2.2, 2.6, 2.2],
-    [GRASS, -3.9, -0.4, 1.1, 2.0],
-    [GRASS, 4.1, 0.8, 2.4, 1.8],
-    [GRASS, -1.6, -4.6, 0.5, 1.9],
-    [GRASS, 2.2, -5.2, 3.0, 1.7],
+  // --- understory at the palms' feet, a few rocks at the tideline, light tufts ---
+  const dressing: [string, number, number, number, number, number][] = [
+    [BUSH_ROUND, -8.6, -6.2, 0.6, 2.0, 0.02],
+    [BUSH_ROUND, 8.8, -6.6, 2.1, 2.2, 0.02],
+    [BUSH_WIDE, -6.0, -9.4, 1.4, 1.6, 0.02],
+    [BUSH_WIDE, 6.6, -10.2, 0.3, 1.7, 0.02],
+    [BUSH_SMALL, -3.0, -6.4, 2.2, 2.6, 0.02],
+    [BUSH_SMALL, 3.4, -7.0, 0.9, 2.4, 0.02],
+    [BOULDER, -4.4, 2.6, 0.8, 0.7, 0.1],
+    [ROCK, 4.2, 3.6, 2.3, 1.5, 0.06],
+    [ROCK_B, -3.2, -3.6, 1.1, 1.2, 0.05],
+    [TUFT, -7.8, -5.0, 0.2, 1.0, 0.02],
+    [TUFT, 9.0, -5.4, 1.7, 1.0, 0.02],
+    [TUFT, -6.5, -8.6, 2.9, 0.9, 0.02],
+    [GRASS, -3.9, -0.4, 1.1, 2.0, 0.08],
+    [GRASS, 4.1, 0.8, 2.4, 1.8, 0.08],
+    [GRASS, -5.0, -5.0, 0.5, 1.9, 0.08],
+    [GRASS, 5.2, -5.4, 3.0, 1.7, 0.08],
   ]
-  for (const [url, dx, dz, rot, scale] of litter) ground(url, X + dx, Z + dz, rot, scale)
+  for (const [url, dx, dz, rot, scale, sink] of dressing) ground(url, X + dx, Z + dz, rot, scale, sink)
 
   return s
 }
@@ -125,14 +132,9 @@ function Campfire() {
   )
 }
 
+/** The spawn beach's live bits; its props come through WorldProps (spawnBeachSpots). */
 export function SpawnBeach() {
-  const spots = useMemo(build, [])
-  return (
-    <>
-      <InstancedScatter spots={spots} />
-      <Campfire />
-    </>
-  )
+  return <Campfire />
 }
 
-preloadProps([PIER, PIER_SIDE, SIGN, CAMPFIRE, LOG, LOG_STACK, CANOE, PADDLE, PALM_LONG, PALM_SHORT, PALM_BEND, STONE_FLAT, PATH, GRASS])
+preloadProps([PIER, PIER_SIDE, SIGN, CAMPFIRE, STUMP, PALM_TALL, PALM_SHORT, PALM_BEND, GRASS, BUSH_ROUND, BUSH_WIDE, BUSH_SMALL, BOULDER, ROCK, ROCK_B, TUFT])

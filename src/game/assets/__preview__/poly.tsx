@@ -10,6 +10,7 @@ import * as THREE from 'three'
 const FILES = [
   'bulb-flower', 'desert-marigold', 'fiddlehead', 'flower', 'gnome',
   'mushrooms', 'orchid', 'pastel-plume-flowers', 'sunflower', 'suspicious-plant', 'tulip-3',
+  'blue-tulips', 'twisting-tree',
 ]
 const bounds: Record<string, { size: number[]; minY: number }> = {}
 ;(window as unknown as { __polyBounds: typeof bounds }).__polyBounds = bounds

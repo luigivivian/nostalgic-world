@@ -1,13 +1,16 @@
-import { useMemo, useRef } from 'react'
+import { Suspense, useMemo, useRef } from 'react'
 import { RigidBody } from '@react-three/rapier'
 import { Sky, Cloud, Clouds } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
 import { createIslandGeometry, ISLAND_SIZE, WATER_LEVEL } from './terrain'
 import { fbm } from './noise'
-import { Vegetation } from './Vegetation'
-import { SpawnBeach } from './assets/SpawnBeach'
+import { vegetationSpots } from './Vegetation'
+import { SpawnBeach, spawnBeachSpots } from './assets/SpawnBeach'
+import { trailSpots } from './assets/Trails'
+import { stationSpots } from './assets/StationDressing'
 import { DevShowcase } from './assets/DevShowcase'
+import { InstancedScatter } from './assets/InstancedProps'
 import { toonRamp } from './toon'
 
 // ?showcase=1 mounts the asset showroom in front of the spawn (see assets/DevShowcase).
@@ -99,6 +102,31 @@ function Water() {
   )
 }
 
+/**
+ * Every static prop on the island in ONE InstancedScatter: scatter, spawn beach, trail
+ * network and station dressing. Components used to mount their
+ * own scatter each, and the same model file placed by two of them cost two draw calls
+ * (plus two shadow draws) — a sign post was being drawn five times.
+ */
+function WorldProps() {
+  const spots = useMemo(() => {
+    const all = [
+      ...vegetationSpots(),
+      ...spawnBeachSpots(),
+      ...trailSpots(),
+      ...stationSpots('praia'),
+      ...stationSpots('bosque'),
+      ...stationSpots('mirante'),
+    ]
+    return all
+  }, [])
+  return (
+    <Suspense fallback={null}>
+      <InstancedScatter spots={spots} />
+    </Suspense>
+  )
+}
+
 export function Island() {
   const geometry = useMemo(() => {
     const geo = createIslandGeometry()
@@ -138,7 +166,7 @@ export function Island() {
           <meshToonMaterial vertexColors gradientMap={toonRamp()} />
         </mesh>
       </RigidBody>
-      <Vegetation />
+      <WorldProps />
       <SpawnBeach />
       <Water />
       {SHOWCASE && <DevShowcase />}
